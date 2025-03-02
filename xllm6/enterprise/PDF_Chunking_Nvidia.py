@@ -298,5 +298,3 @@ for page_num in range(len(pdf_document)):
     filename = "PDF" + str(page_num) + '.png' # you could change image format accordingly
     img.save(filename) 
     print('Converting PDFs to Image ... ' + filename)
-
-
