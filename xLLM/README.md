@@ -151,7 +151,7 @@ ruff format .
 
 ## Project Structure
 
-```
+```text
 xLLM/
 ├── data/                    # Data storage
 │   ├── raw/                 # Raw crawled data
