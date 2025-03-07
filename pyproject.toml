@@ -41,6 +41,26 @@ line-length = 100
 select = ["E", "F", "B", "I", "N", "UP", "ANN", "C4", "SIM", "ARG"]
 ignore = ["ANN101"]  # Missing type annotation for `self`
 
+[tool.ruff.lint.pyright]
+typeCheckingMode = "basic"
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 python_files = "test_*.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/xllm"]
+
+[tool.hatch.build.targets.wheel.sources]
+"src" = ""
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "src/xllm",
+    "tests",
+    "pyproject.toml",
+    "README.md",
+]
+
+[tool.hatch.build.targets.wheel.shared-data]
+"src/xllm/py.typed" = "xllm/py.typed"

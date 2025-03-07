@@ -1,0 +1,274 @@
+probability	{'Statistics': 4, 'Random Variables': 2, 'Mathematics': 3, 'Probability': 3, 'Data Analysis': 1, 'Distribution': 1, 'Conditional Probability': 1}
+measure	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+probability~measure	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+likelihood	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+measure~likelihood	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+probability~measure~likelihood	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+event	{'Statistics': 5, 'Random Variables': 3, 'Mathematics': 3, 'Probability': 2, 'Conditional Probability': 2}
+likelihood~event	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+measure~likelihood~event	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+occurring	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+event~occurring	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+likelihood~event~occurring	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+it	{'Statistics': 5, 'Random Variables': 2, 'Mathematics': 2, 'Probability': 2, 'Distribution': 1, 'Conditional Probability': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+occurring~it	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+event~occurring~it	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+quantified	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+it~quantified	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+occurring~it~quantified	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+as	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+quantified~as	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+it~quantified~as	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+number	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+as~number	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+quantified~as~number	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+between	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+number~between	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+as~number~between	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+0	{'Statistics': 2, 'Random Variables': 2, 'Mathematics': 2}
+between~0	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+number~between~0	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+1	{'Statistics': 2, 'Random Variables': 2, 'Mathematics': 2}
+0~1	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+between~0~1	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+where	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+1~where	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+0~1~where	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+where~0	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+1~where~0	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+indicates	{'Statistics': 2, 'Random Variables': 2, 'Mathematics': 2}
+0~indicates	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+where~0~indicates	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+impossibility	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+indicates~impossibility	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+0~indicates~impossibility	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+impossibility~1	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+indicates~impossibility~1	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+1~indicates	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+impossibility~1~indicates	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+certainty	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+indicates~certainty	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+1~indicates~certainty	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+higher	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+certainty~higher	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+indicates~certainty~higher	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+higher~probability	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+certainty~higher~probability	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+probability~event	{'Statistics': 2, 'Random Variables': 1, 'Mathematics': 1, 'Probability': 1, 'Conditional Probability': 1}
+higher~probability~event	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+more	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+event~more	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+probability~event~more	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+likely	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+more~likely	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+event~more~likely	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+likely~it	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+more~likely~it	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+that	{'Statistics': 3, 'Random Variables': 1, 'Mathematics': 2, 'Probability': 2, 'Data Analysis': 1, 'Conditional Probability': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+it~that	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+likely~it~that	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+that~event	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+it~that~event	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+will	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+event~will	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+that~event~will	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+occur	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+will~occur	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+event~will~occur	{'Statistics': 1, 'Random Variables': 1, 'Mathematics': 1}
+statistics	{'Probability': 3, 'Data Analysis': 1, 'Mathematics': 1, 'Statistics': 3, 'Distribution': 1, 'Conditional Probability': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+discipline	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+statistics~discipline	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+discipline~that	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+statistics~discipline~that	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+concerns	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+that~concerns	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+discipline~that~concerns	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+collection	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+concerns~collection	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+that~concerns~collection	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+organization	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+collection~organization	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+concerns~collection~organization	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+analysis	{'Probability': 2, 'Data Analysis': 2, 'Mathematics': 2}
+organization~analysis	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+collection~organization~analysis	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+interpretation	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+analysis~interpretation	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+organization~analysis~interpretation	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+presentation	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+interpretation~presentation	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+analysis~interpretation~presentation	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+data	{'Probability': 2, 'Data Analysis': 2, 'Mathematics': 2, 'Statistics': 2, 'Machine Learning': 2, 'Artificial Intelligence': 2}
+presentation~data	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+interpretation~presentation~data	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+statistical	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+data~statistical	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+presentation~data~statistical	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+statistical~analysis	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+data~statistical~analysis	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+often	{'Probability': 2, 'Data Analysis': 1, 'Mathematics': 1, 'Statistics': 1, 'Distribution': 1}
+analysis~often	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+statistical~analysis~often	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+uses	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1, 'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+often~uses	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+analysis~often~uses	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+uses~probability	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+often~uses~probability	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+theory	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+probability~theory	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+uses~probability~theory	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+essential	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+theory~essential	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+probability~theory~essential	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+essential~data	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+theory~essential~data	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+science	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1, 'Statistics': 3, 'Machine Learning': 3, 'Artificial Intelligence': 3}
+data~science	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1, 'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+essential~data~science	{'Probability': 1, 'Data Analysis': 1, 'Mathematics': 1}
+normal	{'Probability': 2, 'Statistics': 2, 'Distribution': 2}
+distribution	{'Probability': 4, 'Statistics': 4, 'Distribution': 4}
+normal~distribution	{'Probability': 2, 'Statistics': 2, 'Distribution': 2}
+continuous	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+distribution~continuous	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+normal~distribution~continuous	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+continuous~probability	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+distribution~continuous~probability	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+probability~distribution	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+continuous~probability~distribution	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+distribution~it	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+probability~distribution~it	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+also	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+it~also	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+distribution~it~also	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+called	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+also~called	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+it~also~called	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+gaussian	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+called~gaussian	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+also~called~gaussian	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+gaussian~distribution	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+called~gaussian~distribution	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+distribution~normal	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+gaussian~distribution~normal	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+distribution~normal~distribution	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+important	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+distribution~important	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+normal~distribution~important	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+important~statistics	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+distribution~important~statistics	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+statistics~often	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+important~statistics~often	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+used	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+often~used	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+statistics~often~used	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+natural	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+used~natural	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+often~used~natural	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+social	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+natural~social	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+used~natural~social	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+sciences	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+social~sciences	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+natural~social~sciences	{'Probability': 1, 'Statistics': 1, 'Distribution': 1}
+bayes	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+theorem	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+bayes~theorem	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+describes	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+theorem~describes	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+bayes~theorem~describes	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+describes~probability	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+theorem~describes~probability	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+describes~probability~event	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+based	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+event~based	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+probability~event~based	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+prior	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+based~prior	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+event~based~prior	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+knowledge	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 2, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+prior~knowledge	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+based~prior~knowledge	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+conditions	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+knowledge~conditions	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+prior~knowledge~conditions	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+conditions~that	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+knowledge~conditions~that	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+might	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+that~might	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+conditions~that~might	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+related	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+might~related	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+that~might~related	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+related~event	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+might~related~event	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+event~it	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+related~event~it	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+fundamental	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+it~fundamental	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+event~it~fundamental	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+bayesian	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+fundamental~bayesian	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+it~fundamental~bayesian	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+bayesian~statistics	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+fundamental~bayesian~statistics	{'Probability': 1, 'Conditional Probability': 1, 'Statistics': 1}
+interdisciplinary	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+science~interdisciplinary	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+data~science~interdisciplinary	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+field	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+interdisciplinary~field	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+science~interdisciplinary~field	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+field~that	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+interdisciplinary~field~that	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+that~uses	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+field~that~uses	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+scientific	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+uses~scientific	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+that~uses~scientific	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+methods	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+scientific~methods	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+uses~scientific~methods	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+processes	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+methods~processes	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+scientific~methods~processes	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+algorithms	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+processes~algorithms	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+methods~processes~algorithms	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+systems	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+algorithms~systems	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+processes~algorithms~systems	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+extract	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+systems~extract	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+algorithms~systems~extract	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+extract~knowledge	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+systems~extract~knowledge	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+insights	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+knowledge~insights	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+extract~knowledge~insights	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+structured	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+insights~structured	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+knowledge~insights~structured	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+unstructured	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+structured~unstructured	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+insights~structured~unstructured	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+unstructured~data	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+structured~unstructured~data	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+data~it	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+unstructured~data~it	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+employs	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+it~employs	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+data~it~employs	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+techniques	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+employs~techniques	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+it~employs~techniques	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+techniques~statistics	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+employs~techniques~statistics	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+computer	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+statistics~computer	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+techniques~statistics~computer	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+computer~science	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+statistics~computer~science	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+information	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+science~information	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+computer~science~information	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+information~science	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}
+science~information~science	{'Statistics': 1, 'Machine Learning': 1, 'Artificial Intelligence': 1}

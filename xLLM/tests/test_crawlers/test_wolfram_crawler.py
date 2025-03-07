@@ -22,7 +22,7 @@ def test_crawler_initialization():
         output_dir=Path("./test_output"),
         batch_size=100,
     )
-    
+
     assert crawler.base_url == "https://test.example.com/"
     assert crawler.delay == 1.0
     assert crawler.output_dir == Path("./test_output")
@@ -56,10 +56,10 @@ def test_process_page(mock_get, crawler):
     <!-- Begin See Also -->
     """
     mock_get.return_value = mock_response
-    
+
     # Process the page
     result = crawler.process_page("https://mathworld.wolfram.com/TestPage.html")
-    
+
     # Check the result
     assert result is not None
     assert result["url"] == "https://mathworld.wolfram.com/TestPage.html"
@@ -76,7 +76,7 @@ def test_crawl_basic(mock_get, crawler, tmp_path):
     """Test basic crawling functionality."""
     # Set up the output directory
     crawler.output_dir = tmp_path
-    
+
     # Mock the responses
     mock_response1 = MagicMock()
     mock_response1.status_code = 200
@@ -84,7 +84,7 @@ def test_crawl_basic(mock_get, crawler, tmp_path):
     <ul class="breadcrumb"><a href="/topics/ProbabilityandStatistics.html">Probability & Statistics</a></ul>
     <a href="/topics/Distributions.html">Distributions</a>
     """
-    
+
     mock_response2 = MagicMock()
     mock_response2.status_code = 200
     mock_response2.text = """
@@ -94,28 +94,28 @@ def test_crawl_basic(mock_get, crawler, tmp_path):
     <p>This is about distributions.</p>
     <!-- End Content -->
     """
-    
+
     # Configure the mock to return different responses for different URLs
     def side_effect(url, timeout=None):
         if "ProbabilityandStatistics" in url:
             return mock_response1
         else:
             return mock_response2
-    
+
     mock_get.side_effect = side_effect
-    
+
     # Crawl with a small max_pages to keep the test fast
     results = crawler.crawl(
         "https://mathworld.wolfram.com/topics/ProbabilityandStatistics.html",
         max_pages=2
     )
-    
+
     # Check that we got some results
     assert len(results) > 0
-    
+
     # Check that the log files were created
     assert (tmp_path / "crawl_log.txt").exists()
     assert (tmp_path / "crawl_categories.txt").exists()
-    
+
     # Check that the final URLs file was created
-    assert (tmp_path / "list_final_URLs.txt").exists() 
+    assert (tmp_path / "list_final_URLs.txt").exists()

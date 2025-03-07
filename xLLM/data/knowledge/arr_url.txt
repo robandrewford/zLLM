@@ -1,0 +1,5 @@
+0	https://example.com/probability
+1	https://example.com/statistics
+2	https://example.com/normal-distribution
+3	https://example.com/bayes-theorem
+4	https://example.com/data-science

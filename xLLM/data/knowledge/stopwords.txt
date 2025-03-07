@@ -1,0 +1,1 @@
+{'is', 'an', 'on', 'are', 'about', 'were', 'with', 'to', 'be', 'by', 'or', 'for', 'and', 'a', 'in', 'been', 'was', 'the', 'but', 'at', 'from', 'of', 'being'}

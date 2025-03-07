@@ -73,29 +73,29 @@ def main():
     # Save the result as JSON
     pdf_name = Path(args.pdf_file).stem
     output_file = output_dir / f"{pdf_name}_processed.json"
-    
+
     with open(output_file, "w", encoding="utf-8") as f:
         # Convert sets to lists for JSON serialization
         json.dump(result, f, indent=2, default=lambda x: list(x) if isinstance(x, set) else x)
-    
+
     logger.info(f"Processing complete. Results saved to {output_file}")
-    
+
     # Print summary
     print("\nProcessing Summary:")
     print(f"Pages: {len(result.get('pages', []))}")
     print(f"Tables: {len(result.get('tables', []))}")
     print(f"Entities: {len(result.get('entities', []))}")
-    
+
     # Print entity types
     entity_types = {}
     for entity in result.get("entities", []):
         entity_type = entity.get("type", "unknown")
         entity_types[entity_type] = entity_types.get(entity_type, 0) + 1
-    
+
     print("\nEntity Types:")
     for entity_type, count in entity_types.items():
         print(f"  {entity_type}: {count}")
 
 
 if __name__ == "__main__":
-    main() 
+    main()
