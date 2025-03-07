@@ -42,7 +42,7 @@ import requests
 # embeddings2 = {}     key is a word; value is hash of word:weight
   
 
-path = "https://raw.githubusercontent.com/VincentGranville/Large-Language-Models/main/xllm6/"
+path = "https://raw.githubusercontent.com/robandrewford/zLLM/main/xllm6/"
 
 overwrite = False   # if True, get tables from GitHub, otherwise use local copy
 

@@ -1,0 +1,65 @@
+---
+title: Enterprise Backend Data Flow
+---
+flowchart LR
+    %% Main sections with improved formatting
+    subgraph "Content Parsing"
+        direction TB
+        A[Sub-LLM Corpus] -->|context| B[Context]
+        A -->|text| C[Text]
+        A --> D[Stopwords]
+        A --> E[Smart Crawl]
+        A --> F[Backend Params]
+
+        B -->|cluster| G[Actions]
+        B -->|extract| H[Categories, Tags, Titles, Breadcrumb]
+        B -->|extract| I[URLs, Images, PDFs, Tables]
+
+        C -->|split| J[Sentences]
+        J -->|stem| K[Clean Text Multitokens]
+
+        K --> L[Context, Knowledge Graph, Taxonomy]
+    end
+
+    subgraph "Backend Tables"
+        direction TB
+        K --> M[Distant Multitokens (Pairs)]
+        K --> N[Related Multitokens (Pairs)]
+        K --> O[Context Tables]
+        K --> P[Multitoken Dictionary]
+
+        M -->|pmi| Q[Embedding, Relevancy Scores]
+        N -->|pmi| Q
+        P --> R[Sorted n-grams]
+    end
+
+    %% Cross-subgraph connections
+    L -.-> O
+
+    %% Node styling with improved color scheme
+    classDef primary fill:#0055A4,stroke:#fff,color:#fff
+    classDef secondary fill:#444,stroke:#fff,color:#fff
+    classDef tertiary fill:#222,stroke:#fff,color:#fff
+    classDef action fill:#0022A4,stroke:#fff,color:#fff
+    classDef storage fill:#228B22,stroke:#fff,color:#fff
+    classDef output fill:#8B0000,stroke:#fff,color:#fff
+
+    %% Apply classes to nodes
+    class A primary
+    class B,C,J secondary
+    class D,E,F,K,L tertiary
+    class G,H,I primary
+    class M,N action
+    class O,P storage
+    class Q,R output
+
+    %% Add a legend
+    subgraph "Legend"
+        direction LR
+        z1[Input] ~~~ z2[Processing] ~~~ z3[Action] ~~~ z4[Storage] ~~~ z5[Output]
+    end
+    class z1 primary
+    class z2 secondary
+    class z3 action
+    class z4 storage
+    class z5 output

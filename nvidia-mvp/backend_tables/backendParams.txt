@@ -1,0 +1,1 @@
+{'max_multitoken': 4, 'maxDist': 3, 'create_hpairs': True, 'create_ctokens': False, 'use_stem': False, 'extraWeights': {'description': 0.0, 'category': 0.0, 'tag_list': 0.0, 'title': 0.0, 'meta': 0.0}}
