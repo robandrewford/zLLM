@@ -7,7 +7,7 @@ with TorRequests() as tor_requests:
     print("build circuit #1")
     with tor_requests.get_session() as sess:
         # use some IP address for crawling
-        page1 = sess.get("https://mathworld.wolfram.com/topics/ProbabilityandStatistics.html").text 
+        page1 = sess.get("https://mathworld.wolfram.com/topics/ProbabilityandStatistics.html").text
         print(page1)
         page2 = sess.get("https://mathworld.wolfram.com/topics/Geometry.html").text
         print(page2)

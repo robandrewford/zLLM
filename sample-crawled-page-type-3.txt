@@ -2,61 +2,61 @@
 <html lang="en" class="geometry">
 <head>
 	<title>Quasirhombicuboctahedron -- from Wolfram MathWorld</title>
-	
+
 <meta name="DC.Title" content="Quasirhombicuboctahedron" />
-	
+
 <meta name="DC.Creator" content="Weisstein, Eric W." />
-	
+
 <meta name="DC.Description" content="The quasirhombicuboctahedron is the name given by Wenninger (1989, p.  132) to the uniform polyhedron with Maeder index 17 (Maeder 1997), Wenninger index 85 (Wenninger 1989), Coxeter index 59 (Coxeter et al. 1954), Har'El index 22 (Har'El 1993), faces 18{4}+8{3/2}, Schl&auml;fli symbol r'{3/4}, and Wythoff symbol 3/24|2. Unfortunately, other authors (e.g., Maeder 1997) use the term &quot;great rhombicuboctahedron&quot; to refer to this solid, despite the fact that &quot;'great..." />
-	
+
 <meta name="description" content="The quasirhombicuboctahedron is the name given by Wenninger (1989, p.  132) to the uniform polyhedron with Maeder index 17 (Maeder 1997), Wenninger index 85 (Wenninger 1989), Coxeter index 59 (Coxeter et al. 1954), Har'El index 22 (Har'El 1993), faces 18{4}+8{3/2}, Schl&auml;fli symbol r'{3/4}, and Wythoff symbol 3/24|2. Unfortunately, other authors (e.g., Maeder 1997) use the term &quot;great rhombicuboctahedron&quot; to refer to this solid, despite the fact that &quot;'great..." />
-	
-	
-	
+
+
+
 <meta name="DC.Date.Modified" scheme="W3CDTF" content="2002-12-03" />
 <meta name="DC.Date.Modified" scheme="W3CDTF" content="2023-08-28" />
-	
+
 <meta name="DC.Subject" scheme="MathWorld" content="Mathematics:Geometry:Solid Geometry:Polyhedra:Uniform Polyhedra" />
-	
+
 <meta name="DC.Subject" scheme="MSC_2000" content="51M04" />
 <meta name="DC.Subject" scheme="MSC_2000" content="52B" />
-	
+
 <meta name="DC.Rights" content="Copyright 1999-2023 Wolfram Research, Inc.  See https://mathworld.wolfram.com/about/terms.html for a full terms of use statement." />
-	
+
 <meta name="DC.Format" scheme="IMT" content="text/html" />
-	
+
 <meta name="DC.Identifier" scheme="URI" content="https://mathworld.wolfram.com/Quasirhombicuboctahedron.html" />
-	
+
 <meta name="DC.Language" scheme="RFC3066" content="en" />
-	
+
 <meta name="DC.Publisher" content="Wolfram Research, Inc." />
-	
+
 <meta name="DC.Relation.IsPartOf" scheme="URI" content="https://mathworld.wolfram.com/" />
-	
+
 <meta name="DC.Type" scheme="DCMIType" content="Text" />
-	
+
 <meta name="Last-Modified" content="2023-08-28" />
-	
+
 <meta property="og:image" content="https://mathworld.wolfram.com/images/socialmedia/share.png">
-    
+
 <meta property="og:url" content="https://mathworld.wolfram.com/">
-    
+
 <meta property="og:type" content="website">
-    
+
 <meta property="og:title" content="Quasirhombicuboctahedron -- from Wolfram MathWorld">
-    
+
 <meta property="og:description" content="The quasirhombicuboctahedron is the name given by Wenninger (1989, p.  132) to the uniform polyhedron with Maeder index 17 (Maeder 1997), Wenninger index 85 (Wenninger 1989), Coxeter index 59 (Coxeter et al. 1954), Har'El index 22 (Har'El 1993), faces 18{4}+8{3/2}, Schl&auml;fli symbol r'{3/4}, and Wythoff symbol 3/24|2. Unfortunately, other authors (e.g., Maeder 1997) use the term &quot;great rhombicuboctahedron&quot; to refer to this solid, despite the fact that &quot;'great...">
-    
+
 <meta name="twitter:card" content="summary_large_image">
-    
+
 <meta name="twitter:site" content="@WolframResearch">
-    
+
 <meta name="twitter:title" content="Quasirhombicuboctahedron -- from Wolfram MathWorld">
-    
+
 <meta name="twitter:description" content="The quasirhombicuboctahedron is the name given by Wenninger (1989, p.  132) to the uniform polyhedron with Maeder index 17 (Maeder 1997), Wenninger index 85 (Wenninger 1989), Coxeter index 59 (Coxeter et al. 1954), Har'El index 22 (Har'El 1993), faces 18{4}+8{3/2}, Schl&auml;fli symbol r'{3/4}, and Wythoff symbol 3/24|2. Unfortunately, other authors (e.g., Maeder 1997) use the term &quot;great rhombicuboctahedron&quot; to refer to this solid, despite the fact that &quot;'great...">
-    
+
 <meta name="twitter:image:src" content="https://mathworld.wolfram.com/images/socialmedia/share.png">
-    
+
 <link rel="canonical" href="https://mathworld.wolfram.com/Quasirhombicuboctahedron.html" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -71,7 +71,7 @@
 </head>
 <body id="topics">
 <main id="entry">
-    
+
 <div class="wrapper">
         <section id="container">
 			<header class="text-align-c">
@@ -84,7 +84,7 @@
 <g>
 	<g>
 		<g>
-			<polygon fill="#0095AA" points="144.2,17.1 137.8,4 133.2,4 133.2,28.5 136.5,28.5 136.5,8.6 143,21.8 143,21.9 145.2,21.9 
+			<polygon fill="#0095AA" points="144.2,17.1 137.8,4 133.2,4 133.2,28.5 136.5,28.5 136.5,8.6 143,21.8 143,21.9 145.2,21.9
 				151.7,8.6 151.7,28.5 155,28.5 155,4 150.6,4"/>
 			<path fill="#0095AA" d="M170.8,10.8c-1.2-1-3.1-1.5-5.8-1.5c-1.7,0-3.2,0.3-4.3,0.8c-1.2,0.6-2.1,1.4-2.6,2.4l0,0.1l2.6,1.6l0-0.1
 				c0.3-0.5,0.8-1,1.4-1.4c0.7-0.4,1.6-0.6,2.8-0.6c1.4,0,2.5,0.3,3.2,0.8c0.8,0.5,1.1,1.4,1.1,2.8v0.8l-4.5,0.4
@@ -98,7 +98,7 @@
 			<path fill="#0095AA" d="M198.1,9.3c-1.2,0-2.3,0.3-3.5,1c-1.1,0.6-2,1.3-2.9,2.1V2.1h-3.2v26.4h3.2V15.4c0.9-0.8,1.9-1.5,2.9-2.1
 				c1-0.6,1.9-0.9,2.7-0.9c0.8,0,1.3,0.1,1.7,0.4c0.4,0.3,0.7,0.7,0.8,1.2c0.2,0.6,0.3,1.7,0.3,3.5v11h3.2V16.1
 				c0-2.4-0.4-4.2-1.3-5.2C201.2,9.9,199.9,9.3,198.1,9.3z"/>
-			<polygon fill="#0095AA" points="225.2,23.5 220.6,4 220.6,4 216.8,4 212.2,23.3 207.8,4 207.8,4 204.3,4 210.1,28.4 210.1,28.5 
+			<polygon fill="#0095AA" points="225.2,23.5 220.6,4 220.6,4 216.8,4 212.2,23.3 207.8,4 207.8,4 204.3,4 210.1,28.4 210.1,28.5
 				214.1,28.5 218.6,9.3 223.1,28.4 223.2,28.5 227.2,28.5 233.1,4 229.7,4"/>
 			<path fill="#0095AA" d="M264.2,9.6c-1.2,0-2.2,0.3-3.2,1c-0.9,0.6-1.7,1.3-2.5,2.1V9.9h-3.2v18.7h3.2V15.7c1.1-1.1,2.1-1.8,2.9-2.3
 				c0.8-0.4,1.7-0.6,2.6-0.6c0.6,0,1.1,0.1,1.4,0.2l0.1,0l0.7-3.1l-0.1,0C265.6,9.7,264.9,9.6,264.2,9.6z"/>
@@ -109,7 +109,7 @@
 				C284.5,12.2,286,12.9,287.6,14.2z"/>
 		</g>
 		<g>
-			<polygon fill="#666666" points="29,3.3 25.4,3.3 21,22.5 16.5,3.4 16.5,3.3 12.5,3.3 8,22.4 3.7,3.3 0,3.3 5.8,28.1 5.8,28.2 
+			<polygon fill="#666666" points="29,3.3 25.4,3.3 21,22.5 16.5,3.4 16.5,3.3 12.5,3.3 8,22.4 3.7,3.3 0,3.3 5.8,28.1 5.8,28.2
 				10,28.2 14.4,9.3 18.8,28.1 18.8,28.2 23.1,28.2 29,3.5"/>
 			<path fill="#666666" d="M37,8.7c-2.7,0-4.8,0.8-6.2,2.5c-1.4,1.7-2.1,4.2-2.1,7.6c0,3.3,0.7,5.8,2.1,7.5c1.4,1.7,3.5,2.5,6.2,2.5
 				c2.7,0,4.8-0.9,6.2-2.6c1.4-1.7,2.1-4.2,2.1-7.5c0-3.3-0.7-5.8-2.1-7.5C41.8,9.5,39.7,8.7,37,8.7z M40.5,24
@@ -267,7 +267,7 @@
 <g>
 	<g>
 		<g>
-			<polygon fill="#0095AA"  points="145.2,17.1 138.8,3.9 134.2,3.9 134.2,28.5 137.5,28.5 137.5,8.6 144,21.8 144,21.9 146.2,21.9 
+			<polygon fill="#0095AA"  points="145.2,17.1 138.8,3.9 134.2,3.9 134.2,28.5 137.5,28.5 137.5,8.6 144,21.8 144,21.9 146.2,21.9
 				152.7,8.6 152.7,28.5 156,28.5 156,3.9 151.6,3.9"/>
 			<path fill="#0095AA"  d="M171.8,10.8c-1.2-1-3.1-1.5-5.8-1.5c-1.7,0-3.2,0.3-4.3,0.8c-1.2,0.6-2.1,1.4-2.6,2.4l0,0.1l2.6,1.6l0-0.1
 				c0.3-0.5,0.8-1,1.4-1.4c0.7-0.4,1.6-0.6,2.8-0.6c1.4,0,2.5,0.3,3.2,0.8c0.8,0.5,1.1,1.4,1.1,2.8v0.8l-4.5,0.4
@@ -281,7 +281,7 @@
 			<path fill="#0095AA"  d="M199.1,9.3c-1.2,0-2.3,0.3-3.5,1c-1.1,0.6-2,1.3-2.9,2.1V2.1h-3.2v26.4h3.2V15.4c0.9-0.8,1.9-1.5,2.9-2.1
 				c1-0.6,1.9-0.9,2.7-0.9c0.8,0,1.3,0.1,1.7,0.4c0.4,0.3,0.7,0.7,0.8,1.2c0.2,0.6,0.3,1.7,0.3,3.5v11h3.2V16.1
 				c0-2.4-0.4-4.2-1.3-5.2C202.2,9.8,200.9,9.3,199.1,9.3z"/>
-			<polygon fill="#0095AA"  points="226.2,23.5 221.6,4 221.6,3.9 217.8,3.9 213.2,23.3 208.8,4 208.8,3.9 205.3,3.9 211.1,28.4 
+			<polygon fill="#0095AA"  points="226.2,23.5 221.6,4 221.6,3.9 217.8,3.9 213.2,23.3 208.8,4 208.8,3.9 205.3,3.9 211.1,28.4
 				211.1,28.5 215.1,28.5 219.6,9.3 224.1,28.4 224.1,28.5 228.2,28.5 234.1,3.9 230.7,3.9 			"/>
 			<path fill="#0095AA"  d="M265.2,9.6c-1.2,0-2.2,0.3-3.2,1c-0.9,0.6-1.7,1.3-2.5,2.1V9.8h-3.2v18.7h3.2V15.7c1.1-1.1,2.1-1.8,2.9-2.3
 				c0.8-0.4,1.7-0.6,2.6-0.6c0.6,0,1.1,0.1,1.4,0.2l0.1,0l0.7-3.1l-0.1,0C266.6,9.7,265.9,9.6,265.2,9.6z"/>
@@ -292,7 +292,7 @@
 				C285.5,12.2,287,12.8,288.6,14.1z"/>
 		</g>
 		<g>
-			<polygon fill="#666666"  points="30,3.2 26.4,3.2 22,22.5 17.5,3.4 17.5,3.2 13.5,3.2 9,22.4 4.7,3.2 1,3.2 6.8,28 6.8,28.2 11,28.2 
+			<polygon fill="#666666"  points="30,3.2 26.4,3.2 22,22.5 17.5,3.4 17.5,3.2 13.5,3.2 9,22.4 4.7,3.2 1,3.2 6.8,28 6.8,28.2 11,28.2
 				15.4,9.2 19.8,28 19.8,28.2 24,28.2 30,3.5"/>
 			<path fill="#666666"  d="M38,8.7c-2.7,0-4.8,0.8-6.2,2.5c-1.4,1.7-2.1,4.2-2.1,7.6c0,3.3,0.7,5.8,2.1,7.5c1.4,1.7,3.5,2.5,6.2,2.5
 				c2.7,0,4.8-0.9,6.2-2.6c1.4-1.7,2.1-4.2,2.1-7.5c0-3.3-0.7-5.8-2.1-7.5C42.8,9.5,40.7,8.7,38,8.7z M41.5,24
@@ -443,7 +443,7 @@
 <a href="https://www.wolfram.com/mathematica/"><rect x="296.2" y="0.1" style="fill:#ffffff00;" width="183.8" height="16"/></a>
 <a href="https://wolframalpha.com/"><rect x="296.2" y="16.4" style="fill:#ffffff00;" width="123.4" height="13.6"/></a>
 <a href="https://mathworld.wolfram.com/"><rect x="1" y="0.1" style="fill:#ffffff00;" width="292.4" height="29.9"/></a>
-</svg>	
+</svg>
     <form method="get" action="/search/" name="search" id="search" accept-charset="UTF-8">
         <input type="text" name="query" placeholder="Search" id="searchField">
         <img src="/images/header/search-icon.png" width="18" height="18" class="search-btn" title="Search" alt="Search">
@@ -455,7 +455,7 @@
 	<form method="get" action="/search/" name="search" id="search-mobile" accept-charset="UTF-8">
 		<input type="text" name="query" placeholder="Search" id="searchFieldMobile">
 		<img src="/images/header/search-icon.png" width="18" height="18" id="mobile-search" class="search-btn" title="Search" alt="Search" onclick="submitForm()">
-	</form>    
+	</form>
 	<nav class="topics-nav">
         <a href="/topics/Algebra.html" id="sidebar-algebra">
             Algebra
@@ -501,7 +501,7 @@
     </nav>
 </section>
             <section id="content">
-			  
+
 <!-- Begin Subject -->
 <nav class="breadcrumbs"><ul class="breadcrumb">
 <li>
@@ -583,7 +583,7 @@ The <a href="/Skeleton.html">skeleton</a> of the quasirhombicuboctahedron is the
 </p>
 <p>
 The <a href="/DualPolyhedron.html">dual</a> of the quasirhombicuboctahedron is the <a href="/GreatDeltoidalIcositetrahedron.html">great deltoidal icositetrahedron</a>.
- 
+
 </p>
 <p>
 Its <a href="/Circumradius.html">circumradius</a> for unit edge length is
@@ -626,16 +626,16 @@ The <a href="/ConvexHull.html">convex hull</a> of the quasirhombicuboctahedron i
  value="">
        <button type="submit" title="Evaluate on WolframAlpha"></button>
     </form>
-    
+
 </div>
-    
+
 <div class="WAwidget-wrapper try">
-    
+
 <p class="text-align-r">
 More things to try:
 </p>
     <ul>
-	   
+
 <li><a target="_blank" href="https://www.wolframalpha.com/input/?i=1275+to+Greek+numerals">1275 to Greek numerals</a></li>
 
 <li><a target="_blank" href="https://www.wolframalpha.com/input/?i=d%2Fdx+Si%28x%29%5E2">d/dx Si(x)^2</a></li>
@@ -688,7 +688,7 @@ From <a href="/"><i>MathWorld</i></a>--A Wolfram Web Resource. <a href="https://
 </div>
             </section>
         </section> <!-- /container -->
-    
+
 </div>
 </main>
 <aside id="bottom">

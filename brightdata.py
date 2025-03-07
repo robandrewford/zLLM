@@ -13,12 +13,12 @@ proxy_handler = urlrequest.ProxyHandler({
     })
 
 opener = urlrequest.build_opener(proxy_handler)
-print('Performing request') 
+print('Performing request')
 
 URL = 'https://mathworld.wolfram.com/topics/FoundationsofMathematics.html'
 
 response = opener.open(URL)
-status_code = response.getcode()  
+status_code = response.getcode()
 page = response.read()
 print(page)
 print("status code: ", status_code)

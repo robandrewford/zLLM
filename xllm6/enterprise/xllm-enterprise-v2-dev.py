@@ -25,19 +25,19 @@ backendTables = {}
 for name in tableNames:
     backendTables[name] = {}
 
-stopwords = ('', '-', 'in', 'the', 'and', 'to', 'of', 'a', 'this', 'for', 'is', 'with', 'from', 
-             'as', 'on', 'an', 'that', 'it', 'are', 'within', 'will', 'by', 'or', 'its', 'can', 
-             'your', 'be','about', 'used', 'our', 'their', 'you', 'into', 'using', 'these', 
+stopwords = ('', '-', 'in', 'the', 'and', 'to', 'of', 'a', 'this', 'for', 'is', 'with', 'from',
+             'as', 'on', 'an', 'that', 'it', 'are', 'within', 'will', 'by', 'or', 'its', 'can',
+             'your', 'be','about', 'used', 'our', 'their', 'you', 'into', 'using', 'these',
              'which', 'we', 'how', 'see', 'below', 'all', 'use', 'across', 'provide', 'provides',
              'aims', 'one', '&', 'ensuring', 'crucial', 'at', 'various', 'through', 'find', 'ensure',
              'more', 'another', 'but', 'should', 'considered', 'provided', 'must', 'whether',
              'located', 'where', 'begins', 'any', 'what', 'some', 'under', 'does', 'belong',
-             'included', 'part', 'associated')  
+             'included', 'part', 'associated')
 backendTables['stopwords'] = stopwords
 
 # agent_map works, but hash structure should be improved
 # key is word, value is agent (many-to-one). Allow for many-to-many
-agent_map = {  
+agent_map = {
              'template':'Template',
              'policy':'Policy',
              'governance':'Governance',
@@ -58,25 +58,25 @@ agent_map = {
             }
 
 KW_map = {}
-save_KW_map = False 
+save_KW_map = False
 try:
     IN = open("KW_map.txt","r")
 except:
     print("KW_map.txt not found on first run: working with empty KW_map.")
     print("KW_map.txt will be created after exiting if save = True.")
-    save_KW_map = True 
-else: 
-    # plural in dictionary replaced by singular form 
+    save_KW_map = True
+else:
+    # plural in dictionary replaced by singular form
     content = IN.read()
     pairs = content.split('\n')
-    for pair in pairs: 
+    for pair in pairs:
         pair = pair.split('\t')
         key = pair[0]
         if len(pair) > 1:
-            KW_map[key] = pair[1] 
+            KW_map[key] = pair[1]
     IN.close()
 
-# manual additions (plural not in prompt but not dictionary, etc.) 
+# manual additions (plural not in prompt but not dictionary, etc.)
 KW_map['domains'] = 'domain'
 KW_map['doing business as'] = 'dba'
 
@@ -97,12 +97,12 @@ backendParams = {
 }
 
 
-#--- Read repository and create all backend tables 
+#--- Read repository and create all backend tables
 
 # https://raw.githubusercontent.com/VincentGranville
 #    /Large-Language-Models/refs/heads/main/xllm6/enterprise/repository3.txt
 
-IN = open("repository3.txt","r")  
+IN = open("repository3.txt","r")
 data = IN.read()
 IN.close()
 
@@ -110,42 +110,42 @@ entities = data.split("\n")
 ID_size = backendTables['ID_size']
 
 # to avoid duplicate entities (takes space, better to remove them in the corpus)
-entity_list = () 
+entity_list = ()
 
-for entity_raw in entities: 
+for entity_raw in entities:
 
     entity = entity_raw.split("~~")
     agent_list = ()
-    
-    if len(entity) > 1 and entity[1] not in entity_list: 
 
-        entity_list = (*entity_list, entity[1]) 
+    if len(entity) > 1 and entity[1] not in entity_list:
+
+        entity_list = (*entity_list, entity[1])
         entity_ID = int(entity[0])
         entity = entity[1].split("{")
-        hash_crawl = {} 
+        hash_crawl = {}
         hash_crawl['ID'] = entity_ID
         ID_size[entity_ID] = len(entity[1])
         hash_crawl['full_content'] = entity_raw  # do not build to save space
 
         key_value_pairs = exllm.get_key_value_pairs(entity)
 
-        for pair in key_value_pairs: 
+        for pair in key_value_pairs:
 
             if ": " in pair:
                 key, value = pair.split(": ", 1)
                 key = key.replace("'","")
                 if key == 'category_text':
-                    hash_crawl['category'] = value 
+                    hash_crawl['category'] = value
                 elif key == 'tags_list_text':
                     hash_crawl['tag_list'] = exllm.clean_list(value)
                 elif key == 'title_text':
                     hash_crawl['title'] = value
-                elif key == 'description_text':  
+                elif key == 'description_text':
                     hash_crawl['description'] = value # do not build to save space
                 elif key == 'tower_option_tower':
                     hash_crawl['meta'] = value
                 if key in ('category_text','tags_list_text','title_text'):
-                    for word in agent_map: 
+                    for word in agent_map:
                         if word in value.lower():
                             agent = agent_map[word]
                             if agent not in agent_list:
@@ -168,9 +168,9 @@ for key in hash_pairs:
     nA = dictionary[wordA]
     nB = dictionary[wordB]
     nAB = hash_pairs[key]
-    pmi = nAB/(nA*nB)**0.5 # try: nAB/(nA + nB - nAB)  
-    # if nA + nB  <= nAB: 
-    #    print(key, nA, nB, nAB) 
+    pmi = nAB/(nA*nB)**0.5 # try: nAB/(nA + nB - nAB)
+    # if nA + nB  <= nAB:
+    #    print(key, nA, nB, nAB)
     exllm.update_nestedHash(embeddings, wordA, wordB, pmi)
     exllm.update_nestedHash(embeddings, wordB, wordA, pmi)
 
@@ -196,7 +196,7 @@ for word in dictionary:
 #--- Functions used to score results ---
 
 def rank(hash):
-    # sort hash, then replace values with their rank    
+    # sort hash, then replace values with their rank
 
     hash = dict(sorted(hash.items(), key=lambda item: item[1], reverse=True))
     rank = 0
@@ -211,7 +211,7 @@ def rank(hash):
     return(hash)
 
 
-def rank_ID(ID_score): 
+def rank_ID(ID_score):
     # attach weighted relevancy rank to text entity ID, with respect to prompt
 
     ID_score0 = {}
@@ -220,7 +220,7 @@ def rank_ID(ID_score):
     ID_score3 = {}
 
     for ID in ID_score:
-        score = ID_score[ID]    
+        score = ID_score[ID]
         ID_score0[ID] = score[0]
         ID_score1[ID] = score[1]
         ID_score2[ID] = score[2]
@@ -241,12 +241,12 @@ def rank_ID(ID_score):
 
 #--- Main: processing prompts ----
 
-print("\n") 
+print("\n")
 input_ = " "
 saved_query = ""
 get_bin = lambda x, n: format(x, 'b').zfill(n)
-frontendParams = exllm.default_frontendParams() 
-beta = 0.5  # overwrite 'beta' frontend param 
+frontendParams = exllm.default_frontendParams()
+beta = 0.5  # overwrite 'beta' frontend param
 ID_to_content = backendTables['ID_to_content']
 
 
@@ -255,38 +255,38 @@ ID_to_content = backendTables['ID_to_content']
 # https://raw.githubusercontent.com/VincentGranville
 #    /Large-Language-Models/refs/heads/main/xllm6/enterprise/enterprise_sample_prompts.txt
 
-IN = open("enterprise_sample_prompts.txt","r") 
+IN = open("enterprise_sample_prompts.txt","r")
 prompts = IN.read()
 prompts = prompts.split("\n")
 
 # --- Main: Look over all prompts ---
 
-for query in prompts: 
+for query in prompts:
 
     query = query.split("|")[0]
     print("\n------------------")
     print("Prompt: ", query)
-    query = query.replace('?',' ').replace('(',' ').replace(')',' ').replace('.',' ') 
+    query = query.replace('?',' ').replace('(',' ').replace(')',' ').replace('.',' ')
     query = query.replace("'",'').replace("\\s",'')
     query = query.split(' ')
     new_query = []
     for k in range(len(query)):
         token = query[k].lower()
-        if token in KW_map: 
+        if token in KW_map:
             token = KW_map[token]
         if token in dictionary:
             new_query.append(token)
     query = new_query.copy()
-    query.sort() 
+    query.sort()
     print("Cleaned:", query)
     print("------------------")
 
-    q_embeddings = {} 
-    q_dictionary = {} 
+    q_embeddings = {}
+    q_dictionary = {}
 
     # --- build q_dictionary and q_embeddings based on prompt tokens ---
 
-    for k in range(1, 2**len(query)): 
+    for k in range(1, 2**len(query)):
 
         binary = get_bin(k, len(query))
         sorted_word = ""
@@ -298,7 +298,7 @@ for query in prompts:
                     sorted_word += "~" + query[k]
 
         if sorted_word in sorted_ngrams:
-            ngrams = sorted_ngrams[sorted_word] 
+            ngrams = sorted_ngrams[sorted_word]
             for word in ngrams:
                 if word in dictionary:
                     q_dictionary[word] = dictionary[word]
@@ -311,17 +311,17 @@ for query in prompts:
 
     # --- Scoring and selecting what to show in prompt results ---
 
-    exllm.distill_frontendTables(q_dictionary,q_embeddings,frontendParams) 
+    exllm.distill_frontendTables(q_dictionary,q_embeddings,frontendParams)
     hash_ID = backendTables['hash_ID']
     ID_hash = {} # local, transposed of hash_ID; key = ID; value = multitoken list
 
     for word in q_dictionary:
         for ID in hash_ID[word]:
-            exllm.update_nestedHash(ID_hash, ID, word, 1) 
+            exllm.update_nestedHash(ID_hash, ID, word, 1)
         gword = "__" + word  # graph multitoken
         if gword in hash_ID:
             for ID in hash_ID[gword]:
-                exllm.update_nestedHash(ID_hash, ID, gword, 1) 
+                exllm.update_nestedHash(ID_hash, ID, gword, 1)
 
     ID_score = {}
     for ID in ID_hash:
@@ -342,14 +342,14 @@ for query in prompts:
 
     # --- Print results ---
 
-    ID_score_ranked = rank_ID(ID_score) 
+    ID_score_ranked = rank_ID(ID_score)
     n_ID = 0
     print("Most relevant text entities:\n")
     print("\n       ID wRank ID_Tokens")
     for ID in ID_score_ranked:
         if n_ID < 10:
             # context of text entity ID not shown, stored in ID_to_content[ID]
-            print("    %5d   %3d %s" %(ID, ID_score_ranked[ID], ID_hash[ID]))        
+            print("    %5d   %3d %s" %(ID, ID_score_ranked[ID], ID_hash[ID]))
         n_ID += 1
 
     print("\nToken count (via dictionary):\n")
@@ -361,7 +361,7 @@ for query in prompts:
     print("\nTop related tokens (via embeddings):\n")
     for word in q_embeddings:
         pmi = q_embeddings[word]
-        if n_words < 10: 
+        if n_words < 10:
             print("    %5.2f %s" %(pmi, word))
         n_words += 1
 
@@ -371,12 +371,12 @@ for query in prompts:
 def create_KW_map(dictionary):
     # singularization
     # map key to KW_map[key], here key is a single token
-    # need to map unseen prompt tokens to related dictionary entries 
+    # need to map unseen prompt tokens to related dictionary entries
     #    example: ANOVA -> analysis~variance, ...
 
     OUT = open("KW_map.txt","w")
     for key in dictionary:
-        if key.count('~') == 0: 
+        if key.count('~') == 0:
             j = len(key)
             keyB = key[0:j-1]
             if keyB in dictionary and key[j-1] == 's':
@@ -390,7 +390,7 @@ def create_KW_map(dictionary):
 
 if save_KW_map:
     # save it only if it does not exist
-    create_KW_map(dictionary)  
+    create_KW_map(dictionary)
 
 save = True
 if save:

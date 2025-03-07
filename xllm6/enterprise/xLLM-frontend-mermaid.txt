@@ -14,7 +14,7 @@ E("Embeddings,\nRelevancy\nScores")
 CX("Context\nTables")
 DT("Multitoken\nDictionary")
 J("Multitokens\n(DB Keys)")
-CT("Sorted\nn-grams") 
+CT("Sorted\nn-grams")
 Q(("Finetune"))
 V("Related\nMultitokens")
 S("URLs\nText\nImages\nCategories\nTags\nFiles")
@@ -91,7 +91,7 @@ DT -- weights --- V
 %% real time fine-tuning of Enterprise LLMs
 %% queries subqueries autocorrect
 %% word pairs also uses categories tags
-%% llm router 
+%% llm router
 %% contextual pairs
 %% scores
 %% subqueries, frontend hyperparameters, autocorrect

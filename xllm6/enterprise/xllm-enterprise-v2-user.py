@@ -25,18 +25,18 @@ backendTables = {}
 for name in tableNames:
     backendTables[name] = {}
 
-stopwords = ('', '-', 'in', 'the', 'and', 'to', 'of', 'a', 'this', 'for', 'is', 'with', 'from', 
-             'as', 'on', 'an', 'that', 'it', 'are', 'within', 'will', 'by', 'or', 'its', 'can', 
-             'your', 'be','about', 'used', 'our', 'their', 'you', 'into', 'using', 'these', 
+stopwords = ('', '-', 'in', 'the', 'and', 'to', 'of', 'a', 'this', 'for', 'is', 'with', 'from',
+             'as', 'on', 'an', 'that', 'it', 'are', 'within', 'will', 'by', 'or', 'its', 'can',
+             'your', 'be','about', 'used', 'our', 'their', 'you', 'into', 'using', 'these',
              'which', 'we', 'how', 'see', 'below', 'all', 'use', 'across', 'provide', 'provides',
              'aims', 'one', '&', 'ensuring', 'crucial', 'at', 'various', 'through', 'find', 'ensure',
              'more', 'another', 'but', 'should', 'considered', 'provided', 'must', 'whether',
-             'located', 'where', 'begins', 'any', 'what', 'some', 'under', 'does', 'belong') 
+             'located', 'where', 'begins', 'any', 'what', 'some', 'under', 'does', 'belong')
 backendTables['stopwords'] = stopwords
 
 # agent_map works, but hash structure should be improved
 # key is word, value is agent (many-to-one). Allow for many-to-many
-agent_map = {  
+agent_map = {
              'template':'Template',
              'policy':'Policy',
              'governance':'Governance',
@@ -57,27 +57,27 @@ agent_map = {
             }
 
 KW_map = {}
-save_KW_map = False 
+save_KW_map = False
 try:
     IN = open("KW_map.txt","r")
 except:
     print("KW_map.txt not found on first run: working with empty KW_map.")
     print("KW_map.txt will be created after exiting if save = True.")
-    save_KW_map = True 
-else: 
-    # plural in dictionary replaced by singular form 
+    save_KW_map = True
+else:
+    # plural in dictionary replaced by singular form
     content = IN.read()
     pairs = content.split('\n')
-    for pair in pairs: 
+    for pair in pairs:
         pair = pair.split('\t')
         key = pair[0]
         if len(pair) > 1:
-            KW_map[key] = pair[1] 
+            KW_map[key] = pair[1]
     IN.close()
 
-# manual additions (plural not in prompt but not dictionary, etc.) 
+# manual additions (plural not in prompt but not dictionary, etc.)
 KW_map['domains'] = 'domain'
-KW_map['doing business as'] = 'dba' 
+KW_map['doing business as'] = 'dba'
 
 backendTables['KW_map'] = KW_map
 
@@ -97,10 +97,10 @@ backendParams = {
 
 
 local = True # first time run, set to False
-if local: 
+if local:
     # get repository from local file
     # https://github.com/VincentGranville/Large-Language-Models/blob/main/xllm6/enterprise/repository.txt
-    IN = open("repository.txt","r") 
+    IN = open("repository.txt","r")
     data = IN.read()
     IN.close()
 else:
@@ -114,42 +114,42 @@ entities = data.split("\n")
 ID_size = backendTables['ID_size']
 
 # to avoid duplicate entities (takes space, better to remove them in the corpus)
-entity_list = () 
+entity_list = ()
 
-for entity_raw in entities: 
+for entity_raw in entities:
 
     entity = entity_raw.split("~~")
     agent_list = ()
-    
-    if len(entity) > 1 and entity[1] not in entity_list: 
 
-        entity_list = (*entity_list, entity[1]) 
+    if len(entity) > 1 and entity[1] not in entity_list:
+
+        entity_list = (*entity_list, entity[1])
         entity_ID = int(entity[0])
         entity = entity[1].split("{")
-        hash_crawl = {} 
+        hash_crawl = {}
         hash_crawl['ID'] = entity_ID
         ID_size[entity_ID] = len(entity[1])
         hash_crawl['full_content'] = entity_raw  # do not build to save space
 
         key_value_pairs = exllm.get_key_value_pairs(entity)
 
-        for pair in key_value_pairs: 
+        for pair in key_value_pairs:
 
             if ": " in pair:
                 key, value = pair.split(": ", 1)
                 key = key.replace("'","")
                 if key == 'category_text':
-                    hash_crawl['category'] = value 
+                    hash_crawl['category'] = value
                 elif key == 'tags_list_text':
                     hash_crawl['tag_list'] = exllm.clean_list(value)
                 elif key == 'title_text':
                     hash_crawl['title'] = value
-                elif key == 'description_text':  
+                elif key == 'description_text':
                     hash_crawl['description'] = value # do not build to save space
                 elif key == 'tower_option_tower':
                     hash_crawl['meta'] = value
                 if key in ('category_text','tags_list_text','title_text'):
-                    for word in agent_map: 
+                    for word in agent_map:
                         if word in value.lower():
                             agent = agent_map[word]
                             if agent not in agent_list:
@@ -172,9 +172,9 @@ for key in hash_pairs:
     nA = dictionary[wordA]
     nB = dictionary[wordB]
     nAB = hash_pairs[key]
-    pmi = nAB/(nA*nB)**0.5 # try: nAB/(nA + nB - nAB)  
-    # if nA + nB  <= nAB: 
-    #    print(key, nA, nB, nAB) 
+    pmi = nAB/(nA*nB)**0.5 # try: nAB/(nA + nB - nAB)
+    # if nA + nB  <= nAB:
+    #    print(key, nA, nB, nAB)
     exllm.update_nestedHash(embeddings, wordA, wordB, pmi)
     exllm.update_nestedHash(embeddings, wordB, wordA, pmi)
 
@@ -213,9 +213,9 @@ sample_queries = (
                     'parquet blob eventhub more files less storage single table',
                     'MLTxQuest Data Assets Detailed Information page',
                     'table asset',
-                 ) 
+                 )
 
-while len(input_) > 0:  
+while len(input_) > 0:
 
     print()
     print("--------------------------------------------------------------------")
@@ -238,22 +238,22 @@ while len(input_) > 0:
     print("For standard prompts, enter text not starting with '-' or digit.")
     print("--------------------------------------------------------------------\n")
 
-    input_ = input("Query, command, or integer in [0, %d] for sample query: " 
+    input_ = input("Query, command, or integer in [0, %d] for sample query: "
                     %(len(sample_queries)-1))
     flag = True  # False --> query to change params, True --> real query
     if input_ != "" and input_[0] == '-':
             # query to modify options
-            frontendParams = exllm.update_params(input_, saved_query, 
-                                                 sample_queries, frontendParams, 
+            frontendParams = exllm.update_params(input_, saved_query,
+                                                 sample_queries, frontendParams,
                                                  backendTables)
             query = ""
             flag = False
-    elif input_.isdigit(): 
+    elif input_.isdigit():
         # actual query (prompt)
         if int(input_) < len(sample_queries):
            query = sample_queries[int(input_)]
            saved_query = query
-           print("query:",query) 
+           print("query:",query)
         else:
            print("Value must be <", len(sample_queries))
            query = ""
@@ -268,17 +268,17 @@ while len(input_) > 0:
     new_query = []
     for k in range(len(query)):
         token = query[k].lower()
-        if token in KW_map: 
+        if token in KW_map:
             token = KW_map[token]
         if token in dictionary:
             new_query.append(token)
     query = new_query.copy()
-    query.sort() 
+    query.sort()
     print("Cleaned:", query)
-    q_embeddings = {} 
-    q_dictionary = {} 
+    q_embeddings = {}
+    q_dictionary = {}
 
-    for k in range(1, 2**len(query)): 
+    for k in range(1, 2**len(query)):
 
         binary = get_bin(k, len(query))
         sorted_word = ""
@@ -290,29 +290,29 @@ while len(input_) > 0:
                     sorted_word += "~" + query[k]
 
         if sorted_word in sorted_ngrams:
-            ngrams = sorted_ngrams[sorted_word] 
+            ngrams = sorted_ngrams[sorted_word]
             for word in ngrams:
                 if word in dictionary:
                     q_dictionary[word] = dictionary[word]
                     if word in embeddings:
                         embedding = embeddings[word]
                         for token in embedding:
-                            if not frontendParams['Customized_pmi']: 
+                            if not frontendParams['Customized_pmi']:
                                 pmi = embedding[token]
                             else:
                                 # customized pmi
                                 pmi = exllm.custom_pmi(word, token, backendTables)
                             q_embeddings[(word, token)] = pmi
 
-    # if len(query) == 1: 
+    # if len(query) == 1:
     #     # single-token query
     #     frontendParams['embeddingKeyMinSize'] = 1
     #     frontendParams['ContextMultitokenMinSize'] = 1
 
     exllm.distill_frontendTables(q_dictionary,q_embeddings,frontendParams)
 
-    if len(input_) > 0 and flag: 
-        exllm.print_results(q_dictionary, q_embeddings, backendTables, frontendParams) 
+    if len(input_) > 0 and flag:
+        exllm.print_results(q_dictionary, q_embeddings, backendTables, frontendParams)
 
 
 #--- [5] Save backend tables
@@ -320,12 +320,12 @@ while len(input_) > 0:
 def create_KW_map(dictionary):
     # singularization
     # map key to KW_map[key], here key is a single token
-    # need to map unseen prompt tokens to related dictionary entries 
+    # need to map unseen prompt tokens to related dictionary entries
     #    example: ANOVA -> analysis~variance, ...
 
     OUT = open("KW_map.txt","w")
     for key in dictionary:
-        if key.count('~') == 0: 
+        if key.count('~') == 0:
             j = len(key)
             keyB = key[0:j-1]
             if keyB in dictionary and key[j-1] == 's':
@@ -339,9 +339,9 @@ def create_KW_map(dictionary):
 
 if save_KW_map:
     # save it only if it does not exist
-    create_KW_map(dictionary)  
+    create_KW_map(dictionary)
 
-save = True 
+save = True
 if save:
     for tableName in backendTables:
         table = backendTables[tableName]

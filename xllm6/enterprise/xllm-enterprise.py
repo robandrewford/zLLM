@@ -16,7 +16,7 @@ def update_nestedHash(hash, key, value, count=1):
         local_hash = hash[key]
     else:
         local_hash = {}
-    if type(value) is not tuple: 
+    if type(value) is not tuple:
         value = (value,)
     for item in value:
         if item in local_hash:
@@ -47,8 +47,8 @@ def update_tables(backendTables, word, hash_crawl, backendParams):
 
     extraWeights = backendParams['extraWeights']
     word = word.lower()  # add stemming
-    weight = 1.0         
-    if word in category:   
+    weight = 1.0
+    if word in category:
         weight += extraWeights['category']
     if word in tag_list:
         weight += extraWeights['tag_list']
@@ -58,17 +58,17 @@ def update_tables(backendTables, word, hash_crawl, backendParams):
         weight += extraWeights['meta']
 
     update_hash(backendTables['dictionary'], word, weight)
-    update_nestedHash(backendTables['hash_context1'], word, category) 
-    update_nestedHash(backendTables['hash_context2'], word, tag_list) 
-    update_nestedHash(backendTables['hash_context3'], word, title) 
+    update_nestedHash(backendTables['hash_context1'], word, category)
+    update_nestedHash(backendTables['hash_context2'], word, tag_list)
+    update_nestedHash(backendTables['hash_context3'], word, title)
     update_nestedHash(backendTables['hash_context4'], word, description)
-    update_nestedHash(backendTables['hash_context5'], word, meta) 
-    update_nestedHash(backendTables['hash_ID'], word, ID) 
-    update_nestedHash(backendTables['full_content'], word, full_content) 
+    update_nestedHash(backendTables['hash_context5'], word, meta)
+    update_nestedHash(backendTables['hash_ID'], word, ID)
+    update_nestedHash(backendTables['full_content'], word, full_content)
 
     return(backendTables)
 
- 
+
 def clean_list(value):
 
     # change string "['a', 'b', ...]" to ('a', 'b', ...)
@@ -100,14 +100,14 @@ def get_key_value_pairs(entity):
             entity2 += entity[idx]
 
     entity = entity2
-    key_value_pairs = entity.split(", '") 
+    key_value_pairs = entity.split(", '")
     return(key_value_pairs)
 
 
 def update_dict(backendTables, hash_crawl, backendParams):
 
-    max_multitoken = backendParams['max_multitoken'] 
-    maxDist  =  backendParams['maxDist']     
+    max_multitoken = backendParams['max_multitoken']
+    maxDist  =  backendParams['maxDist']
     maxTerms = backendParams['maxTerms']
 
     category = get_value('category', hash_crawl)
@@ -119,12 +119,12 @@ def update_dict(backendTables, hash_crawl, backendParams):
     text = category + "." + str(tag_list) + "." + title + "." + description + "." + meta
     text = text.replace('/'," ").replace('(',' ').replace(')',' ').replace('?','')
     text = text.replace("'", "").replace('"',"").replace('\\n','').replace('!','')
-    text = text.replace("\\s", '').replace("\\t",'').replace(",", " ")  
-    text = text.lower() 
+    text = text.replace("\\s", '').replace("\\t",'').replace(",", " ")
+    text = text.lower()
     sentence_separators = ('.',)
     for sep in sentence_separators:
         text = text.replace(sep, '_~')
-    text = text.split('_~') 
+    text = text.split('_~')
 
     hash_pairs = backendTables['hash_pairs']
     ctokens = backendTables['ctokens']
@@ -138,7 +138,7 @@ def update_dict(backendTables, hash_crawl, backendParams):
 
         for word in words:
 
-            if word not in stopwords: 
+            if word not in stopwords:
                 # word is single token
                 buffer.append(word)
                 key = (word, position)
@@ -148,12 +148,12 @@ def update_dict(backendTables, hash_crawl, backendParams):
                 for k in range(1, max_multitoken):
                     if position > k:
                         # word is now multi-token with k+1 tokens
-                        word = buffer[position-k] + "~" + word 
+                        word = buffer[position-k] + "~" + word
                         key = (word, position)
                         update_hash(hwords, key)  # for word correlation table (hash_pairs)
                         update_tables(backendTables, word, hash_crawl, backendParams)
 
-                position +=1     
+                position +=1
 
     for keyA in hwords:
         for keyB in hwords:
@@ -170,8 +170,8 @@ def update_dict(backendTables, hash_crawl, backendParams):
             n_termsAB = max(n_termsA, n_termsB)
             distanceAB = abs(positionA - positionB)
 
-            if wordA < wordB and distanceAB <= maxDist and n_termsAB <= maxTerms: 
-                  hash_pairs = update_hash(hash_pairs, key) 
+            if wordA < wordB and distanceAB <= maxDist and n_termsAB <= maxTerms:
+                  hash_pairs = update_hash(hash_pairs, key)
                   if distanceAB > 1:
                       ctokens = update_hash(ctokens, key)
 
@@ -197,9 +197,9 @@ backendTables = {}
 for name in tableNames:
     backendTables[name] = {}
 
-stopwords = ('', '-', 'in', 'the', 'and', 'to', 'of', 'a', 'this', 'for', 'is', 'with', 'from', 
-             'as', 'on', 'an', 'that', 'it', 'are', 'within', 'will', 'by', 'or', 'its', 'can', 
-             'your', 'be','about', 'used', 'our', 'their', 'you', 'into', 'using', 'these', 
+stopwords = ('', '-', 'in', 'the', 'and', 'to', 'of', 'a', 'this', 'for', 'is', 'with', 'from',
+             'as', 'on', 'an', 'that', 'it', 'are', 'within', 'will', 'by', 'or', 'its', 'can',
+             'your', 'be','about', 'used', 'our', 'their', 'you', 'into', 'using', 'these',
              'which', 'we', 'how', 'see', 'below', 'all', 'use', 'across', 'provide', 'provides',
              'aims', 'one', '&', 'ensuring', 'crucial', 'at', 'various', 'through', 'find', 'ensure',
              'more', 'another', 'but', 'should', 'considered', 'provided', 'must', 'whether',
@@ -221,9 +221,9 @@ backendParams = {
 
 
 local = True
-if local: 
+if local:
     # get repository from local file
-    IN = open("repository.txt","r") 
+    IN = open("repository.txt","r")
     data = IN.read()
     IN.close()
 else:
@@ -235,26 +235,26 @@ else:
 
 entities = data.split("\n")
 
-for entity_raw in entities: 
+for entity_raw in entities:
 
     entity = entity_raw.split("~~")
-    
-    if len(entity) > 1: 
+
+    if len(entity) > 1:
 
         entity_ID = int(entity[0])
         entity = entity[1].split("{")
-        hash_crawl = {} 
+        hash_crawl = {}
         hash_crawl['ID'] = entity_ID
         hash_crawl['full_content'] = entity_raw
 
         key_value_pairs = get_key_value_pairs(entity)
 
-        for pair in key_value_pairs: 
+        for pair in key_value_pairs:
             if ": " in pair:
                 key, value = pair.split(": ", 1)
                 key = key.replace("'","")
                 if key == 'category_text':
-                    hash_crawl['category'] = value 
+                    hash_crawl['category'] = value
                 elif key == 'tags_list_text':
                     hash_crawl['tag_list'] = clean_list(value)
                 elif key == 'title_text':
@@ -263,7 +263,7 @@ for entity_raw in entities:
                     hash_crawl['description'] = value
                 elif key == 'tower_option_tower':
                     hash_crawl['meta'] = value
-        
+
         backendTables = update_dict(backendTables, hash_crawl, backendParams)
 
 
@@ -286,9 +286,9 @@ for key in hash_pairs:
     nA = dictionary[wordA]
     nB = dictionary[wordB]
     nAB = hash_pairs[key]
-    pmi = nAB/(nA*nB)**0.5 # try: nAB/(nA + nB - nAB)  
-    # if nA + nB  <= nAB: 
-    #    print(key, nA, nB, nAB) 
+    pmi = nAB/(nA*nB)**0.5 # try: nAB/(nA + nB - nAB)
+    # if nA + nB  <= nAB:
+    #    print(key, nA, nB, nAB)
     update_nestedHash(embeddings, wordA, wordB, pmi)
     update_nestedHash(embeddings, wordB, wordA, pmi)
 
@@ -394,19 +394,19 @@ def print_results(q_dictionary, q_embeddings, backendTables, frontendParams):
 
     dictionary = backendTables['dictionary']
     hash_pairs = backendTables['hash_pairs']
-    ctokens = backendTables['ctokens']  
+    ctokens = backendTables['ctokens']
 
     if frontendParams['bypassIgnoreList'] == 1:
         # ignore multitokens specified in 'ignoreList'
-        ignore = frontendParams['ignoreList']  
+        ignore = frontendParams['ignoreList']
     else:
         # bypass 'ignore' list
         ignore = ()
 
-    local_hash = {}  # used to not show same token 2x (linked to 2 different words)     
+    local_hash = {}  # used to not show same token 2x (linked to 2 different words)
     q_embeddings = dict(sorted(q_embeddings.items(),key=lambda item: item[1],reverse=True))
     print()
-    print("%3s %s %1s %s %s" 
+    print("%3s %s %1s %s %s"
              %('N','pmi'.ljust(4),'F','token [from embeddings]'.ljust(35),
                'word [from prompt]'.ljust(35)))
     print()
@@ -426,13 +426,13 @@ def print_results(q_dictionary, q_embeddings, backendTables, frontendParams):
             nAB = hash_pairs[keyAB]
         if keyAB in ctokens:
             flag = '*'
-        if (  ntk1 >= frontendParams['embeddingKeyMinSize'] and 
+        if (  ntk1 >= frontendParams['embeddingKeyMinSize'] and
               ntk2 >= frontendParams['embeddingValuesMinSize'] and
-              pmi >= frontendParams['min_pmi'] and 
+              pmi >= frontendParams['min_pmi'] and
               nAB >= frontendParams['nABmin'] and
               token not in local_hash and word not in ignore
-            ): 
-            print("%3d %4.2f %1s %s %s" 
+            ):
+            print("%3d %4.2f %1s %s %s"
                       %(nAB,pmi,flag,token.ljust(35),word.ljust(35)))
             local_hash[token] = 1 # token marked as displayed, won't be showed again
 
@@ -441,14 +441,14 @@ def print_results(q_dictionary, q_embeddings, backendTables, frontendParams):
     print("If no result, try option '-p f'.")
     print()
 
-    sectionLabels = { 
+    sectionLabels = {
        # map section label (in output) to corresponding backend table name
-       'dict' :'dictionary', 
-       'pairs':'hash_pairs', 
-       'category':'hash_context1', 
-       'tags'  :'hash_context2', 
-       'titles':'hash_context3', 
-       'descr.':'hash_context4', 
+       'dict' :'dictionary',
+       'pairs':'hash_pairs',
+       'category':'hash_context1',
+       'tags'  :'hash_context2',
+       'titles':'hash_context3',
+       'descr.':'hash_context4',
        'meta'  :'hash_context5',
        'ID'    :'hash_ID',
        'whole' :'full_content'
@@ -460,9 +460,9 @@ def print_results(q_dictionary, q_embeddings, backendTables, frontendParams):
         table = backendTables[tableName]
         local_hash = {}
         print(">>> RESULTS - SECTION: %s\n" % (label))
-        for word in q_dictionary:  
+        for word in q_dictionary:
             ntk3 =  len(word.split('~'))
-            if word not in ignore and ntk3 >= frontendParams['ContextMultitokenMinSize']: 
+            if word not in ignore and ntk3 >= frontendParams['ContextMultitokenMinSize']:
                 content = table[word]   # content is a hash
                 count = int(dictionary[word])
                 for item in content:
@@ -470,15 +470,15 @@ def print_results(q_dictionary, q_embeddings, backendTables, frontendParams):
         for item in local_hash:
             hash2 = local_hash[item]
             if len(hash2) >= frontendParams['minOutputListSize']:
-                print("   %s: %s [%d entries]" % (label, item, len(hash2))) 
+                print("   %s: %s [%d entries]" % (label, item, len(hash2)))
                 for key in hash2:
                     print("   Linked to: %s (%s)" %(key, hash2[key]))
                 print()
         print()
 
     print()
-    print("Results based on words found in prompt, matched back to backend tables.") 
-    print("Numbers in parentheses are occurrences of word in corpus.") 
+    print("Results based on words found in prompt, matched back to backend tables.")
+    print("Numbers in parentheses are occurrences of word in corpus.")
 
     return()
 
@@ -511,9 +511,9 @@ sample_queries = (
                     'parquet blob eventhub more files less storage single table',
                     'MLTxQuest Data Assets Detailed Information page'
                     'stellar', 'table',
-                 ) 
+                 )
 
-while len(input_) > 0:  
+while len(input_) > 0:
 
     print()
     options = ('-p', '-f', '-v', '-a', '-r', '-l')
@@ -527,7 +527,7 @@ while len(input_) > 0:
     print("  -l            : view 'ignore' list")
     print()
 
-    input_ = input("Query, query option, or integer in [0, %d] for sample query: " 
+    input_ = input("Query, query option, or integer in [0, %d] for sample query: "
                     %(len(sample_queries)-1))
 
     flag = True  # False --> query to change params, True --> real query
@@ -536,11 +536,11 @@ while len(input_) > 0:
             update_params(input_, frontendParams)
             input_ = " "
             flag = False
-            
-    if input_.isdigit(): 
+
+    if input_.isdigit():
         if int(input_) < len(sample_queries):
            query = sample_queries[int(input_)]
-           print("query:",query) 
+           print("query:",query)
         else:
            print("Value must be <", len(sample_queries))
            query = ""
@@ -548,11 +548,11 @@ while len(input_) > 0:
         query = input_
 
     query = query.split(' ')
-    query.sort() 
-    q_embeddings = {} 
-    q_dictionary = {} 
+    query.sort()
+    q_embeddings = {}
+    q_dictionary = {}
 
-    for k in range(1, 2**len(query)): 
+    for k in range(1, 2**len(query)):
 
         binary = get_bin(k, len(query))
         sorted_word = ""

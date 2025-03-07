@@ -1,6 +1,6 @@
 import requests
 import time
-  
+
 # [ToDo] index: https://mathworld.wolfram.com/letters/
 # [ToDo] search: https://mathworld.wolfram.com/search/?query=falling+factorial
 # [Done] categories: https://mathworld.wolfram.com/topics/
@@ -26,22 +26,22 @@ categoryLevel[seed_category] = 1  # set to 0 if starting at URL_base1
 # categoryLevel[seed_category] = 0  # set to 0 if starting at URL_base1
 
 URL_list.append(seed_URL)   # URL stack
-URL_parent_Category[seed_URL] = seed_category 
+URL_parent_Category[seed_URL] = seed_category
 
 parsed = 0       # number of URLs already parsed
-n_URLs = 1       # total number of URLs in the queue 
-max_URLs = 5000  # do not crawl more than max_URLs directory pages 
+n_URLs = 1       # total number of URLs in the queue
+max_URLs = 5000  # do not crawl more than max_URLs directory pages
 
 def validate(string):
     Ignore = ['about/','classroom/','contact/','whatsnew/','letters/']
-    validated = True  
+    validated = True
     if len(string) > 60 or string in Ignore or string.count('topics') > 0:
         validated = False
     return(validated)
 
 def update_lists(new_URL, new_category, parent_category, file):
     URL_parent_Category[new_URL] = new_category
-    # if new_category was encountered before, special processing required 
+    # if new_category was encountered before, special processing required
     #   --> in this case, not a one-to-one mapping (ignore here)
     categoryLevel[new_category] = 1 + categoryLevel[parent_category]
     level = str(categoryLevel[new_category])
@@ -57,7 +57,7 @@ def update_lists(new_URL, new_category, parent_category, file):
 file1 = open("crawl_log.txt","w",encoding="utf-8")
 file2 = open("crawl_categories.txt","w",encoding="utf-8")
 
-while parsed < min(max_URLs, n_URLs):  
+while parsed < min(max_URLs, n_URLs):
 
     URL = URL_list[parsed]    # crawl first non-visited URL on the stack
     parent_category = URL_parent_Category[URL]
@@ -68,10 +68,10 @@ while parsed < min(max_URLs, n_URLs):
     if URL in history:
 
         # do not crawl twice the same URL
-        print("Duplicate: %s" %(URL)) 
+        print("Duplicate: %s" %(URL))
         file1.write(URL+"\tDuplicate\t"+parent_category+"\t"+str(level)+"\n")
 
-    else:   
+    else:
 
         print("Parsing: %5d out of %5d: %s" % (parsed, n_URLs, URL))
         # req = requests.get(server, auth=('user',"pass"))
@@ -80,7 +80,7 @@ while parsed < min(max_URLs, n_URLs):
 
         if resp.status_code != 200:
 
-            print("Failed: %s" %(URL)) 
+            print("Failed: %s" %(URL))
             file1.write(URL+"\tError:"+str(resp.status_code)+"\t"+parent_category+"\t"+str(level)+"\n")
             file1.flush()
 
@@ -93,16 +93,16 @@ while parsed < min(max_URLs, n_URLs):
             page2 = page.split("<a href=\"/")
             n_URLs_old = n_URLs
 
-            # scraping Type-1 page (intermediate directory node) 
+            # scraping Type-1 page (intermediate directory node)
 
-            for line in page1:  
+            for line in page1:
                 line = line.split("<span>")
                 line = line[0]
                 if line.count(">") == 1:
                     line = line.split("\">")
                     if len(line) > 1:
                         new_URL = URL_base1 + line[0]
-                        new_category = line[1]  
+                        new_category = line[1]
                         URL_list.append(new_URL)
                         update_lists(new_URL, new_category, parent_category, file2)
                         file1.write(new_URL+"\tQueued\t"+new_category+"\t"+str(level+1)+"\n")
@@ -114,11 +114,11 @@ while parsed < min(max_URLs, n_URLs):
             if n_URLs == n_URLs_old:
 
                 for line in page2:
-                    line = line.split("</a>") 
+                    line = line.split("</a>")
                     line = line[0].split("\">")
                     if validate(line[0]) and len(line) > 1:
                         new_URL = URL_base2 + line[0]
-                        new_category = line[1] 
+                        new_category = line[1]
                         update_lists(new_URL, new_category, parent_category, file2)
                         file1.write(new_URL+"\tEndNode\t"+new_category+"\t"+str(level+1)+"\n")
                         file1.flush()

@@ -6,18 +6,18 @@
 import fitz  # PyMuPDF
 
 
-def update_item_ID(k, entity_idx, type, table_ID): 
+def update_item_ID(k, entity_idx, type, table_ID):
 
     idx = entity_idx[k]
     if type == 'Data':
         # table: data row
-        flag = 'TD' # 
+        flag = 'TD' #
     elif type == 'Note':
         # table: labels
         flag = 'TL'
     idx_list = list(idx)
     idx_list[1] = flag + str(table_ID)
-    entity_idx[k] = tuple(idx_list) 
+    entity_idx[k] = tuple(idx_list)
 
     return(entity_idx)
 
@@ -26,8 +26,8 @@ def detect_table(xLLM_entity):
 
     # detect and flag simple pseudo-tables
 
-    entity_txt  = xLLM_entity[0]                   
-    entity_type = xLLM_entity[1] 
+    entity_txt  = xLLM_entity[0]
+    entity_type = xLLM_entity[1]
     entity_idx  = xLLM_entity[2]
     table_ID = -1
     table_flag = False
@@ -38,12 +38,12 @@ def detect_table(xLLM_entity):
         text = entity_txt[k]
         old_text = entity_txt[k-1]
         old_type = entity_type[k-1]
-  
+
         if ( (
                (type == 'Data' and old_type == 'Note') or
-               (type == 'Note' and old_type == 'Data') or 
+               (type == 'Note' and old_type == 'Data') or
                (type == 'Data' and old_type == 'Data')
-             ) 
+             )
              and old_text.count('|') == text.count('|')
              and text.count('|') > 2
            ):
@@ -53,24 +53,24 @@ def detect_table(xLLM_entity):
                 table_flag = True
             idx = entity_idx[k]
             old_idx = entity_idx[k-1]
-            
-            # update item_ID (idx[1] and old_idx[1]) in current and previous row
-            # item_ID starts with letter D if data, or N if labels 
 
-            update_item_ID(k, entity_idx, type, table_ID) 
+            # update item_ID (idx[1] and old_idx[1]) in current and previous row
+            # item_ID starts with letter D if data, or N if labels
+
+            update_item_ID(k, entity_idx, type, table_ID)
             update_item_ID(k-1, entity_idx, old_type, table_ID)
 
         else:
             #table_ID = -1
             table_flag = False
-                
+
     return(xLLM_entity)
 
 
 def cprint_page(xLLM_entity, OUT):
 
-    entity_txt  = xLLM_entity[0]                   
-    entity_type = xLLM_entity[1] 
+    entity_txt  = xLLM_entity[0]
+    entity_type = xLLM_entity[1]
     entity_idx  = xLLM_entity[2]
 
     for k in range(len(entity_type)):
@@ -92,25 +92,25 @@ def cprint_page(xLLM_entity, OUT):
 
         idx  = entity_idx[k]
         doc_ID   = idx[3]
-        block_ID = idx[0] 
-        item_ID  = idx[1] 
-        sub_ID   = idx[2] 
+        block_ID = idx[0]
+        item_ID  = idx[1]
+        sub_ID   = idx[2]
         pn = idx[4]   # page number
         fs = idx[5]   # font size
         fc = idx[6]   # font color
         ft = idx[7]   # font typeface
-        #- print(k, type, idx, text) 
+        #- print(k, type, idx, text)
         OUT.write(f"{type:<8}{block_ID:>3}{item_ID:>5}{sub_ID:>3}{pn:>3}"
                   f"{fs:>5}{fc:>9} {ft:<20}{text:<80}\n")
-        
+
     OUT.write("\n")
     return()
 
 
-def update_page(text, type, entity, idx): 
+def update_page(text, type, entity, idx):
 
-    entity_txt  = entity[0] 
-    entity_type = entity[1] 
+    entity_txt  = entity[0]
+    entity_type = entity[1]
     entity_idx  = entity[2]
     block_ID = idx[0]
     item_ID  = idx[1]
@@ -133,7 +133,7 @@ def update_page(text, type, entity, idx):
         sep = " "
 
     if (type == old_type and block_ID == old_block_ID
-          and item_ID == old_item_ID and sub_ID == old_sub_ID):  
+          and item_ID == old_item_ID and sub_ID == old_sub_ID):
        new_text = entity_txt[k-1] + text + sep
        entity_txt[k-1] = new_text
     else:
@@ -149,26 +149,26 @@ def convert_pdf_to_json(pdf_path, json_path, doc_ID, text_path):
     content = ""
 
     # Iterate through the pages
-    for page_num in range(len(pdf_document)): 
+    for page_num in range(len(pdf_document)):
         OUT.write("\n----------------------------\n")
         OUT.write("Processing page " + str(page_num) + "\n\n")
         print("Page:", page_num)
-        page = pdf_document.load_page(page_num) 
+        page = pdf_document.load_page(page_num)
 
         text_data = page.get_text("dict")  # also extract as "json" to get tokens in green font
 
         tabs = page.find_tables()
-        for tabs_index, tab in enumerate(tabs): 
+        for tabs_index, tab in enumerate(tabs):
             # iterate over all tables
             index = (page_num, tabs_index)
             table_data = tab.extract()  # extracting tabs[i], the i-th table in this page
-            if len(table_data) > 0: 
+            if len(table_data) > 0:
                 # if not, ignore this table (note the important parameter threshold here)
                 OUT.write("Table " + str(index) + ":\n")
                 for row in table_data:
                     OUT.write(str(row) + "\n")
                 OUT.write("\n")
- 
+
         itemize = False
         item_ID = -1
         sub_ID = -1
@@ -206,16 +206,16 @@ def convert_pdf_to_json(pdf_path, json_path, doc_ID, text_path):
                             if fsm == -1:
                                 fsm = font_size
                             if font_size > 0.98 * fsm:
-                                item_ID += 1 
+                                item_ID += 1
                                 type = 'List'
                             else:
-                                sub_ID +=1 
+                                sub_ID +=1
                                 type = 'SubList'
                         elif itemize:
-                            #- itemize = ((0.99 < font_size/old_font_size < 1.01) and 
+                            #- itemize = ((0.99 < font_size/old_font_size < 1.01) and
                             #-            (not text[0].isupper() or ord(old_text[0]) == 8226))
-                            itemize = ((0.99 < font_size/old_font_size < 1.01) or 
-                                       (ord(old_text[0]) == 8226)) 
+                            itemize = ((0.99 < font_size/old_font_size < 1.01) or
+                                       (ord(old_text[0]) == 8226))
 
                             if not itemize:
                                 item_ID = -1
@@ -225,31 +225,31 @@ def convert_pdf_to_json(pdf_path, json_path, doc_ID, text_path):
                         else:
                             if not text[0].isdigit() and text[0] not in ('$', '+', '-'):
                                 type = 'Note'
-                            #- elif block_number != old_block_number: 
+                            #- elif block_number != old_block_number:
                             else:
-                                type = 'Data' 
-                        
+                                type = 'Data'
+
                         if block_ID == -1:
-                            block_ID += 1 
-                        elif ((type not in (old_type, 'List', 'SubList')) or   
+                            block_ID += 1
+                        elif ((type not in (old_type, 'List', 'SubList')) or
                                (not (0.99 < font_size/old_font_size < 1.01))):
-                            if (old_text != "" and ord(old_text[0]) != 8226 and 
-                                    type not in ('List', 'SubList')): 
+                            if (old_text != "" and ord(old_text[0]) != 8226 and
+                                    type not in ('List', 'SubList')):
                                 block_ID += 1
 
-                        idx = (block_ID, item_ID, sub_ID, doc_ID, page_num, font_size, 
-                               font_color, font_name, block_number) 
+                        idx = (block_ID, item_ID, sub_ID, doc_ID, page_num, font_size,
+                               font_color, font_name, block_number)
                         entity = (entity_txt, entity_type, entity_idx)
-                        update_page(text, type, entity, idx) 
+                        update_page(text, type, entity, idx)
 
                         old_font_size = font_size
                         old_text = text
                         old_type = type
 
                     old_block_number = block_number
-                      
+
         entity = detect_table(entity)
-        cprint_page(entity, OUT)        
+        cprint_page(entity, OUT)
 
         image_list = page.get_images()
         for image_index, img in enumerate(image_list, start=1):
@@ -292,9 +292,9 @@ zoom = 2 # to increase the resolution
 mat = fitz.Matrix(zoom, zoom)
 
 for page_num in range(len(pdf_document)):
-    page = pdf_document.load_page(page_num) 
+    page = pdf_document.load_page(page_num)
     pix = page.get_pixmap(matrix = mat)  # or (dpi = 300)
     img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
     filename = "PDF" + str(page_num) + '.png' # you could change image format accordingly
-    img.save(filename) 
+    img.save(filename)
     print('Converting PDFs to Image ... ' + filename)

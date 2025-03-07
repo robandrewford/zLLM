@@ -18,7 +18,7 @@ R("URLs\nImages\nPDFs\nTables")
 S("Context,\nKnowledge\nGraph,\nTaxonomy")
 W("Context\nTables")
 H("Multitoken\nDictionary")
-CT("Categories\nTags\nTitles\nBreadcrumb") 
+CT("Categories\nTags\nTitles\nBreadcrumb")
 Z("Text")
 X(" ")
 X3(" ")
@@ -69,7 +69,7 @@ end
 end
 
 subgraph green [ ]
-M 
+M
 N
 end
 end
@@ -81,14 +81,14 @@ CT --- D1
 B -- extract --- CT
 D1 --- K2
 K -- pmi --- M
-K2 -- pmi --- M 
+K2 -- pmi --- M
 S --o orange
 D1 --- H
 
 %% real time fine-tuning of Enterprise LLMs
 %% queries subqueries autocorrect
 %% word pairs also uses categories tags
-%% llm router 
+%% llm router
 %% contextual pairs
 %% scores
 %% subqueries, frontend hyperparameters, autocorrect
@@ -150,5 +150,3 @@ linkStyle 10 stroke:#FF0000,fill:none
 linkStyle 11 stroke:#FF0000,fill:none
 linkStyle 12 stroke:#FF0000,fill:none
 linkStyle 13 stroke:#FF0000,fill:none
-
-

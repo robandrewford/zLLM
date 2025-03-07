@@ -6,7 +6,7 @@ import requests
 #---[1] Functions to read the input tables (copied from xllm6_util.py)
 
 # map below to deal with some accented / non-standard characters
-utf_map = { "&nbsp;"   : " ", 
+utf_map = { "&nbsp;"   : " ",
             "&oacute;" : "o",
             "&eacute;" : "e",
             "&aacute;" : "e",
@@ -19,7 +19,7 @@ utf_map = { "&nbsp;"   : " ",
             "'s"       : "",   # example: Feller's --> Feller
           }
 
-def text_to_hash(string, format = "int"): 
+def text_to_hash(string, format = "int"):
     string = string.replace("'","").split(', ')
     hash = {}
     for word in string:
@@ -35,7 +35,7 @@ def text_to_hash(string, format = "int"):
     return(hash)
 
 
-def text_to_list(string): 
+def text_to_list(string):
     if ', ' in string:
         string = string.replace("'","").split(', ')
     else:
@@ -49,17 +49,17 @@ def text_to_list(string):
 
 
 def get_data(filename, path):
-    if 'http' in path: 
+    if 'http' in path:
         response = requests.get(path + filename)
         data = (response.text).replace('\r','').split("\n")
     else:
         file = open(filename, "r")
-        data = [line.rstrip() for line in file.readlines()] 
+        data = [line.rstrip() for line in file.readlines()]
         file.close()
     return(data)
 
 
-def read_table(filename, type, format = "int", path = ""): 
+def read_table(filename, type, format = "int", path = ""):
     table = {}
     data = get_data(filename, path)
     for line in data:
@@ -67,7 +67,7 @@ def read_table(filename, type, format = "int", path = ""):
         if len(line) > 1:
           if type == "hash":
               table[line[0]] = text_to_hash(line[1], format)
-          elif type == "list": 
+          elif type == "list":
               table[line[0]] = text_to_list(line[1])
     return(table)
 
@@ -82,7 +82,7 @@ def read_arr_url(filename, path = ""):
     return(arr_url)
 
 
-#---[2] Read the input tables (read locally if paths set to "") 
+#---[2] Read the input tables (read locally if paths set to "")
 
 repository =  "https://raw.githubusercontent.com/VincentGranville/"
 # path1 = repository + "Large-Language-Models/main/xllm6/"
@@ -136,7 +136,7 @@ for word in url_map:
                 key = (url_ID, category)
                 if key in url_category_hash:
                     url_category_hash[key] += weight
-                else: 
+                else:
                     url_category_hash[key] = weight
 
 detectedCategories = {}
@@ -144,14 +144,14 @@ detectedCategories = {}
 for key in url_category_hash:
 
     url_ID = key[0]
-    url = arr_url[url_ID] 
+    url = arr_url[url_ID]
     category = key[1]
     weight = url_category_hash[key]
 
     if url in detectedCategories:
         item = detectedCategories[url]
         old_weight = item[1]
-        if weight > old_weight: 
+        if weight > old_weight:
             # update detected category assigned to url
             detectedCategories[url] = (category, weight)
     else:
@@ -180,4 +180,4 @@ for url in detectedCategories:
 
 OUT.close()
 
-print("%4d category 'exact match' among %d URLs" %(match, len(wolframCategories))) 
+print("%4d category 'exact match' among %d URLs" %(match, len(wolframCategories)))
