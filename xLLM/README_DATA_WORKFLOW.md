@@ -11,7 +11,7 @@ This document explains the complete data processing workflow for xLLM, which all
 
 The workflow uses the following directory structure:
 
-```
+```text
 data/
 ├── pdfs/                  # Source PDF files
 ├── scraped/               # Source scraped web content
@@ -150,6 +150,7 @@ python -m xllm query "technical specifications" --knowledge-base data/knowledge/
 - **Storage Requirements**: The backend tables can be large, especially for comprehensive knowledge bases
 
 For large datasets, consider:
+
 - Processing in batches
 - Using a machine with sufficient RAM
 - Compressing the tables after compilation
