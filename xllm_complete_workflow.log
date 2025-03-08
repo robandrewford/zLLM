@@ -1,0 +1,25 @@
+2025-03-08 12:33:20,387 - xllm_complete_workflow - INFO - Skipping crawling step
+2025-03-08 12:33:20,387 - xllm_complete_workflow - INFO - Skipping PDF processing step
+2025-03-08 12:33:20,387 - xllm_complete_workflow - INFO - Running complete xLLM workflow
+2025-03-08 12:33:20,387 - xllm_complete_workflow - INFO - Running command: /Users/robertford/.pyenv/versions/3.10.0/bin/python scripts/complete_xllm_workflow.py --pdf-dir data/pdfs --scrape-dir data/scraped --processed-dir data/processed --combined-dir data/combined --tables-dir data/knowledge --output-dir data/output
+2025-03-08 12:33:20,655 - xllm_complete_workflow - ERROR - Error running complete workflow: Command '['/Users/robertford/.pyenv/versions/3.10.0/bin/python', 'scripts/complete_xllm_workflow.py', '--pdf-dir', 'data/pdfs', '--scrape-dir', 'data/scraped', '--processed-dir', 'data/processed', '--combined-dir', 'data/combined', '--tables-dir', 'data/knowledge', '--output-dir', 'data/output']' returned non-zero exit status 1.
+2025-03-08 12:33:20,655 - xllm_complete_workflow - ERROR - Complete workflow failed. Exiting.
+2025-03-08 12:33:42,207 - xllm_complete_workflow - INFO - Skipping crawling step
+2025-03-08 12:33:42,207 - xllm_complete_workflow - INFO - Skipping PDF processing step
+2025-03-08 12:33:42,207 - xllm_complete_workflow - INFO - Running complete xLLM workflow
+2025-03-08 12:33:42,207 - xllm_complete_workflow - INFO - Running command: /Users/robertford/.pyenv/versions/3.10.0/bin/python scripts/complete_xllm_workflow.py --pdf-dir data/pdfs --scrape-dir data/scraped --processed-dir data/processed --combined-dir data/combined --tables-dir data/knowledge --output-dir data/output
+2025-03-08 12:33:48,686 - xllm_complete_workflow - ERROR - Error running complete workflow: Command '['/Users/robertford/.pyenv/versions/3.10.0/bin/python', 'scripts/complete_xllm_workflow.py', '--pdf-dir', 'data/pdfs', '--scrape-dir', 'data/scraped', '--processed-dir', 'data/processed', '--combined-dir', 'data/combined', '--tables-dir', 'data/knowledge', '--output-dir', 'data/output']' returned non-zero exit status 1.
+2025-03-08 12:33:48,687 - xllm_complete_workflow - ERROR - Complete workflow failed. Exiting.
+2025-03-08 12:34:27,515 - xllm_complete_workflow - INFO - Skipping crawling step
+2025-03-08 12:34:27,515 - xllm_complete_workflow - INFO - Skipping PDF processing step
+2025-03-08 12:34:27,515 - xllm_complete_workflow - INFO - Running complete xLLM workflow
+2025-03-08 12:34:27,515 - xllm_complete_workflow - INFO - Running command: /Users/robertford/.pyenv/versions/3.10.0/bin/python scripts/complete_xllm_workflow.py --pdf-dir data/pdfs --scrape-dir data/scraped --processed-dir data/processed --combined-dir data/combined --tables-dir data/knowledge --output-dir data/output
+2025-03-08 12:34:34,047 - xllm_complete_workflow - ERROR - Error running complete workflow: Command '['/Users/robertford/.pyenv/versions/3.10.0/bin/python', 'scripts/complete_xllm_workflow.py', '--pdf-dir', 'data/pdfs', '--scrape-dir', 'data/scraped', '--processed-dir', 'data/processed', '--combined-dir', 'data/combined', '--tables-dir', 'data/knowledge', '--output-dir', 'data/output']' returned non-zero exit status 1.
+2025-03-08 12:34:34,047 - xllm_complete_workflow - ERROR - Complete workflow failed. Exiting.
+2025-03-08 12:35:29,438 - xllm_complete_workflow - INFO - Skipping crawling step
+2025-03-08 12:35:29,438 - xllm_complete_workflow - INFO - Skipping PDF processing step
+2025-03-08 12:35:29,438 - xllm_complete_workflow - INFO - Running complete xLLM workflow
+2025-03-08 12:35:29,438 - xllm_complete_workflow - INFO - Running command: /Users/robertford/.pyenv/versions/3.10.0/bin/python scripts/complete_xllm_workflow.py --pdf-dir data/pdfs --scrape-dir data/scraped --processed-dir data/processed --combined-dir data/combined --tables-dir data/knowledge --output-dir data/output
+2025-03-08 12:35:35,921 - xllm_complete_workflow - INFO - Complete workflow completed with exit code 0
+2025-03-08 12:35:35,921 - xllm_complete_workflow - INFO - Total processing time: 6.48 seconds
+2025-03-08 12:35:35,921 - xllm_complete_workflow - INFO - Complete workflow with real data completed successfully

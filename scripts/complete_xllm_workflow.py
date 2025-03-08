@@ -224,11 +224,11 @@ def generate_backend_tables(combined_data_file, tables_dir, use_existing=False):
         for entry in combined_data:
             kb.add_data(entry)
 
-        # Build the knowledge base
-        kb.build()
+        # Build the derived tables
+        kb.build_derived_tables()
 
         # Save the knowledge base
-        kb.save()
+        kb.save(Path(tables_dir))
 
         # Get the list of generated tables
         tables = {}

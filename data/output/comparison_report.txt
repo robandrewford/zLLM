@@ -1,0 +1,66 @@
+# xLLM vs xllm6 Comparison Report
+
+Total queries: 10
+Identical results: 0
+Different results: 10
+
+## Query: artificial intelligence - ❌ DIFFERENT
+
+```diff
+No corresponding xllm6 file found
+```
+
+## Query: neural networks - ❌ DIFFERENT
+
+```diff
+No corresponding xllm6 file found
+```
+
+## Query: probability theory - ❌ DIFFERENT
+
+```diff
+No corresponding xllm6 file found
+```
+
+## Query: natural language processing - ❌ DIFFERENT
+
+```diff
+No corresponding xllm6 file found
+```
+
+## Query: machine learning - ❌ DIFFERENT
+
+```diff
+No corresponding xllm6 file found
+```
+
+## Query: deep learning - ❌ DIFFERENT
+
+```diff
+No corresponding xllm6 file found
+```
+
+## Query: reinforcement learning - ❌ DIFFERENT
+
+```diff
+No corresponding xllm6 file found
+```
+
+## Query: statistics - ❌ DIFFERENT
+
+```diff
+No corresponding xllm6 file found
+```
+
+## Query: data science - ❌ DIFFERENT
+
+```diff
+No corresponding xllm6 file found
+```
+
+## Query: computer vision - ❌ DIFFERENT
+
+```diff
+No corresponding xllm6 file found
+```
+

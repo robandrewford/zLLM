@@ -1,17 +1,4 @@
 Query: statistics
 
-Found 1 results:
+No results found.
 
-1. statistics (score: 0.04, count: 4)
-   Categories:
-     - Mathematics (1)
-     - Statistics (1)
-     - Probability (1)
-   Related topics:
-     - Probability (3)
-     - Statistics (3)
-     - Data Analysis (1)
-   URLs:
-     - https://example.com/statistics (1)
-     - https://example.com/normal-distribution (1)
-     - https://example.com/bayes-theorem (1)

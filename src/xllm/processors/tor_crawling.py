@@ -9,8 +9,8 @@ import logging
 import os
 import time
 from pathlib import Path
-import requests
-from bs4 import BeautifulSoup
+import requests  # type: ignore
+from bs4 import BeautifulSoup  # type: ignore
 
 # Configure logging
 logging.basicConfig(
@@ -78,36 +78,30 @@ class TorCrawler:
         return session
 
     def _renew_tor_circuit(self):
-        """Renew the Tor circuit to get a new IP address.
-
-        This requires the Tor ControlPort to be enabled and accessible.
-        For this to work, you need to:
-        1. Configure Tor with ControlPort enabled
-        2. Set a password for the ControlPort
-
-        Returns:
-            bool: True if successful, False otherwise
         """
+        Renew the Tor circuit to get a new IP address.
+        """
+        logger.info("Renewing Tor circuit to get a new IP address...")
+
+        # First try using the control port
+        success = False
+
         try:
             # Try to use the stem library if available
-            from stem import Signal
-            from stem.control import Controller
+            from stem import Signal  # type: ignore
+            from stem.control import Controller  # type: ignore
 
             with Controller.from_port(port=9051) as controller:
                 controller.authenticate()  # You might need to provide a password here
                 controller.signal(Signal.NEWNYM)
-                logger.info("Tor circuit renewed successfully")
-
-                # Create a new session with the new circuit
-                self.session = self._create_tor_session()
-                return True
-        except ImportError:
-            logger.warning("stem library not available. Cannot renew Tor circuit programmatically.")
-            logger.warning("Please restart the Tor service manually or install stem with 'pip install stem'")
+                logger.info("Successfully renewed Tor circuit via control port")
+                success = True
+                time.sleep(self.delay)  # Wait for the new circuit to be established
         except Exception as e:
-            logger.error(f"Error renewing Tor circuit: {e}")
+            logger.warning(f"Failed to renew Tor circuit via control port: {e}")
 
-        return False
+        if not success:
+            logger.warning("Please restart the Tor service manually or install stem with 'pip install stem'")
 
     def crawl(self, url, max_pages=10):
         """Crawl a website starting from the given URL.
@@ -299,3 +293,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

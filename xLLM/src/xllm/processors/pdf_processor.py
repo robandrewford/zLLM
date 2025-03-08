@@ -2,7 +2,7 @@
 
 import logging
 from pathlib import Path
-from typing import Dict, List, Optional, Any, Tuple
+from typing import Dict, List, Optional, Any, Tuple, Union
 import fitz  # PyMuPDF
 
 from xllm.processors.base import BaseProcessor
@@ -19,18 +19,19 @@ class PDFProcessor(BaseProcessor):
 
     def __init__(
         self,
-        output_dir: Optional[Path] = None,
+        output_dir: Optional[Union[str, Path]] = None,
         min_title_font_size: float = 12.0,
         table_detection_threshold: float = 0.5,
     ):
         """Initialize the PDF processor.
 
         Args:
-            output_dir: Directory to save processed data
+            output_dir: Directory to save processed data (str or Path)
             min_title_font_size: Minimum font size for text to be considered a title
             table_detection_threshold: Threshold for table detection
         """
-        self.output_dir = output_dir or Path("data/processed")
+        # Convert string to Path if needed
+        self.output_dir = Path(output_dir) if output_dir else Path("data/processed")
         self.min_title_font_size = min_title_font_size
         self.table_detection_threshold = table_detection_threshold
 

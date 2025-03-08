@@ -1,39 +1,4 @@
 Query: data science
 
-Found 3 results:
+No results found.
 
-1. science (score: 0.04, count: 4)
-   Categories:
-     - Computer Science (3)
-     - Mathematics (1)
-   Related topics:
-     - Statistics (3)
-     - Machine Learning (3)
-     - Artificial Intelligence (3)
-   URLs:
-     - https://example.com/data-science (3)
-     - https://example.com/statistics (1)
-
-2. data (score: 0.04, count: 4)
-   Categories:
-     - Mathematics (2)
-     - Computer Science (2)
-   Related topics:
-     - Probability (2)
-     - Data Analysis (2)
-     - Mathematics (2)
-   URLs:
-     - https://example.com/statistics (2)
-     - https://example.com/data-science (2)
-
-3. data~science (score: 0.02, count: 2)
-   Categories:
-     - Mathematics (1)
-     - Computer Science (1)
-   Related topics:
-     - Probability (1)
-     - Data Analysis (1)
-     - Mathematics (1)
-   URLs:
-     - https://example.com/statistics (1)
-     - https://example.com/data-science (1)

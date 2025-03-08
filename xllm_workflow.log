@@ -49,3 +49,106 @@
 2025-03-07 16:37:38,286 - xllm_workflow - INFO - Results saved to data/output/xllm_reinforcement_learning.txt
 2025-03-07 16:37:38,286 - xllm_workflow - INFO - Processed 10 queries
 2025-03-07 16:37:38,287 - xllm_workflow - INFO - Total processing time: 0.09 seconds
+2025-03-08 12:33:20,405 - xllm_workflow - INFO - Step 1: Processing data sources
+2025-03-08 12:33:20,405 - xllm_workflow - INFO - Processing PDFs from data/pdfs
+2025-03-08 12:33:42,224 - xllm_workflow - INFO - Step 1: Processing data sources
+2025-03-08 12:33:42,224 - xllm_workflow - INFO - Processing PDFs from data/pdfs
+2025-03-08 12:33:42,317 - xllm_workflow - INFO - Processing PDF: data/pdfs/llm_survey.pdf
+2025-03-08 12:33:48,568 - xllm_workflow - INFO - Processing scraped content from data/scraped
+2025-03-08 12:33:48,568 - xllm_workflow - WARNING - WebContentProcessor not available. Skipping scraped content processing.
+2025-03-08 12:33:48,568 - xllm_workflow - INFO - Processed 1 PDF files and 0 scraped content files
+2025-03-08 12:33:48,569 - xllm_workflow - INFO - Step 2: Combining processed data
+2025-03-08 12:33:48,648 - xllm_workflow - INFO - Combined data saved to data/combined/combined_data_1741466028.json
+2025-03-08 12:33:48,648 - xllm_workflow - INFO - Combined 1 data entries
+2025-03-08 12:33:48,649 - xllm_workflow - INFO - Step 3: Generating backend tables
+2025-03-08 12:34:27,533 - xllm_workflow - INFO - Step 1: Processing data sources
+2025-03-08 12:34:27,533 - xllm_workflow - INFO - Processing PDFs from data/pdfs
+2025-03-08 12:34:27,623 - xllm_workflow - INFO - Processing PDF: data/pdfs/llm_survey.pdf
+2025-03-08 12:34:33,863 - xllm_workflow - INFO - Processing scraped content from data/scraped
+2025-03-08 12:34:33,863 - xllm_workflow - WARNING - WebContentProcessor not available. Skipping scraped content processing.
+2025-03-08 12:34:33,863 - xllm_workflow - INFO - Processed 1 PDF files and 0 scraped content files
+2025-03-08 12:34:33,864 - xllm_workflow - INFO - Step 2: Combining processed data
+2025-03-08 12:34:34,012 - xllm_workflow - INFO - Combined data saved to data/combined/combined_data_1741466073.json
+2025-03-08 12:34:34,012 - xllm_workflow - INFO - Combined 1 data entries
+2025-03-08 12:34:34,013 - xllm_workflow - INFO - Step 3: Generating backend tables
+2025-03-08 12:35:29,456 - xllm_workflow - INFO - Step 1: Processing data sources
+2025-03-08 12:35:29,457 - xllm_workflow - INFO - Processing PDFs from data/pdfs
+2025-03-08 12:35:29,546 - xllm_workflow - INFO - Processing PDF: data/pdfs/llm_survey.pdf
+2025-03-08 12:35:35,801 - xllm_workflow - INFO - Processing scraped content from data/scraped
+2025-03-08 12:35:35,802 - xllm_workflow - WARNING - WebContentProcessor not available. Skipping scraped content processing.
+2025-03-08 12:35:35,802 - xllm_workflow - INFO - Processed 1 PDF files and 0 scraped content files
+2025-03-08 12:35:35,803 - xllm_workflow - INFO - Step 2: Combining processed data
+2025-03-08 12:35:35,883 - xllm_workflow - INFO - Combined data saved to data/combined/combined_data_1741466135.json
+2025-03-08 12:35:35,883 - xllm_workflow - INFO - Combined 1 data entries
+2025-03-08 12:35:35,884 - xllm_workflow - INFO - Step 3: Generating backend tables
+2025-03-08 12:35:35,894 - xllm.knowledge_base.hash_knowledge_base - INFO - Knowledge base saved to data/knowledge
+2025-03-08 12:35:35,894 - xllm_workflow - INFO - Generated table: dictionary
+2025-03-08 12:35:35,894 - xllm_workflow - INFO - Generated table: embeddings
+2025-03-08 12:35:35,894 - xllm_workflow - INFO - Generated table: word_hash
+2025-03-08 12:35:35,894 - xllm_workflow - INFO - Generated table: hash_see
+2025-03-08 12:35:35,894 - xllm_workflow - INFO - Generated table: hash_related
+2025-03-08 12:35:35,894 - xllm_workflow - INFO - Generated table: hash_category
+2025-03-08 12:35:35,894 - xllm_workflow - INFO - Generated table: ngrams_table
+2025-03-08 12:35:35,894 - xllm_workflow - INFO - Generated table: compressed_ngrams_table
+2025-03-08 12:35:35,894 - xllm_workflow - INFO - Generated table: compressed_word2_hash
+2025-03-08 12:35:35,894 - xllm_workflow - INFO - Generated table: word2_pairs
+2025-03-08 12:35:35,894 - xllm_workflow - INFO - Generated table: url_map
+2025-03-08 12:35:35,894 - xllm_workflow - INFO - Generated table: arr_url
+2025-03-08 12:35:35,894 - xllm_workflow - INFO - Backend tables generated in data/knowledge
+2025-03-08 12:35:35,895 - xllm_workflow - INFO - Step 4: Processing queries
+2025-03-08 12:35:35,895 - xllm.knowledge_base.hash_knowledge_base - INFO - Knowledge base loaded from data/knowledge/knowledge_base.pkl
+2025-03-08 12:35:35,895 - xllm_workflow - INFO - Processing query: machine learning
+2025-03-08 12:35:35,895 - xllm.query_engine.knowledge_query_engine - INFO - Querying knowledge base with: machine learning
+2025-03-08 12:35:35,895 - xllm.query_engine.knowledge_query_engine - INFO - Found 0 results
+2025-03-08 12:35:35,896 - xllm_workflow - INFO - Results saved to data/output/xllm_machine_learning.txt
+2025-03-08 12:35:35,896 - xllm_workflow - INFO - Processing query: neural networks
+2025-03-08 12:35:35,896 - xllm.query_engine.knowledge_query_engine - INFO - Querying knowledge base with: neural networks
+2025-03-08 12:35:35,896 - xllm.query_engine.knowledge_query_engine - INFO - Found 0 results
+2025-03-08 12:35:35,896 - xllm_workflow - INFO - Results saved to data/output/xllm_neural_networks.txt
+2025-03-08 12:35:35,896 - xllm_workflow - INFO - Processing query: probability theory
+2025-03-08 12:35:35,896 - xllm.query_engine.knowledge_query_engine - INFO - Querying knowledge base with: probability theory
+2025-03-08 12:35:35,896 - xllm.query_engine.knowledge_query_engine - INFO - Found 0 results
+2025-03-08 12:35:35,896 - xllm_workflow - INFO - Results saved to data/output/xllm_probability_theory.txt
+2025-03-08 12:35:35,896 - xllm_workflow - INFO - Processing query: statistics
+2025-03-08 12:35:35,896 - xllm.query_engine.knowledge_query_engine - INFO - Querying knowledge base with: statistics
+2025-03-08 12:35:35,896 - xllm.query_engine.knowledge_query_engine - INFO - Found 0 results
+2025-03-08 12:35:35,896 - xllm_workflow - INFO - Results saved to data/output/xllm_statistics.txt
+2025-03-08 12:35:35,896 - xllm_workflow - INFO - Processing query: deep learning
+2025-03-08 12:35:35,896 - xllm.query_engine.knowledge_query_engine - INFO - Querying knowledge base with: deep learning
+2025-03-08 12:35:35,896 - xllm.query_engine.knowledge_query_engine - INFO - Found 0 results
+2025-03-08 12:35:35,896 - xllm_workflow - INFO - Results saved to data/output/xllm_deep_learning.txt
+2025-03-08 12:35:35,896 - xllm_workflow - INFO - Processing query: artificial intelligence
+2025-03-08 12:35:35,896 - xllm.query_engine.knowledge_query_engine - INFO - Querying knowledge base with: artificial intelligence
+2025-03-08 12:35:35,896 - xllm.query_engine.knowledge_query_engine - INFO - Found 0 results
+2025-03-08 12:35:35,896 - xllm_workflow - INFO - Results saved to data/output/xllm_artificial_intelligence.txt
+2025-03-08 12:35:35,896 - xllm_workflow - INFO - Processing query: data science
+2025-03-08 12:35:35,896 - xllm.query_engine.knowledge_query_engine - INFO - Querying knowledge base with: data science
+2025-03-08 12:35:35,896 - xllm.query_engine.knowledge_query_engine - INFO - Found 0 results
+2025-03-08 12:35:35,896 - xllm_workflow - INFO - Results saved to data/output/xllm_data_science.txt
+2025-03-08 12:35:35,896 - xllm_workflow - INFO - Processing query: natural language processing
+2025-03-08 12:35:35,896 - xllm.query_engine.knowledge_query_engine - INFO - Querying knowledge base with: natural language processing
+2025-03-08 12:35:35,896 - xllm.query_engine.knowledge_query_engine - INFO - Found 0 results
+2025-03-08 12:35:35,897 - xllm_workflow - INFO - Results saved to data/output/xllm_natural_language_processing.txt
+2025-03-08 12:35:35,897 - xllm_workflow - INFO - Processing query: computer vision
+2025-03-08 12:35:35,897 - xllm.query_engine.knowledge_query_engine - INFO - Querying knowledge base with: computer vision
+2025-03-08 12:35:35,897 - xllm.query_engine.knowledge_query_engine - INFO - Found 0 results
+2025-03-08 12:35:35,897 - xllm_workflow - INFO - Results saved to data/output/xllm_computer_vision.txt
+2025-03-08 12:35:35,897 - xllm_workflow - INFO - Processing query: reinforcement learning
+2025-03-08 12:35:35,897 - xllm.query_engine.knowledge_query_engine - INFO - Querying knowledge base with: reinforcement learning
+2025-03-08 12:35:35,897 - xllm.query_engine.knowledge_query_engine - INFO - Found 0 results
+2025-03-08 12:35:35,897 - xllm_workflow - INFO - Results saved to data/output/xllm_reinforcement_learning.txt
+2025-03-08 12:35:35,897 - xllm_workflow - INFO - Processed 10 queries
+2025-03-08 12:35:35,897 - xllm_workflow - INFO - Step 5: Comparing with xllm6 outputs
+2025-03-08 12:35:35,897 - xllm_workflow - WARNING - No corresponding xllm6 file found for xllm_artificial_intelligence.txt
+2025-03-08 12:35:35,897 - xllm_workflow - WARNING - No corresponding xllm6 file found for xllm_neural_networks.txt
+2025-03-08 12:35:35,897 - xllm_workflow - WARNING - No corresponding xllm6 file found for xllm_probability_theory.txt
+2025-03-08 12:35:35,897 - xllm_workflow - WARNING - No corresponding xllm6 file found for xllm_natural_language_processing.txt
+2025-03-08 12:35:35,898 - xllm_workflow - WARNING - No corresponding xllm6 file found for xllm_machine_learning.txt
+2025-03-08 12:35:35,898 - xllm_workflow - WARNING - No corresponding xllm6 file found for xllm_deep_learning.txt
+2025-03-08 12:35:35,898 - xllm_workflow - WARNING - No corresponding xllm6 file found for xllm_reinforcement_learning.txt
+2025-03-08 12:35:35,898 - xllm_workflow - WARNING - No corresponding xllm6 file found for xllm_statistics.txt
+2025-03-08 12:35:35,898 - xllm_workflow - WARNING - No corresponding xllm6 file found for xllm_data_science.txt
+2025-03-08 12:35:35,898 - xllm_workflow - WARNING - No corresponding xllm6 file found for xllm_computer_vision.txt
+2025-03-08 12:35:35,898 - xllm_workflow - INFO - Comparison complete: 0 identical, 10 different
+2025-03-08 12:35:35,898 - xllm_workflow - INFO - Comparison report saved to data/output/comparison_report.txt
+2025-03-08 12:35:35,898 - xllm_workflow - INFO - Total processing time: 6.44 seconds
