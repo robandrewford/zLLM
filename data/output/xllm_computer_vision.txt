@@ -1,0 +1,13 @@
+Query: computer vision
+
+Found 1 results:
+
+1. computer (score: 0.01, count: 1)
+   Categories:
+     - Computer Science (1)
+   Related topics:
+     - Statistics (1)
+     - Machine Learning (1)
+     - Artificial Intelligence (1)
+   URLs:
+     - https://example.com/data-science (1)

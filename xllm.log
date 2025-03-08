@@ -1,0 +1,4 @@
+2025-03-07 16:41:23,733 - xllm - INFO - Starting crawl from https://mathworld.wolfram.com/topics/ProbabilityandStatistics.html with max 5 pages
+2025-03-07 16:41:26,234 - xllm.crawlers.wolfram_crawler - INFO - Parsing: 1 out of 1: https://mathworld.wolfram.com/topics/ProbabilityandStatistics.html
+2025-03-07 16:41:26,903 - xllm.crawlers.wolfram_crawler - WARNING - Failed: https://mathworld.wolfram.com/topics/ProbabilityandStatistics.html with status 403
+2025-03-07 16:41:26,905 - xllm - INFO - Crawling complete. Processed 0 pages

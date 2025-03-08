@@ -1,0 +1,51 @@
+2025-03-07 16:36:47,524 - xllm_workflow - INFO - Skipping data processing steps
+2025-03-07 16:36:47,524 - xllm_workflow - INFO - Step 4: Processing queries
+2025-03-07 16:36:47,524 - xllm_workflow - ERROR - Query engine not available. Cannot process queries.
+2025-03-07 16:36:47,524 - xllm_workflow - INFO - Total processing time: 0.00 seconds
+2025-03-07 16:37:18,732 - xllm_workflow - INFO - Skipping data processing steps
+2025-03-07 16:37:18,732 - xllm_workflow - INFO - Step 4: Processing queries
+2025-03-07 16:37:38,193 - xllm_workflow - INFO - Skipping data processing steps
+2025-03-07 16:37:38,193 - xllm_workflow - INFO - Step 4: Processing queries
+2025-03-07 16:37:38,285 - xllm.knowledge_base.hash_knowledge_base - INFO - Knowledge base loaded from xLLM/data/knowledge/knowledge_base.pkl
+2025-03-07 16:37:38,285 - xllm_workflow - INFO - Processing query: machine learning
+2025-03-07 16:37:38,285 - xllm.query_engine.knowledge_query_engine - INFO - Querying knowledge base with: machine learning
+2025-03-07 16:37:38,285 - xllm.query_engine.knowledge_query_engine - INFO - Found 0 results
+2025-03-07 16:37:38,285 - xllm_workflow - INFO - Results saved to data/output/xllm_machine_learning.txt
+2025-03-07 16:37:38,285 - xllm_workflow - INFO - Processing query: neural networks
+2025-03-07 16:37:38,285 - xllm.query_engine.knowledge_query_engine - INFO - Querying knowledge base with: neural networks
+2025-03-07 16:37:38,285 - xllm.query_engine.knowledge_query_engine - INFO - Found 0 results
+2025-03-07 16:37:38,285 - xllm_workflow - INFO - Results saved to data/output/xllm_neural_networks.txt
+2025-03-07 16:37:38,285 - xllm_workflow - INFO - Processing query: probability theory
+2025-03-07 16:37:38,285 - xllm.query_engine.knowledge_query_engine - INFO - Querying knowledge base with: probability theory
+2025-03-07 16:37:38,285 - xllm.query_engine.knowledge_query_engine - INFO - Found 3 results
+2025-03-07 16:37:38,286 - xllm_workflow - INFO - Results saved to data/output/xllm_probability_theory.txt
+2025-03-07 16:37:38,286 - xllm_workflow - INFO - Processing query: statistics
+2025-03-07 16:37:38,286 - xllm.query_engine.knowledge_query_engine - INFO - Querying knowledge base with: statistics
+2025-03-07 16:37:38,286 - xllm.query_engine.knowledge_query_engine - INFO - Found 1 results
+2025-03-07 16:37:38,286 - xllm_workflow - INFO - Results saved to data/output/xllm_statistics.txt
+2025-03-07 16:37:38,286 - xllm_workflow - INFO - Processing query: deep learning
+2025-03-07 16:37:38,286 - xllm.query_engine.knowledge_query_engine - INFO - Querying knowledge base with: deep learning
+2025-03-07 16:37:38,286 - xllm.query_engine.knowledge_query_engine - INFO - Found 0 results
+2025-03-07 16:37:38,286 - xllm_workflow - INFO - Results saved to data/output/xllm_deep_learning.txt
+2025-03-07 16:37:38,286 - xllm_workflow - INFO - Processing query: artificial intelligence
+2025-03-07 16:37:38,286 - xllm.query_engine.knowledge_query_engine - INFO - Querying knowledge base with: artificial intelligence
+2025-03-07 16:37:38,286 - xllm.query_engine.knowledge_query_engine - INFO - Found 0 results
+2025-03-07 16:37:38,286 - xllm_workflow - INFO - Results saved to data/output/xllm_artificial_intelligence.txt
+2025-03-07 16:37:38,286 - xllm_workflow - INFO - Processing query: data science
+2025-03-07 16:37:38,286 - xllm.query_engine.knowledge_query_engine - INFO - Querying knowledge base with: data science
+2025-03-07 16:37:38,286 - xllm.query_engine.knowledge_query_engine - INFO - Found 3 results
+2025-03-07 16:37:38,286 - xllm_workflow - INFO - Results saved to data/output/xllm_data_science.txt
+2025-03-07 16:37:38,286 - xllm_workflow - INFO - Processing query: natural language processing
+2025-03-07 16:37:38,286 - xllm.query_engine.knowledge_query_engine - INFO - Querying knowledge base with: natural language processing
+2025-03-07 16:37:38,286 - xllm.query_engine.knowledge_query_engine - INFO - Found 1 results
+2025-03-07 16:37:38,286 - xllm_workflow - INFO - Results saved to data/output/xllm_natural_language_processing.txt
+2025-03-07 16:37:38,286 - xllm_workflow - INFO - Processing query: computer vision
+2025-03-07 16:37:38,286 - xllm.query_engine.knowledge_query_engine - INFO - Querying knowledge base with: computer vision
+2025-03-07 16:37:38,286 - xllm.query_engine.knowledge_query_engine - INFO - Found 1 results
+2025-03-07 16:37:38,286 - xllm_workflow - INFO - Results saved to data/output/xllm_computer_vision.txt
+2025-03-07 16:37:38,286 - xllm_workflow - INFO - Processing query: reinforcement learning
+2025-03-07 16:37:38,286 - xllm.query_engine.knowledge_query_engine - INFO - Querying knowledge base with: reinforcement learning
+2025-03-07 16:37:38,286 - xllm.query_engine.knowledge_query_engine - INFO - Found 0 results
+2025-03-07 16:37:38,286 - xllm_workflow - INFO - Results saved to data/output/xllm_reinforcement_learning.txt
+2025-03-07 16:37:38,286 - xllm_workflow - INFO - Processed 10 queries
+2025-03-07 16:37:38,287 - xllm_workflow - INFO - Total processing time: 0.09 seconds

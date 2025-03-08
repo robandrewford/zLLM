@@ -1,0 +1,37 @@
+Query: probability theory
+
+Found 3 results:
+
+1. probability (score: 0.05, count: 5)
+   Categories:
+     - Mathematics (3)
+     - Statistics (1)
+     - Probability (1)
+   Related topics:
+     - Statistics (4)
+     - Mathematics (3)
+     - Probability (3)
+   URLs:
+     - https://example.com/probability (2)
+     - https://example.com/statistics (1)
+     - https://example.com/normal-distribution (1)
+
+2. theory (score: 0.01, count: 1)
+   Categories:
+     - Mathematics (1)
+   Related topics:
+     - Probability (1)
+     - Data Analysis (1)
+     - Mathematics (1)
+   URLs:
+     - https://example.com/statistics (1)
+
+3. probability~theory (score: 0.01, count: 1)
+   Categories:
+     - Mathematics (1)
+   Related topics:
+     - Probability (1)
+     - Data Analysis (1)
+     - Mathematics (1)
+   URLs:
+     - https://example.com/statistics (1)

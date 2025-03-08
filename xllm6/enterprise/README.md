@@ -10,7 +10,7 @@ The web crawler functionality is primarily implemented in:
 
 - **`crawl_directory.py`**: The main crawler that systematically navigates through Wolfram Alpha's math website, specifically targeting the mathematics categories and content.
 - **`tor_crawling.py`**: A supplementary tool that enables crawling through Tor network for anonymity and to avoid IP blocking.
-- **`brightdata.py`**: Provides additional proxy capabilities for web crawling.
+- **`data.py`**: Provides additional proxy capabilities for web crawling.
 
 The crawler outputs are stored in:
 

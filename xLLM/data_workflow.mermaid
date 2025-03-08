@@ -1,0 +1,44 @@
+graph TD
+    subgraph "Data Sources"
+        A[PDF Files] -->|Process| C[Processed PDF Data]
+        B[Scraped Web Content] -->|Process| D[Processed Web Data]
+    end
+
+    subgraph "Data Integration"
+        C -->|Combine| E[Combined Data]
+        D -->|Combine| E
+    end
+
+    subgraph "Knowledge Base Construction"
+        E -->|Compile| F[Backend Tables]
+        F --> G[Dictionary Table]
+        F --> H[Embeddings Table]
+        F --> I[Word Hash Table]
+        F --> J[Hash See/Related/Category Tables]
+        F --> K[N-grams Table]
+        F --> L[Compressed Tables]
+    end
+
+    subgraph "LLM Integration"
+        F -->|Load| M[xLLM Query Engine]
+        N[User Query] -->|Input| M
+        M -->|Generate| O[Response]
+        P[External LLM] -.->|Optional Integration| F
+    end
+
+    style A fill:#f9d5e5,stroke:#333,stroke-width:1px
+    style B fill:#f9d5e5,stroke:#333,stroke-width:1px
+    style C fill:#eeeeee,stroke:#333,stroke-width:1px
+    style D fill:#eeeeee,stroke:#333,stroke-width:1px
+    style E fill:#d3f8e2,stroke:#333,stroke-width:1px
+    style F fill:#e4c1f9,stroke:#333,stroke-width:1px
+    style G fill:#a9def9,stroke:#333,stroke-width:1px
+    style H fill:#a9def9,stroke:#333,stroke-width:1px
+    style I fill:#a9def9,stroke:#333,stroke-width:1px
+    style J fill:#a9def9,stroke:#333,stroke-width:1px
+    style K fill:#a9def9,stroke:#333,stroke-width:1px
+    style L fill:#a9def9,stroke:#333,stroke-width:1px
+    style M fill:#ff99c8,stroke:#333,stroke-width:1px
+    style N fill:#fcf6bd,stroke:#333,stroke-width:1px
+    style O fill:#fcf6bd,stroke:#333,stroke-width:1px
+    style P fill:#d0f4de,stroke:#333,stroke-width:1px
