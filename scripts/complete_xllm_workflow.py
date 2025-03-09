@@ -329,9 +329,7 @@ def process_queries(tables_dir, queries, output_dir):
             logger.info(f"Processing query: {query}")
 
             # Generate output file path
-            output_file = os.path.join(
-                output_dir, f"xllm_{query.replace(' ', '_')}.txt"
-            )
+            output_file = os.path.join(output_dir, f"xllm_{query.replace(' ', '_')}.txt")
 
             # Process the query
             results = query_engine.query(query)
@@ -372,23 +370,17 @@ def compare_with_xllm6(xllm_output_dir, xllm6_output_dir):
 
     # Check if xllm6 output directory exists
     if not os.path.exists(xllm6_output_dir):
-        logger.warning(
-            f"xllm6 output directory {xllm6_output_dir} not found. Skipping comparison."
-        )
+        logger.warning(f"xllm6 output directory {xllm6_output_dir} not found. Skipping comparison.")
         return {}
 
     # Get xLLM output files
     xllm_files = [
-        f
-        for f in os.listdir(xllm_output_dir)
-        if f.startswith("xllm_") and f.endswith(".txt")
+        f for f in os.listdir(xllm_output_dir) if f.startswith("xllm_") and f.endswith(".txt")
     ]
 
     # Get xllm6 output files
     xllm6_files = [
-        f
-        for f in os.listdir(xllm6_output_dir)
-        if f.startswith("xllm6_") and f.endswith(".txt")
+        f for f in os.listdir(xllm6_output_dir) if f.startswith("xllm6_") and f.endswith(".txt")
     ]
 
     # Map xLLM files to xllm6 files
@@ -403,11 +395,10 @@ def compare_with_xllm6(xllm_output_dir, xllm6_output_dir):
 
         if xllm6_file in xllm6_files:
             # Compare the files
-            with open(
-                os.path.join(xllm_output_dir, xllm_file), "r", encoding="utf-8"
-            ) as f1, open(
-                os.path.join(xllm6_output_dir, xllm6_file), "r", encoding="utf-8"
-            ) as f2:
+            with (
+                open(os.path.join(xllm_output_dir, xllm_file), "r", encoding="utf-8") as f1,
+                open(os.path.join(xllm6_output_dir, xllm6_file), "r", encoding="utf-8") as f2,
+            ):
                 xllm_content = f1.readlines()
                 xllm6_content = f2.readlines()
 
@@ -454,14 +445,10 @@ def compare_with_xllm6(xllm_output_dir, xllm6_output_dir):
             }
 
     # Generate comparison report
-    identical_count = sum(
-        1 for result in comparison_results.values() if result["identical"]
-    )
+    identical_count = sum(1 for result in comparison_results.values() if result["identical"])
     different_count = len(comparison_results) - identical_count
 
-    logger.info(
-        f"Comparison complete: {identical_count} identical, {different_count} different"
-    )
+    logger.info(f"Comparison complete: {identical_count} identical, {different_count} different")
 
     return comparison_results
 
@@ -547,14 +534,10 @@ def main():
         )
 
         # Step 2: Combine data
-        combined_file = combine_data(
-            pdf_data_files, scraped_data_files, args.combined_dir
-        )
+        combined_file = combine_data(pdf_data_files, scraped_data_files, args.combined_dir)
 
         # Step 3: Generate backend tables
-        generate_backend_tables(
-            combined_file, args.tables_dir, args.use_existing_tables
-        )
+        generate_backend_tables(combined_file, args.tables_dir, args.use_existing_tables)
     else:
         logger.info("Skipping data processing steps")
 
@@ -603,13 +586,9 @@ def main():
     print(f"Queries processed: {len(output_files)}")
     print(f"Output files directory: {args.output_dir}")
     if not args.skip_comparison:
-        identical_count = sum(
-            1 for result in comparison_results.values() if result["identical"]
-        )
+        identical_count = sum(1 for result in comparison_results.values() if result["identical"])
         different_count = len(comparison_results) - identical_count
-        print(
-            f"Comparison results: {identical_count} identical, {different_count} different"
-        )
+        print(f"Comparison results: {identical_count} identical, {different_count} different")
         print(f"Comparison report: {report_path}")
     print(f"Total processing time: {total_time:.2f} seconds")
 

@@ -112,12 +112,7 @@ while parsed < min(max_URLs, n_URLs):
                         URL_list.append(new_URL)
                         update_lists(new_URL, new_category, parent_category, file2)
                         file1.write(
-                            new_URL
-                            + "\tQueued\t"
-                            + new_category
-                            + "\t"
-                            + str(level + 1)
-                            + "\n"
+                            new_URL + "\tQueued\t" + new_category + "\t" + str(level + 1) + "\n"
                         )
                         file1.flush()
                         n_URLs += 1
@@ -133,12 +128,7 @@ while parsed < min(max_URLs, n_URLs):
                         new_category = line[1]
                         update_lists(new_URL, new_category, parent_category, file2)
                         file1.write(
-                            new_URL
-                            + "\tEndNode\t"
-                            + new_category
-                            + "\t"
-                            + str(level + 1)
-                            + "\n"
+                            new_URL + "\tEndNode\t" + new_category + "\t" + str(level + 1) + "\n"
                         )
                         file1.flush()
                         final_URLs[new_URL] = (new_category, parent_category, level + 1)
@@ -166,9 +156,7 @@ file_log = open("crawl_content_log.txt", "w", encoding="utf-8")
 
 begin = 1
 end = 500
-file_output = open(
-    "crawl_final_" + str(begin) + "_" + str(end) + ".txt", "w", encoding="utf-8"
-)
+file_output = open("crawl_final_" + str(begin) + "_" + str(end) + ".txt", "w", encoding="utf-8")
 separator = "\t~"
 
 Lines = file_input.readlines()

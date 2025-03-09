@@ -50,9 +50,7 @@ def process_pdfs(pdf_dir, output_dir):
 
     for pdf_file in pdf_files:
         pdf_path = os.path.join(pdf_dir, pdf_file)
-        output_file = os.path.join(
-            output_dir, f"{os.path.splitext(pdf_file)[0]}_processed.json"
-        )
+        output_file = os.path.join(output_dir, f"{os.path.splitext(pdf_file)[0]}_processed.json")
 
         logger.info(f"Processing PDF: {pdf_path}")
 
@@ -82,9 +80,7 @@ def process_pdfs(pdf_dir, output_dir):
         except Exception as e:
             logger.error(f"Error processing PDF {pdf_path}: {e}")
 
-    logger.info(
-        f"Completed processing {len(processed_files)} out of {len(pdf_files)} PDF files"
-    )
+    logger.info(f"Completed processing {len(processed_files)} out of {len(pdf_files)} PDF files")
     return processed_files
 
 
@@ -106,9 +102,7 @@ def process_scraped_content(scrape_dir, output_dir):
 
     # Get all text/JSON files in the directory (assuming scraped content is in these formats)
     scraped_files = [
-        f
-        for f in os.listdir(scrape_dir)
-        if f.lower().endswith((".txt", ".json", ".html"))
+        f for f in os.listdir(scrape_dir) if f.lower().endswith((".txt", ".json", ".html"))
     ]
     logger.info(f"Found {len(scraped_files)} scraped content files to process")
 
@@ -142,9 +136,7 @@ def process_scraped_content(scrape_dir, output_dir):
                 )
 
             processed_files.append(output_file)
-            logger.info(
-                f"Successfully processed scraped content: {scraped_path} -> {output_file}"
-            )
+            logger.info(f"Successfully processed scraped content: {scraped_path} -> {output_file}")
 
         except Exception as e:
             logger.error(f"Error processing scraped content {scraped_path}: {e}")
@@ -265,12 +257,8 @@ def compile_backend_tables(combined_data_file, output_dir):
             "hash_related": os.path.join(output_dir, "xllm_hash_related.txt"),
             "hash_category": os.path.join(output_dir, "xllm_hash_category.txt"),
             "ngrams_table": os.path.join(output_dir, "xllm_ngrams_table.txt"),
-            "compressed_ngrams_table": os.path.join(
-                output_dir, "xllm_compressed_ngrams_table.txt"
-            ),
-            "compressed_word2_hash": os.path.join(
-                output_dir, "xllm_compressed_word2_hash.txt"
-            ),
+            "compressed_ngrams_table": os.path.join(output_dir, "xllm_compressed_ngrams_table.txt"),
+            "compressed_word2_hash": os.path.join(output_dir, "xllm_compressed_word2_hash.txt"),
         }
 
         # Verify that all tables were created
@@ -354,9 +342,7 @@ def main():
     # Process scraped content if not skipped
     if not args.skip_scraped:
         scraped_processed_dir = os.path.join(args.processed_dir, "scraped")
-        scraped_data_files = process_scraped_content(
-            args.scrape_dir, scraped_processed_dir
-        )
+        scraped_data_files = process_scraped_content(args.scrape_dir, scraped_processed_dir)
     else:
         logger.info("Skipping scraped content processing")
 
@@ -371,9 +357,7 @@ def main():
         )
         return 1
     else:
-        logger.info(
-            f"Skipping data combination, using existing file: {combined_data_file}"
-        )
+        logger.info(f"Skipping data combination, using existing file: {combined_data_file}")
 
     # Compile backend tables
     tables = compile_backend_tables(combined_data_file, args.tables_dir)

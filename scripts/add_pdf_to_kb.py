@@ -22,9 +22,7 @@ logger = logging.getLogger("add_pdf_to_kb")
 def main():
     """Add processed PDF data to the knowledge base."""
     # Parse command line arguments
-    parser = argparse.ArgumentParser(
-        description="Add processed PDF data to the knowledge base"
-    )
+    parser = argparse.ArgumentParser(description="Add processed PDF data to the knowledge base")
     parser.add_argument(
         "--input-file",
         type=str,

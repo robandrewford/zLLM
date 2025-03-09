@@ -219,9 +219,7 @@ def verify_query_processing(
     return results
 
 
-def generate_verification_report(
-    kb_results: Dict[str, Any], query_results: Dict[str, Any]
-) -> str:
+def generate_verification_report(kb_results: Dict[str, Any], query_results: Dict[str, Any]) -> str:
     """
     Generate a verification report.
 
@@ -313,17 +311,13 @@ def main():
                 file_queries = [line.strip() for line in f if line.strip()]
                 if file_queries:
                     queries = file_queries
-                    logger.info(
-                        f"Loaded {len(queries)} queries from {args.test_queries_file}"
-                    )
+                    logger.info(f"Loaded {len(queries)} queries from {args.test_queries_file}")
                 else:
                     logger.warning(
                         f"No queries found in {args.test_queries_file}, using default queries"
                     )
         except Exception as e:
-            logger.error(
-                f"Error loading test queries from {args.test_queries_file}: {e}"
-            )
+            logger.error(f"Error loading test queries from {args.test_queries_file}: {e}")
             logger.info("Using default queries")
 
     logger.info("Starting xLLM verification")

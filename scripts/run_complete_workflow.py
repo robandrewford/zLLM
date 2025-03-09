@@ -189,9 +189,7 @@ def run_complete_workflow():
 
 def main():
     """Main function to run the complete workflow with real data."""
-    parser = argparse.ArgumentParser(
-        description="Run complete xLLM workflow with real data"
-    )
+    parser = argparse.ArgumentParser(description="Run complete xLLM workflow with real data")
     parser.add_argument(
         "--url",
         type=str,
@@ -211,13 +209,9 @@ def main():
         default="tor",
         help="Type of crawler to use",
     )
-    parser.add_argument(
-        "--max-pages", type=int, default=5, help="Maximum number of pages to crawl"
-    )
+    parser.add_argument("--max-pages", type=int, default=5, help="Maximum number of pages to crawl")
     parser.add_argument("--skip-crawl", action="store_true", help="Skip crawling step")
-    parser.add_argument(
-        "--skip-pdf", action="store_true", help="Skip PDF processing step"
-    )
+    parser.add_argument("--skip-pdf", action="store_true", help="Skip PDF processing step")
     args = parser.parse_args()
 
     # Track start time for performance measurement

@@ -133,9 +133,7 @@ class TorCrawler:
             if current_url in crawled_urls:
                 continue
 
-            logger.info(
-                f"Crawling: {len(crawled_pages) + 1} out of {max_pages}: {current_url}"
-            )
+            logger.info(f"Crawling: {len(crawled_pages) + 1} out of {max_pages}: {current_url}")
 
             # Crawl the page
             page_data = self._crawl_page(current_url)
@@ -190,9 +188,7 @@ class TorCrawler:
                         logger.info(f"Successfully crawled: {url}")
                         return page_data
                     else:
-                        logger.warning(
-                            f"Failed: {url} with status {response.status_code}"
-                        )
+                        logger.warning(f"Failed: {url} with status {response.status_code}")
                 except requests.exceptions.RequestException as e:
                     logger.warning(f"Request Error: {url} - {e}")
                 except Exception as e:
@@ -238,9 +234,7 @@ class TorCrawler:
                 # Convert relative URLs to absolute URLs
                 if url.startswith("/"):
                     # Get the base URL
-                    base_url = "/".join(
-                        page_data["url"].split("/")[:3]
-                    )  # http(s)://domain.com
+                    base_url = "/".join(page_data["url"].split("/")[:3])  # http(s)://domain.com
                     url = base_url + url
                 elif not url.startswith(("http://", "https://")):
                     # Skip non-HTTP URLs (like javascript:, mailto:, etc.)
@@ -262,12 +256,7 @@ class TorCrawler:
         """
         # Create a filename from the URL
         url = page_data["url"]
-        filename = (
-            url.replace("://", "_")
-            .replace("/", "_")
-            .replace("?", "_")
-            .replace("&", "_")
-        )
+        filename = url.replace("://", "_").replace("/", "_").replace("?", "_").replace("&", "_")
         filename = f"{filename}.json"
 
         # Save to file
@@ -281,9 +270,7 @@ class TorCrawler:
 def main():
     """Main function to run the Tor crawler."""
     parser = argparse.ArgumentParser(description="Tor Crawler")
-    parser.add_argument(
-        "--url", type=str, required=True, help="Starting URL for crawling"
-    )
+    parser.add_argument("--url", type=str, required=True, help="Starting URL for crawling")
     parser.add_argument(
         "--tor-proxy",
         type=str,

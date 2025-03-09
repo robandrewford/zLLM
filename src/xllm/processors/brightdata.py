@@ -70,9 +70,7 @@ class BrightdataCrawler:
         # Build opener with proxy handler
         self.opener = urlrequest.build_opener(self.proxy_handler)
 
-        logger.info(
-            f"Brightdata crawler initialized with session ID: {self.session_id}"
-        )
+        logger.info(f"Brightdata crawler initialized with session ID: {self.session_id}")
 
     def crawl(self, url, max_pages=10):
         """Crawl a website starting from the given URL.
@@ -100,9 +98,7 @@ class BrightdataCrawler:
             if current_url in crawled_urls:
                 continue
 
-            logger.info(
-                f"Crawling: {len(crawled_pages) + 1} out of {max_pages}: {current_url}"
-            )
+            logger.info(f"Crawling: {len(crawled_pages) + 1} out of {max_pages}: {current_url}")
 
             # Crawl the page
             page_data = self._crawl_page(current_url)
@@ -254,12 +250,7 @@ class BrightdataCrawler:
         """
         # Create a filename from the URL
         url = page_data["url"]
-        filename = (
-            url.replace("://", "_")
-            .replace("/", "_")
-            .replace("?", "_")
-            .replace("&", "_")
-        )
+        filename = url.replace("://", "_").replace("/", "_").replace("?", "_").replace("&", "_")
         filename = f"{filename}.json"
 
         # Save to file
@@ -273,22 +264,16 @@ class BrightdataCrawler:
 def main():
     """Main function to run the Brightdata crawler."""
     parser = argparse.ArgumentParser(description="Brightdata Crawler")
-    parser.add_argument(
-        "--url", type=str, required=True, help="Starting URL for crawling"
-    )
+    parser.add_argument("--url", type=str, required=True, help="Starting URL for crawling")
     parser.add_argument(
         "--username",
         type=str,
         default="brd-customer-hl_YOUR_CUSTOMER_ID",
         help="Brightdata username",
     )
-    parser.add_argument(
-        "--password", type=str, default="YOUR_PASSWORD", help="Brightdata password"
-    )
+    parser.add_argument("--password", type=str, default="YOUR_PASSWORD", help="Brightdata password")
     parser.add_argument("--port", type=int, default=22225, help="Brightdata proxy port")
-    parser.add_argument(
-        "--country", type=str, default="us", help="Country code for the proxy"
-    )
+    parser.add_argument("--country", type=str, default="us", help="Country code for the proxy")
     parser.add_argument(
         "--delay", type=float, default=2.5, help="Delay between requests in seconds"
     )
