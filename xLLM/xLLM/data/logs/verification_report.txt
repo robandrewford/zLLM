@@ -54,4 +54,3 @@ Result:
 ```
 Mock result for query: deep learning
 ```
-

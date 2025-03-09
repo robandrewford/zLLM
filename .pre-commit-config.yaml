@@ -3,14 +3,14 @@ repos:
     rev: v4.5.0
     hooks:
     -   id: trailing-whitespace
-        exclude: ^backups/
+        exclude: ^(backups/|.*backup.*/)
     -   id: end-of-file-fixer
-        exclude: ^backups/
+        exclude: ^(backups/|.*backup.*/)
 
 -   repo: https://github.com/astral-sh/ruff-pre-commit
     rev: v0.3.0
     hooks:
     -   id: ruff
-        exclude: ^backups/
+        exclude: ^(backups/|.*backup.*/)
     -   id: ruff-format
-        exclude: ^backups/
+        exclude: ^(backups/|.*backup.*/)

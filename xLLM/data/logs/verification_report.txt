@@ -55,4 +55,3 @@ Result:
 ```
 {'query': 'deep learning', 'results': []}
 ```
-

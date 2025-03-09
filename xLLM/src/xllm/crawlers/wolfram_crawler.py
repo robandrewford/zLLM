@@ -77,9 +77,10 @@ class WolframCrawler(BaseCrawler):
         crawl_log = self.output_dir / "crawl_log.txt"
         category_log = self.output_dir / "crawl_categories.txt"
 
-        with open(crawl_log, "w", encoding="utf-8") as file1, open(
-            category_log, "w", encoding="utf-8"
-        ) as file2:
+        with (
+            open(crawl_log, "w", encoding="utf-8") as file1,
+            open(category_log, "w", encoding="utf-8") as file2,
+        ):
             # Main crawling loop
             while parsed < min(max_pages, n_urls):
                 current_url = self.url_list[parsed]
