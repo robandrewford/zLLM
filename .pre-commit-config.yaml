@@ -11,6 +11,6 @@ repos:
     rev: v0.3.0
     hooks:
     -   id: ruff
-        exclude: ^(backups/|.*backup.*/)
+        # Use .ruff.toml for configuration
     -   id: ruff-format
-        exclude: ^(backups/|.*backup.*/)
+        # Use .ruff.toml for configuration

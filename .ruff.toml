@@ -1,0 +1,12 @@
+# Ruff configuration
+line-length = 100
+target-version = "py310"
+
+# Exclude backup directories and files
+exclude = [
+    "backups/**",
+    "**/backup*/**",
+    "**/*backup*/**",
+    ".venv",
+    "__pycache__",
+]
