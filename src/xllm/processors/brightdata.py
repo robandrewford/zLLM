@@ -1,7 +1,6 @@
 import argparse
 import json
 import logging
-import os
 import random
 import time
 from urllib import request as urlrequest
@@ -14,6 +13,7 @@ logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
 )
 logger = logging.getLogger("brightdata_crawler")
+
 
 class BrightdataCrawler:
     """Crawler using Brightdata proxy to avoid 403 errors."""
@@ -55,20 +55,24 @@ class BrightdataCrawler:
 
         # Build proxy URL
         self.super_proxy_url = (
-            f'http://{self.username}-country-{self.country}-session-{self.session_id}:'
-            f'{self.password}@brd.superproxy.io:{self.port}'
+            f"http://{self.username}-country-{self.country}-session-{self.session_id}:"
+            f"{self.password}@brd.superproxy.io:{self.port}"
         )
 
         # Create proxy handler
-        self.proxy_handler = urlrequest.ProxyHandler({
-            'http': self.super_proxy_url,
-            'https': self.super_proxy_url,
-        })
+        self.proxy_handler = urlrequest.ProxyHandler(
+            {
+                "http": self.super_proxy_url,
+                "https": self.super_proxy_url,
+            }
+        )
 
         # Build opener with proxy handler
         self.opener = urlrequest.build_opener(self.proxy_handler)
 
-        logger.info(f"Brightdata crawler initialized with session ID: {self.session_id}")
+        logger.info(
+            f"Brightdata crawler initialized with session ID: {self.session_id}"
+        )
 
     def crawl(self, url, max_pages=10):
         """Crawl a website starting from the given URL.
@@ -96,7 +100,9 @@ class BrightdataCrawler:
             if current_url in crawled_urls:
                 continue
 
-            logger.info(f"Crawling: {len(crawled_pages) + 1} out of {max_pages}: {current_url}")
+            logger.info(
+                f"Crawling: {len(crawled_pages) + 1} out of {max_pages}: {current_url}"
+            )
 
             # Crawl the page
             page_data = self._crawl_page(current_url)
@@ -142,18 +148,18 @@ class BrightdataCrawler:
                 # If successful
                 if status_code == 200:
                     # Read the content
-                    content = response.read().decode('utf-8')
+                    content = response.read().decode("utf-8")
 
                     # Get the headers
                     headers = dict(response.info())
 
                     # Create page data
                     page_data = {
-                        'url': url,
-                        'status_code': status_code,
-                        'content': content,
-                        'headers': headers,
-                        'timestamp': time.time(),
+                        "url": url,
+                        "status_code": status_code,
+                        "content": content,
+                        "headers": headers,
+                        "timestamp": time.time(),
                     }
 
                     logger.info(f"Successfully crawled: {url}")
@@ -170,7 +176,7 @@ class BrightdataCrawler:
             # If we're going to retry
             if retry < self.max_retries - 1:
                 # Exponential backoff
-                wait_time = self.delay * (2 ** retry)
+                wait_time = self.delay * (2**retry)
                 logger.info(f"Retrying in {wait_time:.2f} seconds...")
                 time.sleep(wait_time)
 
@@ -179,15 +185,17 @@ class BrightdataCrawler:
 
                 # Rebuild the proxy URL
                 self.super_proxy_url = (
-                    f'http://{self.username}-country-{self.country}-session-{self.session_id}:'
-                    f'{self.password}@brd.superproxy.io:{self.port}'
+                    f"http://{self.username}-country-{self.country}-session-{self.session_id}:"
+                    f"{self.password}@brd.superproxy.io:{self.port}"
                 )
 
                 # Create new proxy handler
-                self.proxy_handler = urlrequest.ProxyHandler({
-                    'http': self.super_proxy_url,
-                    'https': self.super_proxy_url,
-                })
+                self.proxy_handler = urlrequest.ProxyHandler(
+                    {
+                        "http": self.super_proxy_url,
+                        "https": self.super_proxy_url,
+                    }
+                )
 
                 # Build new opener with proxy handler
                 self.opener = urlrequest.build_opener(self.proxy_handler)
@@ -209,7 +217,7 @@ class BrightdataCrawler:
         """
         # This is a simple implementation that would need to be enhanced
         # with proper HTML parsing for a production crawler
-        content = page_data['content']
+        content = page_data["content"]
         urls = []
 
         # Look for href attributes
@@ -230,7 +238,7 @@ class BrightdataCrawler:
             url = content[start_url:end_url]
 
             # Only add if it's a valid URL
-            if url.startswith('http') and 'wolfram.com' in url:
+            if url.startswith("http") and "wolfram.com" in url:
                 urls.append(url)
 
             # Move to the next position
@@ -245,38 +253,60 @@ class BrightdataCrawler:
             page_data: Dictionary with page data
         """
         # Create a filename from the URL
-        url = page_data['url']
-        filename = url.replace('://', '_').replace('/', '_').replace('?', '_').replace('&', '_')
+        url = page_data["url"]
+        filename = (
+            url.replace("://", "_")
+            .replace("/", "_")
+            .replace("?", "_")
+            .replace("&", "_")
+        )
         filename = f"{filename}.json"
 
         # Save to file
         file_path = self.output_dir / filename
-        with open(file_path, 'w', encoding='utf-8') as f:
+        with open(file_path, "w", encoding="utf-8") as f:
             json.dump(page_data, f, indent=2)
 
         logger.info(f"Saved page data to {file_path}")
 
+
 def main():
     """Main function to run the Brightdata crawler."""
     parser = argparse.ArgumentParser(description="Brightdata Crawler")
-    parser.add_argument("--url", type=str, required=True,
-                        help="Starting URL for crawling")
-    parser.add_argument("--username", type=str, default="brd-customer-hl_YOUR_CUSTOMER_ID",
-                        help="Brightdata username")
-    parser.add_argument("--password", type=str, default="YOUR_PASSWORD",
-                        help="Brightdata password")
-    parser.add_argument("--port", type=int, default=22225,
-                        help="Brightdata proxy port")
-    parser.add_argument("--country", type=str, default="us",
-                        help="Country code for the proxy")
-    parser.add_argument("--delay", type=float, default=2.5,
-                        help="Delay between requests in seconds")
-    parser.add_argument("--output-dir", type=str, default="data/scraped",
-                        help="Directory to save crawled data")
-    parser.add_argument("--max-pages", type=int, default=10,
-                        help="Maximum number of pages to crawl")
-    parser.add_argument("--max-retries", type=int, default=3,
-                        help="Maximum number of retries for failed requests")
+    parser.add_argument(
+        "--url", type=str, required=True, help="Starting URL for crawling"
+    )
+    parser.add_argument(
+        "--username",
+        type=str,
+        default="brd-customer-hl_YOUR_CUSTOMER_ID",
+        help="Brightdata username",
+    )
+    parser.add_argument(
+        "--password", type=str, default="YOUR_PASSWORD", help="Brightdata password"
+    )
+    parser.add_argument("--port", type=int, default=22225, help="Brightdata proxy port")
+    parser.add_argument(
+        "--country", type=str, default="us", help="Country code for the proxy"
+    )
+    parser.add_argument(
+        "--delay", type=float, default=2.5, help="Delay between requests in seconds"
+    )
+    parser.add_argument(
+        "--output-dir",
+        type=str,
+        default="data/scraped",
+        help="Directory to save crawled data",
+    )
+    parser.add_argument(
+        "--max-pages", type=int, default=10, help="Maximum number of pages to crawl"
+    )
+    parser.add_argument(
+        "--max-retries",
+        type=int,
+        default=3,
+        help="Maximum number of retries for failed requests",
+    )
     args = parser.parse_args()
 
     # Create the crawler
@@ -292,6 +322,7 @@ def main():
 
     # Crawl the website
     crawler.crawl(args.url, args.max_pages)
+
 
 if __name__ == "__main__":
     main()

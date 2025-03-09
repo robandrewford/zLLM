@@ -1,0 +1,2099 @@
+investor	{'Title': 2, 'Note': 48, '': 53, 'List': 3, 'Data': 1}
+presentation	{'Title': 2, 'Note': 14, '': 9}
+investor~presentation	{'Title': 2, 'Note': 1, '': 2}
+presentation~investor~presentation	{'Title': 2, 'Note': 1, '': 2}
+investor~presentation~investor~presentation	{'Title': 2, 'Note': 1, '': 2}
+q2	{'Title': 6, 'Note': 26, 'List': 3, 'Data': 7, 'SubList': 1, '': 25}
+presentation~q2	{'Title': 2, 'Note': 1, '': 2}
+investor~presentation~q2	{'Title': 2, 'Note': 1, '': 2}
+q2~investor~presentation~q2	{'Title': 2, 'Note': 1, '': 2}
+fy24	{'Title': 8, 'Note': 42, 'List': 1, 'Data': 23, '': 32}
+q2~fy24	{'Title': 6, 'Note': 18, 'List': 1, 'Data': 7, '': 14}
+presentation~q2~fy24	{'Title': 2, 'Note': 1, '': 2}
+investor~presentation~q2~fy24	{'Title': 2, 'Note': 1, '': 2}
+august	{'Note': 6, '': 6}
+28	{'Note': 14, '': 37, 'Data': 22, 'List': 1}
+august~28	{'Note': 1, '': 1}
+28~august~28	{'Note': 1, '': 1}
+august~28~august~28	{'Note': 1, '': 1}
+2023	{'Note': 540, 'List': 43, 'Data': 101, '': 684}
+28~2023	{'Note': 2, '': 2}
+august~28~2023	{'Note': 1, '': 1}
+2023~august~28~2023	{'Note': 1, '': 1}
+except	{'Note': 85, 'List': 4, 'Data': 1, '': 80}
+historical	{'Note': 51, '': 52, 'Data': 2, 'List': 2}
+except~historical	{'Note': 1}
+historical~except~historical	{'Note': 1}
+except~historical~except~historical	{'Note': 1}
+information	{'Note': 286, 'List': 36, 'Data': 10, '': 330}
+historical~information	{'Note': 1}
+except~historical~information	{'Note': 1}
+information~except~historical~information	{'Note': 1}
+contained	{'Note': 35, 'List': 3, '': 35}
+information~contained	{'Note': 7, '': 7, 'List': 1}
+historical~information~contained	{'Note': 1}
+except~historical~information~contained	{'Note': 1}
+herein	{'Note': 14, 'Data': 2, '': 9}
+contained~herein	{'Note': 3, '': 2}
+information~contained~herein	{'Note': 1}
+historical~information~contained~herein	{'Note': 1}
+certain	{'Note': 172, '': 195, 'List': 19, 'Data': 6}
+herein~certain	{'Note': 1}
+contained~herein~certain	{'Note': 1}
+information~contained~herein~certain	{'Note': 1}
+matters	{'Note': 102, 'List': 16, '': 117}
+certain~matters	{'Note': 1}
+herein~certain~matters	{'Note': 1}
+contained~herein~certain~matters	{'Note': 1}
+matters~presentation	{'Note': 1}
+certain~matters~presentation	{'Note': 1}
+herein~certain~matters~presentation	{'Note': 1}
+including	{'Note': 368, 'List': 92, '': 459, 'Data': 8}
+presentation~including	{'Note': 2}
+matters~presentation~including	{'Note': 1}
+certain~matters~presentation~including	{'Note': 1}
+not	{'Note': 680, '': 718, 'List': 72, 'Data': 11}
+including~not	{'Note': 29, 'List': 5, '': 32}
+presentation~including~not	{'Note': 1}
+matters~presentation~including~not	{'Note': 1}
+limited	{'Note': 73, '': 88, 'List': 19}
+not~limited	{'Note': 37, 'List': 5, '': 40}
+including~not~limited	{'Note': 29, 'List': 5, '': 32}
+presentation~including~not~limited	{'Note': 1}
+statements	{'Note': 328, 'List': 9, 'Data': 3, '': 328}
+limited~statements	{'Note': 3, '': 2}
+not~limited~statements	{'Note': 3, '': 2}
+including~not~limited~statements	{'Note': 3, '': 2}
+financial	{'Note': 718, 'List': 82, 'Title': 16, 'Data': 82, '': 716}
+statements~financial	{'Note': 1}
+limited~statements~financial	{'Note': 1}
+not~limited~statements~financial	{'Note': 1}
+position	{'Note': 52, '': 59, 'List': 8}
+financial~position	{'Note': 10, '': 10, 'List': 1}
+statements~financial~position	{'Note': 1}
+limited~statements~financial~position	{'Note': 1}
+markets	{'Note': 84, 'List': 18, '': 101}
+position~markets	{'Note': 1}
+financial~position~markets	{'Note': 1}
+statements~financial~position~markets	{'Note': 1}
+market	{'Note': 246, 'Title': 3, 'Data': 6, '': 262, 'List': 25}
+markets~market	{'Note': 2, '': 1}
+position~markets~market	{'Note': 1}
+financial~position~markets~market	{'Note': 1}
+opportunity	{'Note': 80, 'List': 5, 'Title': 3, 'Data': 29, '': 97}
+market~opportunity	{'Note': 1, 'Title': 1, '': 1}
+markets~market~opportunity	{'Note': 1}
+position~markets~market~opportunity	{'Note': 1}
+demand	{'Note': 173, 'List': 35, 'SubList': 3, '': 210, 'Data': 1}
+opportunity~demand	{'Note': 1}
+market~opportunity~demand	{'Note': 1}
+markets~market~opportunity~demand	{'Note': 1}
+growth	{'Note': 73, 'List': 16, 'SubList': 2, 'Data': 13, 'Title': 4, '': 77}
+demand~growth	{'Note': 1}
+opportunity~demand~growth	{'Note': 1}
+market~opportunity~demand~growth	{'Note': 1}
+drivers	{'Note': 12, '': 12, 'List': 1}
+growth~drivers	{'Note': 7, '': 6}
+demand~growth~drivers	{'Note': 1}
+opportunity~demand~growth~drivers	{'Note': 1}
+csps	{'Note': 6, 'SubList': 1, 'List': 2, '': 8}
+drivers~csps	{'Note': 1}
+growth~drivers~csps	{'Note': 1}
+demand~growth~drivers~csps	{'Note': 1}
+undertaking	{'Note': 4, 'SubList': 1, '': 4}
+csps~undertaking	{'Note': 1, 'SubList': 1, '': 1}
+drivers~csps~undertaking	{'Note': 1}
+growth~drivers~csps~undertaking	{'Note': 1}
+generational	{'Note': 1, 'SubList': 1, '': 1}
+undertaking~generational	{'Note': 1, 'SubList': 1, '': 1}
+csps~undertaking~generational	{'Note': 1, 'SubList': 1, '': 1}
+drivers~csps~undertaking~generational	{'Note': 1}
+transition	{'Note': 27, 'SubList': 1, '': 33, 'List': 4, 'Data': 2}
+generational~transition	{'Note': 1, 'SubList': 1, '': 1}
+undertaking~generational~transition	{'Note': 1, 'SubList': 1, '': 1}
+csps~undertaking~generational~transition	{'Note': 1, 'SubList': 1, '': 1}
+update	{'Note': 13, 'List': 2, '': 13}
+transition~update	{'Note': 1}
+generational~transition~update	{'Note': 1}
+undertaking~generational~transition~update	{'Note': 1}
+infrastructure	{'Note': 33, 'SubList': 3, 'List': 12, '': 48, 'Data': 1}
+update~infrastructure	{'Note': 1}
+transition~update~infrastructure	{'Note': 1}
+generational~transition~update~infrastructure	{'Note': 1}
+new	{'Note': 236, 'SubList': 15, 'List': 49, 'Title': 6, '': 288, 'Data': 3}
+infrastructure~new	{'Note': 1, 'SubList': 1, '': 1}
+update~infrastructure~new	{'Note': 1}
+transition~update~infrastructure~new	{'Note': 1}
+era	{'Note': 6, 'SubList': 1, '': 6}
+new~era	{'Note': 1, 'SubList': 1, '': 1}
+infrastructure~new~era	{'Note': 1, 'SubList': 1, '': 1}
+update~infrastructure~new~era	{'Note': 1}
+accelerated	{'Note': 128, 'List': 31, 'SubList': 2, 'Title': 12, 'Data': 36, '': 120}
+era~accelerated	{'Note': 1, 'SubList': 1, '': 1}
+new~era~accelerated	{'Note': 1, 'SubList': 1, '': 1}
+infrastructure~new~era~accelerated	{'Note': 1, 'SubList': 1, '': 1}
+computing	{'Note': 233, 'List': 31, 'SubList': 2, 'Title': 14, 'Data': 58, '': 221}
+accelerated~computing	{'Note': 95, 'List': 25, 'SubList': 1, 'Title': 12, 'Data': 36, '': 80}
+era~accelerated~computing	{'Note': 1, 'SubList': 1, '': 1}
+new~era~accelerated~computing	{'Note': 1, 'SubList': 1, '': 1}
+ai	{'Note': 381, 'List': 89, 'SubList': 23, 'Title': 22, 'Data': 26, '': 446}
+computing~ai	{'Note': 11, 'List': 2, 'SubList': 1, '': 13}
+accelerated~computing~ai	{'Note': 5, 'List': 1, 'SubList': 1, '': 6}
+era~accelerated~computing~ai	{'Note': 1, 'SubList': 1, '': 1}
+enterprises	{'Note': 12, 'SubList': 2, 'Title': 4, 'List': 12, '': 20}
+ai~enterprises	{'Note': 1, 'Title': 4, 'List': 7, 'SubList': 1, '': 4}
+computing~ai~enterprises	{'Note': 1}
+accelerated~computing~ai~enterprises	{'Note': 1}
+racing	{'Note': 3, 'SubList': 1, '': 3}
+enterprises~racing	{'Note': 1, 'SubList': 1, '': 1}
+ai~enterprises~racing	{'Note': 1}
+computing~ai~enterprises~racing	{'Note': 1}
+adopt	{'Note': 6, 'List': 1, '': 5}
+racing~adopt	{'Note': 1}
+enterprises~racing~adopt	{'Note': 1}
+ai~enterprises~racing~adopt	{'Note': 1}
+generative	{'Note': 36, 'SubList': 6, 'List': 9, 'Title': 4, '': 43}
+adopt~generative	{'Note': 1}
+racing~adopt~generative	{'Note': 1}
+enterprises~racing~adopt~generative	{'Note': 1}
+generative~ai	{'Note': 33, 'SubList': 6, 'List': 9, 'Title': 4, '': 40}
+adopt~generative~ai	{'Note': 1}
+racing~adopt~generative~ai	{'Note': 1}
+belief	{'Note': 3, '': 2}
+ai~belief	{'Note': 1}
+generative~ai~belief	{'Note': 1}
+adopt~generative~ai~belief	{'Note': 1}
+global	{'Note': 88, 'SubList': 1, 'List': 22, '': 109}
+belief~global	{'Note': 1}
+ai~belief~global	{'Note': 1}
+generative~ai~belief~global	{'Note': 1}
+end	{'Note': 107, 'SubList': 1, 'List': 15, '': 125, 'Data': 3}
+global~end	{'Note': 1, 'SubList': 1, '': 1}
+belief~global~end	{'Note': 1}
+ai~belief~global~end	{'Note': 1}
+end~demand	{'Note': 2, 'SubList': 1, '': 3, 'List': 1}
+global~end~demand	{'Note': 1, 'SubList': 1, '': 1}
+belief~global~end~demand	{'Note': 1}
+gaming	{'Note': 134, 'SubList': 4, 'List': 10, 'Title': 4, 'Data': 8, '': 131}
+demand~gaming	{'Note': 3, '': 2}
+end~demand~gaming	{'Note': 1}
+global~end~demand~gaming	{'Note': 1}
+has	{'Note': 252, 'SubList': 1, '': 272, 'Data': 6, 'List': 19}
+gaming~has	{'Note': 1}
+demand~gaming~has	{'Note': 1}
+end~demand~gaming~has	{'Note': 1}
+returned	{'Note': 5, 'SubList': 1, 'List': 1, '': 6}
+has~returned	{'Note': 1, 'SubList': 1, '': 1}
+gaming~has~returned	{'Note': 1}
+demand~gaming~has~returned	{'Note': 1}
+returned~growth	{'Note': 1, 'SubList': 1, '': 1}
+has~returned~growth	{'Note': 1, 'SubList': 1, '': 1}
+gaming~has~returned~growth	{'Note': 1}
+growing	{'Note': 18, 'List': 3, 'Title': 2, 'Data': 2, '': 21}
+growth~growing	{'Note': 1}
+returned~growth~growing	{'Note': 1}
+has~returned~growth~growing	{'Note': 1}
+number	{'Note': 207, 'List': 23, '': 221, 'Data': 2}
+growing~number	{'Note': 9, 'List': 1, '': 9}
+growth~growing~number	{'Note': 1}
+returned~growth~growing~number	{'Note': 1}
+gpu	{'Note': 66, 'List': 13, 'Title': 2, 'SubList': 5, '': 80, 'Data': 2}
+number~gpu	{'Note': 1, 'List': 1, '': 1}
+growing~number~gpu	{'Note': 1, 'List': 1, '': 1}
+growth~growing~number~gpu	{'Note': 1}
+cloud	{'Note': 131, 'SubList': 7, 'List': 32, 'Title': 8, 'Data': 1, '': 158}
+gpu~cloud	{'Note': 3, 'List': 1, '': 3}
+number~gpu~cloud	{'Note': 1, 'List': 1, '': 1}
+growing~number~gpu~cloud	{'Note': 1, 'List': 1, '': 1}
+providers	{'Note': 22, 'List': 8, '': 29}
+cloud~providers	{'Note': 1, 'List': 1, '': 1}
+gpu~cloud~providers	{'Note': 1, 'List': 1, '': 1}
+number~gpu~cloud~providers	{'Note': 1, 'List': 1, '': 1}
+deploying	{'Note': 4, 'List': 2, '': 5}
+providers~deploying	{'Note': 1, 'List': 1, '': 1}
+cloud~providers~deploying	{'Note': 1, 'List': 1, '': 1}
+gpu~cloud~providers~deploying	{'Note': 1, 'List': 1, '': 1}
+volume	{'Note': 5, 'List': 3, '': 7}
+deploying~volume	{'Note': 1, 'List': 1, '': 1}
+providers~deploying~volume	{'Note': 1, 'List': 1, '': 1}
+cloud~providers~deploying~volume	{'Note': 1, 'List': 1, '': 1}
+hgx	{'Note': 8, 'List': 2, '': 9}
+volume~hgx	{'Note': 1, 'List': 1, '': 1}
+deploying~volume~hgx	{'Note': 1, 'List': 1, '': 1}
+providers~deploying~volume~hgx	{'Note': 1, 'List': 1, '': 1}
+systems	{'Note': 117, 'List': 18, 'SubList': 2, 'Data': 3, '': 138}
+hgx~systems	{'Note': 1, 'List': 1, '': 1}
+volume~hgx~systems	{'Note': 1, 'List': 1, '': 1}
+deploying~volume~hgx~systems	{'Note': 1, 'List': 1, '': 1}
+based	{'Note': 270, 'List': 16, 'SubList': 1, '': 284}
+systems~based	{'Note': 1, 'List': 1, '': 1}
+hgx~systems~based	{'Note': 1, 'List': 1, '': 1}
+volume~hgx~systems~based	{'Note': 1, 'List': 1, '': 1}
+hopper	{'Note': 8, 'List': 19, 'Title': 4, 'SubList': 3, '': 18}
+based~hopper	{'Note': 1, 'List': 1, '': 1}
+systems~based~hopper	{'Note': 1, 'List': 1, '': 1}
+hgx~systems~based~hopper	{'Note': 1, 'List': 1, '': 1}
+ampere	{'Note': 15, 'List': 4, '': 18}
+hopper~ampere	{'Note': 1, 'List': 1, '': 1}
+based~hopper~ampere	{'Note': 1, 'List': 1, '': 1}
+systems~based~hopper~ampere	{'Note': 1, 'List': 1, '': 1}
+ampere~gpu	{'Note': 1, 'List': 1, '': 1}
+hopper~ampere~gpu	{'Note': 1, 'List': 1, '': 1}
+based~hopper~ampere~gpu	{'Note': 1, 'List': 1, '': 1}
+architecture	{'Note': 56, 'List': 10, 'Title': 2, '': 62}
+gpu~architecture	{'Note': 9, 'List': 3, '': 11}
+ampere~gpu~architecture	{'Note': 1, 'List': 1, '': 1}
+hopper~ampere~gpu~architecture	{'Note': 1, 'List': 1, '': 1}
+expectation	{'Note': 2}
+architecture~expectation	{'Note': 1}
+gpu~architecture~expectation	{'Note': 1}
+ampere~gpu~architecture~expectation	{'Note': 1}
+data	{'Note': 304, 'List': 51, 'SubList': 6, 'Title': 14, 'Data': 28, '': 335}
+expectation~data	{'Note': 1}
+architecture~expectation~data	{'Note': 1}
+gpu~architecture~expectation~data	{'Note': 1}
+center	{'Note': 95, 'List': 14, 'SubList': 2, 'Title': 8, 'Data': 28, '': 92}
+data~center	{'Note': 89, 'List': 14, 'SubList': 2, 'Title': 8, 'Data': 27, '': 85}
+expectation~data~center	{'Note': 1}
+architecture~expectation~data~center	{'Note': 1}
+supply	{'Note': 106, 'List': 30, '': 137, 'Data': 2}
+center~supply	{'Note': 1}
+data~center~supply	{'Note': 1}
+expectation~data~center~supply	{'Note': 1}
+increase	{'Note': 128, 'List': 21, '': 151, 'Data': 3}
+supply~increase	{'Note': 1, 'List': 1, '': 1}
+center~supply~increase	{'Note': 1}
+data~center~supply~increase	{'Note': 1}
+each	{'Note': 267, 'List': 16, '': 283, 'Data': 6}
+increase~each	{'Note': 1, 'List': 1, '': 1}
+supply~increase~each	{'Note': 1, 'List': 1, '': 1}
+center~supply~increase~each	{'Note': 1}
+quarter	{'Note': 37, 'List': 9, 'Title': 2, '': 43}
+each~quarter	{'Note': 3, 'List': 2, '': 4}
+increase~each~quarter	{'Note': 1, 'List': 1, '': 1}
+supply~increase~each~quarter	{'Note': 1, 'List': 1, '': 1}
+next	{'Note': 56, 'List': 3, '': 60, 'Data': 3}
+quarter~next	{'Note': 1, 'List': 1, '': 1}
+each~quarter~next	{'Note': 1, 'List': 1, '': 1}
+increase~each~quarter~next	{'Note': 1, 'List': 1, '': 1}
+year	{'Note': 579, 'List': 34, 'Data': 34, '': 646}
+next~year	{'Note': 3, 'List': 1, '': 3}
+quarter~next~year	{'Note': 1, 'List': 1, '': 1}
+each~quarter~next~year	{'Note': 1, 'List': 1, '': 1}
+large	{'Note': 71, 'List': 9, 'Title': 2, 'Data': 6, '': 72, 'SubList': 1}
+year~large	{'Note': 1}
+next~year~large	{'Note': 1}
+quarter~next~year~large	{'Note': 1}
+upgrade	{'Note': 20, 'SubList': 1, 'List': 1, 'Title': 2, 'Data': 6, '': 14}
+large~upgrade	{'Note': 10, 'List': 1, 'Title': 2, 'Data': 6, '': 3}
+year~large~upgrade	{'Note': 1}
+next~year~large~upgrade	{'Note': 1}
+upgrade~opportunity	{'Note': 10, 'List': 1, 'Title': 2, 'Data': 6, '': 3}
+large~upgrade~opportunity	{'Note': 10, 'List': 1, 'Title': 2, 'Data': 6, '': 3}
+year~large~upgrade~opportunity	{'Note': 1}
+ahead	{'Note': 8, 'List': 1, '': 8}
+opportunity~ahead	{'Note': 1, 'List': 1, '': 1}
+upgrade~opportunity~ahead	{'Note': 1, 'List': 1, '': 1}
+large~upgrade~opportunity~ahead	{'Note': 1, 'List': 1, '': 1}
+likelihood	{'Note': 2, '': 1}
+ahead~likelihood	{'Note': 1}
+opportunity~ahead~likelihood	{'Note': 1}
+upgrade~opportunity~ahead~likelihood	{'Note': 1}
+seasonality	{'Note': 4, 'SubList': 2, '': 6, 'Data': 1}
+likelihood~seasonality	{'Note': 1}
+ahead~likelihood~seasonality	{'Note': 1}
+opportunity~ahead~likelihood~seasonality	{'Note': 1}
+overall	{'Note': 43, 'SubList': 1, 'List': 7, '': 50, 'Data': 1}
+seasonality~overall	{'Note': 1}
+likelihood~seasonality~overall	{'Note': 1}
+ahead~likelihood~seasonality~overall	{'Note': 1}
+overall~gaming	{'Note': 1, 'SubList': 1, '': 1}
+seasonality~overall~gaming	{'Note': 1}
+likelihood~seasonality~overall~gaming	{'Note': 1}
+gaming~market	{'Note': 8, '': 7}
+overall~gaming~market	{'Note': 1}
+seasonality~overall~gaming~market	{'Note': 1}
+shift	{'Note': 6, 'SubList': 1, '': 6}
+market~shift	{'Note': 1}
+gaming~market~shift	{'Note': 1}
+overall~gaming~market~shift	{'Note': 1}
+rtx	{'Note': 62, 'List': 15, 'SubList': 9, 'Title': 2, 'Data': 3, '': 82}
+shift~rtx	{'Note': 1}
+market~shift~rtx	{'Note': 1}
+gaming~market~shift~rtx	{'Note': 1}
+dlss	{'Note': 12, 'List': 3, '': 14}
+rtx~dlss	{'Note': 1, 'List': 1, '': 1}
+shift~rtx~dlss	{'Note': 1}
+market~shift~rtx~dlss	{'Note': 1}
+ecosystem	{'Note': 34, 'List': 5, 'Title': 2, 'Data': 15, '': 29}
+dlss~ecosystem	{'Note': 1, 'List': 1, '': 1}
+rtx~dlss~ecosystem	{'Note': 1, 'List': 1, '': 1}
+shift~rtx~dlss~ecosystem	{'Note': 1}
+continuing	{'Note': 20, '': 19}
+ecosystem~continuing	{'Note': 1}
+dlss~ecosystem~continuing	{'Note': 1}
+rtx~dlss~ecosystem~continuing	{'Note': 1}
+expand	{'Note': 8, 'List': 3, '': 10}
+continuing~expand	{'Note': 1}
+ecosystem~continuing~expand	{'Note': 1}
+dlss~ecosystem~continuing~expand	{'Note': 1}
+timing	{'Note': 15, 'List': 3, '': 15}
+expand~timing	{'Note': 1}
+continuing~expand~timing	{'Note': 1}
+ecosystem~continuing~expand~timing	{'Note': 1}
+desktop	{'Note': 8, 'List': 3, 'SubList': 2, '': 12}
+timing~desktop	{'Note': 1}
+expand~timing~desktop	{'Note': 1}
+continuing~expand~timing~desktop	{'Note': 1}
+workstation	{'Note': 8, 'SubList': 2, 'List': 2, '': 11}
+desktop~workstation	{'Note': 1, 'SubList': 2, 'List': 1, '': 3}
+timing~desktop~workstation	{'Note': 1}
+expand~timing~desktop~workstation	{'Note': 1}
+refresh	{'Note': 1, 'List': 1, '': 1}
+workstation~refresh	{'Note': 1}
+desktop~workstation~refresh	{'Note': 1}
+timing~desktop~workstation~refresh	{'Note': 1}
+expanding	{'Note': 26, 'List': 1, 'Title': 2, 'Data': 15, '': 18}
+refresh~expanding	{'Note': 1}
+workstation~refresh~expanding	{'Note': 1}
+desktop~workstation~refresh~expanding	{'Note': 1}
+expanding~opportunity	{'Note': 1, 'List': 1, '': 1}
+refresh~expanding~opportunity	{'Note': 1}
+workstation~refresh~expanding~opportunity	{'Note': 1}
+professional	{'Note': 66, 'Data': 7, 'List': 10, 'SubList': 2, 'Title': 4, '': 63}
+opportunity~professional	{'Note': 1}
+expanding~opportunity~professional	{'Note': 1}
+refresh~expanding~opportunity~professional	{'Note': 1}
+visualization	{'Note': 45, 'Data': 7, 'List': 4, 'SubList': 3, 'Title': 4, '': 37}
+professional~visualization	{'Note': 44, 'Data': 7, 'List': 4, 'SubList': 2, 'Title': 4, '': 35}
+opportunity~professional~visualization	{'Note': 1}
+expanding~opportunity~professional~visualization	{'Note': 1}
+visualization~rtx	{'Note': 1}
+professional~visualization~rtx	{'Note': 1}
+opportunity~professional~visualization~rtx	{'Note': 1}
+technology	{'Note': 159, 'List': 34, 'Title': 2, 'Data': 8, '': 184}
+rtx~technology	{'Note': 2, 'List': 1, '': 2}
+visualization~rtx~technology	{'Note': 1}
+professional~visualization~rtx~technology	{'Note': 1}
+impact	{'Note': 189, '': 232, 'List': 45, 'Data': 2}
+technology~impact	{'Note': 1}
+rtx~technology~impact	{'Note': 1}
+visualization~rtx~technology~impact	{'Note': 1}
+partnership	{'Note': 7, 'List': 3, '': 7}
+impact~partnership	{'Note': 1}
+technology~impact~partnership	{'Note': 1}
+rtx~technology~impact~partnership	{'Note': 1}
+mediatek	{'Note': 1, 'List': 8, 'Title': 2, '': 5}
+partnership~mediatek	{'Note': 1}
+impact~partnership~mediatek	{'Note': 1}
+technology~impact~partnership~mediatek	{'Note': 1}
+mediatek~financial	{'Note': 1}
+partnership~mediatek~financial	{'Note': 1}
+impact~partnership~mediatek~financial	{'Note': 1}
+outlook	{'Note': 21, 'SubList': 1, 'Title': 2, 'Data': 7, '': 8, 'List': 2}
+financial~outlook	{'Note': 1}
+mediatek~financial~outlook	{'Note': 1}
+partnership~mediatek~financial~outlook	{'Note': 1}
+outlook~expectation	{'Note': 1}
+financial~outlook~expectation	{'Note': 1}
+mediatek~financial~outlook~expectation	{'Note': 1}
+sequential	{'Note': 2, 'List': 1, '': 2}
+expectation~sequential	{'Note': 1}
+outlook~expectation~sequential	{'Note': 1}
+financial~outlook~expectation~sequential	{'Note': 1}
+sequential~growth	{'Note': 2, '': 1}
+expectation~sequential~growth	{'Note': 1}
+outlook~expectation~sequential~growth	{'Note': 1}
+driven	{'Note': 25, 'List': 7, '': 31}
+growth~driven	{'Note': 2, 'List': 2, '': 3}
+sequential~growth~driven	{'Note': 2, '': 1}
+expectation~sequential~growth~driven	{'Note': 1}
+largely	{'Note': 5, '': 3}
+driven~largely	{'Note': 3, '': 2}
+growth~driven~largely	{'Note': 2, '': 1}
+sequential~growth~driven~largely	{'Note': 2, '': 1}
+largely~data	{'Note': 2, '': 1}
+driven~largely~data	{'Note': 2, '': 1}
+growth~driven~largely~data	{'Note': 2, '': 1}
+largely~data~center	{'Note': 2, '': 1}
+driven~largely~data~center	{'Note': 2, '': 1}
+center~gaming	{'Note': 10, '': 9}
+data~center~gaming	{'Note': 10, '': 9}
+largely~data~center~gaming	{'Note': 2, '': 1}
+gaming~professional	{'Note': 7, '': 6}
+center~gaming~professional	{'Note': 6, '': 5}
+data~center~gaming~professional	{'Note': 6, '': 5}
+gaming~professional~visualization	{'Note': 7, '': 6}
+center~gaming~professional~visualization	{'Note': 6, '': 5}
+also	{'Note': 229, '': 255, 'List': 25, 'Data': 4}
+visualization~also	{'Note': 1}
+professional~visualization~also	{'Note': 1}
+gaming~professional~visualization~also	{'Note': 1}
+contributing	{'Note': 3, '': 2}
+also~contributing	{'Note': 2, '': 1}
+visualization~also~contributing	{'Note': 1}
+professional~visualization~also~contributing	{'Note': 1}
+expected	{'Note': 61, 'List': 10, '': 68, 'Data': 1}
+contributing~expected	{'Note': 1}
+also~contributing~expected	{'Note': 1}
+visualization~also~contributing~expected	{'Note': 1}
+tax	{'Note': 470, '': 492, 'List': 21, 'Data': 4}
+expected~tax	{'Note': 3, '': 3, 'List': 1}
+contributing~expected~tax	{'Note': 1}
+also~contributing~expected~tax	{'Note': 1}
+rates	{'Note': 49, 'List': 3, '': 51}
+tax~rates	{'Note': 8, 'List': 2, '': 9}
+expected~tax~rates	{'Note': 3, '': 3, 'List': 1}
+contributing~expected~tax~rates	{'Note': 1}
+third	{'Note': 53, 'List': 15, '': 65}
+rates~third	{'Note': 1}
+tax~rates~third	{'Note': 1}
+expected~tax~rates~third	{'Note': 1}
+third~quarter	{'Note': 5, '': 6, 'List': 2}
+rates~third~quarter	{'Note': 1}
+tax~rates~third~quarter	{'Note': 1}
+fiscal	{'Note': 867, '': 954, 'Data': 21, 'List': 69}
+quarter~fiscal	{'Note': 25, 'List': 2, '': 26}
+third~quarter~fiscal	{'Note': 5, '': 5, 'List': 1}
+rates~third~quarter~fiscal	{'Note': 1}
+2024	{'Note': 65, 'List': 7, 'Data': 14, '': 85}
+fiscal~2024	{'Note': 12, '': 13, 'Data': 1, 'List': 1}
+quarter~fiscal~2024	{'Note': 1}
+third~quarter~fiscal~2024	{'Note': 1}
+benefits	{'Note': 133, 'List': 10, 'Data': 1, '': 142}
+2024~benefits	{'Note': 1}
+fiscal~2024~benefits	{'Note': 1}
+quarter~fiscal~2024~benefits	{'Note': 1}
+benefits~impact	{'Note': 3, '': 1}
+2024~benefits~impact	{'Note': 1}
+fiscal~2024~benefits~impact	{'Note': 1}
+performance	{'Note': 453, 'List': 68, 'SubList': 2, '': 514, 'Data': 4}
+impact~performance	{'Note': 1}
+benefits~impact~performance	{'Note': 1}
+2024~benefits~impact~performance	{'Note': 1}
+features	{'Note': 29, 'List': 4, '': 28}
+performance~features	{'Note': 1}
+impact~performance~features	{'Note': 1}
+benefits~impact~performance~features	{'Note': 1}
+availability	{'Note': 16, 'List': 6, '': 21}
+features~availability	{'Note': 1}
+performance~features~availability	{'Note': 1}
+impact~performance~features~availability	{'Note': 1}
+products	{'Note': 329, 'List': 93, '': 416, 'Data': 1, 'SubList': 2}
+availability~products	{'Note': 3, '': 2}
+features~availability~products	{'Note': 1}
+performance~features~availability~products	{'Note': 1}
+technologies	{'Note': 89, 'List': 32, '': 117}
+products~technologies	{'Note': 8, 'List': 7, '': 12}
+availability~products~technologies	{'Note': 2, '': 1}
+features~availability~products~technologies	{'Note': 1}
+technologies~benefits	{'Note': 1}
+products~technologies~benefits	{'Note': 1}
+availability~products~technologies~benefits	{'Note': 1}
+technologies~benefits~impact	{'Note': 1}
+products~technologies~benefits~impact	{'Note': 1}
+impact~features	{'Note': 1}
+benefits~impact~features	{'Note': 1}
+technologies~benefits~impact~features	{'Note': 1}
+features~timing	{'Note': 1}
+impact~features~timing	{'Note': 1}
+benefits~impact~features~timing	{'Note': 1}
+collaborations	{'Note': 8, '': 7}
+timing~collaborations	{'Note': 1}
+features~timing~collaborations	{'Note': 1}
+impact~features~timing~collaborations	{'Note': 1}
+partnerships	{'Note': 9, '': 8}
+collaborations~partnerships	{'Note': 2, '': 1}
+timing~collaborations~partnerships	{'Note': 1}
+features~timing~collaborations~partnerships	{'Note': 1}
+nvidia	{'Note': 811, 'List': 146, 'SubList': 22, 'Title': 36, 'Data': 14, '': 911}
+partnerships~nvidia	{'Note': 1}
+collaborations~partnerships~nvidia	{'Note': 1}
+timing~collaborations~partnerships~nvidia	{'Note': 1}
+nvidia~accelerated	{'Note': 14, 'List': 2, '': 14}
+partnerships~nvidia~accelerated	{'Note': 1}
+collaborations~partnerships~nvidia~accelerated	{'Note': 1}
+nvidia~accelerated~computing	{'Note': 14, 'List': 2, '': 14}
+partnerships~nvidia~accelerated~computing	{'Note': 1}
+being	{'Note': 41, '': 38, 'List': 1, 'Data': 1}
+computing~being	{'Note': 2}
+accelerated~computing~being	{'Note': 2}
+nvidia~accelerated~computing~being	{'Note': 1}
+broadly	{'Note': 3, '': 1}
+being~broadly	{'Note': 1}
+computing~being~broadly	{'Note': 1}
+accelerated~computing~being~broadly	{'Note': 1}
+recognized	{'Note': 80, '': 80, 'List': 1, 'Data': 1}
+broadly~recognized	{'Note': 2}
+being~broadly~recognized	{'Note': 1}
+computing~being~broadly~recognized	{'Note': 1}
+way	{'Note': 16, '': 14}
+recognized~way	{'Note': 2}
+broadly~recognized~way	{'Note': 2}
+being~broadly~recognized~way	{'Note': 1}
+advance	{'Note': 28, 'List': 7, '': 33}
+way~advance	{'Note': 2}
+recognized~way~advance	{'Note': 2}
+broadly~recognized~way~advance	{'Note': 2}
+advance~computing	{'Note': 2}
+way~advance~computing	{'Note': 2}
+recognized~way~advance~computing	{'Note': 2}
+moores	{'Note': 11, '': 9}
+computing~moores	{'Note': 2}
+advance~computing~moores	{'Note': 2}
+way~advance~computing~moores	{'Note': 2}
+law	{'Note': 73, '': 78, 'List': 12}
+moores~law	{'Note': 11, '': 9}
+computing~moores~law	{'Note': 2}
+advance~computing~moores~law	{'Note': 2}
+ends	{'Note': 6, '': 4}
+law~ends	{'Note': 2}
+moores~law~ends	{'Note': 2}
+computing~moores~law~ends	{'Note': 2}
+ends~accelerated	{'Note': 1}
+law~ends~accelerated	{'Note': 1}
+moores~law~ends~accelerated	{'Note': 1}
+ends~accelerated~computing	{'Note': 1}
+law~ends~accelerated~computing	{'Note': 1}
+ends~accelerated~computing~being	{'Note': 1}
+needed	{'Note': 7, 'List': 8, '': 14}
+being~needed	{'Note': 1}
+computing~being~needed	{'Note': 1}
+accelerated~computing~being~needed	{'Note': 1}
+tackle	{'Note': 6, '': 5}
+needed~tackle	{'Note': 2, '': 1}
+being~needed~tackle	{'Note': 1}
+computing~being~needed~tackle	{'Note': 1}
+most	{'Note': 95, 'List': 4, 'Data': 1, '': 96}
+tackle~most	{'Note': 2, '': 1}
+needed~tackle~most	{'Note': 2, '': 1}
+being~needed~tackle~most	{'Note': 1}
+impactful	{'Note': 6, 'List': 1, '': 5}
+most~impactful	{'Note': 5, 'List': 1, '': 5}
+tackle~most~impactful	{'Note': 2, '': 1}
+needed~tackle~most~impactful	{'Note': 2, '': 1}
+opportunities	{'Note': 57, '': 69, 'List': 13, 'Data': 1}
+impactful~opportunities	{'Note': 2, '': 1}
+most~impactful~opportunities	{'Note': 2, '': 1}
+tackle~most~impactful~opportunities	{'Note': 2, '': 1}
+time	{'Note': 224, 'List': 14, 'Title': 2, 'Data': 7, '': 207}
+opportunities~time	{'Note': 2, '': 1}
+impactful~opportunities~time	{'Note': 2, '': 1}
+most~impactful~opportunities~time	{'Note': 2, '': 1}
+nvidias	{'Note': 82, 'List': 12, 'SubList': 1, 'Title': 6, 'Data': 18, '': 71}
+time~nvidias	{'Note': 3, '': 2}
+opportunities~time~nvidias	{'Note': 1}
+impactful~opportunities~time~nvidias	{'Note': 1}
+nvidias~expanding	{'Note': 10, 'Title': 2, 'Data': 15, '': 2}
+time~nvidias~expanding	{'Note': 1}
+opportunities~time~nvidias~expanding	{'Note': 1}
+expanding~accelerated	{'Note': 10, 'Title': 2, 'Data': 15, '': 2}
+nvidias~expanding~accelerated	{'Note': 10, 'Title': 2, 'Data': 15, '': 2}
+time~nvidias~expanding~accelerated	{'Note': 1}
+expanding~accelerated~computing	{'Note': 10, 'Title': 2, 'Data': 15, '': 2}
+nvidias~expanding~accelerated~computing	{'Note': 10, 'Title': 2, 'Data': 15, '': 2}
+computing~ecosystem	{'Note': 10, 'Title': 2, 'Data': 15, '': 2}
+accelerated~computing~ecosystem	{'Note': 10, 'Title': 2, 'Data': 15, '': 2}
+expanding~accelerated~computing~ecosystem	{'Note': 10, 'Title': 2, 'Data': 15, '': 2}
+ecosystem~nvidias	{'Note': 1}
+computing~ecosystem~nvidias	{'Note': 1}
+accelerated~computing~ecosystem~nvidias	{'Note': 1}
+value	{'Note': 406, 'Data': 6, 'Title': 2, '': 413, 'List': 14}
+nvidias~value	{'Note': 1}
+ecosystem~nvidias~value	{'Note': 1}
+computing~ecosystem~nvidias~value	{'Note': 1}
+every	{'Note': 57, 'List': 3, '': 60, 'Data': 3}
+value~every	{'Note': 1}
+nvidias~value~every	{'Note': 1}
+ecosystem~nvidias~value~every	{'Note': 1}
+stakeholder	{'Note': 9, '': 9, 'List': 1}
+every~stakeholder	{'Note': 2, '': 1}
+value~every~stakeholder	{'Note': 1}
+nvidias~value~every~stakeholder	{'Note': 1}
+stakeholder~ecosystem	{'Note': 2, '': 1}
+every~stakeholder~ecosystem	{'Note': 2, '': 1}
+value~every~stakeholder~ecosystem	{'Note': 1}
+ecosystem~ai	{'Note': 1}
+stakeholder~ecosystem~ai	{'Note': 1}
+every~stakeholder~ecosystem~ai	{'Note': 1}
+greatest	{'Note': 22, 'List': 1, 'Title': 2, 'Data': 6, '': 13}
+ai~greatest	{'Note': 12, 'Title': 2, 'Data': 6, '': 2}
+ecosystem~ai~greatest	{'Note': 1}
+stakeholder~ecosystem~ai~greatest	{'Note': 1}
+greatest~technology	{'Note': 12, 'Title': 2, 'Data': 6, '': 2}
+ai~greatest~technology	{'Note': 12, 'Title': 2, 'Data': 6, '': 2}
+ecosystem~ai~greatest~technology	{'Note': 1}
+force	{'Note': 18, 'Title': 2, 'Data': 6, '': 9, 'List': 1}
+technology~force	{'Note': 14, 'Title': 2, 'Data': 6, '': 4}
+greatest~technology~force	{'Note': 12, 'Title': 2, 'Data': 6, '': 2}
+ai~greatest~technology~force	{'Note': 12, 'Title': 2, 'Data': 6, '': 2}
+force~time	{'Note': 13, 'Title': 2, 'Data': 6, '': 3}
+technology~force~time	{'Note': 13, 'Title': 2, 'Data': 6, '': 3}
+greatest~technology~force~time	{'Note': 12, 'Title': 2, 'Data': 6, '': 2}
+time~generative	{'Note': 1}
+force~time~generative	{'Note': 1}
+technology~force~time~generative	{'Note': 1}
+time~generative~ai	{'Note': 1}
+force~time~generative~ai	{'Note': 1}
+unlocking	{'Note': 2, '': 1}
+ai~unlocking	{'Note': 2, '': 1}
+generative~ai~unlocking	{'Note': 2, '': 1}
+time~generative~ai~unlocking	{'Note': 1}
+unlocking~new	{'Note': 2, '': 1}
+ai~unlocking~new	{'Note': 2, '': 1}
+generative~ai~unlocking~new	{'Note': 2, '': 1}
+new~opportunities	{'Note': 5, '': 4}
+unlocking~new~opportunities	{'Note': 2, '': 1}
+ai~unlocking~new~opportunities	{'Note': 2, '': 1}
+opportunities~data	{'Note': 1}
+new~opportunities~data	{'Note': 1}
+unlocking~new~opportunities~data	{'Note': 1}
+centers	{'Note': 36, '': 37, 'List': 3}
+data~centers	{'Note': 33, '': 34, 'List': 3}
+opportunities~data~centers	{'Note': 1}
+new~opportunities~data~centers	{'Note': 1}
+industries	{'Note': 41, 'List': 4, '': 42}
+centers~industries	{'Note': 2, '': 1}
+data~centers~industries	{'Note': 2, '': 1}
+opportunities~data~centers~industries	{'Note': 1}
+becoming	{'Note': 17, '': 19, 'List': 3}
+industries~becoming	{'Note': 1}
+centers~industries~becoming	{'Note': 1}
+data~centers~industries~becoming	{'Note': 1}
+becoming~ai	{'Note': 4, '': 3}
+industries~becoming~ai	{'Note': 1}
+centers~industries~becoming~ai	{'Note': 1}
+factories	{'Note': 14, 'List': 1, '': 14}
+ai~factories	{'Note': 9, '': 8}
+becoming~ai~factories	{'Note': 4, '': 3}
+industries~becoming~ai~factories	{'Note': 1}
+factories~next	{'Note': 1}
+ai~factories~next	{'Note': 1}
+becoming~ai~factories~next	{'Note': 1}
+wave	{'Note': 24, 'List': 1, '': 24}
+next~wave	{'Note': 8, 'List': 1, '': 8}
+factories~next~wave	{'Note': 1}
+ai~factories~next~wave	{'Note': 1}
+wave~ai	{'Note': 10, 'List': 1, '': 10}
+next~wave~ai	{'Note': 8, 'List': 1, '': 8}
+factories~next~wave~ai	{'Note': 1}
+ai~being	{'Note': 2, '': 1}
+wave~ai~being	{'Note': 1}
+next~wave~ai~being	{'Note': 1}
+robotics	{'Note': 24, 'List': 1, '': 22}
+being~robotics	{'Note': 1}
+ai~being~robotics	{'Note': 1}
+wave~ai~being~robotics	{'Note': 1}
+industrial	{'Note': 22, 'Title': 4, 'List': 11, 'SubList': 5, '': 26}
+robotics~industrial	{'Note': 2, '': 1}
+being~robotics~industrial	{'Note': 1}
+ai~being~robotics~industrial	{'Note': 1}
+digitalization	{'Note': 15, 'Title': 4, 'List': 9, 'SubList': 5, '': 17}
+industrial~digitalization	{'Note': 11, 'Title': 4, 'List': 9, 'SubList': 5, '': 13}
+robotics~industrial~digitalization	{'Note': 2, '': 1}
+being~robotics~industrial~digitalization	{'Note': 1}
+omniverse	{'Note': 89, 'SubList': 7, 'List': 18, 'Title': 4, '': 102}
+digitalization~omniverse	{'Note': 1}
+industrial~digitalization~omniverse	{'Note': 1}
+robotics~industrial~digitalization~omniverse	{'Note': 1}
+omniverse~being	{'Note': 1}
+digitalization~omniverse~being	{'Note': 1}
+industrial~digitalization~omniverse~being	{'Note': 1}
+essential	{'Note': 11, 'List': 3, '': 13}
+being~essential	{'Note': 2, '': 1}
+omniverse~being~essential	{'Note': 1}
+digitalization~omniverse~being~essential	{'Note': 1}
+essential~robotics	{'Note': 1}
+being~essential~robotics	{'Note': 1}
+omniverse~being~essential~robotics	{'Note': 1}
+robotics~nvidias	{'Note': 1}
+essential~robotics~nvidias	{'Note': 1}
+being~essential~robotics~nvidias	{'Note': 1}
+acceleration	{'Note': 41, 'List': 3, 'Title': 4, 'Data': 4, '': 34}
+nvidias~acceleration	{'Note': 3, '': 2}
+robotics~nvidias~acceleration	{'Note': 1}
+essential~robotics~nvidias~acceleration	{'Note': 1}
+stacks	{'Note': 13, '': 12}
+acceleration~stacks	{'Note': 2, '': 1}
+nvidias~acceleration~stacks	{'Note': 2, '': 1}
+robotics~nvidias~acceleration~stacks	{'Note': 1}
+ecosystems	{'Note': 5, '': 4}
+stacks~ecosystems	{'Note': 2, '': 1}
+acceleration~stacks~ecosystems	{'Note': 2, '': 1}
+nvidias~acceleration~stacks~ecosystems	{'Note': 2, '': 1}
+helping	{'Note': 3, 'List': 1, '': 2}
+ecosystems~helping	{'Note': 1}
+stacks~ecosystems~helping	{'Note': 1}
+acceleration~stacks~ecosystems~helping	{'Note': 1}
+bring	{'Note': 22, '': 21, 'List': 1}
+helping~bring	{'Note': 1}
+ecosystems~helping~bring	{'Note': 1}
+stacks~ecosystems~helping~bring	{'Note': 1}
+bring~ai	{'Note': 3, '': 2}
+helping~bring~ai	{'Note': 1}
+ecosystems~helping~bring~ai	{'Note': 1}
+worlds	{'Note': 52, 'SubList': 1, 'List': 2, '': 53}
+ai~worlds	{'Note': 2, '': 1}
+bring~ai~worlds	{'Note': 2, '': 1}
+helping~bring~ai~worlds	{'Note': 1}
+largest	{'Note': 17, '': 15}
+worlds~largest	{'Note': 4, '': 3}
+ai~worlds~largest	{'Note': 2, '': 1}
+bring~ai~worlds~largest	{'Note': 2, '': 1}
+largest~industries	{'Note': 5, '': 4}
+worlds~largest~industries	{'Note': 2, '': 1}
+ai~worlds~largest~industries	{'Note': 2, '': 1}
+industries~nvidias	{'Note': 1}
+largest~industries~nvidias	{'Note': 1}
+worlds~largest~industries~nvidias	{'Note': 1}
+nvidias~ai	{'Note': 1}
+industries~nvidias~ai	{'Note': 1}
+largest~industries~nvidias~ai	{'Note': 1}
+expertise	{'Note': 42, 'List': 5, '': 46}
+ai~expertise	{'Note': 2, '': 1}
+nvidias~ai~expertise	{'Note': 1}
+industries~nvidias~ai~expertise	{'Note': 1}
+scale	{'Note': 30, 'List': 8, 'Title': 4, 'Data': 20, '': 30}
+expertise~scale	{'Note': 3, 'List': 1, '': 3}
+ai~expertise~scale	{'Note': 2, '': 1}
+nvidias~ai~expertise~scale	{'Note': 1}
+scale~helping	{'Note': 1}
+expertise~scale~helping	{'Note': 1}
+ai~expertise~scale~helping	{'Note': 1}
+revolutionize	{'Note': 6, '': 4}
+helping~revolutionize	{'Note': 1}
+scale~helping~revolutionize	{'Note': 1}
+expertise~scale~helping~revolutionize	{'Note': 1}
+businesses	{'Note': 21, 'Title': 2, 'List': 14, '': 34}
+revolutionize~businesses	{'Note': 2, '': 1}
+helping~revolutionize~businesses	{'Note': 1}
+scale~helping~revolutionize~businesses	{'Note': 1}
+businesses~nvidia	{'Note': 3, '': 2}
+revolutionize~businesses~nvidia	{'Note': 1}
+helping~revolutionize~businesses~nvidia	{'Note': 1}
+software	{'Note': 228, 'List': 30, 'Data': 2, 'Title': 2, '': 256, 'SubList': 1}
+nvidia~software	{'Note': 6, 'List': 1, 'Data': 1, 'Title': 2, '': 4}
+businesses~nvidia~software	{'Note': 1}
+revolutionize~businesses~nvidia~software	{'Note': 1}
+services	{'Note': 208, 'List': 39, 'Data': 1, 'Title': 4, '': 240, 'SubList': 1}
+software~services	{'Note': 6, 'Data': 1, 'Title': 2, '': 3}
+nvidia~software~services	{'Note': 5, 'Data': 1, 'Title': 2, '': 2}
+businesses~nvidia~software~services	{'Note': 1}
+enabling	{'Note': 15, 'SubList': 1, '': 15}
+services~enabling	{'Note': 1}
+software~services~enabling	{'Note': 1}
+nvidia~software~services~enabling	{'Note': 1}
+enabling~worlds	{'Note': 2, '': 1}
+services~enabling~worlds	{'Note': 1}
+software~services~enabling~worlds	{'Note': 1}
+worlds~enterprises	{'Note': 2, '': 1}
+enabling~worlds~enterprises	{'Note': 2, '': 1}
+services~enabling~worlds~enterprises	{'Note': 1}
+enterprises~revolutionize	{'Note': 2, '': 1}
+worlds~enterprises~revolutionize	{'Note': 2, '': 1}
+enabling~worlds~enterprises~revolutionize	{'Note': 2, '': 1}
+revolutionize~industries	{'Note': 2, '': 1}
+enterprises~revolutionize~industries	{'Note': 2, '': 1}
+worlds~enterprises~revolutionize~industries	{'Note': 2, '': 1}
+industries~ai	{'Note': 2, '': 1}
+revolutionize~industries~ai	{'Note': 2, '': 1}
+enterprises~revolutionize~industries~ai	{'Note': 2, '': 1}
+cost	{'Note': 147, 'Data': 2, '': 157, 'List': 9}
+ai~cost	{'Note': 1}
+industries~ai~cost	{'Note': 1}
+revolutionize~industries~ai~cost	{'Note': 1}
+time-to-solution	{'Note': 2, '': 1}
+cost~time-to-solution	{'Note': 2, '': 1}
+ai~cost~time-to-solution	{'Note': 1}
+industries~ai~cost~time-to-solution	{'Note': 1}
+savings	{'Note': 21, '': 20}
+time-to-solution~savings	{'Note': 2, '': 1}
+cost~time-to-solution~savings	{'Note': 2, '': 1}
+ai~cost~time-to-solution~savings	{'Note': 1}
+application	{'Note': 30, 'List': 4, '': 33}
+savings~application	{'Note': 1}
+time-to-solution~savings~application	{'Note': 1}
+cost~time-to-solution~savings~application	{'Note': 1}
+speed-ups	{'Note': 2, 'List': 1, '': 2}
+application~speed-ups	{'Note': 2, '': 1}
+savings~application~speed-ups	{'Note': 1}
+time-to-solution~savings~application~speed-ups	{'Note': 1}
+dividend	{'Note': 37, '': 32, 'List': 1}
+speed-ups~dividend	{'Note': 1}
+application~speed-ups~dividend	{'Note': 1}
+savings~application~speed-ups~dividend	{'Note': 1}
+program	{'Note': 121, 'List': 12, '': 131}
+dividend~program	{'Note': 11, '': 10}
+speed-ups~dividend~program	{'Note': 1}
+application~speed-ups~dividend~program	{'Note': 1}
+plan	{'Note': 438, '': 476, 'List': 54, 'Data': 14}
+program~plan	{'Note': 1}
+dividend~program~plan	{'Note': 1}
+speed-ups~dividend~program~plan	{'Note': 1}
+automotive	{'Note': 70, 'Data': 6, 'List': 9, 'Title': 4, '': 68}
+plan~automotive	{'Note': 1}
+program~plan~automotive	{'Note': 1}
+dividend~program~plan~automotive	{'Note': 1}
+design	{'Note': 100, 'SubList': 1, 'Title': 2, 'List': 30, 'Data': 3, '': 129}
+automotive~design	{'Note': 2, 'Data': 1, '': 2}
+plan~automotive~design	{'Note': 1}
+program~plan~automotive~design	{'Note': 1}
+win	{'Note': 4, 'Data': 2, '': 8, 'List': 3}
+design~win	{'Note': 4, 'Data': 2, '': 8, 'List': 3}
+automotive~design~win	{'Note': 2, 'Data': 1, '': 2}
+plan~automotive~design~win	{'Note': 1}
+pipeline	{'Note': 6, 'Title': 2, 'Data': 3, '': 13, 'List': 6}
+win~pipeline	{'Note': 4, 'Data': 1, '': 4}
+design~win~pipeline	{'Note': 4, 'Data': 1, '': 4}
+automotive~design~win~pipeline	{'Note': 2, '': 1}
+ramp	{'Note': 8, 'List': 4, '': 12, 'Data': 1}
+pipeline~ramp	{'Note': 1}
+win~pipeline~ramp	{'Note': 1}
+design~win~pipeline~ramp	{'Note': 1}
+production	{'Note': 20, 'List': 7, '': 26}
+ramp~production	{'Note': 1}
+pipeline~ramp~production	{'Note': 1}
+win~pipeline~ramp~production	{'Note': 1}
+expectations	{'Note': 20, 'List': 7, '': 24}
+production~expectations	{'Note': 1}
+ramp~production~expectations	{'Note': 1}
+pipeline~ramp~production~expectations	{'Note': 1}
+aim	{'Note': 5, '': 4}
+expectations~aim	{'Note': 1}
+production~expectations~aim	{'Note': 1}
+ramp~production~expectations~aim	{'Note': 1}
+engage	{'Note': 14, '': 16, 'List': 4}
+aim~engage	{'Note': 2, '': 1}
+expectations~aim~engage	{'Note': 1}
+production~expectations~aim~engage	{'Note': 1}
+manufacturing	{'Note': 67, 'List': 13, '': 78}
+engage~manufacturing	{'Note': 2, '': 1}
+aim~engage~manufacturing	{'Note': 2, '': 1}
+expectations~aim~engage~manufacturing	{'Note': 1}
+suppliers	{'Note': 52, '': 82, 'List': 28, 'SubList': 3}
+manufacturing~suppliers	{'Note': 3, '': 2}
+engage~manufacturing~suppliers	{'Note': 2, '': 1}
+aim~engage~manufacturing~suppliers	{'Note': 2, '': 1}
+goal	{'Note': 84, '': 92, 'List': 8, 'Data': 1}
+suppliers~goal	{'Note': 1}
+manufacturing~suppliers~goal	{'Note': 1}
+engage~manufacturing~suppliers~goal	{'Note': 1}
+effecting	{'Note': 2, '': 1}
+goal~effecting	{'Note': 2, '': 1}
+suppliers~goal~effecting	{'Note': 1}
+manufacturing~suppliers~goal~effecting	{'Note': 1}
+supplier	{'Note': 4, '': 8, 'List': 4, 'Data': 1}
+effecting~supplier	{'Note': 2, '': 1}
+goal~effecting~supplier	{'Note': 2, '': 1}
+suppliers~goal~effecting~supplier	{'Note': 1}
+adoption	{'Note': 23, 'Title': 2, 'List': 3, '': 24}
+supplier~adoption	{'Note': 2, '': 1}
+effecting~supplier~adoption	{'Note': 2, '': 1}
+goal~effecting~supplier~adoption	{'Note': 2, '': 1}
+science-based	{'Note': 2, '': 1}
+adoption~science-based	{'Note': 2, '': 1}
+supplier~adoption~science-based	{'Note': 2, '': 1}
+effecting~supplier~adoption~science-based	{'Note': 2, '': 1}
+environmental	{'Note': 27, 'List': 12, '': 38}
+science-based~environmental	{'Note': 1}
+adoption~science-based~environmental	{'Note': 1}
+supplier~adoption~science-based~environmental	{'Note': 1}
+targets	{'Note': 13, '': 17, 'List': 5}
+environmental~targets	{'Note': 1}
+science-based~environmental~targets	{'Note': 1}
+adoption~science-based~environmental~targets	{'Note': 1}
+targets~fiscal	{'Note': 1}
+environmental~targets~fiscal	{'Note': 1}
+science-based~environmental~targets~fiscal	{'Note': 1}
+2026	{'Note': 7, 'List': 1, 'Data': 8, '': 15}
+fiscal~2026	{'Note': 1}
+targets~fiscal~2026	{'Note': 1}
+environmental~targets~fiscal~2026	{'Note': 1}
+2026~plan	{'Note': 1}
+fiscal~2026~plan	{'Note': 1}
+targets~fiscal~2026~plan	{'Note': 1}
+100%	{'Note': 31, '': 49, 'List': 3, 'Data': 16}
+plan~100%	{'Note': 1}
+2026~plan~100%	{'Note': 1}
+fiscal~2026~plan~100%	{'Note': 1}
+renewable	{'Note': 13, '': 14, 'List': 2}
+100%~renewable	{'Note': 2, '': 1}
+plan~100%~renewable	{'Note': 1}
+2026~plan~100%~renewable	{'Note': 1}
+electricity	{'Note': 10, '': 10, 'List': 1}
+renewable~electricity	{'Note': 2, '': 1}
+100%~renewable~electricity	{'Note': 2, '': 1}
+plan~100%~renewable~electricity	{'Note': 1}
+operations	{'Note': 202, '': 265, 'List': 67, 'Data': 2}
+electricity~operations	{'Note': 2, '': 1}
+renewable~electricity~operations	{'Note': 2, '': 1}
+100%~renewable~electricity~operations	{'Note': 2, '': 1}
+operations~data	{'Note': 2, '': 1}
+electricity~operations~data	{'Note': 2, '': 1}
+renewable~electricity~operations~data	{'Note': 2, '': 1}
+operations~data~centers	{'Note': 2, '': 1}
+electricity~operations~data~centers	{'Note': 2, '': 1}
+centers~fiscal	{'Note': 1}
+data~centers~fiscal	{'Note': 1}
+operations~data~centers~fiscal	{'Note': 1}
+2025	{'Note': 18, 'Data': 7, '': 26, 'List': 2}
+fiscal~2025	{'Note': 3, '': 2}
+centers~fiscal~2025	{'Note': 1}
+data~centers~fiscal~2025	{'Note': 1}
+annually	{'Note': 28, '': 30, 'List': 3}
+2025~annually	{'Note': 1}
+fiscal~2025~annually	{'Note': 1}
+centers~fiscal~2025~annually	{'Note': 1}
+thereafter	{'Note': 31, '': 36, 'Data': 9}
+annually~thereafter	{'Note': 2, '': 1}
+2025~annually~thereafter	{'Note': 1}
+fiscal~2025~annually~thereafter	{'Note': 1}
+forward-looking	{'Note': 49, '': 39}
+thereafter~forward-looking	{'Note': 1}
+annually~thereafter~forward-looking	{'Note': 1}
+2025~annually~thereafter~forward-looking	{'Note': 1}
+forward-looking~statements	{'Note': 47, '': 37}
+thereafter~forward-looking~statements	{'Note': 1}
+annually~thereafter~forward-looking~statements	{'Note': 1}
+statements~forward-looking~statements	{'Note': 11, '': 9}
+forward-looking~statements~forward-looking~statements	{'Note': 11, '': 9}
+other	{'Note': 759, '': 841, 'List': 103, 'Data': 14}
+statements~other	{'Note': 5, '': 4}
+forward-looking~statements~other	{'Note': 1}
+other~forward-looking~statements~other	{'Note': 1}
+other~forward-looking	{'Note': 1}
+statements~other~forward-looking	{'Note': 1}
+forward-looking~statements~other~forward-looking	{'Note': 1}
+other~forward-looking~statements	{'Note': 1}
+statements~other~forward-looking~statements	{'Note': 1}
+go	{'Note': 5, '': 4}
+statements~go	{'Note': 1}
+forward-looking~statements~go	{'Note': 1}
+other~forward-looking~statements~go	{'Note': 1}
+beyond	{'Note': 19, '': 18}
+go~beyond	{'Note': 1}
+statements~go~beyond	{'Note': 1}
+forward-looking~statements~go~beyond	{'Note': 1}
+beyond~historical	{'Note': 1}
+go~beyond~historical	{'Note': 1}
+statements~go~beyond~historical	{'Note': 1}
+facts	{'Note': 11, '': 10}
+historical~facts	{'Note': 3, '': 2}
+beyond~historical~facts	{'Note': 1}
+go~beyond~historical~facts	{'Note': 1}
+made	{'Note': 73, 'List': 5, '': 74}
+facts~made	{'Note': 1}
+historical~facts~made	{'Note': 1}
+beyond~historical~facts~made	{'Note': 1}
+made~presentation	{'Note': 1}
+facts~made~presentation	{'Note': 1}
+historical~facts~made~presentation	{'Note': 1}
+subject	{'Note': 234, '': 240, 'List': 26, 'Data': 2}
+presentation~subject	{'Note': 1}
+made~presentation~subject	{'Note': 1}
+facts~made~presentation~subject	{'Note': 1}
+risks	{'Note': 106, 'List': 32, '': 136}
+subject~risks	{'Note': 3, 'List': 1, '': 3}
+presentation~subject~risks	{'Note': 1}
+made~presentation~subject~risks	{'Note': 1}
+uncertainties	{'Note': 28, 'List': 5, '': 31}
+risks~uncertainties	{'Note': 18, 'List': 2, '': 18}
+subject~risks~uncertainties	{'Note': 3, 'List': 1, '': 3}
+presentation~subject~risks~uncertainties	{'Note': 1}
+may	{'Note': 699, 'List': 139, 'Data': 7, '': 801}
+uncertainties~may	{'Note': 1}
+risks~uncertainties~may	{'Note': 1}
+subject~risks~uncertainties~may	{'Note': 1}
+cause	{'Note': 57, 'List': 12, '': 62}
+may~cause	{'Note': 8, 'List': 2, '': 9}
+uncertainties~may~cause	{'Note': 1}
+risks~uncertainties~may~cause	{'Note': 1}
+actual	{'Note': 62, '': 61, 'List': 2}
+cause~actual	{'Note': 8, '': 6}
+may~cause~actual	{'Note': 3, '': 2}
+uncertainties~may~cause~actual	{'Note': 1}
+results	{'Note': 196, '': 230, 'List': 42, 'Data': 1}
+actual~results	{'Note': 20, '': 17}
+cause~actual~results	{'Note': 8, '': 6}
+may~cause~actual~results	{'Note': 3, '': 2}
+differ	{'Note': 26, 'List': 1, '': 24}
+results~differ	{'Note': 6, '': 4}
+actual~results~differ	{'Note': 6, '': 4}
+cause~actual~results~differ	{'Note': 6, '': 4}
+materially	{'Note': 52, 'List': 2, '': 50}
+differ~materially	{'Note': 11, '': 8}
+results~differ~materially	{'Note': 4, '': 2}
+actual~results~differ~materially	{'Note': 4, '': 2}
+important	{'Note': 42, '': 45, 'List': 4}
+factors	{'Note': 89, 'List': 17, 'Data': 2, '': 105}
+important~factors	{'Note': 3, '': 2}
+factors~important~factors	{'Note': 3, '': 2}
+important~factors~important~factors	{'Note': 3, '': 2}
+could	{'Note': 251, 'List': 76, '': 324}
+factors~could	{'Note': 6, '': 4}
+important~factors~could	{'Note': 3, '': 2}
+could~important~factors~could	{'Note': 3, '': 2}
+could~cause	{'Note': 16, 'List': 4, '': 19}
+factors~could~cause	{'Note': 3, '': 2}
+important~factors~could~cause	{'Note': 3, '': 2}
+could~cause~actual	{'Note': 5, '': 4}
+factors~could~cause~actual	{'Note': 3, '': 2}
+could~cause~actual~results	{'Note': 5, '': 4}
+include	{'Note': 121, 'List': 7, '': 125}
+materially~include	{'Note': 3, '': 2}
+differ~materially~include	{'Note': 3, '': 2}
+results~differ~materially~include	{'Note': 3, '': 2}
+include~global	{'Note': 3, '': 2}
+materially~include~global	{'Note': 3, '': 2}
+differ~materially~include~global	{'Note': 3, '': 2}
+economic	{'Note': 44, 'List': 20, '': 61}
+global~economic	{'Note': 3, '': 2}
+include~global~economic	{'Note': 3, '': 2}
+materially~include~global~economic	{'Note': 3, '': 2}
+conditions	{'Note': 112, 'List': 15, '': 109}
+economic~conditions	{'Note': 8, 'List': 7, '': 14}
+global~economic~conditions	{'Note': 3, '': 2}
+include~global~economic~conditions	{'Note': 3, '': 2}
+reliance	{'Note': 7, '': 6}
+conditions~reliance	{'Note': 3, '': 2}
+economic~conditions~reliance	{'Note': 3, '': 2}
+global~economic~conditions~reliance	{'Note': 3, '': 2}
+reliance~third	{'Note': 3, '': 2}
+conditions~reliance~third	{'Note': 3, '': 2}
+economic~conditions~reliance~third	{'Note': 3, '': 2}
+parties	{'Note': 40, 'List': 17, '': 56}
+third~parties	{'Note': 25, 'List': 11, '': 35}
+reliance~third~parties	{'Note': 3, '': 2}
+conditions~reliance~third~parties	{'Note': 3, '': 2}
+manufacture	{'Note': 19, 'List': 10, '': 28}
+parties~manufacture	{'Note': 4, '': 3}
+third~parties~manufacture	{'Note': 4, '': 3}
+reliance~third~parties~manufacture	{'Note': 3, '': 2}
+assemble	{'Note': 8, 'List': 2, '': 9}
+manufacture~assemble	{'Note': 5, 'List': 1, '': 5}
+parties~manufacture~assemble	{'Note': 4, '': 3}
+third~parties~manufacture~assemble	{'Note': 4, '': 3}
+package	{'Note': 5, 'List': 2, '': 6}
+assemble~package	{'Note': 3, '': 2}
+manufacture~assemble~package	{'Note': 3, '': 2}
+parties~manufacture~assemble~package	{'Note': 3, '': 2}
+test	{'Note': 31, 'List': 8, '': 38}
+package~test	{'Note': 3, '': 2}
+assemble~package~test	{'Note': 3, '': 2}
+manufacture~assemble~package~test	{'Note': 3, '': 2}
+test~products	{'Note': 3, '': 2}
+package~test~products	{'Note': 3, '': 2}
+assemble~package~test~products	{'Note': 3, '': 2}
+products~impact	{'Note': 4, '': 3}
+test~products~impact	{'Note': 3, '': 2}
+package~test~products~impact	{'Note': 3, '': 2}
+technological	{'Note': 12, 'List': 2, '': 13}
+impact~technological	{'Note': 3, '': 2}
+products~impact~technological	{'Note': 3, '': 2}
+test~products~impact~technological	{'Note': 3, '': 2}
+development	{'Note': 189, 'List': 27, '': 216, 'Data': 3}
+technological~development	{'Note': 3, '': 2}
+impact~technological~development	{'Note': 3, '': 2}
+products~impact~technological~development	{'Note': 3, '': 2}
+competition	{'Note': 19, 'List': 6, '': 24}
+development~competition	{'Note': 3, '': 2}
+technological~development~competition	{'Note': 3, '': 2}
+impact~technological~development~competition	{'Note': 3, '': 2}
+competition~development	{'Note': 3, '': 2}
+development~competition~development	{'Note': 3, '': 2}
+technological~development~competition~development	{'Note': 3, '': 2}
+development~new	{'Note': 3, '': 2}
+competition~development~new	{'Note': 3, '': 2}
+development~competition~development~new	{'Note': 3, '': 2}
+new~products	{'Note': 19, 'List': 5, '': 23}
+development~new~products	{'Note': 3, '': 2}
+competition~development~new~products	{'Note': 3, '': 2}
+new~products~technologies	{'Note': 3, '': 4, 'List': 2}
+development~new~products~technologies	{'Note': 3, '': 2}
+enhancements	{'Note': 5, 'List': 1, '': 5}
+technologies~enhancements	{'Note': 3, '': 2}
+products~technologies~enhancements	{'Note': 3, '': 2}
+new~products~technologies~enhancements	{'Note': 3, '': 2}
+existing	{'Note': 42, 'List': 10, '': 51}
+enhancements~existing	{'Note': 3, '': 2}
+technologies~enhancements~existing	{'Note': 3, '': 2}
+products~technologies~enhancements~existing	{'Note': 3, '': 2}
+product	{'Note': 154, 'List': 40, '': 194, 'Data': 1}
+existing~product	{'Note': 3, '': 2}
+enhancements~existing~product	{'Note': 3, '': 2}
+technologies~enhancements~existing~product	{'Note': 3, '': 2}
+product~technologies	{'Note': 3, '': 2}
+existing~product~technologies	{'Note': 3, '': 2}
+enhancements~existing~product~technologies	{'Note': 3, '': 2}
+technologies~market	{'Note': 3, '': 2}
+product~technologies~market	{'Note': 3, '': 2}
+existing~product~technologies~market	{'Note': 3, '': 2}
+acceptance	{'Note': 6, 'List': 1, '': 6}
+market~acceptance	{'Note': 4, 'List': 1, '': 4}
+technologies~market~acceptance	{'Note': 3, '': 2}
+product~technologies~market~acceptance	{'Note': 3, '': 2}
+acceptance~products	{'Note': 5, '': 4}
+market~acceptance~products	{'Note': 3, '': 2}
+technologies~market~acceptance~products	{'Note': 3, '': 2}
+partners	{'Note': 88, 'Title': 4, 'List': 29, '': 112, 'Data': 1}
+products~partners	{'Note': 3, '': 2}
+acceptance~products~partners	{'Note': 3, '': 2}
+market~acceptance~products~partners	{'Note': 3, '': 2}
+partners~products	{'Note': 3, '': 2}
+products~partners~products	{'Note': 3, '': 2}
+acceptance~products~partners~products	{'Note': 3, '': 2}
+products~design	{'Note': 3, 'List': 1, '': 3}
+partners~products~design	{'Note': 3, '': 2}
+products~partners~products~design	{'Note': 3, '': 2}
+design~manufacturing	{'Note': 10, 'List': 1, '': 10}
+products~design~manufacturing	{'Note': 3, '': 2}
+partners~products~design~manufacturing	{'Note': 3, '': 2}
+manufacturing~software	{'Note': 3, '': 2}
+design~manufacturing~software	{'Note': 3, '': 2}
+products~design~manufacturing~software	{'Note': 3, '': 2}
+defects	{'Note': 9, 'List': 8, '': 16}
+software~defects	{'Note': 3, '': 2}
+manufacturing~software~defects	{'Note': 3, '': 2}
+design~manufacturing~software~defects	{'Note': 3, '': 2}
+changes	{'Note': 144, 'List': 39, 'Data': 2, '': 183}
+defects~changes	{'Note': 3, '': 2}
+software~defects~changes	{'Note': 3, '': 2}
+manufacturing~software~defects~changes	{'Note': 3, '': 2}
+consumer	{'Note': 34, 'SubList': 1, 'List': 11, '': 45}
+changes~consumer	{'Note': 3, '': 2}
+defects~changes~consumer	{'Note': 3, '': 2}
+software~defects~changes~consumer	{'Note': 3, '': 2}
+preferences	{'Note': 5, '': 4}
+consumer~preferences	{'Note': 3, '': 2}
+changes~consumer~preferences	{'Note': 3, '': 2}
+defects~changes~consumer~preferences	{'Note': 3, '': 2}
+demands	{'Note': 11, '': 11, 'List': 1}
+preferences~demands	{'Note': 3, '': 2}
+consumer~preferences~demands	{'Note': 3, '': 2}
+changes~consumer~preferences~demands	{'Note': 3, '': 2}
+demands~changes	{'Note': 3, '': 2}
+preferences~demands~changes	{'Note': 3, '': 2}
+consumer~preferences~demands~changes	{'Note': 3, '': 2}
+industry	{'Note': 119, '': 136, 'List': 18}
+changes~industry	{'Note': 3, 'List': 2, '': 4}
+demands~changes~industry	{'Note': 3, '': 2}
+preferences~demands~changes~industry	{'Note': 3, '': 2}
+standards	{'Note': 57, 'List': 15, '': 70}
+industry~standards	{'Note': 11, 'List': 3, '': 13}
+changes~industry~standards	{'Note': 3, 'List': 2, '': 4}
+demands~changes~industry~standards	{'Note': 3, '': 2}
+interfaces	{'Note': 6, '': 5}
+standards~interfaces	{'Note': 3, '': 2}
+industry~standards~interfaces	{'Note': 3, '': 2}
+changes~industry~standards~interfaces	{'Note': 3, '': 2}
+unexpected	{'Note': 8, 'List': 3, '': 10}
+interfaces~unexpected	{'Note': 3, '': 2}
+standards~interfaces~unexpected	{'Note': 3, '': 2}
+industry~standards~interfaces~unexpected	{'Note': 3, '': 2}
+loss	{'Note': 122, 'Data': 3, '': 133, 'List': 9}
+unexpected~loss	{'Note': 3, '': 2}
+interfaces~unexpected~loss	{'Note': 3, '': 2}
+standards~interfaces~unexpected~loss	{'Note': 3, '': 2}
+loss~performance	{'Note': 3, '': 2}
+unexpected~loss~performance	{'Note': 3, '': 2}
+interfaces~unexpected~loss~performance	{'Note': 3, '': 2}
+performance~products	{'Note': 3, '': 2}
+loss~performance~products	{'Note': 3, '': 2}
+unexpected~loss~performance~products	{'Note': 3, '': 2}
+performance~products~technologies	{'Note': 3, '': 2}
+loss~performance~products~technologies	{'Note': 3, '': 2}
+when	{'Note': 69, 'List': 9, '': 75}
+technologies~when	{'Note': 3, '': 2}
+products~technologies~when	{'Note': 3, '': 2}
+performance~products~technologies~when	{'Note': 3, '': 2}
+integrated	{'Note': 22, 'List': 4, '': 25}
+when~integrated	{'Note': 3, '': 2}
+technologies~when~integrated	{'Note': 3, '': 2}
+products~technologies~when~integrated	{'Note': 3, '': 2}
+integrated~systems	{'Note': 3, '': 2}
+when~integrated~systems	{'Note': 3, '': 2}
+technologies~when~integrated~systems	{'Note': 3, '': 2}
+systems~other	{'Note': 1}
+integrated~systems~other	{'Note': 1}
+when~integrated~systems~other	{'Note': 1}
+other~factors	{'Note': 13, '': 12}
+systems~other~factors	{'Note': 1}
+integrated~systems~other~factors	{'Note': 1}
+nvidia~has	{'Note': 23, '': 24, 'List': 2}
+has~nvidia~has	{'Note': 15, '': 16, 'List': 2}
+nvidia~has~nvidia~has	{'Note': 15, '': 16, 'List': 2}
+has~based	{'Note': 1}
+nvidia~has~based	{'Note': 1}
+based~nvidia~has~based	{'Note': 1}
+based~forward-looking	{'Note': 1}
+has~based~forward-looking	{'Note': 1}
+nvidia~has~based~forward-looking	{'Note': 1}
+based~forward-looking~statements	{'Note': 1}
+has~based~forward-looking~statements	{'Note': 1}
+statements~largely	{'Note': 1}
+forward-looking~statements~largely	{'Note': 1}
+based~forward-looking~statements~largely	{'Note': 1}
+current	{'Note': 165, 'List': 5, '': 166}
+largely~current	{'Note': 1}
+statements~largely~current	{'Note': 1}
+forward-looking~statements~largely~current	{'Note': 1}
+current~expectations	{'Note': 1}
+largely~current~expectations	{'Note': 1}
+statements~largely~current~expectations	{'Note': 1}
+projections	{'Note': 11, '': 10}
+expectations~projections	{'Note': 1}
+current~expectations~projections	{'Note': 1}
+largely~current~expectations~projections	{'Note': 1}
+future	{'Note': 256, '': 281, 'List': 30}
+projections~future	{'Note': 7, '': 6}
+expectations~projections~future	{'Note': 1}
+current~expectations~projections~future	{'Note': 1}
+events	{'Note': 38, 'List': 4, '': 35}
+future~events	{'Note': 6, '': 2}
+projections~future~events	{'Note': 1}
+expectations~projections~future~events	{'Note': 1}
+trends	{'Note': 26, 'Data': 1, 'List': 3, '': 28}
+events~trends	{'Note': 2}
+future~events~trends	{'Note': 2}
+projections~future~events~trends	{'Note': 1}
+believes	{'Note': 28, '': 25}
+trends~believes	{'Note': 1}
+events~trends~believes	{'Note': 1}
+future~events~trends~believes	{'Note': 1}
+believes~may	{'Note': 1}
+trends~believes~may	{'Note': 1}
+events~trends~believes~may	{'Note': 1}
+affect	{'Note': 50, 'List': 12, '': 60}
+may~affect	{'Note': 1}
+believes~may~affect	{'Note': 1}
+trends~believes~may~affect	{'Note': 1}
+affect~financial	{'Note': 10, '': 10, 'List': 2}
+may~affect~financial	{'Note': 1}
+believes~may~affect~financial	{'Note': 1}
+condition	{'Note': 43, 'List': 10, 'Data': 1, '': 53}
+financial~condition	{'Note': 36, 'List': 10, 'Data': 1, '': 46}
+affect~financial~condition	{'Note': 4, '': 4, 'List': 1}
+may~affect~financial~condition	{'Note': 1}
+condition~results	{'Note': 24, 'List': 6, 'Data': 1, '': 30}
+financial~condition~results	{'Note': 24, 'List': 6, 'Data': 1, '': 30}
+affect~financial~condition~results	{'Note': 2, '': 1}
+results~operations	{'Note': 51, 'List': 15, 'Data': 1, '': 64}
+condition~results~operations	{'Note': 22, 'List': 6, 'Data': 1, '': 28}
+financial~condition~results~operations	{'Note': 22, 'List': 6, 'Data': 1, '': 28}
+business	{'Note': 371, 'List': 125, '': 494, 'Data': 2}
+operations~business	{'Note': 3, '': 2}
+results~operations~business	{'Note': 1}
+condition~results~operations~business	{'Note': 1}
+strategy	{'Note': 40, '': 48, 'List': 9}
+business~strategy	{'Note': 10, '': 9}
+operations~business~strategy	{'Note': 1}
+results~operations~business~strategy	{'Note': 1}
+short-term	{'Note': 17, '': 16}
+strategy~short-term	{'Note': 1}
+business~strategy~short-term	{'Note': 1}
+operations~business~strategy~short-term	{'Note': 1}
+long-term	{'Note': 101, 'List': 9, 'Data': 4, '': 113}
+short-term~long-term	{'Note': 4, '': 3}
+strategy~short-term~long-term	{'Note': 1}
+business~strategy~short-term~long-term	{'Note': 1}
+long-term~business	{'Note': 1}
+short-term~long-term~business	{'Note': 1}
+strategy~short-term~long-term~business	{'Note': 1}
+business~operations	{'Note': 16, 'List': 7, '': 21}
+long-term~business~operations	{'Note': 1}
+short-term~long-term~business~operations	{'Note': 1}
+objectives	{'Note': 26, 'List': 3, '': 27}
+operations~objectives	{'Note': 1}
+business~operations~objectives	{'Note': 1}
+long-term~business~operations~objectives	{'Note': 1}
+objectives~financial	{'Note': 1}
+operations~objectives~financial	{'Note': 1}
+business~operations~objectives~financial	{'Note': 1}
+needs	{'Note': 23, '': 33, 'List': 11}
+financial~needs	{'Note': 1}
+objectives~financial~needs	{'Note': 1}
+operations~objectives~financial~needs	{'Note': 1}
+statements~subject	{'Note': 3, '': 2}
+forward-looking~statements~subject	{'Note': 3, '': 2}
+subject~forward-looking~statements~subject	{'Note': 1}
+subject~number	{'Note': 1}
+statements~subject~number	{'Note': 1}
+forward-looking~statements~subject~number	{'Note': 1}
+number~risks	{'Note': 2, 'List': 1, '': 2}
+subject~number~risks	{'Note': 1}
+statements~subject~number~risks	{'Note': 1}
+number~risks~uncertainties	{'Note': 2, 'List': 1, '': 2}
+subject~number~risks~uncertainties	{'Note': 1}
+uncertainties~not	{'Note': 3, '': 2}
+risks~uncertainties~not	{'Note': 1}
+number~risks~uncertainties~not	{'Note': 1}
+rely	{'Note': 21, 'List': 7, '': 27}
+not~rely	{'Note': 3, '': 2}
+uncertainties~not~rely	{'Note': 1}
+risks~uncertainties~not~rely	{'Note': 1}
+upon	{'Note': 142, 'List': 13, '': 144}
+rely~upon	{'Note': 5, '': 4}
+not~rely~upon	{'Note': 1}
+uncertainties~not~rely~upon	{'Note': 1}
+upon~forward-looking	{'Note': 1}
+rely~upon~forward-looking	{'Note': 1}
+not~rely~upon~forward-looking	{'Note': 1}
+upon~forward-looking~statements	{'Note': 1}
+rely~upon~forward-looking~statements	{'Note': 1}
+predictions	{'Note': 8, '': 7}
+statements~predictions	{'Note': 1}
+forward-looking~statements~predictions	{'Note': 1}
+upon~forward-looking~statements~predictions	{'Note': 1}
+predictions~future	{'Note': 1}
+statements~predictions~future	{'Note': 1}
+forward-looking~statements~predictions~future	{'Note': 1}
+predictions~future~events	{'Note': 1}
+statements~predictions~future~events	{'Note': 1}
+events~future~events	{'Note': 1}
+future~events~future~events	{'Note': 1}
+trends~future~events~trends	{'Note': 1}
+discussed	{'Note': 32, 'List': 2, '': 33}
+trends~discussed	{'Note': 1}
+events~trends~discussed	{'Note': 1}
+future~events~trends~discussed	{'Note': 1}
+discussed~presentation	{'Note': 1}
+trends~discussed~presentation	{'Note': 1}
+events~trends~discussed~presentation	{'Note': 1}
+presentation~may	{'Note': 1}
+discussed~presentation~may	{'Note': 1}
+trends~discussed~presentation~may	{'Note': 1}
+may~not	{'Note': 65, 'List': 18, 'Data': 1, '': 79}
+presentation~may~not	{'Note': 1}
+discussed~presentation~may~not	{'Note': 1}
+occur	{'Note': 27, 'List': 1, '': 26}
+not~occur	{'Note': 2, '': 1}
+may~not~occur	{'Note': 1}
+presentation~may~not~occur	{'Note': 1}
+occur~actual	{'Note': 1}
+not~occur~actual	{'Note': 1}
+may~not~occur~actual	{'Note': 1}
+occur~actual~results	{'Note': 1}
+not~occur~actual~results	{'Note': 1}
+results~could	{'Note': 8, '': 8, 'List': 1}
+actual~results~could	{'Note': 7, '': 6}
+occur~actual~results~could	{'Note': 1}
+could~differ	{'Note': 7, '': 6}
+results~could~differ	{'Note': 7, '': 6}
+actual~results~could~differ	{'Note': 7, '': 6}
+could~differ~materially	{'Note': 7, '': 6}
+results~could~differ~materially	{'Note': 7, '': 6}
+adversely	{'Note': 37, 'List': 18, '': 54}
+materially~adversely	{'Note': 4, '': 3}
+differ~materially~adversely	{'Note': 1}
+could~differ~materially~adversely	{'Note': 1}
+those	{'Note': 88, 'Data': 4, 'List': 14, '': 104}
+adversely~those	{'Note': 1}
+materially~adversely~those	{'Note': 1}
+differ~materially~adversely~those	{'Note': 1}
+anticipated	{'Note': 19, '': 19, 'List': 1}
+those~anticipated	{'Note': 3, '': 2}
+adversely~those~anticipated	{'Note': 1}
+materially~adversely~those~anticipated	{'Note': 1}
+implied	{'Note': 3, '': 2}
+anticipated~implied	{'Note': 1}
+those~anticipated~implied	{'Note': 1}
+adversely~those~anticipated~implied	{'Note': 1}
+implied~forward-looking	{'Note': 3, '': 2}
+anticipated~implied~forward-looking	{'Note': 1}
+those~anticipated~implied~forward-looking	{'Note': 1}
+implied~forward-looking~statements	{'Note': 3, '': 2}
+anticipated~implied~forward-looking~statements	{'Note': 1}
+although	{'Note': 13, 'List': 3, '': 14}
+although~nvidia	{'Note': 1}
+nvidia~although~nvidia	{'Note': 1}
+although~nvidia~although~nvidia	{'Note': 1}
+nvidia~believes	{'Note': 2}
+although~nvidia~believes	{'Note': 1}
+believes~although~nvidia~believes	{'Note': 1}
+believes~expectations	{'Note': 1}
+nvidia~believes~expectations	{'Note': 1}
+although~nvidia~believes~expectations	{'Note': 1}
+reflected	{'Note': 7, '': 6, 'Data': 1}
+expectations~reflected	{'Note': 1}
+believes~expectations~reflected	{'Note': 1}
+nvidia~believes~expectations~reflected	{'Note': 1}
+reflected~forward-looking	{'Note': 2}
+expectations~reflected~forward-looking	{'Note': 1}
+believes~expectations~reflected~forward-looking	{'Note': 1}
+reflected~forward-looking~statements	{'Note': 2}
+expectations~reflected~forward-looking~statements	{'Note': 1}
+reasonable	{'Note': 49, 'List': 3, '': 51}
+statements~reasonable	{'Note': 1}
+forward-looking~statements~reasonable	{'Note': 1}
+reflected~forward-looking~statements~reasonable	{'Note': 1}
+company	{'Note': 460, 'List': 44, 'Data': 3, '': 459, 'SubList': 1}
+reasonable~company	{'Note': 1}
+statements~reasonable~company	{'Note': 1}
+forward-looking~statements~reasonable~company	{'Note': 1}
+cannot	{'Note': 17, 'List': 3, '': 18}
+company~cannot	{'Note': 1}
+reasonable~company~cannot	{'Note': 1}
+statements~reasonable~company~cannot	{'Note': 1}
+guarantee	{'Note': 2, 'List': 3, '': 4}
+cannot~guarantee	{'Note': 2, 'List': 1, '': 2}
+company~cannot~guarantee	{'Note': 1}
+reasonable~company~cannot~guarantee	{'Note': 1}
+guarantee~future	{'Note': 1}
+cannot~guarantee~future	{'Note': 1}
+company~cannot~guarantee~future	{'Note': 1}
+future~results	{'Note': 5, '': 4}
+guarantee~future~results	{'Note': 1}
+cannot~guarantee~future~results	{'Note': 1}
+levels	{'Note': 27, 'List': 10, '': 36, 'Data': 1}
+results~levels	{'Note': 1}
+future~results~levels	{'Note': 1}
+guarantee~future~results~levels	{'Note': 1}
+activity	{'Note': 10, 'List': 2, '': 10}
+levels~activity	{'Note': 1}
+results~levels~activity	{'Note': 1}
+future~results~levels~activity	{'Note': 1}
+activity~performance	{'Note': 1}
+levels~activity~performance	{'Note': 1}
+results~levels~activity~performance	{'Note': 1}
+achievements	{'Note': 8, '': 7}
+performance~achievements	{'Note': 1}
+activity~performance~achievements	{'Note': 1}
+levels~activity~performance~achievements	{'Note': 1}
+achievements~events	{'Note': 1}
+performance~achievements~events	{'Note': 1}
+activity~performance~achievements~events	{'Note': 1}
+circumstances	{'Note': 25, 'List': 1, '': 23}
+events~circumstances	{'Note': 4, '': 2}
+achievements~events~circumstances	{'Note': 1}
+performance~achievements~events~circumstances	{'Note': 1}
+circumstances~reflected	{'Note': 1}
+events~circumstances~reflected	{'Note': 1}
+achievements~events~circumstances~reflected	{'Note': 1}
+circumstances~reflected~forward-looking	{'Note': 1}
+events~circumstances~reflected~forward-looking	{'Note': 1}
+circumstances~reflected~forward-looking~statements	{'Note': 1}
+statements~occur	{'Note': 1}
+forward-looking~statements~occur	{'Note': 1}
+reflected~forward-looking~statements~occur	{'Note': 1}
+required	{'Note': 158, '': 169, 'List': 15, 'Data': 2}
+except~required	{'Note': 5, '': 4}
+required~except~required	{'Note': 3, '': 2}
+except~required~except~required	{'Note': 3, '': 2}
+required~law	{'Note': 6, 'List': 1, '': 6}
+except~required~law	{'Note': 5, '': 4}
+law~except~required~law	{'Note': 3, '': 2}
+law~nvidia	{'Note': 4, '': 3}
+required~law~nvidia	{'Note': 3, '': 2}
+except~required~law~nvidia	{'Note': 3, '': 2}
+disclaims	{'Note': 8, '': 8, 'Data': 1}
+nvidia~disclaims	{'Note': 3, '': 2}
+law~nvidia~disclaims	{'Note': 3, '': 2}
+required~law~nvidia~disclaims	{'Note': 3, '': 2}
+obligation	{'Note': 29, '': 27}
+disclaims~obligation	{'Note': 3, '': 2}
+nvidia~disclaims~obligation	{'Note': 3, '': 2}
+law~nvidia~disclaims~obligation	{'Note': 3, '': 2}
+obligation~update	{'Note': 5, '': 4}
+disclaims~obligation~update	{'Note': 3, '': 2}
+nvidia~disclaims~obligation~update	{'Note': 3, '': 2}
+update~forward-looking	{'Note': 5, '': 4}
+obligation~update~forward-looking	{'Note': 5, '': 4}
+disclaims~obligation~update~forward-looking	{'Note': 3, '': 2}
+update~forward-looking~statements	{'Note': 5, '': 4}
+obligation~update~forward-looking~statements	{'Note': 5, '': 4}
+reflect	{'Note': 47, 'Data': 3, 'Title': 2, '': 44, 'List': 3}
+statements~reflect	{'Note': 5, '': 4}
+forward-looking~statements~reflect	{'Note': 3, '': 2}
+update~forward-looking~statements~reflect	{'Note': 3, '': 2}
+reflect~future	{'Note': 3, '': 2}
+statements~reflect~future	{'Note': 3, '': 2}
+forward-looking~statements~reflect~future	{'Note': 3, '': 2}
+reflect~future~events	{'Note': 3, '': 2}
+statements~reflect~future~events	{'Note': 3, '': 2}
+future~events~circumstances	{'Note': 3, '': 2}
+reflect~future~events~circumstances	{'Note': 3, '': 2}
+complete	{'Note': 30, 'List': 6, '': 35}
+discussion	{'Note': 51, 'List': 4, 'Data': 2, '': 56}
+complete~discussion	{'Note': 1}
+discussion~complete~discussion	{'Note': 1}
+complete~discussion~complete~discussion	{'Note': 1}
+discussion~factors	{'Note': 1}
+complete~discussion~factors	{'Note': 1}
+factors~complete~discussion~factors	{'Note': 1}
+discussion~factors~could	{'Note': 1}
+complete~discussion~factors~could	{'Note': 1}
+could~materially	{'Note': 7, '': 6}
+factors~could~materially	{'Note': 1}
+discussion~factors~could~materially	{'Note': 1}
+materially~affect	{'Note': 4, '': 3}
+could~materially~affect	{'Note': 1}
+factors~could~materially~affect	{'Note': 1}
+materially~affect~financial	{'Note': 1}
+could~materially~affect~financial	{'Note': 1}
+financial~results	{'Note': 29, 'List': 12, '': 39}
+affect~financial~results	{'Note': 4, '': 3}
+materially~affect~financial~results	{'Note': 1}
+financial~results~operations	{'Note': 1}
+affect~financial~results~operations	{'Note': 1}
+please	{'Note': 20, 'List': 3, '': 22}
+operations~please	{'Note': 1}
+results~operations~please	{'Note': 1}
+financial~results~operations~please	{'Note': 1}
+refer	{'Note': 53, '': 59, 'List': 7}
+please~refer	{'Note': 1}
+operations~please~refer	{'Note': 1}
+results~operations~please~refer	{'Note': 1}
+reports	{'Note': 65, 'List': 5, 'Data': 3, '': 69}
+refer~reports	{'Note': 1}
+please~refer~reports	{'Note': 1}
+operations~please~refer~reports	{'Note': 1}
+file	{'Note': 34, 'List': 3, '': 36, 'Data': 1}
+reports~file	{'Note': 2}
+refer~reports~file	{'Note': 1}
+please~refer~reports~file	{'Note': 1}
+file~time	{'Note': 1}
+reports~file~time	{'Note': 1}
+refer~reports~file~time	{'Note': 1}
+time~time	{'Note': 24, 'List': 2, '': 23}
+file~time~time	{'Note': 1}
+reports~file~time~time	{'Note': 1}
+sec	{'Note': 81, 'List': 3, 'Data': 4, '': 86}
+time~sec	{'Note': 1}
+time~time~sec	{'Note': 1}
+file~time~time~sec	{'Note': 1}
+sec~including	{'Note': 3, '': 2}
+time~sec~including	{'Note': 1}
+time~time~sec~including	{'Note': 1}
+including~most	{'Note': 1}
+sec~including~most	{'Note': 1}
+time~sec~including~most	{'Note': 1}
+recent	{'Note': 20, 'List': 1, '': 20}
+most~recent	{'Note': 6, '': 5}
+including~most~recent	{'Note': 1}
+sec~including~most~recent	{'Note': 1}
+annual	{'Note': 239, 'Title': 2, 'Data': 12, '': 274, 'List': 35}
+recent~annual	{'Note': 1}
+most~recent~annual	{'Note': 1}
+including~most~recent~annual	{'Note': 1}
+report	{'Note': 167, '': 181, 'List': 12, 'Data': 3}
+annual~report	{'Note': 89, 'List': 7, 'Data': 2, '': 97}
+recent~annual~report	{'Note': 1}
+most~recent~annual~report	{'Note': 1}
+form	{'Note': 186, 'List': 20, '': 199, 'Data': 2}
+report~form	{'Note': 65, 'List': 7, 'Data': 2, '': 73}
+annual~report~form	{'Note': 58, 'List': 7, 'Data': 2, '': 66}
+recent~annual~report~form	{'Note': 1}
+10-k	{'Note': 83, 'List': 9, 'Data': 18, '': 109}
+form~10-k	{'Note': 83, 'List': 9, 'Data': 2, '': 93}
+report~form~10-k	{'Note': 50, 'List': 7, 'Data': 2, '': 58}
+annual~report~form~10-k	{'Note': 49, 'List': 7, 'Data': 2, '': 57}
+quarterly	{'Note': 30, 'List': 5, 'Data': 3, '': 37}
+10-k~quarterly	{'Note': 5, '': 4}
+form~10-k~quarterly	{'Note': 5, '': 4}
+report~form~10-k~quarterly	{'Note': 3, '': 2}
+quarterly~reports	{'Note': 5, 'List': 2, '': 6}
+10-k~quarterly~reports	{'Note': 5, '': 4}
+form~10-k~quarterly~reports	{'Note': 5, '': 4}
+reports~form	{'Note': 10, 'List': 2, '': 10}
+quarterly~reports~form	{'Note': 5, 'List': 2, '': 6}
+10-k~quarterly~reports~form	{'Note': 5, '': 4}
+10-q	{'Note': 7, 'List': 2, 'Data': 17, '': 25}
+form~10-q	{'Note': 7, 'List': 2, '': 8}
+reports~form~10-q	{'Note': 5, 'List': 2, '': 6}
+quarterly~reports~form~10-q	{'Note': 5, 'List': 2, '': 6}
+10-q~current	{'Note': 3, '': 2}
+form~10-q~current	{'Note': 3, '': 2}
+reports~form~10-q~current	{'Note': 3, '': 2}
+current~reports	{'Note': 3, '': 2}
+10-q~current~reports	{'Note': 3, '': 2}
+form~10-q~current~reports	{'Note': 3, '': 2}
+current~reports~form	{'Note': 3, '': 2}
+10-q~current~reports~form	{'Note': 3, '': 2}
+8-k	{'Note': 7, 'Data': 53, '': 59}
+form~8-k	{'Note': 7, '': 6}
+reports~form~8-k	{'Note': 3, '': 2}
+current~reports~form~8-k	{'Note': 3, '': 2}
+copies	{'Note': 7, '': 6}
+copies~reports	{'Note': 3, '': 2}
+reports~copies~reports	{'Note': 3, '': 2}
+copies~reports~copies~reports	{'Note': 3, '': 2}
+copies~reports~file	{'Note': 1}
+file~copies~reports~file	{'Note': 1}
+file~sec	{'Note': 6, '': 5}
+reports~file~sec	{'Note': 1}
+copies~reports~file~sec	{'Note': 1}
+posted	{'Note': 4, 'SubList': 1, '': 4}
+sec~posted	{'Note': 3, '': 2}
+file~sec~posted	{'Note': 1}
+reports~file~sec~posted	{'Note': 1}
+website	{'Note': 47, 'List': 3, '': 52, 'Data': 3}
+posted~website	{'Note': 1}
+sec~posted~website	{'Note': 1}
+file~sec~posted~website	{'Note': 1}
+available	{'Note': 119, 'Title': 2, 'List': 22, 'SubList': 4, '': 138, 'Data': 2}
+website~available	{'Note': 3, '': 2}
+posted~website~available	{'Note': 1}
+sec~posted~website~available	{'Note': 1}
+available~nvidia	{'Note': 4, '': 3}
+website~available~nvidia	{'Note': 3, '': 2}
+posted~website~available~nvidia	{'Note': 1}
+without	{'Note': 50, 'Data': 2, 'List': 6, '': 55}
+nvidia~without	{'Note': 3, '': 2}
+available~nvidia~without	{'Note': 3, '': 2}
+website~available~nvidia~without	{'Note': 3, '': 2}
+charge	{'Note': 29, '': 31, 'List': 1, 'Data': 2}
+without~charge	{'Note': 4, '': 3}
+nvidia~without~charge	{'Note': 3, '': 2}
+available~nvidia~without~charge	{'Note': 3, '': 2}
+many	{'Note': 36, '': 36, 'List': 1}
+many~products	{'Note': 4, '': 3}
+products~many~products	{'Note': 1}
+many~products~many~products	{'Note': 1}
+products~features	{'Note': 2}
+many~products~features	{'Note': 1}
+features~many~products~features	{'Note': 1}
+described	{'Note': 66, 'List': 5, '': 68, 'Data': 1}
+features~described	{'Note': 1}
+products~features~described	{'Note': 1}
+many~products~features~described	{'Note': 1}
+described~herein	{'Note': 1}
+features~described~herein	{'Note': 1}
+products~features~described~herein	{'Note': 1}
+remain	{'Note': 36, 'List': 2, 'Data': 1, '': 38}
+herein~remain	{'Note': 1}
+described~herein~remain	{'Note': 1}
+features~described~herein~remain	{'Note': 1}
+stages	{'Note': 1}
+remain~stages	{'Note': 1}
+herein~remain~stages	{'Note': 1}
+described~herein~remain~stages	{'Note': 1}
+offered	{'Note': 6, 'List': 2, '': 7}
+stages~offered	{'Note': 1}
+remain~stages~offered	{'Note': 1}
+herein~remain~stages~offered	{'Note': 1}
+when-and-if-available	{'Note': 1}
+offered~when-and-if-available	{'Note': 1}
+stages~offered~when-and-if-available	{'Note': 1}
+remain~stages~offered~when-and-if-available	{'Note': 1}
+basis	{'Note': 98, '': 101, 'List': 5}
+when-and-if-available~basis	{'Note': 1}
+offered~when-and-if-available~basis	{'Note': 1}
+stages~offered~when-and-if-available~basis	{'Note': 1}
+statements~not	{'Note': 5, '': 4}
+not~statements~not	{'Note': 1}
+statements~not~statements~not	{'Note': 1}
+intended	{'Note': 50, 'List': 9, 'Data': 1, '': 55}
+not~intended	{'Note': 19, 'List': 3, '': 18}
+statements~not~intended	{'Note': 1}
+intended~statements~not~intended	{'Note': 1}
+intended~not	{'Note': 1}
+not~intended~not	{'Note': 1}
+statements~not~intended~not	{'Note': 1}
+interpreted	{'Note': 4, '': 3}
+not~interpreted	{'Note': 1}
+intended~not~interpreted	{'Note': 1}
+not~intended~not~interpreted	{'Note': 1}
+commitment	{'Note': 8, '': 7}
+interpreted~commitment	{'Note': 1}
+not~interpreted~commitment	{'Note': 1}
+intended~not~interpreted~commitment	{'Note': 1}
+promise	{'Note': 1}
+commitment~promise	{'Note': 1}
+interpreted~commitment~promise	{'Note': 1}
+not~interpreted~commitment~promise	{'Note': 1}
+legal	{'Note': 73, '': 88, 'List': 17}
+promise~legal	{'Note': 1}
+commitment~promise~legal	{'Note': 1}
+interpreted~commitment~promise~legal	{'Note': 1}
+legal~obligation	{'Note': 1}
+promise~legal~obligation	{'Note': 1}
+commitment~promise~legal~obligation	{'Note': 1}
+obligation~development	{'Note': 1}
+legal~obligation~development	{'Note': 1}
+promise~legal~obligation~development	{'Note': 1}
+release	{'Note': 9, 'Data': 1, '': 9}
+development~release	{'Note': 1}
+obligation~development~release	{'Note': 1}
+legal~obligation~development~release	{'Note': 1}
+release~timing	{'Note': 1}
+development~release~timing	{'Note': 1}
+obligation~development~release~timing	{'Note': 1}
+timing~features	{'Note': 1}
+release~timing~features	{'Note': 1}
+development~release~timing~features	{'Note': 1}
+functionalities	{'Note': 1}
+features~functionalities	{'Note': 1}
+timing~features~functionalities	{'Note': 1}
+release~timing~features~functionalities	{'Note': 1}
+functionalities~described	{'Note': 1}
+features~functionalities~described	{'Note': 1}
+timing~features~functionalities~described	{'Note': 1}
+described~products	{'Note': 1}
+functionalities~described~products	{'Note': 1}
+features~functionalities~described~products	{'Note': 1}
+products~subject	{'Note': 1}
+described~products~subject	{'Note': 1}
+functionalities~described~products~subject	{'Note': 1}
+change	{'Note': 190, 'List': 27, 'Data': 1, '': 213}
+subject~change	{'Note': 3, 'List': 1, '': 3}
+products~subject~change	{'Note': 1}
+described~products~subject~change	{'Note': 1}
+remains	{'Note': 4, 'List': 1, '': 4}
+change~remains	{'Note': 1}
+subject~change~remains	{'Note': 1}
+products~subject~change~remains	{'Note': 1}
+sole	{'Note': 53, 'Data': 3, 'List': 4, '': 51}
+remains~sole	{'Note': 1}
+change~remains~sole	{'Note': 1}
+subject~change~remains~sole	{'Note': 1}
+discretion	{'Note': 41, 'List': 4, 'Data': 1, '': 37}
+sole~discretion	{'Note': 29, 'List': 2, 'Data': 1, '': 23}
+remains~sole~discretion	{'Note': 1}
+change~remains~sole~discretion	{'Note': 1}
+discretion~nvidia	{'Note': 1}
+sole~discretion~nvidia	{'Note': 1}
+remains~sole~discretion~nvidia	{'Note': 1}
+have	{'Note': 477, 'List': 90, '': 559, 'Data': 4}
+nvidia~have	{'Note': 3, '': 2}
+have~nvidia~have	{'Note': 1}
+nvidia~have~nvidia~have	{'Note': 1}
+no	{'Note': 152, 'List': 10, 'Data': 4, '': 160}
+have~no	{'Note': 12, '': 11}
+nvidia~have~no	{'Note': 1}
+no~nvidia~have~no	{'Note': 1}
+liability	{'Note': 48, 'List': 6, '': 49}
+no~liability	{'Note': 1}
+have~no~liability	{'Note': 1}
+nvidia~have~no~liability	{'Note': 1}
+failure	{'Note': 22, 'List': 17, '': 37}
+liability~failure	{'Note': 2, '': 1}
+no~liability~failure	{'Note': 1}
+have~no~liability~failure	{'Note': 1}
+deliver	{'Note': 31, 'List': 4, '': 34}
+failure~deliver	{'Note': 1}
+liability~failure~deliver	{'Note': 1}
+no~liability~failure~deliver	{'Note': 1}
+delay	{'Note': 11, '': 11, 'List': 1}
+deliver~delay	{'Note': 1}
+failure~deliver~delay	{'Note': 1}
+liability~failure~deliver~delay	{'Note': 1}
+delivery	{'Note': 18, 'SubList': 1, '': 24, 'Data': 1, 'List': 5}
+delay~delivery	{'Note': 2, '': 1}
+deliver~delay~delivery	{'Note': 1}
+failure~deliver~delay~delivery	{'Note': 1}
+delivery~products	{'Note': 1}
+delay~delivery~products	{'Note': 1}
+deliver~delay~delivery~products	{'Note': 1}
+delivery~products~features	{'Note': 1}
+delay~delivery~products~features	{'Note': 1}
+functions	{'Note': 13, 'List': 2, '': 14}
+features~functions	{'Note': 3, '': 2}
+products~features~functions	{'Note': 1}
+delivery~products~features~functions	{'Note': 1}
+set	{'Note': 71, 'List': 11, 'Data': 2, '': 79}
+functions~set	{'Note': 1}
+features~functions~set	{'Note': 1}
+products~features~functions~set	{'Note': 1}
+forth	{'Note': 49, 'List': 5, 'Data': 1, '': 50}
+set~forth	{'Note': 41, 'List': 4, 'Data': 1, '': 41}
+functions~set~forth	{'Note': 1}
+features~functions~set~forth	{'Note': 1}
+forth~herein	{'Note': 1}
+set~forth~herein	{'Note': 1}
+functions~set~forth~herein	{'Note': 1}
+uses	{'Note': 16, 'Data': 3, 'List': 6, 'Title': 2, '': 13}
+nvidia~uses	{'Note': 1}
+uses~nvidia~uses	{'Note': 1}
+nvidia~uses~nvidia~uses	{'Note': 1}
+uses~certain	{'Note': 1}
+nvidia~uses~certain	{'Note': 1}
+certain~nvidia~uses~certain	{'Note': 1}
+non-gaap	{'Note': 181, 'List': 6, 'Title': 14, 'Data': 72, '': 106}
+certain~non-gaap	{'Note': 1}
+uses~certain~non-gaap	{'Note': 1}
+nvidia~uses~certain~non-gaap	{'Note': 1}
+measures	{'Note': 140, 'List': 14, 'Title': 14, 'Data': 70, '': 76}
+non-gaap~measures	{'Note': 9, '': 6}
+certain~non-gaap~measures	{'Note': 1}
+uses~certain~non-gaap~measures	{'Note': 1}
+measures~presentation	{'Note': 1}
+non-gaap~measures~presentation	{'Note': 1}
+certain~non-gaap~measures~presentation	{'Note': 1}
+measures~presentation~including	{'Note': 1}
+non-gaap~measures~presentation~including	{'Note': 1}
+including~non-gaap	{'Note': 1}
+presentation~including~non-gaap	{'Note': 1}
+measures~presentation~including~non-gaap	{'Note': 1}
+gross	{'Note': 93, 'List': 9, 'Data': 4, 'Title': 2, '': 96}
+non-gaap~gross	{'Note': 3, '': 1}
+including~non-gaap~gross	{'Note': 1}
+presentation~including~non-gaap~gross	{'Note': 1}
+profit	{'Note': 19, '': 20, 'List': 2}
+gross~profit	{'Note': 14, '': 15, 'List': 2}
+non-gaap~gross~profit	{'Note': 1}
+including~non-gaap~gross~profit	{'Note': 1}
+profit~non-gaap	{'Note': 2, '': 1}
+gross~profit~non-gaap	{'Note': 2, '': 1}
+non-gaap~gross~profit~non-gaap	{'Note': 2, '': 1}
+profit~non-gaap~gross	{'Note': 1}
+gross~profit~non-gaap~gross	{'Note': 1}
+margin	{'Note': 41, '': 47, 'List': 7, 'Data': 1}
+gross~margin	{'Note': 30, '': 35, 'List': 5, 'Data': 1}
+non-gaap~gross~margin	{'Note': 2, '': 1}
+profit~non-gaap~gross~margin	{'Note': 1}
+margin~non-gaap	{'Note': 5, '': 3}
+gross~margin~non-gaap	{'Note': 3, '': 2}
+non-gaap~gross~margin~non-gaap	{'Note': 2, '': 1}
+operating	{'Note': 328, '': 367, 'List': 40, 'Data': 2}
+non-gaap~operating	{'Note': 48, '': 51, 'List': 5}
+margin~non-gaap~operating	{'Note': 1}
+gross~margin~non-gaap~operating	{'Note': 1}
+expenses	{'Note': 104, '': 118, 'List': 15}
+operating~expenses	{'Note': 42, '': 41}
+non-gaap~operating~expenses	{'Note': 2, '': 1}
+margin~non-gaap~operating~expenses	{'Note': 1}
+expenses~non-gaap	{'Note': 1}
+operating~expenses~non-gaap	{'Note': 1}
+non-gaap~operating~expenses~non-gaap	{'Note': 1}
+expenses~non-gaap~operating	{'Note': 1}
+operating~expenses~non-gaap~operating	{'Note': 1}
+income	{'Note': 456, '': 474, 'List': 19, 'Data': 4}
+operating~income	{'Note': 78, '': 86, 'List': 9}
+non-gaap~operating~income	{'Note': 46, 'List': 5, '': 50}
+expenses~non-gaap~operating~income	{'Note': 1}
+non-	{'Note': 22, 'List': 2, '': 22}
+income~non-	{'Note': 2, '': 1}
+operating~income~non-	{'Note': 2, '': 1}
+non-gaap~operating~income~non-	{'Note': 1}
+gaap	{'Note': 129, 'List': 5, 'Title': 14, 'Data': 70, '': 61}
+non-~gaap	{'Note': 3, '': 3, 'List': 1}
+income~non-~gaap	{'Note': 2, '': 1}
+operating~income~non-~gaap	{'Note': 2, '': 1}
+gaap~operating	{'Note': 11, '': 11, 'List': 1}
+non-~gaap~operating	{'Note': 3, '': 3, 'List': 1}
+income~non-~gaap~operating	{'Note': 2, '': 1}
+operating~margin	{'Note': 2, '': 1}
+gaap~operating~margin	{'Note': 1}
+non-~gaap~operating~margin	{'Note': 1}
+operating~margin~non-gaap	{'Note': 2, '': 1}
+gaap~operating~margin~non-gaap	{'Note': 1}
+net	{'Note': 223, 'List': 5, '': 229, 'Data': 4}
+non-gaap~net	{'Note': 1}
+margin~non-gaap~net	{'Note': 1}
+operating~margin~non-gaap~net	{'Note': 1}
+net~income	{'Note': 70, '': 71, 'List': 2}
+non-gaap~net~income	{'Note': 1}
+margin~non-gaap~net~income	{'Note': 1}
+income~non-gaap	{'Note': 4, '': 3}
+net~income~non-gaap	{'Note': 1}
+non-gaap~net~income~non-gaap	{'Note': 1}
+diluted	{'Note': 29, '': 28}
+non-gaap~diluted	{'Note': 1}
+income~non-gaap~diluted	{'Note': 1}
+net~income~non-gaap~diluted	{'Note': 1}
+earnings	{'Note': 55, 'List': 7, 'Title': 2, '': 61}
+diluted~earnings	{'Note': 3, '': 2}
+non-gaap~diluted~earnings	{'Note': 1}
+income~non-gaap~diluted~earnings	{'Note': 1}
+per	{'Note': 83, 'Data': 4, '': 94, 'List': 8}
+earnings~per	{'Note': 5, 'List': 1, '': 5}
+diluted~earnings~per	{'Note': 3, '': 2}
+non-gaap~diluted~earnings~per	{'Note': 1}
+share	{'Note': 165, 'Data': 3, '': 185, 'List': 18}
+per~share	{'Note': 64, '': 70, 'Data': 1, 'List': 6}
+earnings~per~share	{'Note': 5, 'List': 1, '': 5}
+diluted~earnings~per~share	{'Note': 3, '': 2}
+free	{'Note': 12, '': 15, 'List': 2, 'Data': 2}
+share~free	{'Note': 1}
+per~share~free	{'Note': 1}
+earnings~per~share~free	{'Note': 1}
+cash	{'Note': 436, 'Data': 17, 'List': 50, 'Title': 8, '': 453}
+free~cash	{'Note': 6, '': 7, 'List': 2}
+share~free~cash	{'Note': 1}
+per~share~free~cash	{'Note': 1}
+flow	{'Note': 46, 'Title': 4, 'Data': 10, '': 42, 'List': 9}
+cash~flow	{'Note': 40, 'Title': 4, 'Data': 10, '': 34, 'List': 7}
+free~cash~flow	{'Note': 6, '': 7, 'List': 2}
+share~free~cash~flow	{'Note': 1}
+believes~nvidia~believes	{'Note': 1}
+nvidia~believes~nvidia~believes	{'Note': 1}
+believes~presentation	{'Note': 1}
+nvidia~believes~presentation	{'Note': 1}
+presentation~nvidia~believes~presentation	{'Note': 1}
+presentation~non-gaap	{'Note': 2, '': 1}
+believes~presentation~non-gaap	{'Note': 1}
+nvidia~believes~presentation~non-gaap	{'Note': 1}
+non-gaap~financial	{'Note': 20, '': 16}
+presentation~non-gaap~financial	{'Note': 2, '': 1}
+believes~presentation~non-gaap~financial	{'Note': 1}
+financial~measures	{'Note': 105, 'List': 1, 'Title': 14, 'Data': 70, '': 32}
+non-gaap~financial~measures	{'Note': 20, '': 16}
+presentation~non-gaap~financial~measures	{'Note': 2, '': 1}
+enhances	{'Note': 4, '': 3}
+measures~enhances	{'Note': 1}
+financial~measures~enhances	{'Note': 1}
+non-gaap~financial~measures~enhances	{'Note': 1}
+investors	{'Note': 18, 'List': 5, '': 22}
+enhances~investors	{'Note': 1}
+measures~enhances~investors	{'Note': 1}
+financial~measures~enhances~investors	{'Note': 1}
+investors~overall	{'Note': 1}
+enhances~investors~overall	{'Note': 1}
+measures~enhances~investors~overall	{'Note': 1}
+understanding	{'Note': 33, '': 35, 'Data': 2, 'List': 1}
+overall~understanding	{'Note': 2, '': 1}
+investors~overall~understanding	{'Note': 1}
+enhances~investors~overall~understanding	{'Note': 1}
+companys	{'Note': 122, '': 129, 'List': 12, 'Data': 4}
+understanding~companys	{'Note': 1}
+overall~understanding~companys	{'Note': 1}
+investors~overall~understanding~companys	{'Note': 1}
+companys~historical	{'Note': 1}
+understanding~companys~historical	{'Note': 1}
+overall~understanding~companys~historical	{'Note': 1}
+historical~financial	{'Note': 2, '': 1}
+companys~historical~financial	{'Note': 1}
+understanding~companys~historical~financial	{'Note': 1}
+financial~performance	{'Note': 30, 'List': 1, '': 30}
+historical~financial~performance	{'Note': 2, '': 1}
+companys~historical~financial~performance	{'Note': 1}
+presentation~companys	{'Note': 1}
+companys~presentation~companys	{'Note': 1}
+presentation~companys~presentation~companys	{'Note': 1}
+companys~non-gaap	{'Note': 2}
+presentation~companys~non-gaap	{'Note': 1}
+non-gaap~presentation~companys~non-gaap	{'Note': 1}
+companys~non-gaap~financial	{'Note': 1}
+presentation~companys~non-gaap~financial	{'Note': 1}
+companys~non-gaap~financial~measures	{'Note': 1}
+measures~not	{'Note': 2, '': 1}
+financial~measures~not	{'Note': 2, '': 1}
+non-gaap~financial~measures~not	{'Note': 2, '': 1}
+meant	{'Note': 2, '': 1}
+not~meant	{'Note': 2, '': 1}
+measures~not~meant	{'Note': 2, '': 1}
+financial~measures~not~meant	{'Note': 2, '': 1}
+isolation	{'Note': 3, '': 2}
+meant~isolation	{'Note': 2, '': 1}
+not~meant~isolation	{'Note': 2, '': 1}
+measures~not~meant~isolation	{'Note': 2, '': 1}
+substitute	{'Note': 18, '': 18, 'List': 1}
+isolation~substitute	{'Note': 1}
+meant~isolation~substitute	{'Note': 1}
+not~meant~isolation~substitute	{'Note': 1}
+substitute~companys	{'Note': 1}
+isolation~substitute~companys	{'Note': 1}
+meant~isolation~substitute~companys	{'Note': 1}
+companys~financial	{'Note': 3, '': 2}
+substitute~companys~financial	{'Note': 1}
+isolation~substitute~companys~financial	{'Note': 1}
+companys~financial~results	{'Note': 1}
+substitute~companys~financial~results	{'Note': 1}
+prepared	{'Note': 12, '': 12, 'List': 1}
+results~prepared	{'Note': 2, '': 1}
+financial~results~prepared	{'Note': 2, '': 1}
+companys~financial~results~prepared	{'Note': 1}
+accordance	{'Note': 81, 'List': 3, '': 81, 'Data': 1}
+prepared~accordance	{'Note': 4, '': 3}
+results~prepared~accordance	{'Note': 2, '': 1}
+financial~results~prepared~accordance	{'Note': 2, '': 1}
+accordance~gaap	{'Note': 4, '': 3}
+prepared~accordance~gaap	{'Note': 2, '': 1}
+results~prepared~accordance~gaap	{'Note': 2, '': 1}
+gaap~companys	{'Note': 1}
+accordance~gaap~companys	{'Note': 1}
+prepared~accordance~gaap~companys	{'Note': 1}
+gaap~companys~non-gaap	{'Note': 1}
+accordance~gaap~companys~non-gaap	{'Note': 1}
+companys~non-gaap~measures	{'Note': 1}
+gaap~companys~non-gaap~measures	{'Note': 1}
+measures~may	{'Note': 4, 'List': 1, '': 3}
+non-gaap~measures~may	{'Note': 1}
+companys~non-gaap~measures~may	{'Note': 1}
+different	{'Note': 41, 'List': 4, '': 44}
+may~different	{'Note': 5, '': 4}
+measures~may~different	{'Note': 2, '': 1}
+non-gaap~measures~may~different	{'Note': 1}
+different~non-gaap	{'Note': 2, '': 1}
+may~different~non-gaap	{'Note': 2, '': 1}
+measures~may~different~non-gaap	{'Note': 2, '': 1}
+different~non-gaap~measures	{'Note': 1}
+may~different~non-gaap~measures	{'Note': 1}
+measures~other	{'Note': 2, '': 1}
+non-gaap~measures~other	{'Note': 1}
+different~non-gaap~measures~other	{'Note': 1}
+companies	{'Note': 131, 'SubList': 4, 'List': 19, '': 154, 'Data': 1}
+other~companies	{'Note': 2, 'List': 5, '': 6}
+measures~other~companies	{'Note': 2, '': 1}
+non-gaap~measures~other~companies	{'Note': 1}
+further	{'Note': 65, 'List': 8, '': 72, 'Data': 1}
+further~information	{'Note': 5, 'List': 1, '': 5}
+information~further~information	{'Note': 4, '': 3}
+further~information~further~information	{'Note': 4, '': 3}
+relevant	{'Note': 22, 'List': 3, '': 24}
+information~relevant	{'Note': 1}
+further~information~relevant	{'Note': 1}
+relevant~further~information~relevant	{'Note': 1}
+interpretation	{'Note': 9, '': 10, 'List': 2}
+relevant~interpretation	{'Note': 1}
+information~relevant~interpretation	{'Note': 1}
+further~information~relevant~interpretation	{'Note': 1}
+interpretation~non-gaap	{'Note': 1}
+relevant~interpretation~non-gaap	{'Note': 1}
+information~relevant~interpretation~non-gaap	{'Note': 1}
+interpretation~non-gaap~financial	{'Note': 1}
+relevant~interpretation~non-gaap~financial	{'Note': 1}
+interpretation~non-gaap~financial~measures	{'Note': 1}
+reconciliations	{'Note': 1}
+measures~reconciliations	{'Note': 1}
+financial~measures~reconciliations	{'Note': 1}
+non-gaap~financial~measures~reconciliations	{'Note': 1}
+reconciliations~non-gaap	{'Note': 1}
+measures~reconciliations~non-gaap	{'Note': 1}
+financial~measures~reconciliations~non-gaap	{'Note': 1}
+reconciliations~non-gaap~financial	{'Note': 1}
+measures~reconciliations~non-gaap~financial	{'Note': 1}
+reconciliations~non-gaap~financial~measures	{'Note': 1}
+measures~most	{'Note': 1}
+financial~measures~most	{'Note': 1}
+non-gaap~financial~measures~most	{'Note': 1}
+comparable	{'Note': 10, '': 9}
+most~comparable	{'Note': 1}
+measures~most~comparable	{'Note': 1}
+financial~measures~most~comparable	{'Note': 1}
+comparable~gaap	{'Note': 1}
+most~comparable~gaap	{'Note': 1}
+measures~most~comparable~gaap	{'Note': 1}
+gaap~measures	{'Note': 1}
+comparable~gaap~measures	{'Note': 1}
+most~comparable~gaap~measures	{'Note': 1}
+gaap~measures~may	{'Note': 1}
+comparable~gaap~measures~may	{'Note': 1}
+found	{'Note': 13, 'List': 3, '': 15}
+may~found	{'Note': 1}
+measures~may~found	{'Note': 1}
+gaap~measures~may~found	{'Note': 1}
+slide	{'Note': 1}
+found~slide	{'Note': 1}
+may~found~slide	{'Note': 1}
+measures~may~found~slide	{'Note': 1}
+titled	{'Note': 19, 'Data': 2, '': 20}
+slide~titled	{'Note': 1}
+found~slide~titled	{'Note': 1}
+may~found~slide~titled	{'Note': 1}
+reconciliation	{'Note': 108, 'List': 1, 'Title': 14, 'Data': 70, '': 39}
+titled~reconciliation	{'Note': 1}
+slide~titled~reconciliation	{'Note': 1}
+found~slide~titled~reconciliation	{'Note': 1}
+reconciliation~non-gaap	{'Note': 95, 'List': 1, 'Title': 14, 'Data': 70, '': 26}
+titled~reconciliation~non-gaap	{'Note': 1}
+slide~titled~reconciliation~non-gaap	{'Note': 1}
+non-gaap~gaap	{'Note': 82, 'List': 1, 'Title': 14, 'Data': 70, '': 13}
+reconciliation~non-gaap~gaap	{'Note': 82, 'List': 1, 'Title': 14, 'Data': 70, '': 13}
+titled~reconciliation~non-gaap~gaap	{'Note': 1}
+gaap~financial	{'Note': 82, 'List': 1, 'Title': 14, 'Data': 70, '': 13}
+non-gaap~gaap~financial	{'Note': 82, 'List': 1, 'Title': 14, 'Data': 70, '': 13}
+reconciliation~non-gaap~gaap~financial	{'Note': 82, 'List': 1, 'Title': 14, 'Data': 70, '': 13}
+gaap~financial~measures	{'Note': 82, 'List': 1, 'Title': 14, 'Data': 70, '': 13}
+non-gaap~gaap~financial~measures	{'Note': 82, 'List': 1, 'Title': 14, 'Data': 70, '': 13}
+content	{'List': 17, 'Title': 6, 'SubList': 4, 'Note': 19, '': 30}

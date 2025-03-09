@@ -12,7 +12,6 @@ This script implements a complete workflow for:
 import argparse
 import logging
 import os
-import shutil
 import sys
 from pathlib import Path
 import json
@@ -22,12 +21,10 @@ import time
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.FileHandler("xllm_data_processing.log"),
-        logging.StreamHandler()
-    ]
+    handlers=[logging.FileHandler("xllm_data_processing.log"), logging.StreamHandler()],
 )
 logger = logging.getLogger("xllm_data_processing")
+
 
 def process_pdfs(pdf_dir, output_dir):
     """
@@ -46,14 +43,16 @@ def process_pdfs(pdf_dir, output_dir):
     os.makedirs(output_dir, exist_ok=True)
 
     # Get all PDF files in the directory
-    pdf_files = [f for f in os.listdir(pdf_dir) if f.lower().endswith('.pdf')]
+    pdf_files = [f for f in os.listdir(pdf_dir) if f.lower().endswith(".pdf")]
     logger.info(f"Found {len(pdf_files)} PDF files to process")
 
     processed_files = []
 
     for pdf_file in pdf_files:
         pdf_path = os.path.join(pdf_dir, pdf_file)
-        output_file = os.path.join(output_dir, f"{os.path.splitext(pdf_file)[0]}_processed.json")
+        output_file = os.path.join(
+            output_dir, f"{os.path.splitext(pdf_file)[0]}_processed.json"
+        )
 
         logger.info(f"Processing PDF: {pdf_path}")
 
@@ -70,7 +69,12 @@ def process_pdfs(pdf_dir, output_dir):
             # Save the result as JSON
             with open(output_file, "w", encoding="utf-8") as f:
                 # Convert sets to lists for JSON serialization
-                json.dump(result, f, indent=2, default=lambda x: list(x) if isinstance(x, set) else x)
+                json.dump(
+                    result,
+                    f,
+                    indent=2,
+                    default=lambda x: list(x) if isinstance(x, set) else x,
+                )
 
             processed_files.append(output_file)
             logger.info(f"Successfully processed PDF: {pdf_path} -> {output_file}")
@@ -78,8 +82,11 @@ def process_pdfs(pdf_dir, output_dir):
         except Exception as e:
             logger.error(f"Error processing PDF {pdf_path}: {e}")
 
-    logger.info(f"Completed processing {len(processed_files)} out of {len(pdf_files)} PDF files")
+    logger.info(
+        f"Completed processing {len(processed_files)} out of {len(pdf_files)} PDF files"
+    )
     return processed_files
+
 
 def process_scraped_content(scrape_dir, output_dir):
     """
@@ -98,14 +105,20 @@ def process_scraped_content(scrape_dir, output_dir):
     os.makedirs(output_dir, exist_ok=True)
 
     # Get all text/JSON files in the directory (assuming scraped content is in these formats)
-    scraped_files = [f for f in os.listdir(scrape_dir) if f.lower().endswith(('.txt', '.json', '.html'))]
+    scraped_files = [
+        f
+        for f in os.listdir(scrape_dir)
+        if f.lower().endswith((".txt", ".json", ".html"))
+    ]
     logger.info(f"Found {len(scraped_files)} scraped content files to process")
 
     processed_files = []
 
     for scraped_file in scraped_files:
         scraped_path = os.path.join(scrape_dir, scraped_file)
-        output_file = os.path.join(output_dir, f"{os.path.splitext(scraped_file)[0]}_processed.json")
+        output_file = os.path.join(
+            output_dir, f"{os.path.splitext(scraped_file)[0]}_processed.json"
+        )
 
         logger.info(f"Processing scraped content: {scraped_path}")
 
@@ -121,16 +134,26 @@ def process_scraped_content(scrape_dir, output_dir):
 
             # Save the result as JSON
             with open(output_file, "w", encoding="utf-8") as f:
-                json.dump(result, f, indent=2, default=lambda x: list(x) if isinstance(x, set) else x)
+                json.dump(
+                    result,
+                    f,
+                    indent=2,
+                    default=lambda x: list(x) if isinstance(x, set) else x,
+                )
 
             processed_files.append(output_file)
-            logger.info(f"Successfully processed scraped content: {scraped_path} -> {output_file}")
+            logger.info(
+                f"Successfully processed scraped content: {scraped_path} -> {output_file}"
+            )
 
         except Exception as e:
             logger.error(f"Error processing scraped content {scraped_path}: {e}")
 
-    logger.info(f"Completed processing {len(processed_files)} out of {len(scraped_files)} scraped content files")
+    logger.info(
+        f"Completed processing {len(processed_files)} out of {len(scraped_files)} scraped content files"
+    )
     return processed_files
+
 
 def combine_processed_data(pdf_data_files, scraped_data_files, output_dir):
     """
@@ -189,9 +212,12 @@ def combine_processed_data(pdf_data_files, scraped_data_files, output_dir):
         json.dump(combined_data, f, indent=2)
 
     logger.info(f"Combined data saved to {combined_file}")
-    logger.info(f"Combined {len(combined_data)} data entries ({len(pdf_data_files)} PDF, {len(scraped_data_files)} web)")
+    logger.info(
+        f"Combined {len(combined_data)} data entries ({len(pdf_data_files)} PDF, {len(scraped_data_files)} web)"
+    )
 
     return combined_file
+
 
 def compile_backend_tables(combined_data_file, output_dir):
     """
@@ -239,8 +265,12 @@ def compile_backend_tables(combined_data_file, output_dir):
             "hash_related": os.path.join(output_dir, "xllm_hash_related.txt"),
             "hash_category": os.path.join(output_dir, "xllm_hash_category.txt"),
             "ngrams_table": os.path.join(output_dir, "xllm_ngrams_table.txt"),
-            "compressed_ngrams_table": os.path.join(output_dir, "xllm_compressed_ngrams_table.txt"),
-            "compressed_word2_hash": os.path.join(output_dir, "xllm_compressed_word2_hash.txt"),
+            "compressed_ngrams_table": os.path.join(
+                output_dir, "xllm_compressed_ngrams_table.txt"
+            ),
+            "compressed_word2_hash": os.path.join(
+                output_dir, "xllm_compressed_word2_hash.txt"
+            ),
         }
 
         # Verify that all tables were created
@@ -257,27 +287,54 @@ def compile_backend_tables(combined_data_file, output_dir):
         logger.error(f"Error compiling backend tables: {e}")
         return {}
 
+
 def main():
     """Main function to run the data processing workflow."""
     parser = argparse.ArgumentParser(description="Data Processing Workflow for xLLM")
-    parser.add_argument("--pdf-dir", type=str, default="data/pdfs",
-                        help="Directory containing PDF files")
-    parser.add_argument("--scrape-dir", type=str, default="data/scraped",
-                        help="Directory containing scraped content")
-    parser.add_argument("--processed-dir", type=str, default="data/processed",
-                        help="Directory to save processed data")
-    parser.add_argument("--combined-dir", type=str, default="data/combined",
-                        help="Directory to save combined data")
-    parser.add_argument("--tables-dir", type=str, default="data/knowledge",
-                        help="Directory to save backend tables")
-    parser.add_argument("--skip-pdfs", action="store_true",
-                        help="Skip processing PDFs")
-    parser.add_argument("--skip-scraped", action="store_true",
-                        help="Skip processing scraped content")
-    parser.add_argument("--skip-combine", action="store_true",
-                        help="Skip combining data (use existing combined data)")
-    parser.add_argument("--existing-combined-file", type=str,
-                        help="Path to existing combined data file (if skipping combine step)")
+    parser.add_argument(
+        "--pdf-dir",
+        type=str,
+        default="data/pdfs",
+        help="Directory containing PDF files",
+    )
+    parser.add_argument(
+        "--scrape-dir",
+        type=str,
+        default="data/scraped",
+        help="Directory containing scraped content",
+    )
+    parser.add_argument(
+        "--processed-dir",
+        type=str,
+        default="data/processed",
+        help="Directory to save processed data",
+    )
+    parser.add_argument(
+        "--combined-dir",
+        type=str,
+        default="data/combined",
+        help="Directory to save combined data",
+    )
+    parser.add_argument(
+        "--tables-dir",
+        type=str,
+        default="data/knowledge",
+        help="Directory to save backend tables",
+    )
+    parser.add_argument("--skip-pdfs", action="store_true", help="Skip processing PDFs")
+    parser.add_argument(
+        "--skip-scraped", action="store_true", help="Skip processing scraped content"
+    )
+    parser.add_argument(
+        "--skip-combine",
+        action="store_true",
+        help="Skip combining data (use existing combined data)",
+    )
+    parser.add_argument(
+        "--existing-combined-file",
+        type=str,
+        help="Path to existing combined data file (if skipping combine step)",
+    )
     args = parser.parse_args()
 
     # Track start time for performance measurement
@@ -297,18 +354,26 @@ def main():
     # Process scraped content if not skipped
     if not args.skip_scraped:
         scraped_processed_dir = os.path.join(args.processed_dir, "scraped")
-        scraped_data_files = process_scraped_content(args.scrape_dir, scraped_processed_dir)
+        scraped_data_files = process_scraped_content(
+            args.scrape_dir, scraped_processed_dir
+        )
     else:
         logger.info("Skipping scraped content processing")
 
     # Combine data if not skipped
     if not args.skip_combine:
-        combined_data_file = combine_processed_data(pdf_data_files, scraped_data_files, args.combined_dir)
+        combined_data_file = combine_processed_data(
+            pdf_data_files, scraped_data_files, args.combined_dir
+        )
     elif not combined_data_file:
-        logger.error("No combined data file specified. Use --existing-combined-file to specify one.")
+        logger.error(
+            "No combined data file specified. Use --existing-combined-file to specify one."
+        )
         return 1
     else:
-        logger.info(f"Skipping data combination, using existing file: {combined_data_file}")
+        logger.info(
+            f"Skipping data combination, using existing file: {combined_data_file}"
+        )
 
     # Compile backend tables
     tables = compile_backend_tables(combined_data_file, args.tables_dir)
@@ -327,6 +392,7 @@ def main():
     print(f"Total processing time: {total_time:.2f} seconds")
 
     return 0
+
 
 if __name__ == "__main__":
     sys.exit(main())

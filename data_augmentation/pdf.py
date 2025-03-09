@@ -8,7 +8,7 @@
 import PyPDF2
 
 # creating a pdf file object
-pdfFileObj = open('abi-test.pdf', 'rb')
+pdfFileObj = open("abi-test.pdf", "rb")
 
 # creating a pdf reader object
 pdfReader = PyPDF2.PdfReader(pdfFileObj)

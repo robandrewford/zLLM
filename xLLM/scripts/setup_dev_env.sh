@@ -22,7 +22,7 @@ source .venv/bin/activate
 
 # Install required dependencies
 echo "Installing required dependencies..."
-uv pip install requests numpy pymupdf autocorrect pytest pytest-cov pre-commit ruff
+uv pip install requests numpy pymupdf autocorrect pytest pytest-cov pre-commit ruff pyright
 
 # Install package in development mode
 echo "Installing package in development mode..."
@@ -39,3 +39,4 @@ mkdir -p data/raw data/processed data/knowledge
 # Print success message
 echo "Development environment setup complete!"
 echo "To activate the virtual environment, run: source .venv/bin/activate"
+echo "To run type checking, use: pyright"

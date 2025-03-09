@@ -6,7 +6,6 @@ import pickle
 from pathlib import Path
 from typing import Dict, List, Optional, Any, Set, Tuple
 
-import numpy as np
 
 from xllm.knowledge_base.base import BaseKnowledgeBase
 
@@ -49,8 +48,12 @@ class HashKnowledgeBase(BaseKnowledgeBase):
         self.hash_related: Dict[str, Dict[str, int]] = {}  # related topics attached to a word
         self.hash_see: Dict[str, Dict[str, int]] = {}  # "see also" topics attached to a word
         self.word_hash: Dict[str, Dict[str, int]] = {}  # tokens associated with other tokens
-        self.word2_hash: Dict[str, Dict[str, int]] = {}  # multi-token words associated with other multi-token words
-        self.word2_pairs: Dict[Tuple[str, str], int] = {}  # pairs of multi-token words found on same URL
+        self.word2_hash: Dict[
+            str, Dict[str, int]
+        ] = {}  # multi-token words associated with other multi-token words
+        self.word2_pairs: Dict[
+            Tuple[str, str], int
+        ] = {}  # pairs of multi-token words found on same URL
 
         # Derived tables (created after all data is processed)
         self.pmi_table: Dict[Tuple[str, str], float] = {}  # PMI scores for token pairs
@@ -59,7 +62,9 @@ class HashKnowledgeBase(BaseKnowledgeBase):
         self.embeddings2: Dict[str, Dict[str, float]] = {}  # multi-token word embeddings
         self.ngrams_table: Dict[str, List[str]] = {}  # n-grams table
         self.compressed_ngrams_table: Dict[str, List[str]] = {}  # compressed n-grams table
-        self.compressed_word2_hash: Dict[str, Dict[str, int]] = {}  # compressed multi-token word associations
+        self.compressed_word2_hash: Dict[
+            str, Dict[str, int]
+        ] = {}  # compressed multi-token word associations
 
         # Utility tables
         self.stopwords: Set[str] = set()  # stopwords to filter out
@@ -108,7 +113,9 @@ class HashKnowledgeBase(BaseKnowledgeBase):
         tokens = self._tokenize(query)
 
         # Skip stopwords and unknown tokens
-        tokens = [token for token in tokens if token not in self.stopwords and token in self.dictionary]
+        tokens = [
+            token for token in tokens if token not in self.stopwords and token in self.dictionary
+        ]
 
         if not tokens:
             return []
@@ -119,12 +126,12 @@ class HashKnowledgeBase(BaseKnowledgeBase):
         results = []
 
         # Generate all possible token combinations
-        for k in range(1, 2**len(sorted_tokens)):
-            binary = format(k, 'b').zfill(len(sorted_tokens))
+        for k in range(1, 2 ** len(sorted_tokens)):
+            binary = format(k, "b").zfill(len(sorted_tokens))
             sorted_word = ""
 
             for i in range(len(binary)):
-                if binary[i] == '1':
+                if binary[i] == "1":
                     if sorted_word:
                         sorted_word += "~"
                     sorted_word += sorted_tokens[i]
@@ -291,7 +298,9 @@ class HashKnowledgeBase(BaseKnowledgeBase):
                 for line in file:
                     parts = line.strip().split("\t")
                     if len(parts) >= 2:
-                        pair = eval(parts[0])  # Convert string representation of tuple to actual tuple
+                        pair = eval(
+                            parts[0]
+                        )  # Convert string representation of tuple to actual tuple
                         count = int(parts[1])
                         self.word2_pairs[pair] = count
 
@@ -336,7 +345,9 @@ class HashKnowledgeBase(BaseKnowledgeBase):
 
         return tokens
 
-    def _process_content(self, content: str, url_id: int, category: str, related: List[str], see_also: List[str]) -> None:
+    def _process_content(
+        self, content: str, url_id: int, category: str, related: List[str], see_also: List[str]
+    ) -> None:
         """Process content and update knowledge base tables.
 
         Args:
@@ -359,13 +370,15 @@ class HashKnowledgeBase(BaseKnowledgeBase):
             for j in range(1, min(self.max_tokens_per_word, i + 1)):
                 if i >= j:
                     # Create multi-token word
-                    prev_tokens = tokens[i-j:i]
+                    prev_tokens = tokens[i - j : i]
                     multi_token = "~".join(prev_tokens + [token])
 
                     # Add multi-token word to dictionary
                     self._add_word(multi_token, url_id, category, related, see_also)
 
-    def _add_word(self, word: str, url_id: int, category: str, related: List[str], see_also: List[str]) -> None:
+    def _add_word(
+        self, word: str, url_id: int, category: str, related: List[str], see_also: List[str]
+    ) -> None:
         """Add a word to the knowledge base.
 
         Args:
@@ -446,7 +459,9 @@ class HashKnowledgeBase(BaseKnowledgeBase):
         # Create embeddings for multi-token words
         self.embeddings2 = self._create_embeddings(self.compressed_word2_hash, self.pmi_table2)
 
-    def _create_pmi_table(self, word_pairs: Dict[Tuple[str, str], int], dictionary: Dict[str, int]) -> Dict[Tuple[str, str], float]:
+    def _create_pmi_table(
+        self, word_pairs: Dict[Tuple[str, str], int], dictionary: Dict[str, int]
+    ) -> Dict[Tuple[str, str], float]:
         """Create a PMI (Pointwise Mutual Information) table.
 
         Args:
@@ -466,12 +481,14 @@ class HashKnowledgeBase(BaseKnowledgeBase):
                 count_b = dictionary[word_b]
 
                 # Calculate PMI score
-                pmi = count / (count_a * count_b)**0.5
+                pmi = count / (count_a * count_b) ** 0.5
                 pmi_table[pair] = pmi
 
         return pmi_table
 
-    def _create_embeddings(self, word_hash: Dict[str, Dict[str, int]], pmi_table: Dict[Tuple[str, str], float]) -> Dict[str, Dict[str, float]]:
+    def _create_embeddings(
+        self, word_hash: Dict[str, Dict[str, int]], pmi_table: Dict[Tuple[str, str], float]
+    ) -> Dict[str, Dict[str, float]]:
         """Create embeddings for words.
 
         Args:
@@ -518,7 +535,9 @@ class HashKnowledgeBase(BaseKnowledgeBase):
 
         return ngrams_table
 
-    def _compress_ngrams(self, dictionary: Dict[str, int], ngrams_table: Dict[str, List[str]]) -> Dict[str, List[str]]:
+    def _compress_ngrams(
+        self, dictionary: Dict[str, int], ngrams_table: Dict[str, List[str]]
+    ) -> Dict[str, List[str]]:
         """Compress n-grams table by keeping only the most frequent n-grams.
 
         Args:
@@ -535,14 +554,18 @@ class HashKnowledgeBase(BaseKnowledgeBase):
             sorted_words = sorted(words, key=lambda w: dictionary.get(w, 0), reverse=True)
 
             # Keep only words with frequency above threshold
-            filtered_words = [w for w in sorted_words if dictionary.get(w, 0) >= self.min_token_frequency]
+            filtered_words = [
+                w for w in sorted_words if dictionary.get(w, 0) >= self.min_token_frequency
+            ]
 
             if filtered_words:
                 compressed_table[sorted_word] = filtered_words
 
         return compressed_table
 
-    def _compress_word2_hash(self, dictionary: Dict[str, int], word2_hash: Dict[str, Dict[str, int]]) -> Dict[str, Dict[str, int]]:
+    def _compress_word2_hash(
+        self, dictionary: Dict[str, int], word2_hash: Dict[str, Dict[str, int]]
+    ) -> Dict[str, Dict[str, int]]:
         """Compress multi-token word hash by keeping only frequent words.
 
         Args:

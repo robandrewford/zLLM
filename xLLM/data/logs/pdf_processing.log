@@ -1,0 +1,7 @@
+2025-03-09 13:27:17,449 - pdf_processor - INFO - Processing PDF file: xLLM/data/pdfs/xllm-enterprise.pdf
+2025-03-09 13:27:17,449 - xllm.processors.pdf_processor - ERROR - Error processing PDF file xLLM/data/pdfs/xllm-enterprise.pdf: no such file: 'xLLM/data/pdfs/xllm-enterprise.pdf'
+2025-03-09 13:27:17,449 - pdf_processor - INFO - Processing complete. Results saved to xLLM/data/processed/pdfs/xllm-enterprise_processed.json
+2025-03-09 13:30:56,355 - pdf_processor - INFO - Processing PDF file: xLLM/data/raw/pdfs/xllm-enterprise.pdf
+2025-03-09 13:30:58,686 - pdf_processor - INFO - Processing complete. Results saved to xLLM/data/processed/pdfs/xllm-enterprise_processed.json
+2025-03-09 13:34:26,975 - pdf_processor - INFO - Processing PDF file: xLLM/data/raw/pdfs/xllm-enterprise.pdf
+2025-03-09 13:34:28,703 - pdf_processor - INFO - Processing complete. Results saved to xLLM/data/processed/xllm-enterprise_processed.json

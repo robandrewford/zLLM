@@ -15,7 +15,6 @@ import os
 import shutil
 import sys
 from datetime import datetime
-from pathlib import Path
 
 # Configure logging
 logging.basicConfig(
@@ -23,6 +22,7 @@ logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
 )
 logger = logging.getLogger("migrate_xllm")
+
 
 def backup_xllm6(xllm6_dir, backup_dir):
     """Backup xllm6 code and data."""
@@ -37,8 +37,9 @@ def backup_xllm6(xllm6_dir, backup_dir):
     # Copy xllm6 directory to backup
     shutil.copytree(xllm6_dir, os.path.join(backup_path, "xllm6"), dirs_exist_ok=True)
 
-    logger.info(f"Backup completed successfully")
+    logger.info("Backup completed successfully")
     return backup_path
+
 
 def backup_nvidia_mvp(nvidia_mvp_dir, backup_dir):
     """Backup NVIDIA MVP backend tables."""
@@ -53,13 +54,20 @@ def backup_nvidia_mvp(nvidia_mvp_dir, backup_dir):
     # Copy NVIDIA MVP backend tables to backup
     backend_tables_dir = os.path.join(nvidia_mvp_dir, "backend_tables")
     if os.path.exists(backend_tables_dir):
-        shutil.copytree(backend_tables_dir, os.path.join(backup_path, "backend_tables"), dirs_exist_ok=True)
-        logger.info(f"Backed up NVIDIA MVP backend tables")
+        shutil.copytree(
+            backend_tables_dir,
+            os.path.join(backup_path, "backend_tables"),
+            dirs_exist_ok=True,
+        )
+        logger.info("Backed up NVIDIA MVP backend tables")
     else:
-        logger.warning(f"NVIDIA MVP backend tables directory not found: {backend_tables_dir}")
+        logger.warning(
+            f"NVIDIA MVP backend tables directory not found: {backend_tables_dir}"
+        )
 
-    logger.info(f"Backup completed successfully")
+    logger.info("Backup completed successfully")
     return backup_path
+
 
 def convert_data_tables(xllm6_dir, xllm_dir):
     """Convert xllm6 data tables to xLLM format."""
@@ -101,6 +109,7 @@ def convert_data_tables(xllm6_dir, xllm_dir):
     logger.info(f"Converted {len(converted_files)} data tables")
     return converted_files
 
+
 def convert_nvidia_backend_tables(nvidia_mvp_dir, xllm_dir):
     """Convert NVIDIA MVP backend tables to xLLM format."""
     # Create xLLM nvidia data directory if it doesn't exist
@@ -111,11 +120,17 @@ def convert_nvidia_backend_tables(nvidia_mvp_dir, xllm_dir):
     backend_tables_dir = os.path.join(nvidia_mvp_dir, "backend_tables")
 
     if not os.path.exists(backend_tables_dir):
-        logger.warning(f"NVIDIA MVP backend tables directory not found: {backend_tables_dir}")
+        logger.warning(
+            f"NVIDIA MVP backend tables directory not found: {backend_tables_dir}"
+        )
         return []
 
     # Get all files in the backend tables directory
-    backend_files = [f for f in os.listdir(backend_tables_dir) if os.path.isfile(os.path.join(backend_tables_dir, f))]
+    backend_files = [
+        f
+        for f in os.listdir(backend_tables_dir)
+        if os.path.isfile(os.path.join(backend_tables_dir, f))
+    ]
 
     converted_files = []
 
@@ -133,6 +148,7 @@ def convert_nvidia_backend_tables(nvidia_mvp_dir, xllm_dir):
     logger.info(f"Converted {len(converted_files)} NVIDIA MVP backend tables")
     return converted_files
 
+
 def clean_up_xllm6(xllm6_dir, dry_run=True):
     """Clean up xllm6 code after successful migration."""
     if dry_run:
@@ -143,50 +159,84 @@ def clean_up_xllm6(xllm6_dir, dry_run=True):
 
     try:
         shutil.rmtree(xllm6_dir)
-        logger.info(f"Successfully removed xllm6 directory")
+        logger.info("Successfully removed xllm6 directory")
     except Exception as e:
         logger.error(f"Error removing xllm6 directory: {e}")
+
 
 def clean_up_nvidia_mvp(nvidia_mvp_dir, dry_run=True):
     """Clean up NVIDIA MVP backend tables after successful migration."""
     if dry_run:
-        logger.info(f"DRY RUN: Would remove NVIDIA MVP backend tables directory: {nvidia_mvp_dir}/backend_tables")
+        logger.info(
+            f"DRY RUN: Would remove NVIDIA MVP backend tables directory: {nvidia_mvp_dir}/backend_tables"
+        )
         return
 
     backend_tables_dir = os.path.join(nvidia_mvp_dir, "backend_tables")
 
     if os.path.exists(backend_tables_dir):
-        logger.info(f"Removing NVIDIA MVP backend tables directory: {backend_tables_dir}")
+        logger.info(
+            f"Removing NVIDIA MVP backend tables directory: {backend_tables_dir}"
+        )
 
         try:
             shutil.rmtree(backend_tables_dir)
-            logger.info(f"Successfully removed NVIDIA MVP backend tables directory")
+            logger.info("Successfully removed NVIDIA MVP backend tables directory")
         except Exception as e:
             logger.error(f"Error removing NVIDIA MVP backend tables directory: {e}")
     else:
-        logger.warning(f"NVIDIA MVP backend tables directory not found: {backend_tables_dir}")
+        logger.warning(
+            f"NVIDIA MVP backend tables directory not found: {backend_tables_dir}"
+        )
+
 
 def main():
     """Main function to migrate from xllm6 to xLLM."""
     parser = argparse.ArgumentParser(description="Migrate from xllm6 to xLLM")
-    parser.add_argument("--xllm6-dir", type=str, default="xllm6",
-                        help="Directory containing xllm6 files")
-    parser.add_argument("--nvidia-mvp-dir", type=str, default="nvidia-mvp",
-                        help="Directory containing NVIDIA MVP files")
-    parser.add_argument("--xllm-dir", type=str, default="xLLM/data/knowledge",
-                        help="Directory to store xLLM knowledge base files")
-    parser.add_argument("--backup-dir", type=str, default="backups",
-                        help="Directory to store backups")
-    parser.add_argument("--clean-up", action="store_true",
-                        help="Clean up xllm6 code after successful migration")
-    parser.add_argument("--clean-up-nvidia", action="store_true",
-                        help="Clean up NVIDIA MVP backend tables after successful migration")
-    parser.add_argument("--force", action="store_true",
-                        help="Force clean up without confirmation")
-    parser.add_argument("--skip-xllm6", action="store_true",
-                        help="Skip xllm6 migration and only process NVIDIA MVP backend tables")
-    parser.add_argument("--skip-nvidia", action="store_true",
-                        help="Skip NVIDIA MVP backend tables migration and only process xllm6")
+    parser.add_argument(
+        "--xllm6-dir",
+        type=str,
+        default="xllm6",
+        help="Directory containing xllm6 files",
+    )
+    parser.add_argument(
+        "--nvidia-mvp-dir",
+        type=str,
+        default="nvidia-mvp",
+        help="Directory containing NVIDIA MVP files",
+    )
+    parser.add_argument(
+        "--xllm-dir",
+        type=str,
+        default="xLLM/data/knowledge",
+        help="Directory to store xLLM knowledge base files",
+    )
+    parser.add_argument(
+        "--backup-dir", type=str, default="backups", help="Directory to store backups"
+    )
+    parser.add_argument(
+        "--clean-up",
+        action="store_true",
+        help="Clean up xllm6 code after successful migration",
+    )
+    parser.add_argument(
+        "--clean-up-nvidia",
+        action="store_true",
+        help="Clean up NVIDIA MVP backend tables after successful migration",
+    )
+    parser.add_argument(
+        "--force", action="store_true", help="Force clean up without confirmation"
+    )
+    parser.add_argument(
+        "--skip-xllm6",
+        action="store_true",
+        help="Skip xllm6 migration and only process NVIDIA MVP backend tables",
+    )
+    parser.add_argument(
+        "--skip-nvidia",
+        action="store_true",
+        help="Skip NVIDIA MVP backend tables migration and only process xllm6",
+    )
     args = parser.parse_args()
 
     # Create backup directory
@@ -216,8 +266,10 @@ def main():
                 if args.force:
                     clean_up_xllm6(args.xllm6_dir, dry_run=False)
                 else:
-                    confirmation = input(f"Are you sure you want to remove the xllm6 directory? This cannot be undone. (y/N): ")
-                    if confirmation.lower() == 'y':
+                    confirmation = input(
+                        "Are you sure you want to remove the xllm6 directory? This cannot be undone. (y/N): "
+                    )
+                    if confirmation.lower() == "y":
                         clean_up_xllm6(args.xllm6_dir, dry_run=False)
                     else:
                         logger.info("Clean up of xllm6 aborted")
@@ -234,31 +286,40 @@ def main():
             nvidia_backup_path = backup_nvidia_mvp(args.nvidia_mvp_dir, args.backup_dir)
 
             # Convert NVIDIA MVP backend tables
-            nvidia_converted_files = convert_nvidia_backend_tables(args.nvidia_mvp_dir, args.xllm_dir)
+            nvidia_converted_files = convert_nvidia_backend_tables(
+                args.nvidia_mvp_dir, args.xllm_dir
+            )
 
             # Clean up NVIDIA MVP backend tables if requested
             if args.clean_up_nvidia:
                 if args.force:
                     clean_up_nvidia_mvp(args.nvidia_mvp_dir, dry_run=False)
                 else:
-                    confirmation = input(f"Are you sure you want to remove the NVIDIA MVP backend tables? This cannot be undone. (y/N): ")
-                    if confirmation.lower() == 'y':
+                    confirmation = input(
+                        "Are you sure you want to remove the NVIDIA MVP backend tables? This cannot be undone. (y/N): "
+                    )
+                    if confirmation.lower() == "y":
                         clean_up_nvidia_mvp(args.nvidia_mvp_dir, dry_run=False)
                     else:
                         logger.info("Clean up of NVIDIA MVP backend tables aborted")
 
     # Print summary
-    logger.info(f"Migration completed successfully")
+    logger.info("Migration completed successfully")
 
     if xllm6_backup_path:
         logger.info(f"xllm6 backup saved to: {xllm6_backup_path}")
-        logger.info(f"Converted {len(xllm6_converted_files)} xllm6 data tables to xLLM format")
+        logger.info(
+            f"Converted {len(xllm6_converted_files)} xllm6 data tables to xLLM format"
+        )
 
     if nvidia_backup_path:
         logger.info(f"NVIDIA MVP backup saved to: {nvidia_backup_path}")
-        logger.info(f"Converted {len(nvidia_converted_files)} NVIDIA MVP backend tables to xLLM format")
+        logger.info(
+            f"Converted {len(nvidia_converted_files)} NVIDIA MVP backend tables to xLLM format"
+        )
 
     return 0
+
 
 if __name__ == "__main__":
     sys.exit(main())

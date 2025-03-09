@@ -1,0 +1,58 @@
+# xLLM Verification Report
+
+Generated on: 2025-03-09 14:17:24
+
+## Overall Status: FAIL
+
+## Knowledge Base Verification
+
+Status: FAIL
+Time taken: 0.00 seconds
+Knowledge base path: data/knowledge/test/knowledge_base.pkl
+
+Errors:
+- Knowledge base dictionary is empty
+
+## Query Processing Verification
+
+Status: PASS
+Time taken: 0.00 seconds
+Queries processed: 5
+
+## Query Results
+
+### Query: machine learning
+Time taken: 0.00 seconds
+Result:
+```
+{'query': 'machine learning', 'results': []}
+```
+
+### Query: neural networks
+Time taken: 0.00 seconds
+Result:
+```
+{'query': 'neural networks', 'results': []}
+```
+
+### Query: probability theory
+Time taken: 0.00 seconds
+Result:
+```
+{'query': 'probability theory', 'results': []}
+```
+
+### Query: statistics
+Time taken: 0.00 seconds
+Result:
+```
+{'query': 'statistics', 'results': []}
+```
+
+### Query: deep learning
+Time taken: 0.00 seconds
+Result:
+```
+{'query': 'deep learning', 'results': []}
+```
+

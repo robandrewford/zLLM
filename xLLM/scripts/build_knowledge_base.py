@@ -8,9 +8,7 @@ and use it to answer queries.
 
 import argparse
 import glob
-import json
 import logging
-import os
 from pathlib import Path
 
 from xllm.knowledge_base import HashKnowledgeBase  # pyright: ignore
@@ -19,10 +17,7 @@ from xllm.knowledge_base import HashKnowledgeBase  # pyright: ignore
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.FileHandler("knowledge_base.log"),
-        logging.StreamHandler()
-    ]
+    handlers=[logging.FileHandler("xLLM/data/logs/knowledge_base.log"), logging.StreamHandler()],
 )
 
 logger = logging.getLogger("knowledge_base")
@@ -113,13 +108,15 @@ def main():
                         content = parts[2]
 
                         # Add to knowledge base
-                        kb.add_data({
-                            "url": url,
-                            "category": category,
-                            "content": content,
-                            "related": [],  # Could extract from content if needed
-                            "see_also": [],  # Could extract from content if needed
-                        })
+                        kb.add_data(
+                            {
+                                "url": url,
+                                "category": category,
+                                "content": content,
+                                "related": [],  # Could extract from content if needed
+                                "see_also": [],  # Could extract from content if needed
+                            }
+                        )
 
         # Build derived tables
         logger.info("Building derived tables")
@@ -148,19 +145,25 @@ def main():
             # Print categories
             if result.get("categories"):
                 print("  Categories:")
-                for category, count in sorted(result["categories"].items(), key=lambda x: x[1], reverse=True)[:3]:
+                for category, count in sorted(
+                    result["categories"].items(), key=lambda x: x[1], reverse=True
+                )[:3]:
                     print(f"    - {category} ({count})")
 
             # Print related topics
             if result.get("related"):
                 print("  Related topics:")
-                for topic, count in sorted(result["related"].items(), key=lambda x: x[1], reverse=True)[:3]:
+                for topic, count in sorted(
+                    result["related"].items(), key=lambda x: x[1], reverse=True
+                )[:3]:
                     print(f"    - {topic} ({count})")
 
             # Print URLs
             if result.get("urls"):
                 print("  URLs:")
-                for url_id, count in sorted(result["urls"].items(), key=lambda x: x[1], reverse=True)[:3]:
+                for url_id, count in sorted(
+                    result["urls"].items(), key=lambda x: x[1], reverse=True
+                )[:3]:
                     if url_id.isdigit() and int(url_id) < len(kb.arr_url):
                         print(f"    - {kb.arr_url[int(url_id)]} ({count})")
 

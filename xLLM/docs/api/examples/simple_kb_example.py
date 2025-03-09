@@ -9,14 +9,15 @@ from xllm.knowledge_base import HashKnowledgeBase
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    handlers=[logging.FileHandler("xLLM/data/logs/simple_kb_example.log"), logging.StreamHandler()],
 )
 
 # Create a knowledge base with minimal filtering
 kb = HashKnowledgeBase(
     max_tokens_per_word=5,  # Allow longer token sequences
     min_token_frequency=1,  # Include all tokens regardless of frequency
-    output_dir=Path("./data/knowledge")
+    output_dir=Path("./data/knowledge"),
 )
 
 # Add more data with repeated terms to increase token frequency
@@ -24,44 +25,52 @@ print("Adding data to knowledge base...")
 
 # Add multiple entries with similar content to build up token frequency
 for i in range(5):
-    kb.add_data({
-        "url": f"https://example.com/probability-{i}",
-        "category": "Mathematics",
-        "content": "Probability is a measure of the likelihood of an event occurring. "
-                  "Probability theory is used extensively in statistics, mathematics, science, and philosophy.",
-        "related": ["Statistics", "Random Variables", "Mathematics"],
-        "see_also": ["Probability Theory", "Bayes' Theorem"]
-    })
+    kb.add_data(
+        {
+            "url": f"https://example.com/probability-{i}",
+            "category": "Mathematics",
+            "content": "Probability is a measure of the likelihood of an event occurring. "
+            "Probability theory is used extensively in statistics, mathematics, science, and philosophy.",
+            "related": ["Statistics", "Random Variables", "Mathematics"],
+            "see_also": ["Probability Theory", "Bayes' Theorem"],
+        }
+    )
 
 for i in range(3):
-    kb.add_data({
-        "url": f"https://example.com/statistics-{i}",
-        "category": "Mathematics",
-        "content": "Statistics is the discipline that concerns the collection, organization, "
-                  "analysis, interpretation, and presentation of data. Statistical analysis "
-                  "often uses probability theory.",
-        "related": ["Probability", "Data Analysis", "Mathematics"],
-        "see_also": ["Statistical Inference", "Descriptive Statistics"]
-    })
+    kb.add_data(
+        {
+            "url": f"https://example.com/statistics-{i}",
+            "category": "Mathematics",
+            "content": "Statistics is the discipline that concerns the collection, organization, "
+            "analysis, interpretation, and presentation of data. Statistical analysis "
+            "often uses probability theory.",
+            "related": ["Probability", "Data Analysis", "Mathematics"],
+            "see_also": ["Statistical Inference", "Descriptive Statistics"],
+        }
+    )
 
-kb.add_data({
-    "url": "https://example.com/normal-distribution",
-    "category": "Statistics",
-    "content": "The normal distribution is a continuous probability distribution. "
-              "It is also called the Gaussian distribution. The normal distribution "
-              "is important in statistics and is often used in the natural and social sciences.",
-    "related": ["Probability", "Statistics", "Distribution"],
-    "see_also": ["Gaussian Distribution", "Bell Curve"]
-})
+kb.add_data(
+    {
+        "url": "https://example.com/normal-distribution",
+        "category": "Statistics",
+        "content": "The normal distribution is a continuous probability distribution. "
+        "It is also called the Gaussian distribution. The normal distribution "
+        "is important in statistics and is often used in the natural and social sciences.",
+        "related": ["Probability", "Statistics", "Distribution"],
+        "see_also": ["Gaussian Distribution", "Bell Curve"],
+    }
+)
 
-kb.add_data({
-    "url": "https://example.com/bayes-theorem",
-    "category": "Probability",
-    "content": "Bayes' theorem describes the probability of an event, based on prior knowledge "
-              "of conditions that might be related to the event. It is fundamental to Bayesian statistics.",
-    "related": ["Probability", "Conditional Probability", "Statistics"],
-    "see_also": ["Bayesian Statistics", "Probability Theory"]
-})
+kb.add_data(
+    {
+        "url": "https://example.com/bayes-theorem",
+        "category": "Probability",
+        "content": "Bayes' theorem describes the probability of an event, based on prior knowledge "
+        "of conditions that might be related to the event. It is fundamental to Bayesian statistics.",
+        "related": ["Probability", "Conditional Probability", "Statistics"],
+        "see_also": ["Bayesian Statistics", "Probability Theory"],
+    }
+)
 
 # Save the knowledge base
 print("Saving knowledge base...")
@@ -83,7 +92,7 @@ for query in queries:
         print(f"Count: {result.get('count', 0)}")
 
         # Print URLs (up to 2)
-        urls = result.get('urls', {})
+        urls = result.get("urls", {})
         if urls:
             print("URLs:")
             for j, (url_id, count) in enumerate(urls.items()):
@@ -95,7 +104,7 @@ for query in queries:
                     print(f"  - {kb.arr_url[url_index]} (count: {count})")
 
         # Print categories (up to 2)
-        categories = result.get('categories', {})
+        categories = result.get("categories", {})
         if categories:
             print("Categories:")
             for j, (category, count) in enumerate(categories.items()):

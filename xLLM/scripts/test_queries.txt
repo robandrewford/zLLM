@@ -1,0 +1,34 @@
+# Test queries for xllm6 to xLLM migration verification
+# Each line contains a single query to test
+
+# Basic keyword queries
+machine learning
+deep learning
+artificial intelligence
+neural networks
+computer vision
+natural language processing
+
+# Multi-token word queries
+transformer models
+convolutional neural networks
+recurrent neural networks
+generative adversarial networks
+reinforcement learning
+
+# NVIDIA-specific queries
+nvidia gpu
+nvidia a100
+nvidia h100
+nvidia dgx
+nvidia financial performance
+nvidia product specifications
+nvidia technical documentation
+nvidia performance metrics
+
+# Domain-specific queries
+cuda programming
+tensor cores
+gpu architecture
+parallel computing
+high performance computing

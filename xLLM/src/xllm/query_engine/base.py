@@ -1,7 +1,7 @@
 """Base query engine module defining the interface for all query engines."""
 
 from abc import ABC, abstractmethod
-from typing import Dict, List, Optional, Any
+from typing import Dict, List, Any
 
 
 class BaseQueryEngine(ABC):

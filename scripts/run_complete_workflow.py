@@ -16,7 +16,6 @@ import logging
 import os
 import sys
 import time
-from pathlib import Path
 import subprocess
 
 # Configure logging
@@ -25,10 +24,11 @@ logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     handlers=[
         logging.FileHandler("xllm_complete_workflow.log"),
-        logging.StreamHandler()
-    ]
+        logging.StreamHandler(),
+    ],
 )
 logger = logging.getLogger("xllm_complete_workflow")
+
 
 def crawl_wolfram_topic(url, output_dir, crawler_type="brightdata", max_pages=5):
     """
@@ -77,7 +77,7 @@ def crawl_wolfram_topic(url, output_dir, crawler_type="brightdata", max_pages=5)
             logger.error(f"Unknown crawler type: {crawler_type}")
             return False
 
-        logger.info(f"Crawling complete")
+        logger.info("Crawling complete")
         return True
 
     except ImportError as e:
@@ -87,6 +87,7 @@ def crawl_wolfram_topic(url, output_dir, crawler_type="brightdata", max_pages=5)
     except Exception as e:
         logger.error(f"Error crawling: {e}")
         return False
+
 
 def process_pdf(pdf_file, output_dir):
     """
@@ -115,11 +116,20 @@ def process_pdf(pdf_file, output_dir):
         result = processor.process_file(pdf_file)
 
         # Save the result as JSON
-        output_file = os.path.join(output_dir, f"{os.path.splitext(os.path.basename(pdf_file))[0]}_processed.json")
+        output_file = os.path.join(
+            output_dir,
+            f"{os.path.splitext(os.path.basename(pdf_file))[0]}_processed.json",
+        )
 
         import json
+
         with open(output_file, "w", encoding="utf-8") as f:
-            json.dump(result, f, indent=2, default=lambda x: list(x) if isinstance(x, set) else x)
+            json.dump(
+                result,
+                f,
+                indent=2,
+                default=lambda x: list(x) if isinstance(x, set) else x,
+            )
 
         logger.info(f"PDF processing complete. Results saved to {output_file}")
         return output_file
@@ -131,6 +141,7 @@ def process_pdf(pdf_file, output_dir):
     except Exception as e:
         logger.error(f"Error processing PDF: {e}")
         return None
+
 
 def run_complete_workflow():
     """
@@ -146,12 +157,18 @@ def run_complete_workflow():
         cmd = [
             sys.executable,
             "scripts/complete_xllm_workflow.py",
-            "--pdf-dir", "data/pdfs",
-            "--scrape-dir", "data/scraped",
-            "--processed-dir", "data/processed",
-            "--combined-dir", "data/combined",
-            "--tables-dir", "data/knowledge",
-            "--output-dir", "data/output",
+            "--pdf-dir",
+            "data/pdfs",
+            "--scrape-dir",
+            "data/scraped",
+            "--processed-dir",
+            "data/processed",
+            "--combined-dir",
+            "data/combined",
+            "--tables-dir",
+            "data/knowledge",
+            "--output-dir",
+            "data/output",
         ]
 
         logger.info(f"Running command: {' '.join(cmd)}")
@@ -169,21 +186,38 @@ def run_complete_workflow():
         logger.error(f"Error: {e}")
         return False
 
+
 def main():
     """Main function to run the complete workflow with real data."""
-    parser = argparse.ArgumentParser(description="Run complete xLLM workflow with real data")
-    parser.add_argument("--url", type=str, default="https://mathworld.wolfram.com/topics/ProbabilityandStatistics.html",
-                        help="URL to crawl")
-    parser.add_argument("--pdf", type=str, default="data/pdfs/llm_survey.pdf",
-                        help="Path to the PDF file to process")
-    parser.add_argument("--crawler", type=str, choices=["brightdata", "tor"], default="tor",
-                        help="Type of crawler to use")
-    parser.add_argument("--max-pages", type=int, default=5,
-                        help="Maximum number of pages to crawl")
-    parser.add_argument("--skip-crawl", action="store_true",
-                        help="Skip crawling step")
-    parser.add_argument("--skip-pdf", action="store_true",
-                        help="Skip PDF processing step")
+    parser = argparse.ArgumentParser(
+        description="Run complete xLLM workflow with real data"
+    )
+    parser.add_argument(
+        "--url",
+        type=str,
+        default="https://mathworld.wolfram.com/topics/ProbabilityandStatistics.html",
+        help="URL to crawl",
+    )
+    parser.add_argument(
+        "--pdf",
+        type=str,
+        default="data/pdfs/llm_survey.pdf",
+        help="Path to the PDF file to process",
+    )
+    parser.add_argument(
+        "--crawler",
+        type=str,
+        choices=["brightdata", "tor"],
+        default="tor",
+        help="Type of crawler to use",
+    )
+    parser.add_argument(
+        "--max-pages", type=int, default=5, help="Maximum number of pages to crawl"
+    )
+    parser.add_argument("--skip-crawl", action="store_true", help="Skip crawling step")
+    parser.add_argument(
+        "--skip-pdf", action="store_true", help="Skip PDF processing step"
+    )
     args = parser.parse_args()
 
     # Track start time for performance measurement
@@ -230,6 +264,7 @@ def main():
 
     logger.info("Complete workflow with real data completed successfully")
     return 0
+
 
 if __name__ == "__main__":
     sys.exit(main())

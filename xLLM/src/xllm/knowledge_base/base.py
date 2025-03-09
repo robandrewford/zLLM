@@ -1,7 +1,7 @@
 """Base knowledge base module defining the interface for all knowledge bases."""
 
 from abc import ABC, abstractmethod
-from typing import Dict, List, Optional, Any, Union
+from typing import Dict, List, Any
 
 
 class BaseKnowledgeBase(ABC):

@@ -25,6 +25,7 @@ dev = [
     "pytest-cov>=4.0.0",
     "pre-commit>=3.0.0",
     "ruff>=0.1.0",
+    "pyright>=1.1.0",
 ]
 docs = [
     "mkdocs>=1.4.0",
@@ -35,6 +36,9 @@ nlp = [
     "pattern>=3.6.0",
 ]
 
+[project.scripts]
+xllm = "xllm.cli.main:main"
+
 [tool.ruff]
 target-version = "py310"
 line-length = 100
@@ -44,3 +48,11 @@ ignore = ["ANN101"]  # Missing type annotation for `self`
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 python_files = "test_*.py"
+
+[tool.pyright]
+include = ["src", "scripts", "tests"]
+exclude = ["**/__pycache__", "**/.venv"]
+typeCheckingMode = "basic"
+reportMissingImports = true
+reportMissingTypeStubs = false
+pythonVersion = "3.10"

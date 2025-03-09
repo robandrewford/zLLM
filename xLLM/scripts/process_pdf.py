@@ -17,10 +17,7 @@ from xllm.processors import PDFProcessor
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.FileHandler("pdf_processing.log"),
-        logging.StreamHandler()
-    ]
+    handlers=[logging.FileHandler("xLLM/data/logs/pdf_processing.log"), logging.StreamHandler()],
 )
 
 logger = logging.getLogger("pdf_processor")

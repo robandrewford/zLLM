@@ -9,14 +9,13 @@ from xllm.knowledge_base import HashKnowledgeBase  # pyright: ignore
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    handlers=[logging.FileHandler("xLLM/data/logs/direct_kb_example.log"), logging.StreamHandler()],
 )
 
 # Create a knowledge base
 kb = HashKnowledgeBase(
-    max_tokens_per_word=3,
-    min_token_frequency=1,
-    output_dir=Path("./data/knowledge")
+    max_tokens_per_word=3, min_token_frequency=1, output_dir=Path("./data/knowledge")
 )
 
 # Directly add entries to the dictionary and other data structures
@@ -40,10 +39,7 @@ for word in words:
     kb.hash_see[word] = {"Probability Theory": 3, "Statistical Analysis": 3}
 
 # Add URLs
-kb.arr_url = [
-    "https://example.com/probability",
-    "https://example.com/statistics"
-]
+kb.arr_url = ["https://example.com/probability", "https://example.com/statistics"]
 
 # Add to compressed n-grams table
 kb.compressed_ngrams_table = {
@@ -51,7 +47,7 @@ kb.compressed_ngrams_table = {
     "statistics": ["statistics"],
     "distribution": ["distribution"],
     "normal": ["normal"],
-    "bayes": ["bayes"]
+    "bayes": ["bayes"],
 }
 
 # Save the knowledge base
@@ -74,7 +70,7 @@ for query in queries:
         print(f"Count: {result.get('count', 0)}")
 
         # Print URLs
-        urls = result.get('urls', {})
+        urls = result.get("urls", {})
         if urls:
             print("URLs:")
             for url_id, count in urls.items():
@@ -83,7 +79,7 @@ for query in queries:
                     print(f"  - {kb.arr_url[url_index]} (count: {count})")
 
         # Print categories
-        categories = result.get('categories', {})
+        categories = result.get("categories", {})
         if categories:
             print("Categories:")
             for category, count in categories.items():

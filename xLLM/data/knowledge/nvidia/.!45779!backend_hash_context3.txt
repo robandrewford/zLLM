@@ -1,0 +1,2099 @@
+investor	{'Investor Presentation Q2 FY24': 5, '': 102}
+presentation	{'Investor Presentation Q2 FY24': 5, '': 20}
+investor~presentation	{'Investor Presentation Q2 FY24': 5}
+presentation~investor~presentation	{'Investor Presentation Q2 FY24': 5}
+investor~presentation~investor~presentation	{'Investor Presentation Q2 FY24': 5}
+q2	{'Investor Presentation Q2 FY24': 5, 'Content': 2, 'Q2 FY24 Earnings Summary': 2, 'Q2 FY24 Financial Summary': 27, 'Data Center': 4, 'Gaming': 6, 'Professional Visualization': 4, 'Automotive': 4, 'Sources & Uses of Cash': 6, 'NVIDIA Grace Hopper Next-Gen Platform with HBM3e': 2, 'Strong Cash Flow Generation': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 2}
+presentation~q2	{'Investor Presentation Q2 FY24': 5}
+investor~presentation~q2	{'Investor Presentation Q2 FY24': 5}
+q2~investor~presentation~q2	{'Investor Presentation Q2 FY24': 5}
+fy24	{'Investor Presentation Q2 FY24': 5, 'Content': 2, 'Q2 FY24 Earnings Summary': 2, 'Q2 FY24 Financial Summary': 27, 'Data Center': 6, 'Gaming': 6, 'Professional Visualization': 6, 'Automotive': 6, 'Sources & Uses of Cash': 4, 'Q3 FY24 Outlook': 28, 'Driving Strong & Profitable Growth': 6, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Strong Cash Flow Generation': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 4}
+q2~fy24	{'Investor Presentation Q2 FY24': 5, 'Content': 2, 'Q2 FY24 Earnings Summary': 2, 'Q2 FY24 Financial Summary': 25, 'Data Center': 2, 'Gaming': 2, 'Professional Visualization': 2, 'Automotive': 2, 'Sources & Uses of Cash': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 2}
+presentation~q2~fy24	{'Investor Presentation Q2 FY24': 5}
+investor~presentation~q2~fy24	{'Investor Presentation Q2 FY24': 5}
+august	{'Investor Presentation Q2 FY24': 2, '': 10}
+28	{'Investor Presentation Q2 FY24': 2, '': 72}
+august~28	{'Investor Presentation Q2 FY24': 2}
+28~august~28	{'Investor Presentation Q2 FY24': 2}
+august~28~august~28	{'Investor Presentation Q2 FY24': 2}
+2023	{'Investor Presentation Q2 FY24': 2, 'DGX GH200 AI Supercomputer Extends the Frontier of LLMs': 2, "NVIDIA's Expanding Accelerated Computing Ecosystem": 8, 'Strong Cash Flow Generation': 2, 'Growing NVIDIA DRIVE Pipeline': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 12, '': 1340}
+28~2023	{'Investor Presentation Q2 FY24': 2, '': 2}
+august~28~2023	{'Investor Presentation Q2 FY24': 2}
+2023~august~28~2023	{'Investor Presentation Q2 FY24': 2}
+except	{'': 170}
+historical	{'': 105, 'Automotive': 2}
+except~historical	{'': 1}
+historical~except~historical	{'': 1}
+except~historical~except~historical	{'': 1}
+information	{'': 662}
+historical~information	{'': 1}
+except~historical~information	{'': 1}
+information~except~historical~information	{'': 1}
+contained	{'': 73}
+information~contained	{'': 15}
+historical~information~contained	{'': 1}
+except~historical~information~contained	{'': 1}
+herein	{'': 25}
+contained~herein	{'': 5}
+information~contained~herein	{'': 1}
+historical~information~contained~herein	{'': 1}
+certain	{'': 388, 'Corporate Responsibility': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 2}
+herein~certain	{'': 1}
+contained~herein~certain	{'': 1}
+information~contained~herein~certain	{'': 1}
+matters	{'': 235}
+certain~matters	{'': 1}
+herein~certain~matters	{'': 1}
+contained~herein~certain~matters	{'': 1}
+matters~presentation	{'': 1}
+certain~matters~presentation	{'': 1}
+herein~certain~matters~presentation	{'': 1}
+including	{'': 915, 'Gaming': 2, 'New NVIDIA L40S GPU for Gen AI and Industrial Digitalization': 4, 'Snowflake and NVIDIA Team to Help Businesses Harness Their Data for Gen AI in the Data Cloud': 2, 'New NVIDIA RTX Ada GPUs to Power Workstations for Gen AI and LLM, Content Creation, Data Science': 2, "NVIDIA's Multi-Sided Platform and Flywheel": 2}
+presentation~including	{'': 2}
+matters~presentation~including	{'': 1}
+certain~matters~presentation~including	{'': 1}
+not	{'': 1477, 'What Is Accelerated Computing?': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2}
+including~not	{'': 66}
+presentation~including~not	{'': 1}
+matters~presentation~including~not	{'': 1}
+limited	{'': 178, 'What Is Accelerated Computing?': 2}
+not~limited	{'': 82}
+including~not~limited	{'': 66}
+presentation~including~not~limited	{'': 1}
+statements	{'': 668}
+limited~statements	{'': 5}
+not~limited~statements	{'': 5}
+including~not~limited~statements	{'': 5}
+financial	{'': 1408, 'Content': 2, 'Q2 FY24 Financial Summary': 19, "NVIDIA's Multi-Sided Platform and Flywheel": 2, '$150B': 2, 'Driving Strong & Profitable Growth': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 46, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 131}
+statements~financial	{'': 1}
+limited~statements~financial	{'': 1}
+not~limited~statements~financial	{'': 1}
+position	{'': 117, 'Gaming': 2}
+financial~position	{'': 21}
+statements~financial~position	{'': 1}
+limited~statements~financial~position	{'': 1}
+markets	{'': 201, "NVIDIA's Multi-Sided Platform and Flywheel": 2}
+position~markets	{'': 1}
+financial~position~markets	{'': 1}
+statements~financial~position~markets	{'': 1}
+market	{'': 519, 'NVIDIA Software and Services': 2, '$150B': 2, 'Our Market Platforms at a Glance': 15, 'Gaming': 2, 'Professional Visualization': 2}
+markets~market	{'': 3}
+position~markets~market	{'': 1}
+financial~position~markets~market	{'': 1}
+opportunity	{'': 183, 'Gaming': 2, 'Professional Visualization': 2, '$150B': 8, 'GeForce Extends Growth, Large Upgrade Opportunity': 19}
+market~opportunity	{'': 1, '$150B': 2}
+markets~market~opportunity	{'': 1}
+position~markets~market~opportunity	{'': 1}
+demand	{'': 408, 'Highlights': 8, 'Data Center': 2, 'Automotive': 2, "NVIDIA's Multi-Sided Platform and Flywheel": 2}
+opportunity~demand	{'': 1}
+market~opportunity~demand	{'': 1}
+markets~market~opportunity~demand	{'': 1}
+growth	{'': 119, 'Highlights': 8, 'Gaming': 4, 'Professional Visualization': 4, 'Automotive': 6, 'Sources & Uses of Cash': 2, 'Q3 FY24 Outlook': 2, 'NVIDIA, Pixar, Adobe, Apple and Autodesk Co-Founded the Alliance for OpenUSD (AOUSD)': 2, 'Driving Strong & Profitable Growth': 17, 'Data Center': 2, 'GeForce Extends Growth, Large Upgrade Opportunity': 19}
+demand~growth	{'': 1}
+opportunity~demand~growth	{'': 1}
+market~opportunity~demand~growth	{'': 1}
+drivers	{'': 17, 'Data Center': 2, 'Gaming': 2, 'Professional Visualization': 2, 'Automotive': 2}
+growth~drivers	{'': 5, 'Data Center': 2, 'Gaming': 2, 'Professional Visualization': 2, 'Automotive': 2}
+demand~growth~drivers	{'': 1}
+opportunity~demand~growth~drivers	{'': 1}
+csps	{'': 7, 'Highlights': 2, 'Data Center': 2, "NVIDIA's Multi-Sided Platform and Flywheel": 6}
+drivers~csps	{'': 1}
+growth~drivers~csps	{'': 1}
+demand~growth~drivers~csps	{'': 1}
+undertaking	{'': 7, 'Highlights': 2}
+csps~undertaking	{'': 1, 'Highlights': 2}
+drivers~csps~undertaking	{'': 1}
+growth~drivers~csps~undertaking	{'': 1}
+generational	{'': 1, 'Highlights': 2}
+undertaking~generational	{'': 1, 'Highlights': 2}
+csps~undertaking~generational	{'': 1, 'Highlights': 2}
+drivers~csps~undertaking~generational	{'': 1}
+transition	{'': 65, 'Highlights': 2}
+generational~transition	{'': 1, 'Highlights': 2}
+undertaking~generational~transition	{'': 1, 'Highlights': 2}
+csps~undertaking~generational~transition	{'': 1, 'Highlights': 2}
+update	{'': 28}
+transition~update	{'': 1}
+generational~transition~update	{'': 1}
+undertaking~generational~transition~update	{'': 1}
+infrastructure	{'': 81, 'Highlights': 6, 'MGX Server Reference Design for Accelerated Computing': 2, 'VMware and NVIDIA Unlock Generative AI for Enterprises': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Modern AI is a Data Center Scale Computing Workload': 4}
+update~infrastructure	{'': 1}
+transition~update~infrastructure	{'': 1}
+generational~transition~update~infrastructure	{'': 1}
+new	{'': 525, 'Highlights': 2, 'Gaming': 2, 'Professional Visualization': 6, 'Automotive': 6, 'DGX GH200 AI Supercomputer Extends the Frontier of LLMs': 2, 'NVIDIA Grace Hopper Next-Gen Platform with HBM3e': 2, 'New NVIDIA L40S GPU for Gen AI and Industrial Digitalization': 10, 'VMware and NVIDIA Unlock Generative AI for Enterprises': 2, 'New NVIDIA RTX Ada GPUs to Power Workstations for Gen AI and LLM, Content Creation, Data Science': 15, 'New NVIDIA Generative AI Omniverse Cloud APIs': 9, 'MediaTek Partners With NVIDIA to Transform Automobiles With AI and Accelerated Computing': 8, 'Why Accelerated Computing?': 4, "NVIDIA's Multi-Sided Platform and Flywheel": 2, 'AI Is the Greatest Technology Force of Our Time': 2}
+infrastructure~new	{'': 1, 'Highlights': 2}
+update~infrastructure~new	{'': 1}
+transition~update~infrastructure~new	{'': 1}
+era	{'': 9, 'Highlights': 2, 'Why Accelerated Computing?': 2}
+new~era	{'': 1, 'Highlights': 2}
+infrastructure~new~era	{'': 1, 'Highlights': 2}
+update~infrastructure~new~era	{'': 1}
+accelerated	{'': 182, 'Highlights': 4, 'Gaming': 2, 'MGX Server Reference Design for Accelerated Computing': 13, 'VMware and NVIDIA Unlock Generative AI for Enterprises': 2, 'Snowflake and NVIDIA Team to Help Businesses Harness Their Data for Gen AI in the Data Cloud': 2, 'MediaTek Partners With NVIDIA to Transform Automobiles With AI and Accelerated Computing': 9, 'What Is Accelerated Computing?': 26, 'Why Accelerated Computing?': 35, "NVIDIA's Accelerated Computing Platform": 14, "NVIDIA's Expanding Accelerated Computing Ecosystem": 28, "NVIDIA's Multi-Sided Platform and Flywheel": 6, 'Full-Stack & Data Center Scale Acceleration': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Modern AI is a Data Center Scale Computing Workload': 2}
+era~accelerated	{'': 1, 'Highlights': 2}
+new~era~accelerated	{'': 1, 'Highlights': 2}
+infrastructure~new~era~accelerated	{'': 1, 'Highlights': 2}
+computing	{'': 374, 'Highlights': 4, 'MGX Server Reference Design for Accelerated Computing': 13, 'VMware and NVIDIA Unlock Generative AI for Enterprises': 2, 'Snowflake and NVIDIA Team to Help Businesses Harness Their Data for Gen AI in the Data Cloud': 2, 'MediaTek Partners With NVIDIA to Transform Automobiles With AI and Accelerated Computing': 9, 'What Is Accelerated Computing?': 20, 'Why Accelerated Computing?': 37, "NVIDIA's Accelerated Computing Platform": 18, "NVIDIA's Expanding Accelerated Computing Ecosystem": 28, "NVIDIA's Multi-Sided Platform and Flywheel": 8, 'Full-Stack & Data Center Scale Acceleration': 4, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Data Center': 4, 'Modern AI is a Data Center Scale Computing Workload': 32, 'Automotive': 2}
+accelerated~computing	{'': 114, 'Highlights': 4, 'MGX Server Reference Design for Accelerated Computing': 13, 'VMware and NVIDIA Unlock Generative AI for Enterprises': 2, 'MediaTek Partners With NVIDIA to Transform Automobiles With AI and Accelerated Computing': 9, 'What Is Accelerated Computing?': 20, 'Why Accelerated Computing?': 35, "NVIDIA's Accelerated Computing Platform": 14, "NVIDIA's Expanding Accelerated Computing Ecosystem": 28, "NVIDIA's Multi-Sided Platform and Flywheel": 4, 'Full-Stack & Data Center Scale Acceleration': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Modern AI is a Data Center Scale Computing Workload': 2}
+era~accelerated~computing	{'': 1, 'Highlights': 2}
+new~era~accelerated~computing	{'': 1, 'Highlights': 2}
+ai	{'': 671, 'Highlights': 8, 'Gaming': 4, 'Professional Visualization': 6, 'NVIDIA Grace Hopper Superchips Now Available': 6, 'DGX GH200 AI Supercomputer Extends the Frontier of LLMs': 13, 'NVIDIA Grace Hopper Next-Gen Platform with HBM3e': 4, 'New NVIDIA L40S GPU for Gen AI and Industrial Digitalization': 12, 'MGX Server Reference Design for Accelerated Computing': 2, 'Spectrum-X End-to-End Ethernet Platform': 6, 'NVIDIA AI Announcements to Help Accelerate the Adoption of Custom Gen AI by Enterprises': 26, 'VMware and NVIDIA Unlock Generative AI for Enterprises': 23, 'Snowflake and NVIDIA Team to Help Businesses Harness Their Data for Gen AI in the Data Cloud': 10, 'WPP Partners With NVIDIA to Build Gen AI-Enabled Content Engine for Digital Advertising': 6, 'New NVIDIA RTX Ada GPUs to Power Workstations for Gen AI and LLM, Content Creation, Data Science': 17, 'New NVIDIA Generative AI Omniverse Cloud APIs': 9, 'MediaTek Partners With NVIDIA to Transform Automobiles With AI and Accelerated Computing': 11, 'Why Accelerated Computing?': 2, "NVIDIA's Accelerated Computing Platform": 4, "NVIDIA's Expanding Accelerated Computing Ecosystem": 4, 'Training & Inference -- One Architecture': 6, 'AI Is the Greatest Technology Force of Our Time': 45, 'Advancing Industrial Digitalization Efforts with NVIDIA Omniverse': 4, 'NVIDIA Software and Services': 12, 'NVIDIA Cloud Services': 6, '$150B': 4, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Our Market Platforms at a Glance': 4, 'Data Center': 12, 'Modern AI is a Data Center Scale Computing Workload': 42, 'Automotive': 4, 'Corporate Responsibility': 2}
+computing~ai	{'': 23, 'Highlights': 4}
+accelerated~computing~ai	{'': 9, 'Highlights': 4}
+era~accelerated~computing~ai	{'': 1, 'Highlights': 2}
+enterprises	{'': 22, 'Highlights': 2, 'NVIDIA AI Announcements to Help Accelerate the Adoption of Custom Gen AI by Enterprises': 7, 'VMware and NVIDIA Unlock Generative AI for Enterprises': 13, 'Snowflake and NVIDIA Team to Help Businesses Harness Their Data for Gen AI in the Data Cloud': 2, 'NVIDIA Software and Services': 4}
+ai~enterprises	{'': 1, 'NVIDIA AI Announcements to Help Accelerate the Adoption of Custom Gen AI by Enterprises': 7, 'VMware and NVIDIA Unlock Generative AI for Enterprises': 9}
+computing~ai~enterprises	{'': 1}
+accelerated~computing~ai~enterprises	{'': 1}
+racing	{'': 5, 'Highlights': 2}
+enterprises~racing	{'': 1, 'Highlights': 2}
+ai~enterprises~racing	{'': 1}
+computing~ai~enterprises~racing	{'': 1}
+adopt	{'': 12}
+racing~adopt	{'': 1}
+enterprises~racing~adopt	{'': 1}
+ai~enterprises~racing~adopt	{'': 1}
+generative	{'': 72, 'Highlights': 2, 'Gaming': 2, 'VMware and NVIDIA Unlock Generative AI for Enterprises': 9, 'New NVIDIA Generative AI Omniverse Cloud APIs': 9, 'AI Is the Greatest Technology Force of Our Time': 2, 'NVIDIA Software and Services': 2}
+adopt~generative	{'': 1}
+racing~adopt~generative	{'': 1}
+enterprises~racing~adopt~generative	{'': 1}
+generative~ai	{'': 66, 'Highlights': 2, 'Gaming': 2, 'VMware and NVIDIA Unlock Generative AI for Enterprises': 9, 'New NVIDIA Generative AI Omniverse Cloud APIs': 9, 'AI Is the Greatest Technology Force of Our Time': 2, 'NVIDIA Software and Services': 2}
+adopt~generative~ai	{'': 1}
+racing~adopt~generative~ai	{'': 1}
+belief	{'': 5}
+ai~belief	{'': 1}
+generative~ai~belief	{'': 1}
+adopt~generative~ai~belief	{'': 1}
+global	{'': 212, 'Highlights': 2, 'New NVIDIA RTX Ada GPUs to Power Workstations for Gen AI and LLM, Content Creation, Data Science': 2, 'MediaTek Partners With NVIDIA to Transform Automobiles With AI and Accelerated Computing': 2, "NVIDIA's Multi-Sided Platform and Flywheel": 2}
+belief~global	{'': 1}
+ai~belief~global	{'': 1}
+generative~ai~belief~global	{'': 1}
+end	{'': 241, 'Highlights': 2, 'Sources & Uses of Cash': 2, 'DGX GH200 AI Supercomputer Extends the Frontier of LLMs': 2, 'Why Accelerated Computing?': 2, 'Strong Cash Flow Generation': 2}
+global~end	{'': 1, 'Highlights': 2}
+belief~global~end	{'': 1}
+ai~belief~global~end	{'': 1}
+end~demand	{'': 5, 'Highlights': 2}
+global~end~demand	{'': 1, 'Highlights': 2}
+belief~global~end~demand	{'': 1}
+gaming	{'': 219, 'Highlights': 4, 'Gaming': 46, 'Q3 FY24 Outlook': 2, '$150B': 6, 'Driving Strong & Profitable Growth': 4, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Our Market Platforms at a Glance': 6, 'GeForce Extends Growth, Large Upgrade Opportunity': 2}
+demand~gaming	{'': 5}
+end~demand~gaming	{'': 1}
+global~end~demand~gaming	{'': 1}
+has	{'': 546, 'Highlights': 2, 'AI Is the Greatest Technology Force of Our Time': 2}
+gaming~has	{'': 1}
+demand~gaming~has	{'': 1}
+end~demand~gaming~has	{'': 1}
+returned	{'': 9, 'Highlights': 2, 'Sources & Uses of Cash': 2}
+has~returned	{'': 1, 'Highlights': 2}
+gaming~has~returned	{'': 1}
+demand~gaming~has~returned	{'': 1}
+returned~growth	{'': 1, 'Highlights': 2}
+has~returned~growth	{'': 1, 'Highlights': 2}
+gaming~has~returned~growth	{'': 1}
+growing	{'': 35, 'Data Center': 2, 'Strong Cash Flow Generation': 2, 'Growing NVIDIA DRIVE Pipeline': 7}
+growth~growing	{'': 1}
+returned~growth~growing	{'': 1}
+has~returned~growth~growing	{'': 1}
+number	{'': 451, 'Data Center': 2}
+growing~number	{'': 17, 'Data Center': 2}
+growth~growing~number	{'': 1}
+returned~growth~growing~number	{'': 1}
+gpu	{'': 124, 'Data Center': 6, 'Gaming': 2, 'Automotive': 2, 'NVIDIA Grace Hopper Superchips Now Available': 2, 'New NVIDIA L40S GPU for Gen AI and Industrial Digitalization': 10, 'New NVIDIA RTX Ada GPUs to Power Workstations for Gen AI and LLM, Content Creation, Data Science': 4, 'MediaTek Partners With NVIDIA to Transform Automobiles With AI and Accelerated Computing': 4, "NVIDIA's Accelerated Computing Platform": 4, 'Full-Stack & Data Center Scale Acceleration': 4, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Our Market Platforms at a Glance': 2, 'Modern AI is a Data Center Scale Computing Workload': 2}
+number~gpu	{'': 1, 'Data Center': 2}
+growing~number~gpu	{'': 1, 'Data Center': 2}
+growth~growing~number~gpu	{'': 1}
+cloud	{'': 238, 'Highlights': 2, 'Data Center': 10, 'Gaming': 4, 'DGX GH200 AI Supercomputer Extends the Frontier of LLMs': 2, 'NVIDIA AI Announcements to Help Accelerate the Adoption of Custom Gen AI by Enterprises': 8, 'VMware and NVIDIA Unlock Generative AI for Enterprises': 4, 'Snowflake and NVIDIA Team to Help Businesses Harness Their Data for Gen AI in the Data Cloud': 8, 'New NVIDIA Generative AI Omniverse Cloud APIs': 11, "NVIDIA's Accelerated Computing Platform": 2, "NVIDIA's Multi-Sided Platform and Flywheel": 2, 'Training & Inference -- One Architecture': 2, 'Advancing Industrial Digitalization Efforts with NVIDIA Omniverse': 4, 'NVIDIA Software and Services': 6, 'NVIDIA Cloud Services': 16, 'NVIDIA Go-to-Market Across Cloud and On-Premises': 14, '$150B': 2, 'Our Market Platforms at a Glance': 2}
+gpu~cloud	{'': 5, 'Data Center': 2}
+number~gpu~cloud	{'': 1, 'Data Center': 2}
+growing~number~gpu~cloud	{'': 1, 'Data Center': 2}
+providers	{'': 49, 'Data Center': 6, "NVIDIA's Multi-Sided Platform and Flywheel": 2, 'NVIDIA Software and Services': 2}
+cloud~providers	{'': 1, 'Data Center': 2}
+gpu~cloud~providers	{'': 1, 'Data Center': 2}
+number~gpu~cloud~providers	{'': 1, 'Data Center': 2}
+deploying	{'': 7, 'Data Center': 2, 'NVIDIA Software and Services': 2}
+providers~deploying	{'': 1, 'Data Center': 2}
+cloud~providers~deploying	{'': 1, 'Data Center': 2}
+gpu~cloud~providers~deploying	{'': 1, 'Data Center': 2}
+volume	{'': 13, 'Data Center': 2}
+deploying~volume	{'': 1, 'Data Center': 2}
+providers~deploying~volume	{'': 1, 'Data Center': 2}
+cloud~providers~deploying~volume	{'': 1, 'Data Center': 2}
+hgx	{'': 7, 'Data Center': 4, "NVIDIA's Accelerated Computing Platform": 2, 'NVIDIA Go-to-Market Across Cloud and On-Premises': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Our Market Platforms at a Glance': 2}
+volume~hgx	{'': 1, 'Data Center': 2}
+deploying~volume~hgx	{'': 1, 'Data Center': 2}
+providers~deploying~volume~hgx	{'': 1, 'Data Center': 2}
+systems	{'': 252, 'Data Center': 2, 'Professional Visualization': 2, 'DGX GH200 AI Supercomputer Extends the Frontier of LLMs': 2, 'NVIDIA Grace Hopper Next-Gen Platform with HBM3e': 2, 'New NVIDIA RTX Ada GPUs to Power Workstations for Gen AI and LLM, Content Creation, Data Science': 2, 'What Is Accelerated Computing?': 2, "NVIDIA's Accelerated Computing Platform": 4, "NVIDIA's Multi-Sided Platform and Flywheel": 2, '$150B': 4, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Our Market Platforms at a Glance': 2}
+hgx~systems	{'': 1, 'Data Center': 2}
+volume~hgx~systems	{'': 1, 'Data Center': 2}
+deploying~volume~hgx~systems	{'': 1, 'Data Center': 2}
+based	{'': 555, 'Data Center': 2, 'Professional Visualization': 2, 'Automotive': 2, 'NVIDIA Grace Hopper Superchips Now Available': 2, 'NVIDIA Grace Hopper Next-Gen Platform with HBM3e': 2, 'New NVIDIA RTX Ada GPUs to Power Workstations for Gen AI and LLM, Content Creation, Data Science': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Modern AI is a Data Center Scale Computing Workload': 2}
+systems~based	{'': 1, 'Data Center': 2}
+hgx~systems~based	{'': 1, 'Data Center': 2}
+volume~hgx~systems~based	{'': 1, 'Data Center': 2}
+hopper	{'': 15, 'Data Center': 2, 'NVIDIA Grace Hopper Superchips Now Available': 15, 'DGX GH200 AI Supercomputer Extends the Frontier of LLMs': 2, 'NVIDIA Grace Hopper Next-Gen Platform with HBM3e': 16, 'Training & Inference -- One Architecture': 2}
+based~hopper	{'': 1, 'Data Center': 2}
+systems~based~hopper	{'': 1, 'Data Center': 2}
+hgx~systems~based~hopper	{'': 1, 'Data Center': 2}
+ampere	{'': 33, 'Data Center': 2, 'GeForce Extends Growth, Large Upgrade Opportunity': 2}
+hopper~ampere	{'': 1, 'Data Center': 2}
+based~hopper~ampere	{'': 1, 'Data Center': 2}
+systems~based~hopper~ampere	{'': 1, 'Data Center': 2}
+ampere~gpu	{'': 1, 'Data Center': 2}
+hopper~ampere~gpu	{'': 1, 'Data Center': 2}
+based~hopper~ampere~gpu	{'': 1, 'Data Center': 2}
+architecture	{'': 109, 'Data Center': 2, 'Professional Visualization': 2, 'MGX Server Reference Design for Accelerated Computing': 2, "NVIDIA's Multi-Sided Platform and Flywheel": 2, 'Training & Inference -- One Architecture': 9, 'Our Market Platforms at a Glance': 2, 'Modern AI is a Data Center Scale Computing Workload': 2}
+gpu~architecture	{'': 21, 'Data Center': 2}
+ampere~gpu~architecture	{'': 1, 'Data Center': 2}
+hopper~ampere~gpu~architecture	{'': 1, 'Data Center': 2}
+expectation	{'': 2}
+architecture~expectation	{'': 1}
+gpu~architecture~expectation	{'': 1}
+ampere~gpu~architecture~expectation	{'': 1}
+data	{'': 580, 'Highlights': 8, 'Data Center': 34, 'Professional Visualization': 2, 'Q3 FY24 Outlook': 2, 'DGX GH200 AI Supercomputer Extends the Frontier of LLMs': 2, 'New NVIDIA L40S GPU for Gen AI and Industrial Digitalization': 2, 'MGX Server Reference Design for Accelerated Computing': 2, 'NVIDIA AI Announcements to Help Accelerate the Adoption of Custom Gen AI by Enterprises': 2, 'Snowflake and NVIDIA Team to Help Businesses Harness Their Data for Gen AI in the Data Cloud': 16, 'New NVIDIA RTX Ada GPUs to Power Workstations for Gen AI and LLM, Content Creation, Data Science': 11, 'NVIDIA, Pixar, Adobe, Apple and Autodesk Co-Founded the Alliance for OpenUSD (AOUSD)': 2, "NVIDIA's Accelerated Computing Platform": 4, 'Full-Stack & Data Center Scale Acceleration': 9, 'Training & Inference -- One Architecture': 2, 'AI Is the Greatest Technology Force of Our Time': 6, 'NVIDIA Software and Services': 6, 'Driving Strong & Profitable Growth': 4, 'NVIDIA Gross Margins Reflect Value of Acceleration': 4, 'Our Market Platforms at a Glance': 2, 'Modern AI is a Data Center Scale Computing Workload': 36, 'Corporate Responsibility': 2}
+expectation~data	{'': 1}
+architecture~expectation~data	{'': 1}
+gpu~architecture~expectation~data	{'': 1}
+center	{'': 138, 'Highlights': 8, 'Data Center': 34, 'Q3 FY24 Outlook': 2, 'New NVIDIA L40S GPU for Gen AI and Industrial Digitalization': 2, 'MGX Server Reference Design for Accelerated Computing': 2, 'NVIDIA AI Announcements to Help Accelerate the Adoption of Custom Gen AI by Enterprises': 2, 'Full-Stack & Data Center Scale Acceleration': 9, 'Training & Inference -- One Architecture': 2, 'AI Is the Greatest Technology Force of Our Time': 2, 'Driving Strong & Profitable Growth': 4, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Our Market Platforms at a Glance': 2, 'Modern AI is a Data Center Scale Computing Workload': 30}
+data~center	{'': 126, 'Highlights': 8, 'Data Center': 34, 'Q3 FY24 Outlook': 2, 'New NVIDIA L40S GPU for Gen AI and Industrial Digitalization': 2, 'MGX Server Reference Design for Accelerated Computing': 2, 'NVIDIA AI Announcements to Help Accelerate the Adoption of Custom Gen AI by Enterprises': 2, 'Full-Stack & Data Center Scale Acceleration': 9, 'Training & Inference -- One Architecture': 2, 'Driving Strong & Profitable Growth': 4, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Our Market Platforms at a Glance': 2, 'Modern AI is a Data Center Scale Computing Workload': 30}
+expectation~data~center	{'': 1}
+architecture~expectation~data~center	{'': 1}
+supply	{'': 271, 'Data Center': 2, 'WPP Partners With NVIDIA to Build Gen AI-Enabled Content Engine for Digital Advertising': 2}
+center~supply	{'': 1}
+data~center~supply	{'': 1}
+expectation~data~center~supply	{'': 1}
+increase	{'': 301, 'Data Center': 2}
+supply~increase	{'': 1, 'Data Center': 2}
+center~supply~increase	{'': 1}
+data~center~supply~increase	{'': 1}
+each	{'': 570, 'Data Center': 2}
+increase~each	{'': 1, 'Data Center': 2}
+supply~increase~each	{'': 1, 'Data Center': 2}
+center~supply~increase~each	{'': 1}
+quarter	{'': 77, 'Content': 2, 'Data Center': 2, 'Sources & Uses of Cash': 2, 'Key Announcements This Quarter': 2, 'New NVIDIA L40S GPU for Gen AI and Industrial Digitalization': 2, 'Spectrum-X End-to-End Ethernet Platform': 2, '$150B': 2}
+each~quarter	{'': 7, 'Data Center': 2}
+increase~each~quarter	{'': 1, 'Data Center': 2}
+supply~increase~each~quarter	{'': 1, 'Data Center': 2}
+next	{'': 114, 'Data Center': 2, 'NVIDIA Grace Hopper Next-Gen Platform with HBM3e': 2, 'AI Is the Greatest Technology Force of Our Time': 2, 'Advancing Industrial Digitalization Efforts with NVIDIA Omniverse': 2}
+quarter~next	{'': 1, 'Data Center': 2}
+each~quarter~next	{'': 1, 'Data Center': 2}
+increase~each~quarter~next	{'': 1, 'Data Center': 2}
+year	{'': 1265, 'Data Center': 2, 'Why Accelerated Computing?': 6, "NVIDIA's Expanding Accelerated Computing Ecosystem": 2, 'AI Is the Greatest Technology Force of Our Time': 4, '$150B': 6, 'Driving Strong & Profitable Growth': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Strong Cash Flow Generation': 2, 'Growing NVIDIA DRIVE Pipeline': 2}
+next~year	{'': 5, 'Data Center': 2}
+quarter~next~year	{'': 1, 'Data Center': 2}
+each~quarter~next~year	{'': 1, 'Data Center': 2}
+large	{'': 124, 'Data Center': 2, 'Gaming': 2, "NVIDIA's Multi-Sided Platform and Flywheel": 4, 'Training & Inference -- One Architecture': 2, 'NVIDIA Software and Services': 4, 'Modern AI is a Data Center Scale Computing Workload': 4, 'GeForce Extends Growth, Large Upgrade Opportunity': 19}
+year~large	{'': 1}
+next~year~large	{'': 1}
+quarter~next~year~large	{'': 1}
+upgrade	{'': 19, 'Highlights': 2, 'Gaming': 2, 'GeForce Extends Growth, Large Upgrade Opportunity': 21}
+large~upgrade	{'': 1, 'Gaming': 2, 'GeForce Extends Growth, Large Upgrade Opportunity': 19}
+year~large~upgrade	{'': 1}
+next~year~large~upgrade	{'': 1}
+upgrade~opportunity	{'': 1, 'Gaming': 2, 'GeForce Extends Growth, Large Upgrade Opportunity': 19}
+large~upgrade~opportunity	{'': 1, 'Gaming': 2, 'GeForce Extends Growth, Large Upgrade Opportunity': 19}
+year~large~upgrade~opportunity	{'': 1}
+ahead	{'': 15, 'Gaming': 2}
+opportunity~ahead	{'': 1, 'Gaming': 2}
+upgrade~opportunity~ahead	{'': 1, 'Gaming': 2}
+large~upgrade~opportunity~ahead	{'': 1, 'Gaming': 2}
+likelihood	{'': 3}
+ahead~likelihood	{'': 1}
+opportunity~ahead~likelihood	{'': 1}
+upgrade~opportunity~ahead~likelihood	{'': 1}
+seasonality	{'': 9, 'Highlights': 2, 'Gaming': 2}
+likelihood~seasonality	{'': 1}
+ahead~likelihood~seasonality	{'': 1}
+opportunity~ahead~likelihood~seasonality	{'': 1}
+overall	{'': 96, 'Gaming': 2, 'Automotive': 2, 'What Is Accelerated Computing?': 2}
+seasonality~overall	{'': 1}
+likelihood~seasonality~overall	{'': 1}
+ahead~likelihood~seasonality~overall	{'': 1}
+overall~gaming	{'': 1, 'Gaming': 2}
+seasonality~overall~gaming	{'': 1}
+likelihood~seasonality~overall~gaming	{'': 1}
+gaming~market	{'': 15}
+overall~gaming~market	{'': 1}
+seasonality~overall~gaming~market	{'': 1}
+shift	{'': 11, 'Gaming': 2}
+market~shift	{'': 1}
+gaming~market~shift	{'': 1}
+overall~gaming~market~shift	{'': 1}
+rtx	{'': 118, 'Highlights': 6, 'Gaming': 12, 'Professional Visualization': 8, 'New NVIDIA RTX Ada GPUs to Power Workstations for Gen AI and LLM, Content Creation, Data Science': 19, "NVIDIA's Accelerated Computing Platform": 2, 'Advancing Industrial Digitalization Efforts with NVIDIA Omniverse': 2, 'Our Market Platforms at a Glance': 2, 'GeForce Extends Growth, Large Upgrade Opportunity': 4}
+shift~rtx	{'': 1}
+market~shift~rtx	{'': 1}
+gaming~market~shift~rtx	{'': 1}
+dlss	{'': 25, 'Gaming': 4}
+rtx~dlss	{'': 1, 'Gaming': 2}
+shift~rtx~dlss	{'': 1}
+market~shift~rtx~dlss	{'': 1}
+ecosystem	{'': 45, 'Gaming': 2, 'WPP Partners With NVIDIA to Build Gen AI-Enabled Content Engine for Digital Advertising': 2, 'NVIDIA, Pixar, Adobe, Apple and Autodesk Co-Founded the Alliance for OpenUSD (AOUSD)': 2, "NVIDIA's Expanding Accelerated Computing Ecosystem": 28, "NVIDIA's Multi-Sided Platform and Flywheel": 2, 'Strong Cash Flow Generation': 2, 'Professional Visualization': 2}
+dlss~ecosystem	{'': 1, 'Gaming': 2}
+rtx~dlss~ecosystem	{'': 1, 'Gaming': 2}
+shift~rtx~dlss~ecosystem	{'': 1}
+continuing	{'': 37, 'Strong Cash Flow Generation': 2}
+ecosystem~continuing	{'': 1}
+dlss~ecosystem~continuing	{'': 1}
+rtx~dlss~ecosystem~continuing	{'': 1}
+expand	{'': 19, 'Gaming': 2}
+continuing~expand	{'': 1}
+ecosystem~continuing~expand	{'': 1}
+dlss~ecosystem~continuing~expand	{'': 1}
+timing	{'': 33}
+expand~timing	{'': 1}
+continuing~expand~timing	{'': 1}
+ecosystem~continuing~expand~timing	{'': 1}
+desktop	{'': 15, 'Gaming': 2, 'Professional Visualization': 4, 'New NVIDIA RTX Ada GPUs to Power Workstations for Gen AI and LLM, Content Creation, Data Science': 4}
+timing~desktop	{'': 1}
+expand~timing~desktop	{'': 1}
+continuing~expand~timing~desktop	{'': 1}
+workstation	{'': 11, 'Professional Visualization': 6, 'NVIDIA AI Announcements to Help Accelerate the Adoption of Custom Gen AI by Enterprises': 2, 'New NVIDIA RTX Ada GPUs to Power Workstations for Gen AI and LLM, Content Creation, Data Science': 4}
+desktop~workstation	{'': 1, 'Professional Visualization': 2, 'New NVIDIA RTX Ada GPUs to Power Workstations for Gen AI and LLM, Content Creation, Data Science': 4}
+timing~desktop~workstation	{'': 1}
+expand~timing~desktop~workstation	{'': 1}
+refresh	{'': 1, 'Professional Visualization': 2}
+workstation~refresh	{'': 1}
+desktop~workstation~refresh	{'': 1}
+timing~desktop~workstation~refresh	{'': 1}
+expanding	{'': 28, 'Professional Visualization': 4, "NVIDIA's Expanding Accelerated Computing Ecosystem": 28, 'Gaming': 2}
+refresh~expanding	{'': 1}
+workstation~refresh~expanding	{'': 1}
+desktop~workstation~refresh~expanding	{'': 1}
+expanding~opportunity	{'': 1, 'Professional Visualization': 2}
+refresh~expanding~opportunity	{'': 1}
+workstation~refresh~expanding~opportunity	{'': 1}
+professional	{'': 118, 'Professional Visualization': 32, 'Our Market Platforms at a Glance': 2}
+opportunity~professional	{'': 1}
+expanding~opportunity~professional	{'': 1}
+refresh~expanding~opportunity~professional	{'': 1}
+visualization	{'': 64, 'Professional Visualization': 32, 'New NVIDIA L40S GPU for Gen AI and Industrial Digitalization': 2, 'Our Market Platforms at a Glance': 2}
+professional~visualization	{'': 62, 'Professional Visualization': 32, 'Our Market Platforms at a Glance': 2}
+opportunity~professional~visualization	{'': 1}
+expanding~opportunity~professional~visualization	{'': 1}
+visualization~rtx	{'': 1}
+professional~visualization~rtx	{'': 1}
+opportunity~professional~visualization~rtx	{'': 1}
+technology	{'': 358, 'Professional Visualization': 2, 'NVIDIA Grace Hopper Next-Gen Platform with HBM3e': 2, 'NVIDIA, Pixar, Adobe, Apple and Autodesk Co-Founded the Alliance for OpenUSD (AOUSD)': 2, 'MediaTek Partners With NVIDIA to Transform Automobiles With AI and Accelerated Computing': 2, 'AI Is the Greatest Technology Force of Our Time': 21}
+rtx~technology	{'': 3, 'Professional Visualization': 2}
+visualization~rtx~technology	{'': 1}
+professional~visualization~rtx~technology	{'': 1}
+impact	{'': 462, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 6}
+technology~impact	{'': 1}
+rtx~technology~impact	{'': 1}
+visualization~rtx~technology~impact	{'': 1}
+partnership	{'': 11, 'NVIDIA AI Announcements to Help Accelerate the Adoption of Custom Gen AI by Enterprises': 2, 'Snowflake and NVIDIA Team to Help Businesses Harness Their Data for Gen AI in the Data Cloud': 2, 'MediaTek Partners With NVIDIA to Transform Automobiles With AI and Accelerated Computing': 2}
+impact~partnership	{'': 1}
+technology~impact~partnership	{'': 1}
+rtx~technology~impact~partnership	{'': 1}
+mediatek	{'': 1, 'Automotive': 2, 'MediaTek Partners With NVIDIA to Transform Automobiles With AI and Accelerated Computing': 13}
+partnership~mediatek	{'': 1}
+impact~partnership~mediatek	{'': 1}
+technology~impact~partnership~mediatek	{'': 1}
+mediatek~financial	{'': 1}
+partnership~mediatek~financial	{'': 1}
+impact~partnership~mediatek~financial	{'': 1}
+outlook	{'': 9, 'Highlights': 2, 'Q3 FY24 Outlook': 28, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 2}
+financial~outlook	{'': 1}
+mediatek~financial~outlook	{'': 1}
+partnership~mediatek~financial~outlook	{'': 1}
+outlook~expectation	{'': 1}
+financial~outlook~expectation	{'': 1}
+mediatek~financial~outlook~expectation	{'': 1}
+sequential	{'': 1, 'Automotive': 2, 'Q3 FY24 Outlook': 2}
+expectation~sequential	{'': 1}
+outlook~expectation~sequential	{'': 1}
+financial~outlook~expectation~sequential	{'': 1}
+sequential~growth	{'': 1, 'Q3 FY24 Outlook': 2}
+expectation~sequential~growth	{'': 1}
+outlook~expectation~sequential~growth	{'': 1}
+driven	{'': 49, 'Highlights': 2, 'Data Center': 4, 'Automotive': 4, 'Sources & Uses of Cash': 2, 'Q3 FY24 Outlook': 2}
+growth~driven	{'': 1, 'Highlights': 2, 'Automotive': 2, 'Q3 FY24 Outlook': 2}
+sequential~growth~driven	{'': 1, 'Q3 FY24 Outlook': 2}
+expectation~sequential~growth~driven	{'': 1}
+largely	{'': 4, 'Q3 FY24 Outlook': 2, 'Automotive': 2}
+driven~largely	{'': 1, 'Q3 FY24 Outlook': 2, 'Automotive': 2}
+growth~driven~largely	{'': 1, 'Q3 FY24 Outlook': 2}
+sequential~growth~driven~largely	{'': 1, 'Q3 FY24 Outlook': 2}
+largely~data	{'': 1, 'Q3 FY24 Outlook': 2}
+driven~largely~data	{'': 1, 'Q3 FY24 Outlook': 2}
+growth~driven~largely~data	{'': 1, 'Q3 FY24 Outlook': 2}
+largely~data~center	{'': 1, 'Q3 FY24 Outlook': 2}
+driven~largely~data~center	{'': 1, 'Q3 FY24 Outlook': 2}
+center~gaming	{'': 11, 'Q3 FY24 Outlook': 2, 'Driving Strong & Profitable Growth': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Our Market Platforms at a Glance': 2}
+data~center~gaming	{'': 11, 'Q3 FY24 Outlook': 2, 'Driving Strong & Profitable Growth': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Our Market Platforms at a Glance': 2}
+largely~data~center~gaming	{'': 1, 'Q3 FY24 Outlook': 2}
+gaming~professional	{'': 11, 'Our Market Platforms at a Glance': 2}
+center~gaming~professional	{'': 9, 'Our Market Platforms at a Glance': 2}
+data~center~gaming~professional	{'': 9, 'Our Market Platforms at a Glance': 2}
+gaming~professional~visualization	{'': 11, 'Our Market Platforms at a Glance': 2}
+center~gaming~professional~visualization	{'': 9, 'Our Market Platforms at a Glance': 2}
+also	{'': 511, 'Q3 FY24 Outlook': 2}
+visualization~also	{'': 1}
+professional~visualization~also	{'': 1}
+gaming~professional~visualization~also	{'': 1}
+contributing	{'': 3, 'Q3 FY24 Outlook': 2}
+also~contributing	{'': 1, 'Q3 FY24 Outlook': 2}
+visualization~also~contributing	{'': 1}
+professional~visualization~also~contributing	{'': 1}
+expected	{'': 136, 'DGX GH200 AI Supercomputer Extends the Frontier of LLMs': 2, 'NVIDIA Grace Hopper Next-Gen Platform with HBM3e': 2}
+contributing~expected	{'': 1}
+also~contributing~expected	{'': 1}
+visualization~also~contributing~expected	{'': 1}
+tax	{'': 983, 'Q3 FY24 Outlook': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 2}
+expected~tax	{'': 7}
+contributing~expected~tax	{'': 1}
+also~contributing~expected~tax	{'': 1}
+rates	{'': 103}
+tax~rates	{'': 19}
+expected~tax~rates	{'': 7}
+contributing~expected~tax~rates	{'': 1}
+third	{'': 133}
+rates~third	{'': 1}
+tax~rates~third	{'': 1}
+expected~tax~rates~third	{'': 1}
+third~quarter	{'': 13}
+rates~third~quarter	{'': 1}
+tax~rates~third~quarter	{'': 1}
+fiscal	{'': 1905, 'Driving Strong & Profitable Growth': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Strong Cash Flow Generation': 2}
+quarter~fiscal	{'': 53}
+third~quarter~fiscal	{'': 11}
+rates~third~quarter~fiscal	{'': 1}
+2024	{'': 163, 'NVIDIA Grace Hopper Next-Gen Platform with HBM3e': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 6}
+fiscal~2024	{'': 27}
+quarter~fiscal~2024	{'': 1}
+third~quarter~fiscal~2024	{'': 1}
+benefits	{'': 286}
+2024~benefits	{'': 1}
+fiscal~2024~benefits	{'': 1}
+quarter~fiscal~2024~benefits	{'': 1}
+benefits~impact	{'': 4}
+2024~benefits~impact	{'': 1}
+fiscal~2024~benefits~impact	{'': 1}
+performance	{'': 1021, 'DGX GH200 AI Supercomputer Extends the Frontier of LLMs': 2, 'NVIDIA Grace Hopper Next-Gen Platform with HBM3e': 2, 'Spectrum-X End-to-End Ethernet Platform': 4, 'New NVIDIA RTX Ada GPUs to Power Workstations for Gen AI and LLM, Content Creation, Data Science': 4, "NVIDIA's Multi-Sided Platform and Flywheel": 2, 'Advancing Industrial Digitalization Efforts with NVIDIA Omniverse': 2, 'Gaming': 2, 'GeForce Extends Growth, Large Upgrade Opportunity': 2}
+impact~performance	{'': 1}
+benefits~impact~performance	{'': 1}
+2024~benefits~impact~performance	{'': 1}
+features	{'': 61}
+performance~features	{'': 1}
+impact~performance~features	{'': 1}
+benefits~impact~performance~features	{'': 1}
+availability	{'': 43}
+features~availability	{'': 1}
+performance~features~availability	{'': 1}
+impact~performance~features~availability	{'': 1}
+products	{'': 837, 'NVIDIA, Pixar, Adobe, Apple and Autodesk Co-Founded the Alliance for OpenUSD (AOUSD)': 2, 'Advancing Industrial Digitalization Efforts with NVIDIA Omniverse': 2}
+availability~products	{'': 5}
+features~availability~products	{'': 1}
+performance~features~availability~products	{'': 1}
+technologies	{'': 234, 'New NVIDIA RTX Ada GPUs to Power Workstations for Gen AI and LLM, Content Creation, Data Science': 2, 'Modern AI is a Data Center Scale Computing Workload': 2}
+products~technologies	{'': 27}
+availability~products~technologies	{'': 3}
+features~availability~products~technologies	{'': 1}
+technologies~benefits	{'': 1}
+products~technologies~benefits	{'': 1}
+availability~products~technologies~benefits	{'': 1}
+technologies~benefits~impact	{'': 1}
+products~technologies~benefits~impact	{'': 1}
+impact~features	{'': 1}
+benefits~impact~features	{'': 1}
+technologies~benefits~impact~features	{'': 1}
+features~timing	{'': 1}
+impact~features~timing	{'': 1}
+benefits~impact~features~timing	{'': 1}
+collaborations	{'': 15}
+timing~collaborations	{'': 1}
+features~timing~collaborations	{'': 1}
+impact~features~timing~collaborations	{'': 1}
+partnerships	{'': 17}
+collaborations~partnerships	{'': 3}
+timing~collaborations~partnerships	{'': 1}
+features~timing~collaborations~partnerships	{'': 1}
+nvidia	{'': 1591, 'Content': 2, 'Highlights': 2, 'Gaming': 6, 'Professional Visualization': 8, 'Automotive': 6, 'NVIDIA Grace Hopper Superchips Now Available': 17, 'DGX GH200 AI Supercomputer Extends the Frontier of LLMs': 6, 'NVIDIA Grace Hopper Next-Gen Platform with HBM3e': 14, 'New NVIDIA L40S GPU for Gen AI and Industrial Digitalization': 18, 'MGX Server Reference Design for Accelerated Computing': 4, 'Spectrum-X End-to-End Ethernet Platform': 12, 'NVIDIA AI Announcements to Help Accelerate the Adoption of Custom Gen AI by Enterprises': 19, 'VMware and NVIDIA Unlock Generative AI for Enterprises': 15, 'Snowflake and NVIDIA Team to Help Businesses Harness Their Data for Gen AI in the Data Cloud': 10, 'WPP Partners With NVIDIA to Build Gen AI-Enabled Content Engine for Digital Advertising': 14, 'New NVIDIA RTX Ada GPUs to Power Workstations for Gen AI and LLM, Content Creation, Data Science': 21, 'NVIDIA, Pixar, Adobe, Apple and Autodesk Co-Founded the Alliance for OpenUSD (AOUSD)': 10, 'New NVIDIA Generative AI Omniverse Cloud APIs': 9, 'MediaTek Partners With NVIDIA to Transform Automobiles With AI and Accelerated Computing': 13, 'NVIDIA Overview': 2, 'Why Accelerated Computing?': 2, "NVIDIA's Accelerated Computing Platform": 8, "NVIDIA's Multi-Sided Platform and Flywheel": 8, 'Training & Inference -- One Architecture': 8, 'AI Is the Greatest Technology Force of Our Time': 2, 'Advancing Industrial Digitalization Efforts with NVIDIA Omniverse': 19, 'NVIDIA Software and Services': 21, 'NVIDIA Cloud Services': 14, 'NVIDIA Go-to-Market Across Cloud and On-Premises': 10, '$150B': 4, 'NVIDIA Gross Margins Reflect Value of Acceleration': 22, 'Our Market Platforms at a Glance': 4, 'Modern AI is a Data Center Scale Computing Workload': 2, 'GeForce Extends Growth, Large Upgrade Opportunity': 8, 'Growing NVIDIA DRIVE Pipeline': 7, 'Corporate Responsibility': 2}
+partnerships~nvidia	{'': 1}
+collaborations~partnerships~nvidia	{'': 1}
+timing~collaborations~partnerships~nvidia	{'': 1}
+nvidia~accelerated	{'': 24, 'Highlights': 2, 'MGX Server Reference Design for Accelerated Computing': 2, "NVIDIA's Multi-Sided Platform and Flywheel": 2}
+partnerships~nvidia~accelerated	{'': 1}
+collaborations~partnerships~nvidia~accelerated	{'': 1}
+nvidia~accelerated~computing	{'': 24, 'Highlights': 2, 'MGX Server Reference Design for Accelerated Computing': 2, "NVIDIA's Multi-Sided Platform and Flywheel": 2}
+partnerships~nvidia~accelerated~computing	{'': 1}
+being	{'': 81}
+computing~being	{'': 2}
+accelerated~computing~being	{'': 2}
+nvidia~accelerated~computing~being	{'': 1}
+broadly	{'': 4}
+being~broadly	{'': 1}
+computing~being~broadly	{'': 1}
+accelerated~computing~being~broadly	{'': 1}
+recognized	{'': 162}
+broadly~recognized	{'': 2}
+being~broadly~recognized	{'': 1}
+computing~being~broadly~recognized	{'': 1}
+way	{'': 30}
+recognized~way	{'': 2}
+broadly~recognized~way	{'': 2}
+being~broadly~recognized~way	{'': 1}
+advance	{'': 68}
+way~advance	{'': 2}
+recognized~way~advance	{'': 2}
+broadly~recognized~way~advance	{'': 2}
+advance~computing	{'': 2}
+way~advance~computing	{'': 2}
+recognized~way~advance~computing	{'': 2}
+moores	{'': 14, 'Why Accelerated Computing?': 4, "NVIDIA's Accelerated Computing Platform": 2}
+computing~moores	{'': 2}
+advance~computing~moores	{'': 2}
+way~advance~computing~moores	{'': 2}
+law	{'': 153, 'What Is Accelerated Computing?': 2, 'Why Accelerated Computing?': 6, "NVIDIA's Accelerated Computing Platform": 2}
+moores~law	{'': 14, 'Why Accelerated Computing?': 4, "NVIDIA's Accelerated Computing Platform": 2}
+computing~moores~law	{'': 2}
+advance~computing~moores~law	{'': 2}
+ends	{'': 4, 'Driving Strong & Profitable Growth': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Strong Cash Flow Generation': 2}
+law~ends	{'': 2}
+moores~law~ends	{'': 2}
+computing~moores~law~ends	{'': 2}
+ends~accelerated	{'': 1}
+law~ends~accelerated	{'': 1}
+moores~law~ends~accelerated	{'': 1}
+ends~accelerated~computing	{'': 1}
+law~ends~accelerated~computing	{'': 1}
+ends~accelerated~computing~being	{'': 1}
+needed	{'': 25, 'VMware and NVIDIA Unlock Generative AI for Enterprises': 2, 'Why Accelerated Computing?': 2}
+being~needed	{'': 1}
+computing~being~needed	{'': 1}
+accelerated~computing~being~needed	{'': 1}
+tackle	{'': 9, 'Why Accelerated Computing?': 2}
+needed~tackle	{'': 1, 'Why Accelerated Computing?': 2}
+being~needed~tackle	{'': 1}
+computing~being~needed~tackle	{'': 1}
+most	{'': 176, 'NVIDIA Grace Hopper Next-Gen Platform with HBM3e': 2, 'New NVIDIA L40S GPU for Gen AI and Industrial Digitalization': 2, 'Why Accelerated Computing?': 2, "NVIDIA's Multi-Sided Platform and Flywheel": 2, 'Modern AI is a Data Center Scale Computing Workload': 2, 'Gaming': 2, 'Corporate Responsibility': 8}
+tackle~most	{'': 1, 'Why Accelerated Computing?': 2}
+needed~tackle~most	{'': 1, 'Why Accelerated Computing?': 2}
+being~needed~tackle~most	{'': 1}
+impactful	{'': 8, 'Why Accelerated Computing?': 2, "NVIDIA's Multi-Sided Platform and Flywheel": 2}
+most~impactful	{'': 7, 'Why Accelerated Computing?': 2, "NVIDIA's Multi-Sided Platform and Flywheel": 2}
+tackle~most~impactful	{'': 1, 'Why Accelerated Computing?': 2}
+needed~tackle~most~impactful	{'': 1, 'Why Accelerated Computing?': 2}
+opportunities	{'': 134, 'Why Accelerated Computing?': 2, "NVIDIA's Multi-Sided Platform and Flywheel": 2, 'AI Is the Greatest Technology Force of Our Time': 2}
+impactful~opportunities	{'': 1, 'Why Accelerated Computing?': 2}
+most~impactful~opportunities	{'': 1, 'Why Accelerated Computing?': 2}
+tackle~most~impactful~opportunities	{'': 1, 'Why Accelerated Computing?': 2}
+time	{'': 425, 'MGX Server Reference Design for Accelerated Computing': 2, 'What Is Accelerated Computing?': 2, 'Why Accelerated Computing?': 2, 'AI Is the Greatest Technology Force of Our Time': 21, 'Corporate Responsibility': 2}
+opportunities~time	{'': 1, 'Why Accelerated Computing?': 2}
+impactful~opportunities~time	{'': 1, 'Why Accelerated Computing?': 2}
+most~impactful~opportunities~time	{'': 1, 'Why Accelerated Computing?': 2}
+nvidias	{'': 119, 'Automotive': 2, 'New NVIDIA Generative AI Omniverse Cloud APIs': 2, 'MediaTek Partners With NVIDIA to Transform Automobiles With AI and Accelerated Computing': 2, "NVIDIA's Accelerated Computing Platform": 12, "NVIDIA's Expanding Accelerated Computing Ecosystem": 28, "NVIDIA's Multi-Sided Platform and Flywheel": 19, 'AI Is the Greatest Technology Force of Our Time': 4, 'Corporate Responsibility': 2}
+time~nvidias	{'': 5}
+opportunities~time~nvidias	{'': 1}
+impactful~opportunities~time~nvidias	{'': 1}
+nvidias~expanding	{'': 1, "NVIDIA's Expanding Accelerated Computing Ecosystem": 28}
+time~nvidias~expanding	{'': 1}
+opportunities~time~nvidias~expanding	{'': 1}
+expanding~accelerated	{'': 1, "NVIDIA's Expanding Accelerated Computing Ecosystem": 28}
+nvidias~expanding~accelerated	{'': 1, "NVIDIA's Expanding Accelerated Computing Ecosystem": 28}
+time~nvidias~expanding~accelerated	{'': 1}
+expanding~accelerated~computing	{'': 1, "NVIDIA's Expanding Accelerated Computing Ecosystem": 28}
+nvidias~expanding~accelerated~computing	{'': 1, "NVIDIA's Expanding Accelerated Computing Ecosystem": 28}
+computing~ecosystem	{'': 1, "NVIDIA's Expanding Accelerated Computing Ecosystem": 28}
+accelerated~computing~ecosystem	{'': 1, "NVIDIA's Expanding Accelerated Computing Ecosystem": 28}
+expanding~accelerated~computing~ecosystem	{'': 1, "NVIDIA's Expanding Accelerated Computing Ecosystem": 28}
+ecosystem~nvidias	{'': 1}
+computing~ecosystem~nvidias	{'': 1}
+accelerated~computing~ecosystem~nvidias	{'': 1}
+value	{'': 823, 'Sources & Uses of Cash': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 16}
+nvidias~value	{'': 1}
+ecosystem~nvidias~value	{'': 1}
+computing~ecosystem~nvidias~value	{'': 1}
+every	{'': 113, 'MGX Server Reference Design for Accelerated Computing': 2, "NVIDIA's Accelerated Computing Platform": 2, "NVIDIA's Multi-Sided Platform and Flywheel": 4, 'NVIDIA Cloud Services': 2}
+value~every	{'': 1}
+nvidias~value~every	{'': 1}
+ecosystem~nvidias~value~every	{'': 1}
+stakeholder	{'': 17, "NVIDIA's Multi-Sided Platform and Flywheel": 2}
+every~stakeholder	{'': 1, "NVIDIA's Multi-Sided Platform and Flywheel": 2}
+value~every~stakeholder	{'': 1}
+nvidias~value~every~stakeholder	{'': 1}
+stakeholder~ecosystem	{'': 1, "NVIDIA's Multi-Sided Platform and Flywheel": 2}
+every~stakeholder~ecosystem	{'': 1, "NVIDIA's Multi-Sided Platform and Flywheel": 2}
+value~every~stakeholder~ecosystem	{'': 1}
+ecosystem~ai	{'': 1}
+stakeholder~ecosystem~ai	{'': 1}
+every~stakeholder~ecosystem~ai	{'': 1}
+greatest	{'': 21, "NVIDIA's Multi-Sided Platform and Flywheel": 2, 'AI Is the Greatest Technology Force of Our Time': 21}
+ai~greatest	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 21}
+ecosystem~ai~greatest	{'': 1}
+stakeholder~ecosystem~ai~greatest	{'': 1}
+greatest~technology	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 21}
+ai~greatest~technology	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 21}
+ecosystem~ai~greatest~technology	{'': 1}
+force	{'': 15, 'AI Is the Greatest Technology Force of Our Time': 21}
+technology~force	{'': 5, 'AI Is the Greatest Technology Force of Our Time': 21}
+greatest~technology~force	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 21}
+ai~greatest~technology~force	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 21}
+force~time	{'': 3, 'AI Is the Greatest Technology Force of Our Time': 21}
+technology~force~time	{'': 3, 'AI Is the Greatest Technology Force of Our Time': 21}
+greatest~technology~force~time	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 21}
+time~generative	{'': 1}
+force~time~generative	{'': 1}
+technology~force~time~generative	{'': 1}
+time~generative~ai	{'': 1}
+force~time~generative~ai	{'': 1}
+unlocking	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 2}
+ai~unlocking	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 2}
+generative~ai~unlocking	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 2}
+time~generative~ai~unlocking	{'': 1}
+unlocking~new	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 2}
+ai~unlocking~new	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 2}
+generative~ai~unlocking~new	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 2}
+new~opportunities	{'': 5, "NVIDIA's Multi-Sided Platform and Flywheel": 2, 'AI Is the Greatest Technology Force of Our Time': 2}
+unlocking~new~opportunities	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 2}
+ai~unlocking~new~opportunities	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 2}
+opportunities~data	{'': 1}
+new~opportunities~data	{'': 1}
+unlocking~new~opportunities~data	{'': 1}
+centers	{'': 64, "NVIDIA's Accelerated Computing Platform": 4, 'AI Is the Greatest Technology Force of Our Time': 4, 'Modern AI is a Data Center Scale Computing Workload': 2, 'Corporate Responsibility': 2}
+data~centers	{'': 60, "NVIDIA's Accelerated Computing Platform": 2, 'AI Is the Greatest Technology Force of Our Time': 4, 'Modern AI is a Data Center Scale Computing Workload': 2, 'Corporate Responsibility': 2}
+opportunities~data~centers	{'': 1}
+new~opportunities~data~centers	{'': 1}
+industries	{'': 73, "NVIDIA's Multi-Sided Platform and Flywheel": 6, 'AI Is the Greatest Technology Force of Our Time': 4, 'NVIDIA Software and Services': 2, 'Data Center': 2}
+centers~industries	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 2}
+data~centers~industries	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 2}
+opportunities~data~centers~industries	{'': 1}
+becoming	{'': 35, 'AI Is the Greatest Technology Force of Our Time': 2, 'Modern AI is a Data Center Scale Computing Workload': 2}
+industries~becoming	{'': 1}
+centers~industries~becoming	{'': 1}
+data~centers~industries~becoming	{'': 1}
+becoming~ai	{'': 5, 'Modern AI is a Data Center Scale Computing Workload': 2}
+industries~becoming~ai	{'': 1}
+centers~industries~becoming~ai	{'': 1}
+factories	{'': 17, 'Training & Inference -- One Architecture': 4, 'AI Is the Greatest Technology Force of Our Time': 4, 'Advancing Industrial Digitalization Efforts with NVIDIA Omniverse': 2, 'Modern AI is a Data Center Scale Computing Workload': 2}
+ai~factories	{'': 7, 'Training & Inference -- One Architecture': 4, 'AI Is the Greatest Technology Force of Our Time': 4, 'Modern AI is a Data Center Scale Computing Workload': 2}
+becoming~ai~factories	{'': 5, 'Modern AI is a Data Center Scale Computing Workload': 2}
+industries~becoming~ai~factories	{'': 1}
+factories~next	{'': 1}
+ai~factories~next	{'': 1}
+becoming~ai~factories~next	{'': 1}
+wave	{'': 43, 'AI Is the Greatest Technology Force of Our Time': 4, 'Advancing Industrial Digitalization Efforts with NVIDIA Omniverse': 2}
+next~wave	{'': 13, 'AI Is the Greatest Technology Force of Our Time': 2, 'Advancing Industrial Digitalization Efforts with NVIDIA Omniverse': 2}
+factories~next~wave	{'': 1}
+ai~factories~next~wave	{'': 1}
+wave~ai	{'': 15, 'AI Is the Greatest Technology Force of Our Time': 4, 'Advancing Industrial Digitalization Efforts with NVIDIA Omniverse': 2}
+next~wave~ai	{'': 13, 'AI Is the Greatest Technology Force of Our Time': 2, 'Advancing Industrial Digitalization Efforts with NVIDIA Omniverse': 2}
+factories~next~wave~ai	{'': 1}
+ai~being	{'': 3}
+wave~ai~being	{'': 1}
+next~wave~ai~being	{'': 1}
+robotics	{'': 37, 'Why Accelerated Computing?': 2, 'AI Is the Greatest Technology Force of Our Time': 2, 'Advancing Industrial Digitalization Efforts with NVIDIA Omniverse': 4, 'NVIDIA Software and Services': 2}
+being~robotics	{'': 1}
+ai~being~robotics	{'': 1}
+wave~ai~being~robotics	{'': 1}
+industrial	{'': 35, 'New NVIDIA L40S GPU for Gen AI and Industrial Digitalization': 12, 'AI Is the Greatest Technology Force of Our Time': 4, 'Advancing Industrial Digitalization Efforts with NVIDIA Omniverse': 17}
+robotics~industrial	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 2}
+being~robotics~industrial	{'': 1}
+ai~being~robotics~industrial	{'': 1}
+digitalization	{'': 21, 'New NVIDIA L40S GPU for Gen AI and Industrial Digitalization': 12, 'AI Is the Greatest Technology Force of Our Time': 2, 'Advancing Industrial Digitalization Efforts with NVIDIA Omniverse': 15}
+industrial~digitalization	{'': 13, 'New NVIDIA L40S GPU for Gen AI and Industrial Digitalization': 12, 'AI Is the Greatest Technology Force of Our Time': 2, 'Advancing Industrial Digitalization Efforts with NVIDIA Omniverse': 15}
+robotics~industrial~digitalization	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 2}
+being~robotics~industrial~digitalization	{'': 1}
+omniverse	{'': 154, 'Professional Visualization': 4, 'MGX Server Reference Design for Accelerated Computing': 2, 'WPP Partners With NVIDIA to Build Gen AI-Enabled Content Engine for Digital Advertising': 2, 'New NVIDIA RTX Ada GPUs to Power Workstations for Gen AI and LLM, Content Creation, Data Science': 2, 'NVIDIA, Pixar, Adobe, Apple and Autodesk Co-Founded the Alliance for OpenUSD (AOUSD)': 2, 'New NVIDIA Generative AI Omniverse Cloud APIs': 11, "NVIDIA's Accelerated Computing Platform": 2, 'Advancing Industrial Digitalization Efforts with NVIDIA Omniverse': 27, 'NVIDIA Software and Services': 4, 'NVIDIA Cloud Services': 2, '$150B': 4, 'Our Market Platforms at a Glance': 2, 'Data Center': 2}
+digitalization~omniverse	{'': 1}
+industrial~digitalization~omniverse	{'': 1}
+robotics~industrial~digitalization~omniverse	{'': 1}
+omniverse~being	{'': 1}
+digitalization~omniverse~being	{'': 1}
+industrial~digitalization~omniverse~being	{'': 1}
+essential	{'': 25, 'Advancing Industrial Digitalization Efforts with NVIDIA Omniverse': 2}
+being~essential	{'': 3}
+omniverse~being~essential	{'': 1}
+digitalization~omniverse~being~essential	{'': 1}
+essential~robotics	{'': 1}
+being~essential~robotics	{'': 1}
+omniverse~being~essential~robotics	{'': 1}
+robotics~nvidias	{'': 1}
+essential~robotics~nvidias	{'': 1}
+being~essential~robotics~nvidias	{'': 1}
+acceleration	{'': 49, 'What Is Accelerated Computing?': 2, "NVIDIA's Accelerated Computing Platform": 2, "NVIDIA's Multi-Sided Platform and Flywheel": 4, 'Full-Stack & Data Center Scale Acceleration': 13, 'AI Is the Greatest Technology Force of Our Time': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 14}
+nvidias~acceleration	{'': 3, 'AI Is the Greatest Technology Force of Our Time': 2}
+robotics~nvidias~acceleration	{'': 1}
+essential~robotics~nvidias~acceleration	{'': 1}
+stacks	{'': 23, 'AI Is the Greatest Technology Force of Our Time': 2}
+acceleration~stacks	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 2}
+nvidias~acceleration~stacks	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 2}
+robotics~nvidias~acceleration~stacks	{'': 1}
+ecosystems	{'': 7, 'AI Is the Greatest Technology Force of Our Time': 2}
+stacks~ecosystems	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 2}
+acceleration~stacks~ecosystems	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 2}
+nvidias~acceleration~stacks~ecosystems	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 2}
+helping	{'': 4, 'Advancing Industrial Digitalization Efforts with NVIDIA Omniverse': 2}
+ecosystems~helping	{'': 1}
+stacks~ecosystems~helping	{'': 1}
+acceleration~stacks~ecosystems~helping	{'': 1}
+bring	{'': 42, 'AI Is the Greatest Technology Force of Our Time': 2}
+helping~bring	{'': 1}
+ecosystems~helping~bring	{'': 1}
+stacks~ecosystems~helping~bring	{'': 1}
+bring~ai	{'': 3, 'AI Is the Greatest Technology Force of Our Time': 2}
+helping~bring~ai	{'': 1}
+ecosystems~helping~bring~ai	{'': 1}
+worlds	{'': 94, 'Spectrum-X End-to-End Ethernet Platform': 2, 'AI Is the Greatest Technology Force of Our Time': 2, 'Advancing Industrial Digitalization Efforts with NVIDIA Omniverse': 4, 'NVIDIA Software and Services': 2, 'Gaming': 2, 'Corporate Responsibility': 2}
+ai~worlds	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 2}
+bring~ai~worlds	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 2}
+helping~bring~ai~worlds	{'': 1}
+largest	{'': 26, "NVIDIA's Multi-Sided Platform and Flywheel": 2, 'AI Is the Greatest Technology Force of Our Time': 2, 'Gaming': 2}
+worlds~largest	{'': 3, 'AI Is the Greatest Technology Force of Our Time': 2, 'Gaming': 2}
+ai~worlds~largest	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 2}
+bring~ai~worlds~largest	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 2}
+largest~industries	{'': 5, "NVIDIA's Multi-Sided Platform and Flywheel": 2, 'AI Is the Greatest Technology Force of Our Time': 2}
+worlds~largest~industries	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 2}
+ai~worlds~largest~industries	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 2}
+industries~nvidias	{'': 1}
+largest~industries~nvidias	{'': 1}
+worlds~largest~industries~nvidias	{'': 1}
+nvidias~ai	{'': 1}
+industries~nvidias~ai	{'': 1}
+largest~industries~nvidias~ai	{'': 1}
+expertise	{'': 83, "NVIDIA's Multi-Sided Platform and Flywheel": 4, 'AI Is the Greatest Technology Force of Our Time': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Modern AI is a Data Center Scale Computing Workload': 2}
+ai~expertise	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 2}
+nvidias~ai~expertise	{'': 1}
+industries~nvidias~ai~expertise	{'': 1}
+scale	{'': 41, 'NVIDIA AI Announcements to Help Accelerate the Adoption of Custom Gen AI by Enterprises': 2, 'WPP Partners With NVIDIA to Build Gen AI-Enabled Content Engine for Digital Advertising': 2, "NVIDIA's Multi-Sided Platform and Flywheel": 4, 'Full-Stack & Data Center Scale Acceleration': 9, 'AI Is the Greatest Technology Force of Our Time': 2, 'Data Center': 2, 'Modern AI is a Data Center Scale Computing Workload': 30}
+expertise~scale	{'': 1, "NVIDIA's Multi-Sided Platform and Flywheel": 4, 'AI Is the Greatest Technology Force of Our Time': 2}
+ai~expertise~scale	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 2}
+nvidias~ai~expertise~scale	{'': 1}
+scale~helping	{'': 1}
+expertise~scale~helping	{'': 1}
+ai~expertise~scale~helping	{'': 1}
+revolutionize	{'': 6, 'AI Is the Greatest Technology Force of Our Time': 2, 'NVIDIA Software and Services': 2}
+helping~revolutionize	{'': 1}
+scale~helping~revolutionize	{'': 1}
+expertise~scale~helping~revolutionize	{'': 1}
+businesses	{'': 61, 'Snowflake and NVIDIA Team to Help Businesses Harness Their Data for Gen AI in the Data Cloud': 8, 'AI Is the Greatest Technology Force of Our Time': 2}
+revolutionize~businesses	{'': 1, 'AI Is the Greatest Technology Force of Our Time': 2}
+helping~revolutionize~businesses	{'': 1}
+scale~helping~revolutionize~businesses	{'': 1}
+businesses~nvidia	{'': 5}
+revolutionize~businesses~nvidia	{'': 1}
+helping~revolutionize~businesses~nvidia	{'': 1}
+software	{'': 448, 'Spectrum-X End-to-End Ethernet Platform': 2, 'NVIDIA AI Announcements to Help Accelerate the Adoption of Custom Gen AI by Enterprises': 2, 'VMware and NVIDIA Unlock Generative AI for Enterprises': 6, 'MediaTek Partners With NVIDIA to Transform Automobiles With AI and Accelerated Computing': 4, 'What Is Accelerated Computing?': 2, "NVIDIA's Accelerated Computing Platform": 4, "NVIDIA's Multi-Sided Platform and Flywheel": 2, 'AI Is the Greatest Technology Force of Our Time': 6, 'Advancing Industrial Digitalization Efforts with NVIDIA Omniverse': 4, 'NVIDIA Software and Services': 15, '$150B': 10, 'Our Market Platforms at a Glance': 6, 'Data Center': 2, 'Professional Visualization': 2, 'Automotive': 4}
+nvidia~software	{'': 3, 'Spectrum-X End-to-End Ethernet Platform': 2, 'NVIDIA Software and Services': 9}
+businesses~nvidia~software	{'': 1}
+revolutionize~businesses~nvidia~software	{'': 1}
+services	{'': 460, 'Snowflake and NVIDIA Team to Help Businesses Harness Their Data for Gen AI in the Data Cloud': 2, 'NVIDIA, Pixar, Adobe, Apple and Autodesk Co-Founded the Alliance for OpenUSD (AOUSD)': 2, 'MediaTek Partners With NVIDIA to Transform Automobiles With AI and Accelerated Computing': 2, "NVIDIA's Multi-Sided Platform and Flywheel": 2, 'Advancing Industrial Digitalization Efforts with NVIDIA Omniverse': 2, 'NVIDIA Software and Services': 9, 'NVIDIA Cloud Services': 10, '$150B': 2, 'Automotive': 2}
+software~services	{'': 1, 'NVIDIA Software and Services': 9, 'Automotive': 2}
+nvidia~software~services	{'': 1, 'NVIDIA Software and Services': 9}
+businesses~nvidia~software~services	{'': 1}
+enabling	{'': 27, 'New NVIDIA Generative AI Omniverse Cloud APIs': 2, 'NVIDIA Software and Services': 2}
+services~enabling	{'': 1}
+software~services~enabling	{'': 1}
+nvidia~software~services~enabling	{'': 1}
+enabling~worlds	{'': 1, 'NVIDIA Software and Services': 2}
+services~enabling~worlds	{'': 1}
+software~services~enabling~worlds	{'': 1}
+worlds~enterprises	{'': 1, 'NVIDIA Software and Services': 2}
+enabling~worlds~enterprises	{'': 1, 'NVIDIA Software and Services': 2}
+services~enabling~worlds~enterprises	{'': 1}
+enterprises~revolutionize	{'': 1, 'NVIDIA Software and Services': 2}
+worlds~enterprises~revolutionize	{'': 1, 'NVIDIA Software and Services': 2}
+enabling~worlds~enterprises~revolutionize	{'': 1, 'NVIDIA Software and Services': 2}
+revolutionize~industries	{'': 1, 'NVIDIA Software and Services': 2}
+enterprises~revolutionize~industries	{'': 1, 'NVIDIA Software and Services': 2}
+worlds~enterprises~revolutionize~industries	{'': 1, 'NVIDIA Software and Services': 2}
+industries~ai	{'': 1, 'NVIDIA Software and Services': 2}
+revolutionize~industries~ai	{'': 1, 'NVIDIA Software and Services': 2}
+enterprises~revolutionize~industries~ai	{'': 1, 'NVIDIA Software and Services': 2}
+cost	{'': 293, 'Full-Stack & Data Center Scale Acceleration': 4, 'NVIDIA Gross Margins Reflect Value of Acceleration': 8, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 8}
+ai~cost	{'': 1}
+industries~ai~cost	{'': 1}
+revolutionize~industries~ai~cost	{'': 1}
+time-to-solution	{'': 1, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2}
+cost~time-to-solution	{'': 1, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2}
+ai~cost~time-to-solution	{'': 1}
+industries~ai~cost~time-to-solution	{'': 1}
+savings	{'': 37, 'Full-Stack & Data Center Scale Acceleration': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2}
+time-to-solution~savings	{'': 1, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2}
+cost~time-to-solution~savings	{'': 1, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2}
+ai~cost~time-to-solution~savings	{'': 1}
+application	{'': 49, 'What Is Accelerated Computing?': 8, "NVIDIA's Accelerated Computing Platform": 2, 'Full-Stack & Data Center Scale Acceleration': 4, 'NVIDIA Software and Services': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2}
+savings~application	{'': 1}
+time-to-solution~savings~application	{'': 1}
+cost~time-to-solution~savings~application	{'': 1}
+speed-ups	{'': 1, 'NVIDIA Grace Hopper Superchips Now Available': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2}
+application~speed-ups	{'': 1, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2}
+savings~application~speed-ups	{'': 1}
+time-to-solution~savings~application~speed-ups	{'': 1}
+dividend	{'': 68, 'Strong Cash Flow Generation': 2}
+speed-ups~dividend	{'': 1}
+application~speed-ups~dividend	{'': 1}
+savings~application~speed-ups~dividend	{'': 1}
+program	{'': 264}
+dividend~program	{'': 21}
+speed-ups~dividend~program	{'': 1}
+application~speed-ups~dividend~program	{'': 1}
+plan	{'': 978, 'Strong Cash Flow Generation': 2, 'Corporate Responsibility': 2}
+program~plan	{'': 1}
+dividend~program~plan	{'': 1}
+speed-ups~dividend~program~plan	{'': 1}
+automotive	{'': 117, 'Automotive': 32, 'MediaTek Partners With NVIDIA to Transform Automobiles With AI and Accelerated Computing': 2, '$150B': 4, 'Our Market Platforms at a Glance': 2}
+plan~automotive	{'': 1}
+program~plan~automotive	{'': 1}
+dividend~program~plan~automotive	{'': 1}
+design	{'': 240, 'New NVIDIA L40S GPU for Gen AI and Industrial Digitalization': 2, 'MGX Server Reference Design for Accelerated Computing': 11, 'WPP Partners With NVIDIA to Build Gen AI-Enabled Content Engine for Digital Advertising': 4, 'Advancing Industrial Digitalization Efforts with NVIDIA Omniverse': 2, 'Professional Visualization': 4, 'Growing NVIDIA DRIVE Pipeline': 2}
+automotive~design	{'': 5}
+plan~automotive~design	{'': 1}
+program~plan~automotive~design	{'': 1}
+win	{'': 15, 'Growing NVIDIA DRIVE Pipeline': 2}
+design~win	{'': 15, 'Growing NVIDIA DRIVE Pipeline': 2}
+automotive~design~win	{'': 5}
+plan~automotive~design~win	{'': 1}
+pipeline	{'': 21, 'Growing NVIDIA DRIVE Pipeline': 9}
+win~pipeline	{'': 7, 'Growing NVIDIA DRIVE Pipeline': 2}
+design~win~pipeline	{'': 7, 'Growing NVIDIA DRIVE Pipeline': 2}
+automotive~design~win~pipeline	{'': 3}
+ramp	{'': 17, 'Professional Visualization': 2, 'Automotive': 4, 'GeForce Extends Growth, Large Upgrade Opportunity': 2}
+pipeline~ramp	{'': 1}
+win~pipeline~ramp	{'': 1}
+design~win~pipeline~ramp	{'': 1}
+production	{'': 53}
+ramp~production	{'': 1}
+pipeline~ramp~production	{'': 1}
+win~pipeline~ramp~production	{'': 1}
+expectations	{'': 51}
+production~expectations	{'': 1}
+ramp~production~expectations	{'': 1}
+pipeline~ramp~production~expectations	{'': 1}
+aim	{'': 7, 'Corporate Responsibility': 2}
+expectations~aim	{'': 1}
+production~expectations~aim	{'': 1}
+ramp~production~expectations~aim	{'': 1}
+engage	{'': 32, 'Corporate Responsibility': 2}
+aim~engage	{'': 1, 'Corporate Responsibility': 2}
+expectations~aim~engage	{'': 1}
+production~expectations~aim~engage	{'': 1}
+manufacturing	{'': 148, 'WPP Partners With NVIDIA to Build Gen AI-Enabled Content Engine for Digital Advertising': 2, "NVIDIA's Multi-Sided Platform and Flywheel": 2, 'Training & Inference -- One Architecture': 2, '$150B': 2, 'Corporate Responsibility': 2}
+engage~manufacturing	{'': 1, 'Corporate Responsibility': 2}
+aim~engage~manufacturing	{'': 1, 'Corporate Responsibility': 2}
+expectations~aim~engage~manufacturing	{'': 1}
+suppliers	{'': 163, 'Corporate Responsibility': 2}
+manufacturing~suppliers	{'': 3, 'Corporate Responsibility': 2}
+engage~manufacturing~suppliers	{'': 1, 'Corporate Responsibility': 2}
+aim~engage~manufacturing~suppliers	{'': 1, 'Corporate Responsibility': 2}
+goal	{'': 183, 'Corporate Responsibility': 2}
+suppliers~goal	{'': 1}
+manufacturing~suppliers~goal	{'': 1}
+engage~manufacturing~suppliers~goal	{'': 1}
+effecting	{'': 1, 'Corporate Responsibility': 2}
+goal~effecting	{'': 1, 'Corporate Responsibility': 2}
+suppliers~goal~effecting	{'': 1}
+manufacturing~suppliers~goal~effecting	{'': 1}
+supplier	{'': 15, 'Corporate Responsibility': 2}
+effecting~supplier	{'': 1, 'Corporate Responsibility': 2}
+goal~effecting~supplier	{'': 1, 'Corporate Responsibility': 2}
+suppliers~goal~effecting~supplier	{'': 1}
+adoption	{'': 37, 'NVIDIA AI Announcements to Help Accelerate the Adoption of Custom Gen AI by Enterprises': 7, 'Data Center': 2, 'Gaming': 2, 'Automotive': 2, 'Corporate Responsibility': 2}
+supplier~adoption	{'': 1, 'Corporate Responsibility': 2}
+effecting~supplier~adoption	{'': 1, 'Corporate Responsibility': 2}
+goal~effecting~supplier~adoption	{'': 1, 'Corporate Responsibility': 2}
+science-based	{'': 1, 'Corporate Responsibility': 2}
+adoption~science-based	{'': 1, 'Corporate Responsibility': 2}
+supplier~adoption~science-based	{'': 1, 'Corporate Responsibility': 2}
+effecting~supplier~adoption~science-based	{'': 1, 'Corporate Responsibility': 2}
+environmental	{'': 77}
+science-based~environmental	{'': 1}
+adoption~science-based~environmental	{'': 1}
+supplier~adoption~science-based~environmental	{'': 1}
+targets	{'': 33, 'Corporate Responsibility': 2}
+environmental~targets	{'': 1}
+science-based~environmental~targets	{'': 1}
+adoption~science-based~environmental~targets	{'': 1}
+targets~fiscal	{'': 1}
+environmental~targets~fiscal	{'': 1}
+science-based~environmental~targets~fiscal	{'': 1}
+2026	{'': 31}
+fiscal~2026	{'': 1}
+targets~fiscal~2026	{'': 1}
+environmental~targets~fiscal~2026	{'': 1}
+2026~plan	{'': 1}
+fiscal~2026~plan	{'': 1}
+targets~fiscal~2026~plan	{'': 1}
+100%	{'': 97, 'Corporate Responsibility': 2}
+plan~100%	{'': 1}
+2026~plan~100%	{'': 1}
+fiscal~2026~plan~100%	{'': 1}
+renewable	{'': 27, 'Corporate Responsibility': 2}
+100%~renewable	{'': 1, 'Corporate Responsibility': 2}
+plan~100%~renewable	{'': 1}
+2026~plan~100%~renewable	{'': 1}
+electricity	{'': 19, 'Corporate Responsibility': 2}
+renewable~electricity	{'': 1, 'Corporate Responsibility': 2}
+100%~renewable~electricity	{'': 1, 'Corporate Responsibility': 2}
+plan~100%~renewable~electricity	{'': 1}
+operations	{'': 530, 'Sources & Uses of Cash': 2, 'Why Accelerated Computing?': 2, 'Corporate Responsibility': 2}
+electricity~operations	{'': 1, 'Corporate Responsibility': 2}
+renewable~electricity~operations	{'': 1, 'Corporate Responsibility': 2}
+100%~renewable~electricity~operations	{'': 1, 'Corporate Responsibility': 2}
+operations~data	{'': 1, 'Corporate Responsibility': 2}
+electricity~operations~data	{'': 1, 'Corporate Responsibility': 2}
+renewable~electricity~operations~data	{'': 1, 'Corporate Responsibility': 2}
+operations~data~centers	{'': 1, 'Corporate Responsibility': 2}
+electricity~operations~data~centers	{'': 1, 'Corporate Responsibility': 2}
+centers~fiscal	{'': 1}
+data~centers~fiscal	{'': 1}
+operations~data~centers~fiscal	{'': 1}
+2025	{'': 51, 'AI Is the Greatest Technology Force of Our Time': 2}
+fiscal~2025	{'': 5}
+centers~fiscal~2025	{'': 1}
+data~centers~fiscal~2025	{'': 1}
+annually	{'': 59, 'Corporate Responsibility': 2}
+2025~annually	{'': 1}
+fiscal~2025~annually	{'': 1}
+centers~fiscal~2025~annually	{'': 1}
+thereafter	{'': 74, 'Corporate Responsibility': 2}
+annually~thereafter	{'': 1, 'Corporate Responsibility': 2}
+2025~annually~thereafter	{'': 1}
+fiscal~2025~annually~thereafter	{'': 1}
+forward-looking	{'': 88}
+thereafter~forward-looking	{'': 1}
+annually~thereafter~forward-looking	{'': 1}
+2025~annually~thereafter~forward-looking	{'': 1}
+forward-looking~statements	{'': 84}
+thereafter~forward-looking~statements	{'': 1}
+annually~thereafter~forward-looking~statements	{'': 1}
+statements~forward-looking~statements	{'': 20}
+forward-looking~statements~forward-looking~statements	{'': 20}
+other	{'': 1691, 'Q2 FY24 Financial Summary': 2, 'Q3 FY24 Outlook': 2, 'Driving Strong & Profitable Growth': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 10, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 10}
+statements~other	{'': 9}
+forward-looking~statements~other	{'': 1}
+other~forward-looking~statements~other	{'': 1}
+other~forward-looking	{'': 1}
+statements~other~forward-looking	{'': 1}
+forward-looking~statements~other~forward-looking	{'': 1}
+other~forward-looking~statements	{'': 1}
+statements~other~forward-looking~statements	{'': 1}
+go	{'': 9}
+statements~go	{'': 1}
+forward-looking~statements~go	{'': 1}
+other~forward-looking~statements~go	{'': 1}
+beyond	{'': 35, "NVIDIA's Accelerated Computing Platform": 2}
+go~beyond	{'': 1}
+statements~go~beyond	{'': 1}
+forward-looking~statements~go~beyond	{'': 1}
+beyond~historical	{'': 1}
+go~beyond~historical	{'': 1}
+statements~go~beyond~historical	{'': 1}
+facts	{'': 21}
+historical~facts	{'': 5}
+beyond~historical~facts	{'': 1}
+go~beyond~historical~facts	{'': 1}
+made	{'': 152}
+facts~made	{'': 1}
+historical~facts~made	{'': 1}
+beyond~historical~facts~made	{'': 1}
+made~presentation	{'': 1}
+facts~made~presentation	{'': 1}
+historical~facts~made~presentation	{'': 1}
+subject	{'': 500, 'Strong Cash Flow Generation': 2}
+presentation~subject	{'': 1}
+made~presentation~subject	{'': 1}
+facts~made~presentation~subject	{'': 1}
+risks	{'': 274}
+subject~risks	{'': 7}
+presentation~subject~risks	{'': 1}
+made~presentation~subject~risks	{'': 1}
+uncertainties	{'': 64}
+risks~uncertainties	{'': 38}
+subject~risks~uncertainties	{'': 7}
+presentation~subject~risks~uncertainties	{'': 1}
+may	{'': 1646}
+uncertainties~may	{'': 1}
+risks~uncertainties~may	{'': 1}
+subject~risks~uncertainties~may	{'': 1}
+cause	{'': 131}
+may~cause	{'': 19}
+uncertainties~may~cause	{'': 1}
+risks~uncertainties~may~cause	{'': 1}
+actual	{'': 125}
+cause~actual	{'': 14}
+may~cause~actual	{'': 5}
+uncertainties~may~cause~actual	{'': 1}
+results	{'': 467, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2}
+actual~results	{'': 37}
+cause~actual~results	{'': 14}
+may~cause~actual~results	{'': 5}
+differ	{'': 51}
+results~differ	{'': 10}
+actual~results~differ	{'': 10}
+cause~actual~results~differ	{'': 10}
+materially	{'': 104}
+differ~materially	{'': 19}
+results~differ~materially	{'': 6}
+actual~results~differ~materially	{'': 6}
+important	{'': 89, 'Modern AI is a Data Center Scale Computing Workload': 2}
+factors	{'': 213}
+important~factors	{'': 5}
+factors~important~factors	{'': 5}
+important~factors~important~factors	{'': 5}
+could	{'': 651}
+factors~could	{'': 10}
+important~factors~could	{'': 5}
+could~important~factors~could	{'': 5}
+could~cause	{'': 39}
+factors~could~cause	{'': 5}
+important~factors~could~cause	{'': 5}
+could~cause~actual	{'': 9}
+factors~could~cause~actual	{'': 5}
+could~cause~actual~results	{'': 9}
+include	{'': 253}
+materially~include	{'': 5}
+differ~materially~include	{'': 5}
+results~differ~materially~include	{'': 5}
+include~global	{'': 5}
+materially~include~global	{'': 5}
+differ~materially~include~global	{'': 5}
+economic	{'': 125}
+global~economic	{'': 5}
+include~global~economic	{'': 5}
+materially~include~global~economic	{'': 5}
+conditions	{'': 236}
+economic~conditions	{'': 29}
+global~economic~conditions	{'': 5}
+include~global~economic~conditions	{'': 5}
+reliance	{'': 13}
+conditions~reliance	{'': 5}
+economic~conditions~reliance	{'': 5}
+global~economic~conditions~reliance	{'': 5}
+reliance~third	{'': 5}
+conditions~reliance~third	{'': 5}
+economic~conditions~reliance~third	{'': 5}
+parties	{'': 113}
+third~parties	{'': 71}
+reliance~third~parties	{'': 5}
+conditions~reliance~third~parties	{'': 5}
+manufacture	{'': 57}
+parties~manufacture	{'': 7}
+third~parties~manufacture	{'': 7}
+reliance~third~parties~manufacture	{'': 5}
+assemble	{'': 19}
+manufacture~assemble	{'': 11}
+parties~manufacture~assemble	{'': 7}
+third~parties~manufacture~assemble	{'': 7}
+package	{'': 13}
+assemble~package	{'': 5}
+manufacture~assemble~package	{'': 5}
+parties~manufacture~assemble~package	{'': 5}
+test	{'': 75, 'NVIDIA AI Announcements to Help Accelerate the Adoption of Custom Gen AI by Enterprises': 2}
+package~test	{'': 5}
+assemble~package~test	{'': 5}
+manufacture~assemble~package~test	{'': 5}
+test~products	{'': 5}
+package~test~products	{'': 5}
+assemble~package~test~products	{'': 5}
+products~impact	{'': 7}
+test~products~impact	{'': 5}
+package~test~products~impact	{'': 5}
+technological	{'': 27}
+impact~technological	{'': 5}
+products~impact~technological	{'': 5}
+test~products~impact~technological	{'': 5}
+development	{'': 421, 'Professional Visualization': 2, 'MGX Server Reference Design for Accelerated Computing': 4, 'NVIDIA, Pixar, Adobe, Apple and Autodesk Co-Founded the Alliance for OpenUSD (AOUSD)': 2, 'NVIDIA Software and Services': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 2}
+technological~development	{'': 5}
+impact~technological~development	{'': 5}
+products~impact~technological~development	{'': 5}
+competition	{'': 49}
+development~competition	{'': 5}
+technological~development~competition	{'': 5}
+impact~technological~development~competition	{'': 5}
+competition~development	{'': 5}
+development~competition~development	{'': 5}
+technological~development~competition~development	{'': 5}
+development~new	{'': 5}
+competition~development~new	{'': 5}
+development~competition~development~new	{'': 5}
+new~products	{'': 47}
+development~new~products	{'': 5}
+competition~development~new~products	{'': 5}
+new~products~technologies	{'': 9}
+development~new~products~technologies	{'': 5}
+enhancements	{'': 11}
+technologies~enhancements	{'': 5}
+products~technologies~enhancements	{'': 5}
+new~products~technologies~enhancements	{'': 5}
+existing	{'': 103}
+enhancements~existing	{'': 5}
+technologies~enhancements~existing	{'': 5}
+products~technologies~enhancements~existing	{'': 5}
+product	{'': 385, 'Automotive': 2, 'AI Is the Greatest Technology Force of Our Time': 2}
+existing~product	{'': 5}
+enhancements~existing~product	{'': 5}
+technologies~enhancements~existing~product	{'': 5}
+product~technologies	{'': 5}
+existing~product~technologies	{'': 5}
+enhancements~existing~product~technologies	{'': 5}
+technologies~market	{'': 5}
+product~technologies~market	{'': 5}
+existing~product~technologies~market	{'': 5}
+acceptance	{'': 13}
+market~acceptance	{'': 9}
+technologies~market~acceptance	{'': 5}
+product~technologies~market~acceptance	{'': 5}
+acceptance~products	{'': 9}
+market~acceptance~products	{'': 5}
+technologies~market~acceptance~products	{'': 5}
+partners	{'': 213, 'WPP Partners With NVIDIA to Build Gen AI-Enabled Content Engine for Digital Advertising': 8, 'MediaTek Partners With NVIDIA to Transform Automobiles With AI and Accelerated Computing': 9, "NVIDIA's Multi-Sided Platform and Flywheel": 2, 'NVIDIA Go-to-Market Across Cloud and On-Premises': 2}
+products~partners	{'': 5}
+acceptance~products~partners	{'': 5}
+market~acceptance~products~partners	{'': 5}
+partners~products	{'': 5}
+products~partners~products	{'': 5}
+acceptance~products~partners~products	{'': 5}
+products~design	{'': 7}
+partners~products~design	{'': 5}
+products~partners~products~design	{'': 5}
+design~manufacturing	{'': 19, 'WPP Partners With NVIDIA to Build Gen AI-Enabled Content Engine for Digital Advertising': 2}
+products~design~manufacturing	{'': 5}
+partners~products~design~manufacturing	{'': 5}
+manufacturing~software	{'': 5}
+design~manufacturing~software	{'': 5}
+products~design~manufacturing~software	{'': 5}
+defects	{'': 33}
+software~defects	{'': 5}
+manufacturing~software~defects	{'': 5}
+design~manufacturing~software~defects	{'': 5}
+changes	{'': 368}
+defects~changes	{'': 5}
+software~defects~changes	{'': 5}
+manufacturing~software~defects~changes	{'': 5}
+consumer	{'': 85, 'Highlights': 2, 'Data Center': 4}
+changes~consumer	{'': 5}
+defects~changes~consumer	{'': 5}
+software~defects~changes~consumer	{'': 5}
+preferences	{'': 9}
+consumer~preferences	{'': 5}
+changes~consumer~preferences	{'': 5}
+defects~changes~consumer~preferences	{'': 5}
+demands	{'': 21, 'Modern AI is a Data Center Scale Computing Workload': 2}
+preferences~demands	{'': 5}
+consumer~preferences~demands	{'': 5}
+changes~consumer~preferences~demands	{'': 5}
+demands~changes	{'': 5}
+preferences~demands~changes	{'': 5}
+consumer~preferences~demands~changes	{'': 5}
+industry	{'': 271, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2}
+changes~industry	{'': 9}
+demands~changes~industry	{'': 5}
+preferences~demands~changes~industry	{'': 5}
+standards	{'': 142}
+industry~standards	{'': 27}
+changes~industry~standards	{'': 9}
+demands~changes~industry~standards	{'': 5}
+interfaces	{'': 11}
+standards~interfaces	{'': 5}
+industry~standards~interfaces	{'': 5}
+changes~industry~standards~interfaces	{'': 5}
+unexpected	{'': 21}
+interfaces~unexpected	{'': 5}
+standards~interfaces~unexpected	{'': 5}
+industry~standards~interfaces~unexpected	{'': 5}
+loss	{'': 265, 'AI Is the Greatest Technology Force of Our Time': 2}
+unexpected~loss	{'': 5}
+interfaces~unexpected~loss	{'': 5}
+standards~interfaces~unexpected~loss	{'': 5}
+loss~performance	{'': 5}
+unexpected~loss~performance	{'': 5}
+interfaces~unexpected~loss~performance	{'': 5}
+performance~products	{'': 5}
+loss~performance~products	{'': 5}
+unexpected~loss~performance~products	{'': 5}
+performance~products~technologies	{'': 5}
+loss~performance~products~technologies	{'': 5}
+when	{'': 153}
+technologies~when	{'': 5}
+products~technologies~when	{'': 5}
+performance~products~technologies~when	{'': 5}
+integrated	{'': 49, 'VMware and NVIDIA Unlock Generative AI for Enterprises': 2}
+when~integrated	{'': 5}
+technologies~when~integrated	{'': 5}
+products~technologies~when~integrated	{'': 5}
+integrated~systems	{'': 5}
+when~integrated~systems	{'': 5}
+technologies~when~integrated~systems	{'': 5}
+systems~other	{'': 1}
+integrated~systems~other	{'': 1}
+when~integrated~systems~other	{'': 1}
+other~factors	{'': 25}
+systems~other~factors	{'': 1}
+integrated~systems~other~factors	{'': 1}
+nvidia~has	{'': 49}
+has~nvidia~has	{'': 33}
+nvidia~has~nvidia~has	{'': 33}
+has~based	{'': 1}
+nvidia~has~based	{'': 1}
+based~nvidia~has~based	{'': 1}
+based~forward-looking	{'': 1}
+has~based~forward-looking	{'': 1}
+nvidia~has~based~forward-looking	{'': 1}
+based~forward-looking~statements	{'': 1}
+has~based~forward-looking~statements	{'': 1}
+statements~largely	{'': 1}
+forward-looking~statements~largely	{'': 1}
+based~forward-looking~statements~largely	{'': 1}
+current	{'': 336}
+largely~current	{'': 1}
+statements~largely~current	{'': 1}
+forward-looking~statements~largely~current	{'': 1}
+current~expectations	{'': 1}
+largely~current~expectations	{'': 1}
+statements~largely~current~expectations	{'': 1}
+projections	{'': 21}
+expectations~projections	{'': 1}
+current~expectations~projections	{'': 1}
+largely~current~expectations~projections	{'': 1}
+future	{'': 565, 'Automotive': 2}
+projections~future	{'': 13}
+expectations~projections~future	{'': 1}
+current~expectations~projections~future	{'': 1}
+events	{'': 77}
+future~events	{'': 8}
+projections~future~events	{'': 1}
+expectations~projections~future~events	{'': 1}
+trends	{'': 58}
+events~trends	{'': 2}
+future~events~trends	{'': 2}
+projections~future~events~trends	{'': 1}
+believes	{'': 53}
+trends~believes	{'': 1}
+events~trends~believes	{'': 1}
+future~events~trends~believes	{'': 1}
+believes~may	{'': 1}
+trends~believes~may	{'': 1}
+events~trends~believes~may	{'': 1}
+affect	{'': 122}
+may~affect	{'': 1}
+believes~may~affect	{'': 1}
+trends~believes~may~affect	{'': 1}
+affect~financial	{'': 22}
+may~affect~financial	{'': 1}
+believes~may~affect~financial	{'': 1}
+condition	{'': 107}
+financial~condition	{'': 93}
+affect~financial~condition	{'': 9}
+may~affect~financial~condition	{'': 1}
+condition~results	{'': 61}
+financial~condition~results	{'': 61}
+affect~financial~condition~results	{'': 3}
+results~operations	{'': 131}
+condition~results~operations	{'': 57}
+financial~condition~results~operations	{'': 57}
+business	{'': 992}
+operations~business	{'': 5}
+results~operations~business	{'': 1}
+condition~results~operations~business	{'': 1}
+strategy	{'': 95, 'Data Center': 2}
+business~strategy	{'': 19}
+operations~business~strategy	{'': 1}
+results~operations~business~strategy	{'': 1}
+short-term	{'': 33}
+strategy~short-term	{'': 1}
+business~strategy~short-term	{'': 1}
+operations~business~strategy~short-term	{'': 1}
+long-term	{'': 227}
+short-term~long-term	{'': 7}
+strategy~short-term~long-term	{'': 1}
+business~strategy~short-term~long-term	{'': 1}
+long-term~business	{'': 1}
+short-term~long-term~business	{'': 1}
+strategy~short-term~long-term~business	{'': 1}
+business~operations	{'': 44}
+long-term~business~operations	{'': 1}
+short-term~long-term~business~operations	{'': 1}
+objectives	{'': 56}
+operations~objectives	{'': 1}
+business~operations~objectives	{'': 1}
+long-term~business~operations~objectives	{'': 1}
+objectives~financial	{'': 1}
+operations~objectives~financial	{'': 1}
+business~operations~objectives~financial	{'': 1}
+needs	{'': 65, 'GeForce Extends Growth, Large Upgrade Opportunity': 2}
+financial~needs	{'': 1}
+objectives~financial~needs	{'': 1}
+operations~objectives~financial~needs	{'': 1}
+statements~subject	{'': 5}
+forward-looking~statements~subject	{'': 5}
+subject~forward-looking~statements~subject	{'': 1}
+subject~number	{'': 1}
+statements~subject~number	{'': 1}
+forward-looking~statements~subject~number	{'': 1}
+number~risks	{'': 5}
+subject~number~risks	{'': 1}
+statements~subject~number~risks	{'': 1}
+number~risks~uncertainties	{'': 5}
+subject~number~risks~uncertainties	{'': 1}
+uncertainties~not	{'': 5}
+risks~uncertainties~not	{'': 1}
+number~risks~uncertainties~not	{'': 1}
+rely	{'': 55}
+not~rely	{'': 5}
+uncertainties~not~rely	{'': 1}
+risks~uncertainties~not~rely	{'': 1}
+upon	{'': 299}
+rely~upon	{'': 9}
+not~rely~upon	{'': 1}
+uncertainties~not~rely~upon	{'': 1}
+upon~forward-looking	{'': 1}
+rely~upon~forward-looking	{'': 1}
+not~rely~upon~forward-looking	{'': 1}
+upon~forward-looking~statements	{'': 1}
+rely~upon~forward-looking~statements	{'': 1}
+predictions	{'': 15}
+statements~predictions	{'': 1}
+forward-looking~statements~predictions	{'': 1}
+upon~forward-looking~statements~predictions	{'': 1}
+predictions~future	{'': 1}
+statements~predictions~future	{'': 1}
+forward-looking~statements~predictions~future	{'': 1}
+predictions~future~events	{'': 1}
+statements~predictions~future~events	{'': 1}
+events~future~events	{'': 1}
+future~events~future~events	{'': 1}
+trends~future~events~trends	{'': 1}
+discussed	{'': 67}
+trends~discussed	{'': 1}
+events~trends~discussed	{'': 1}
+future~events~trends~discussed	{'': 1}
+discussed~presentation	{'': 1}
+trends~discussed~presentation	{'': 1}
+events~trends~discussed~presentation	{'': 1}
+presentation~may	{'': 1}
+discussed~presentation~may	{'': 1}
+trends~discussed~presentation~may	{'': 1}
+may~not	{'': 163}
+presentation~may~not	{'': 1}
+discussed~presentation~may~not	{'': 1}
+occur	{'': 54}
+not~occur	{'': 3}
+may~not~occur	{'': 1}
+presentation~may~not~occur	{'': 1}
+occur~actual	{'': 1}
+not~occur~actual	{'': 1}
+may~not~occur~actual	{'': 1}
+occur~actual~results	{'': 1}
+not~occur~actual~results	{'': 1}
+results~could	{'': 17}
+actual~results~could	{'': 13}
+occur~actual~results~could	{'': 1}
+could~differ	{'': 13}
+results~could~differ	{'': 13}
+actual~results~could~differ	{'': 13}
+could~differ~materially	{'': 13}
+results~could~differ~materially	{'': 13}
+adversely	{'': 109}
+materially~adversely	{'': 7}
+differ~materially~adversely	{'': 1}
+could~differ~materially~adversely	{'': 1}
+those	{'': 210}
+adversely~those	{'': 1}
+materially~adversely~those	{'': 1}
+differ~materially~adversely~those	{'': 1}
+anticipated	{'': 39}
+those~anticipated	{'': 5}
+adversely~those~anticipated	{'': 1}
+materially~adversely~those~anticipated	{'': 1}
+implied	{'': 5}
+anticipated~implied	{'': 1}
+those~anticipated~implied	{'': 1}
+adversely~those~anticipated~implied	{'': 1}
+implied~forward-looking	{'': 5}
+anticipated~implied~forward-looking	{'': 1}
+those~anticipated~implied~forward-looking	{'': 1}
+implied~forward-looking~statements	{'': 5}
+anticipated~implied~forward-looking~statements	{'': 1}
+although	{'': 30}
+although~nvidia	{'': 1}
+nvidia~although~nvidia	{'': 1}
+although~nvidia~although~nvidia	{'': 1}
+nvidia~believes	{'': 2}
+although~nvidia~believes	{'': 1}
+believes~although~nvidia~believes	{'': 1}
+believes~expectations	{'': 1}
+nvidia~believes~expectations	{'': 1}
+although~nvidia~believes~expectations	{'': 1}
+reflected	{'': 14}
+expectations~reflected	{'': 1}
+believes~expectations~reflected	{'': 1}
+nvidia~believes~expectations~reflected	{'': 1}
+reflected~forward-looking	{'': 2}
+expectations~reflected~forward-looking	{'': 1}
+believes~expectations~reflected~forward-looking	{'': 1}
+reflected~forward-looking~statements	{'': 2}
+expectations~reflected~forward-looking~statements	{'': 1}
+reasonable	{'': 103}
+statements~reasonable	{'': 1}
+forward-looking~statements~reasonable	{'': 1}
+reflected~forward-looking~statements~reasonable	{'': 1}
+company	{'': 967}
+reasonable~company	{'': 1}
+statements~reasonable~company	{'': 1}
+forward-looking~statements~reasonable~company	{'': 1}
+cannot	{'': 38}
+company~cannot	{'': 1}
+reasonable~company~cannot	{'': 1}
+statements~reasonable~company~cannot	{'': 1}
+guarantee	{'': 9}
+cannot~guarantee	{'': 5}
+company~cannot~guarantee	{'': 1}
+reasonable~company~cannot~guarantee	{'': 1}
+guarantee~future	{'': 1}
+cannot~guarantee~future	{'': 1}
+company~cannot~guarantee~future	{'': 1}
+future~results	{'': 9}
+guarantee~future~results	{'': 1}
+cannot~guarantee~future~results	{'': 1}
+levels	{'': 74}
+results~levels	{'': 1}
+future~results~levels	{'': 1}
+guarantee~future~results~levels	{'': 1}
+activity	{'': 22}
+levels~activity	{'': 1}
+results~levels~activity	{'': 1}
+future~results~levels~activity	{'': 1}
+activity~performance	{'': 1}
+levels~activity~performance	{'': 1}
+results~levels~activity~performance	{'': 1}
+achievements	{'': 15}
+performance~achievements	{'': 1}
+activity~performance~achievements	{'': 1}
+levels~activity~performance~achievements	{'': 1}
+achievements~events	{'': 1}
+performance~achievements~events	{'': 1}
+activity~performance~achievements~events	{'': 1}
+circumstances	{'': 49}
+events~circumstances	{'': 6}
+achievements~events~circumstances	{'': 1}
+performance~achievements~events~circumstances	{'': 1}
+circumstances~reflected	{'': 1}
+events~circumstances~reflected	{'': 1}
+achievements~events~circumstances~reflected	{'': 1}
+circumstances~reflected~forward-looking	{'': 1}
+events~circumstances~reflected~forward-looking	{'': 1}
+circumstances~reflected~forward-looking~statements	{'': 1}
+statements~occur	{'': 1}
+forward-looking~statements~occur	{'': 1}
+reflected~forward-looking~statements~occur	{'': 1}
+required	{'': 342, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2}
+except~required	{'': 9}
+required~except~required	{'': 5}
+except~required~except~required	{'': 5}
+required~law	{'': 13}
+except~required~law	{'': 9}
+law~except~required~law	{'': 5}
+law~nvidia	{'': 7}
+required~law~nvidia	{'': 5}
+except~required~law~nvidia	{'': 5}
+disclaims	{'': 17}
+nvidia~disclaims	{'': 5}
+law~nvidia~disclaims	{'': 5}
+required~law~nvidia~disclaims	{'': 5}
+obligation	{'': 56}
+disclaims~obligation	{'': 5}
+nvidia~disclaims~obligation	{'': 5}
+law~nvidia~disclaims~obligation	{'': 5}
+obligation~update	{'': 9}
+disclaims~obligation~update	{'': 5}
+nvidia~disclaims~obligation~update	{'': 5}
+update~forward-looking	{'': 9}
+obligation~update~forward-looking	{'': 9}
+disclaims~obligation~update~forward-looking	{'': 5}
+update~forward-looking~statements	{'': 9}
+obligation~update~forward-looking~statements	{'': 9}
+reflect	{'': 81, 'Driving Strong & Profitable Growth': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 16}
+statements~reflect	{'': 9}
+forward-looking~statements~reflect	{'': 5}
+update~forward-looking~statements~reflect	{'': 5}
+reflect~future	{'': 5}
+statements~reflect~future	{'': 5}
+forward-looking~statements~reflect~future	{'': 5}
+reflect~future~events	{'': 5}
+statements~reflect~future~events	{'': 5}
+future~events~circumstances	{'': 5}
+reflect~future~events~circumstances	{'': 5}
+complete	{'': 71}
+discussion	{'': 113}
+complete~discussion	{'': 1}
+discussion~complete~discussion	{'': 1}
+complete~discussion~complete~discussion	{'': 1}
+discussion~factors	{'': 1}
+complete~discussion~factors	{'': 1}
+factors~complete~discussion~factors	{'': 1}
+discussion~factors~could	{'': 1}
+complete~discussion~factors~could	{'': 1}
+could~materially	{'': 13}
+factors~could~materially	{'': 1}
+discussion~factors~could~materially	{'': 1}
+materially~affect	{'': 7}
+could~materially~affect	{'': 1}
+factors~could~materially~affect	{'': 1}
+materially~affect~financial	{'': 1}
+could~materially~affect~financial	{'': 1}
+financial~results	{'': 80}
+affect~financial~results	{'': 7}
+materially~affect~financial~results	{'': 1}
+financial~results~operations	{'': 1}
+affect~financial~results~operations	{'': 1}
+please	{'': 45}
+operations~please	{'': 1}
+results~operations~please	{'': 1}
+financial~results~operations~please	{'': 1}
+refer	{'': 107, 'Q2 FY24 Financial Summary': 2, 'Q3 FY24 Outlook': 2, 'Driving Strong & Profitable Growth': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Strong Cash Flow Generation': 2, 'Annual Cash & Cash Flow Metrics': 2}
+please~refer	{'': 1}
+operations~please~refer	{'': 1}
+results~operations~please~refer	{'': 1}
+reports	{'': 142}
+refer~reports	{'': 1}
+please~refer~reports	{'': 1}
+operations~please~refer~reports	{'': 1}
+file	{'': 74}
+reports~file	{'': 2}
+refer~reports~file	{'': 1}
+please~refer~reports~file	{'': 1}
+file~time	{'': 1}
+reports~file~time	{'': 1}
+refer~reports~file~time	{'': 1}
+time~time	{'': 49}
+file~time~time	{'': 1}
+reports~file~time~time	{'': 1}
+sec	{'': 174}
+time~sec	{'': 1}
+time~time~sec	{'': 1}
+file~time~time~sec	{'': 1}
+sec~including	{'': 5}
+time~sec~including	{'': 1}
+time~time~sec~including	{'': 1}
+including~most	{'': 1}
+sec~including~most	{'': 1}
+time~sec~including~most	{'': 1}
+recent	{'': 41}
+most~recent	{'': 11}
+including~most~recent	{'': 1}
+sec~including~most~recent	{'': 1}
+annual	{'': 548, 'Annual Cash & Cash Flow Metrics': 14}
+recent~annual	{'': 1}
+most~recent~annual	{'': 1}
+including~most~recent~annual	{'': 1}
+report	{'': 361, 'AI Is the Greatest Technology Force of Our Time': 2}
+annual~report	{'': 195}
+recent~annual~report	{'': 1}
+most~recent~annual~report	{'': 1}
+form	{'': 405, 'Sources & Uses of Cash': 2}
+report~form	{'': 147}
+annual~report~form	{'': 133}
+recent~annual~report~form	{'': 1}
+10-k	{'': 219}
+form~10-k	{'': 187}
+report~form~10-k	{'': 117}
+annual~report~form~10-k	{'': 115}
+quarterly	{'': 75}
+10-k~quarterly	{'': 9}
+form~10-k~quarterly	{'': 9}
+report~form~10-k~quarterly	{'': 5}
+quarterly~reports	{'': 13}
+10-k~quarterly~reports	{'': 9}
+form~10-k~quarterly~reports	{'': 9}
+reports~form	{'': 22}
+quarterly~reports~form	{'': 13}
+10-k~quarterly~reports~form	{'': 9}
+10-q	{'': 51}
+form~10-q	{'': 17}
+reports~form~10-q	{'': 13}
+quarterly~reports~form~10-q	{'': 13}
+10-q~current	{'': 5}
+form~10-q~current	{'': 5}
+reports~form~10-q~current	{'': 5}
+current~reports	{'': 5}
+10-q~current~reports	{'': 5}
+form~10-q~current~reports	{'': 5}
+current~reports~form	{'': 5}
+10-q~current~reports~form	{'': 5}
+8-k	{'': 119}
+form~8-k	{'': 13}
+reports~form~8-k	{'': 5}
+current~reports~form~8-k	{'': 5}
+copies	{'': 13}
+copies~reports	{'': 5}
+reports~copies~reports	{'': 5}
+copies~reports~copies~reports	{'': 5}
+copies~reports~file	{'': 1}
+file~copies~reports~file	{'': 1}
+file~sec	{'': 11}
+reports~file~sec	{'': 1}
+copies~reports~file~sec	{'': 1}
+posted	{'': 7, 'Highlights': 2}
+sec~posted	{'': 5}
+file~sec~posted	{'': 1}
+reports~file~sec~posted	{'': 1}
+website	{'': 105}
+posted~website	{'': 1}
+sec~posted~website	{'': 1}
+file~sec~posted~website	{'': 1}
+available	{'': 254, 'NVIDIA Grace Hopper Superchips Now Available': 15, 'DGX GH200 AI Supercomputer Extends the Frontier of LLMs': 2, 'NVIDIA Grace Hopper Next-Gen Platform with HBM3e': 2, 'New NVIDIA L40S GPU for Gen AI and Industrial Digitalization': 2, 'VMware and NVIDIA Unlock Generative AI for Enterprises': 2, 'WPP Partners With NVIDIA to Build Gen AI-Enabled Content Engine for Digital Advertising': 2, 'New NVIDIA RTX Ada GPUs to Power Workstations for Gen AI and LLM, Content Creation, Data Science': 4, 'NVIDIA Gross Margins Reflect Value of Acceleration': 4}
+website~available	{'': 5}
+posted~website~available	{'': 1}
+sec~posted~website~available	{'': 1}
+available~nvidia	{'': 5, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2}
+website~available~nvidia	{'': 5}
+posted~website~available~nvidia	{'': 1}
+without	{'': 113}
+nvidia~without	{'': 5}
+available~nvidia~without	{'': 5}
+website~available~nvidia~without	{'': 5}
+charge	{'': 51, 'Driving Strong & Profitable Growth': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 6}
+without~charge	{'': 7}
+nvidia~without~charge	{'': 5}
+available~nvidia~without~charge	{'': 5}
+many	{'': 73}
+many~products	{'': 7}
+products~many~products	{'': 1}
+many~products~many~products	{'': 1}
+products~features	{'': 2}
+many~products~features	{'': 1}
+features~many~products~features	{'': 1}
+described	{'': 140}
+features~described	{'': 1}
+products~features~described	{'': 1}
+many~products~features~described	{'': 1}
+described~herein	{'': 1}
+features~described~herein	{'': 1}
+products~features~described~herein	{'': 1}
+remain	{'': 77}
+herein~remain	{'': 1}
+described~herein~remain	{'': 1}
+features~described~herein~remain	{'': 1}
+stages	{'': 1}
+remain~stages	{'': 1}
+herein~remain~stages	{'': 1}
+described~herein~remain~stages	{'': 1}
+offered	{'': 13, "NVIDIA's Multi-Sided Platform and Flywheel": 2}
+stages~offered	{'': 1}
+remain~stages~offered	{'': 1}
+herein~remain~stages~offered	{'': 1}
+when-and-if-available	{'': 1}
+offered~when-and-if-available	{'': 1}
+stages~offered~when-and-if-available	{'': 1}
+remain~stages~offered~when-and-if-available	{'': 1}
+basis	{'': 202, 'Q3 FY24 Outlook': 2}
+when-and-if-available~basis	{'': 1}
+offered~when-and-if-available~basis	{'': 1}
+stages~offered~when-and-if-available~basis	{'': 1}
+statements~not	{'': 9}
+not~statements~not	{'': 1}
+statements~not~statements~not	{'': 1}
+intended	{'': 115}
+not~intended	{'': 40}
+statements~not~intended	{'': 1}
+intended~statements~not~intended	{'': 1}
+intended~not	{'': 1}
+not~intended~not	{'': 1}
+statements~not~intended~not	{'': 1}
+interpreted	{'': 7}
+not~interpreted	{'': 1}
+intended~not~interpreted	{'': 1}
+not~intended~not~interpreted	{'': 1}
+commitment	{'': 15}
+interpreted~commitment	{'': 1}
+not~interpreted~commitment	{'': 1}
+intended~not~interpreted~commitment	{'': 1}
+promise	{'': 1}
+commitment~promise	{'': 1}
+interpreted~commitment~promise	{'': 1}
+not~interpreted~commitment~promise	{'': 1}
+legal	{'': 174, 'NVIDIA Software and Services': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 2}
+promise~legal	{'': 1}
+commitment~promise~legal	{'': 1}
+interpreted~commitment~promise~legal	{'': 1}
+legal~obligation	{'': 1}
+promise~legal~obligation	{'': 1}
+commitment~promise~legal~obligation	{'': 1}
+obligation~development	{'': 1}
+legal~obligation~development	{'': 1}
+promise~legal~obligation~development	{'': 1}
+release	{'': 19}
+development~release	{'': 1}
+obligation~development~release	{'': 1}
+legal~obligation~development~release	{'': 1}
+release~timing	{'': 1}
+development~release~timing	{'': 1}
+obligation~development~release~timing	{'': 1}
+timing~features	{'': 1}
+release~timing~features	{'': 1}
+development~release~timing~features	{'': 1}
+functionalities	{'': 1}
+features~functionalities	{'': 1}
+timing~features~functionalities	{'': 1}
+release~timing~features~functionalities	{'': 1}
+functionalities~described	{'': 1}
+features~functionalities~described	{'': 1}
+timing~features~functionalities~described	{'': 1}
+described~products	{'': 1}
+functionalities~described~products	{'': 1}
+features~functionalities~described~products	{'': 1}
+products~subject	{'': 1}
+described~products~subject	{'': 1}
+functionalities~described~products~subject	{'': 1}
+change	{'': 431}
+subject~change	{'': 7}
+products~subject~change	{'': 1}
+described~products~subject~change	{'': 1}
+remains	{'': 9}
+change~remains	{'': 1}
+subject~change~remains	{'': 1}
+products~subject~change~remains	{'': 1}
+sole	{'': 111}
+remains~sole	{'': 1}
+change~remains~sole	{'': 1}
+subject~change~remains~sole	{'': 1}
+discretion	{'': 83}
+sole~discretion	{'': 55}
+remains~sole~discretion	{'': 1}
+change~remains~sole~discretion	{'': 1}
+discretion~nvidia	{'': 1}
+sole~discretion~nvidia	{'': 1}
+remains~sole~discretion~nvidia	{'': 1}
+have	{'': 1124, 'Gaming': 6}
+nvidia~have	{'': 5}
+have~nvidia~have	{'': 1}
+nvidia~have~nvidia~have	{'': 1}
+no	{'': 326}
+have~no	{'': 23}
+nvidia~have~no	{'': 1}
+no~nvidia~have~no	{'': 1}
+liability	{'': 103}
+no~liability	{'': 1}
+have~no~liability	{'': 1}
+nvidia~have~no~liability	{'': 1}
+failure	{'': 76}
+liability~failure	{'': 3}
+no~liability~failure	{'': 1}
+have~no~liability~failure	{'': 1}
+deliver	{'': 69}
+failure~deliver	{'': 1}
+liability~failure~deliver	{'': 1}
+no~liability~failure~deliver	{'': 1}
+delay	{'': 23}
+deliver~delay	{'': 1}
+failure~deliver~delay	{'': 1}
+liability~failure~deliver~delay	{'': 1}
+delivery	{'': 47, 'New NVIDIA Generative AI Omniverse Cloud APIs': 2}
+delay~delivery	{'': 3}
+deliver~delay~delivery	{'': 1}
+failure~deliver~delay~delivery	{'': 1}
+delivery~products	{'': 1}
+delay~delivery~products	{'': 1}
+deliver~delay~delivery~products	{'': 1}
+delivery~products~features	{'': 1}
+delay~delivery~products~features	{'': 1}
+functions	{'': 29}
+features~functions	{'': 5}
+products~features~functions	{'': 1}
+delivery~products~features~functions	{'': 1}
+set	{'': 163}
+functions~set	{'': 1}
+features~functions~set	{'': 1}
+products~features~functions~set	{'': 1}
+forth	{'': 105}
+set~forth	{'': 87}
+functions~set~forth	{'': 1}
+features~functions~set~forth	{'': 1}
+forth~herein	{'': 1}
+set~forth~herein	{'': 1}
+functions~set~forth~herein	{'': 1}
+uses	{'': 21, 'Sources & Uses of Cash': 17, 'Advancing Industrial Digitalization Efforts with NVIDIA Omniverse': 2}
+nvidia~uses	{'': 1}
+uses~nvidia~uses	{'': 1}
+nvidia~uses~nvidia~uses	{'': 1}
+uses~certain	{'': 1}
+nvidia~uses~certain	{'': 1}
+certain~nvidia~uses~certain	{'': 1}
+non-gaap	{'': 150, 'Content': 2, 'Q2 FY24 Financial Summary': 6, 'Q3 FY24 Outlook': 10, 'Driving Strong & Profitable Growth': 6, 'NVIDIA Gross Margins Reflect Value of Acceleration': 6, 'Strong Cash Flow Generation': 4, 'Annual Cash & Cash Flow Metrics': 6, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 52, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 137}
+certain~non-gaap	{'': 1}
+uses~certain~non-gaap	{'': 1}
+nvidia~uses~certain~non-gaap	{'': 1}
+measures	{'': 123, 'Content': 2, 'Q2 FY24 Financial Summary': 2, 'Q3 FY24 Outlook': 2, 'Driving Strong & Profitable Growth': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Strong Cash Flow Generation': 2, 'Annual Cash & Cash Flow Metrics': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 46, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 131}
+non-gaap~measures	{'': 3, 'Q2 FY24 Financial Summary': 2, 'Q3 FY24 Outlook': 2, 'Driving Strong & Profitable Growth': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Strong Cash Flow Generation': 2, 'Annual Cash & Cash Flow Metrics': 2}
+certain~non-gaap~measures	{'': 1}
+uses~certain~non-gaap~measures	{'': 1}
+measures~presentation	{'': 1}
+non-gaap~measures~presentation	{'': 1}
+certain~non-gaap~measures~presentation	{'': 1}
+measures~presentation~including	{'': 1}
+non-gaap~measures~presentation~including	{'': 1}
+including~non-gaap	{'': 1}
+presentation~including~non-gaap	{'': 1}
+measures~presentation~including~non-gaap	{'': 1}
+gross	{'': 164, 'Q2 FY24 Financial Summary': 2, 'Sources & Uses of Cash': 6, 'Q3 FY24 Outlook': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 20, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 6, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 4}
+non-gaap~gross	{'': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 2}
+including~non-gaap~gross	{'': 1}
+presentation~including~non-gaap~gross	{'': 1}
+profit	{'': 39, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2}
+gross~profit	{'': 29, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2}
+non-gaap~gross~profit	{'': 1}
+including~non-gaap~gross~profit	{'': 1}
+profit~non-gaap	{'': 1, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2}
+gross~profit~non-gaap	{'': 1, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2}
+non-gaap~gross~profit~non-gaap	{'': 1, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2}
+profit~non-gaap~gross	{'': 1}
+gross~profit~non-gaap~gross	{'': 1}
+margin	{'': 74, 'Q2 FY24 Financial Summary': 2, 'Driving Strong & Profitable Growth': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 6, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 10}
+gross~margin	{'': 57, 'Q2 FY24 Financial Summary': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 6, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 4}
+non-gaap~gross~margin	{'': 1, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 2}
+profit~non-gaap~gross~margin	{'': 1}
+margin~non-gaap	{'': 2, 'Driving Strong & Profitable Growth': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 2}
+gross~margin~non-gaap	{'': 1, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 2}
+non-gaap~gross~margin~non-gaap	{'': 1, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 2}
+operating	{'': 709, 'Q2 FY24 Financial Summary': 2, 'Q3 FY24 Outlook': 2, 'NVIDIA Software and Services': 4, 'Driving Strong & Profitable Growth': 6, 'Annual Cash & Cash Flow Metrics': 4, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 6, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 4}
+non-gaap~operating	{'': 102, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 2}
+margin~non-gaap~operating	{'': 1}
+gross~margin~non-gaap~operating	{'': 1}
+expenses	{'': 233, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 4}
+operating~expenses	{'': 79, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 4}
+non-gaap~operating~expenses	{'': 1, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 2}
+margin~non-gaap~operating~expenses	{'': 1}
+expenses~non-gaap	{'': 1}
+operating~expenses~non-gaap	{'': 1}
+non-gaap~operating~expenses~non-gaap	{'': 1}
+expenses~non-gaap~operating	{'': 1}
+operating~expenses~non-gaap~operating	{'': 1}
+income	{'': 935, 'Q2 FY24 Financial Summary': 4, 'Q3 FY24 Outlook': 4, 'Driving Strong & Profitable Growth': 2, 'Annual Cash & Cash Flow Metrics': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 4, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 2}
+operating~income	{'': 163, 'Q2 FY24 Financial Summary': 2, 'Driving Strong & Profitable Growth': 2, 'Annual Cash & Cash Flow Metrics': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 2}
+non-gaap~operating~income	{'': 101}
+expenses~non-gaap~operating~income	{'': 1}
+non-	{'': 46}
+income~non-	{'': 3}
+operating~income~non-	{'': 3}
+non-gaap~operating~income~non-	{'': 1}
+gaap	{'': 78, 'Content': 2, 'Q2 FY24 Financial Summary': 2, 'Q3 FY24 Outlook': 8, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 52, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 137}
+non-~gaap	{'': 7}
+income~non-~gaap	{'': 3}
+operating~income~non-~gaap	{'': 3}
+gaap~operating	{'': 21, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 2}
+non-~gaap~operating	{'': 7}
+income~non-~gaap~operating	{'': 3}
+operating~margin	{'': 1, 'Driving Strong & Profitable Growth': 2}
+gaap~operating~margin	{'': 1}
+non-~gaap~operating~margin	{'': 1}
+operating~margin~non-gaap	{'': 1, 'Driving Strong & Profitable Growth': 2}
+gaap~operating~margin~non-gaap	{'': 1}
+net	{'': 449, 'Q2 FY24 Financial Summary': 2, 'Sources & Uses of Cash': 4, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 4, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 2}
+non-gaap~net	{'': 1}
+margin~non-gaap~net	{'': 1}
+operating~margin~non-gaap~net	{'': 1}
+net~income	{'': 139, 'Q2 FY24 Financial Summary': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 2}
+non-gaap~net~income	{'': 1}
+margin~non-gaap~net~income	{'': 1}
+income~non-gaap	{'': 3, 'Driving Strong & Profitable Growth': 2, 'Annual Cash & Cash Flow Metrics': 2}
+net~income~non-gaap	{'': 1}
+non-gaap~net~income~non-gaap	{'': 1}
+diluted	{'': 51, 'Q2 FY24 Financial Summary': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 4}
+non-gaap~diluted	{'': 1}
+income~non-gaap~diluted	{'': 1}
+net~income~non-gaap~diluted	{'': 1}
+earnings	{'': 121, 'Content': 2, 'Q2 FY24 Earnings Summary': 2}
+diluted~earnings	{'': 5}
+non-gaap~diluted~earnings	{'': 1}
+income~non-gaap~diluted~earnings	{'': 1}
+per	{'': 179, 'Why Accelerated Computing?': 8, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 2}
+earnings~per	{'': 11}
+diluted~earnings~per	{'': 5}
+non-gaap~diluted~earnings~per	{'': 1}
+share	{'': 365, 'Strong Cash Flow Generation': 2, 'Professional Visualization': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 2}
+per~share	{'': 139, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 2}
+earnings~per~share	{'': 11}
+diluted~earnings~per~share	{'': 5}
+free	{'': 25, 'Strong Cash Flow Generation': 2, 'Annual Cash & Cash Flow Metrics': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 2}
+share~free	{'': 1}
+per~share~free	{'': 1}
+earnings~per~share~free	{'': 1}
+cash	{'': 861, 'Q2 FY24 Financial Summary': 2, 'Sources & Uses of Cash': 35, 'Strong Cash Flow Generation': 22, 'Annual Cash & Cash Flow Metrics': 40, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 4}
+free~cash	{'': 9, 'Strong Cash Flow Generation': 2, 'Annual Cash & Cash Flow Metrics': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 2}
+share~free~cash	{'': 1}
+per~share~free~cash	{'': 1}
+flow	{'': 65, 'Q2 FY24 Financial Summary': 2, 'Sources & Uses of Cash': 2, 'Strong Cash Flow Generation': 22, 'Annual Cash & Cash Flow Metrics': 18, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 2}
+cash~flow	{'': 49, 'Q2 FY24 Financial Summary': 2, 'Sources & Uses of Cash': 2, 'Strong Cash Flow Generation': 22, 'Annual Cash & Cash Flow Metrics': 18, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 2}
+free~cash~flow	{'': 9, 'Strong Cash Flow Generation': 2, 'Annual Cash & Cash Flow Metrics': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 2}
+share~free~cash~flow	{'': 1}
+believes~nvidia~believes	{'': 1}
+nvidia~believes~nvidia~believes	{'': 1}
+believes~presentation	{'': 1}
+nvidia~believes~presentation	{'': 1}
+presentation~nvidia~believes~presentation	{'': 1}
+presentation~non-gaap	{'': 3}
+believes~presentation~non-gaap	{'': 1}
+nvidia~believes~presentation~non-gaap	{'': 1}
+non-gaap~financial	{'': 36}
+presentation~non-gaap~financial	{'': 3}
+believes~presentation~non-gaap~financial	{'': 1}
+financial~measures	{'': 43, 'Content': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 46, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 131}
+non-gaap~financial~measures	{'': 36}
+presentation~non-gaap~financial~measures	{'': 3}
+enhances	{'': 7}
+measures~enhances	{'': 1}
+financial~measures~enhances	{'': 1}
+non-gaap~financial~measures~enhances	{'': 1}
+investors	{'': 45}
+enhances~investors	{'': 1}
+measures~enhances~investors	{'': 1}
+financial~measures~enhances~investors	{'': 1}
+investors~overall	{'': 1}
+enhances~investors~overall	{'': 1}
+measures~enhances~investors~overall	{'': 1}
+understanding	{'': 67, "NVIDIA's Accelerated Computing Platform": 2, 'AI Is the Greatest Technology Force of Our Time': 2}
+overall~understanding	{'': 3}
+investors~overall~understanding	{'': 1}
+enhances~investors~overall~understanding	{'': 1}
+companys	{'': 265, 'Corporate Responsibility': 2}
+understanding~companys	{'': 1}
+overall~understanding~companys	{'': 1}
+investors~overall~understanding~companys	{'': 1}
+companys~historical	{'': 1}
+understanding~companys~historical	{'': 1}
+overall~understanding~companys~historical	{'': 1}
+historical~financial	{'': 3}
+companys~historical~financial	{'': 1}
+understanding~companys~historical~financial	{'': 1}
+financial~performance	{'': 61}
+historical~financial~performance	{'': 3}
+companys~historical~financial~performance	{'': 1}
+presentation~companys	{'': 1}
+companys~presentation~companys	{'': 1}
+presentation~companys~presentation~companys	{'': 1}
+companys~non-gaap	{'': 2}
+presentation~companys~non-gaap	{'': 1}
+non-gaap~presentation~companys~non-gaap	{'': 1}
+companys~non-gaap~financial	{'': 1}
+presentation~companys~non-gaap~financial	{'': 1}
+companys~non-gaap~financial~measures	{'': 1}
+measures~not	{'': 3}
+financial~measures~not	{'': 3}
+non-gaap~financial~measures~not	{'': 3}
+meant	{'': 3}
+not~meant	{'': 3}
+measures~not~meant	{'': 3}
+financial~measures~not~meant	{'': 3}
+isolation	{'': 5}
+meant~isolation	{'': 3}
+not~meant~isolation	{'': 3}
+measures~not~meant~isolation	{'': 3}
+substitute	{'': 37}
+isolation~substitute	{'': 1}
+meant~isolation~substitute	{'': 1}
+not~meant~isolation~substitute	{'': 1}
+substitute~companys	{'': 1}
+isolation~substitute~companys	{'': 1}
+meant~isolation~substitute~companys	{'': 1}
+companys~financial	{'': 5}
+substitute~companys~financial	{'': 1}
+isolation~substitute~companys~financial	{'': 1}
+companys~financial~results	{'': 1}
+substitute~companys~financial~results	{'': 1}
+prepared	{'': 25}
+results~prepared	{'': 3}
+financial~results~prepared	{'': 3}
+companys~financial~results~prepared	{'': 1}
+accordance	{'': 166}
+prepared~accordance	{'': 7}
+results~prepared~accordance	{'': 3}
+financial~results~prepared~accordance	{'': 3}
+accordance~gaap	{'': 7}
+prepared~accordance~gaap	{'': 3}
+results~prepared~accordance~gaap	{'': 3}
+gaap~companys	{'': 1}
+accordance~gaap~companys	{'': 1}
+prepared~accordance~gaap~companys	{'': 1}
+gaap~companys~non-gaap	{'': 1}
+accordance~gaap~companys~non-gaap	{'': 1}
+companys~non-gaap~measures	{'': 1}
+gaap~companys~non-gaap~measures	{'': 1}
+measures~may	{'': 8}
+non-gaap~measures~may	{'': 1}
+companys~non-gaap~measures~may	{'': 1}
+different	{'': 89}
+may~different	{'': 9}
+measures~may~different	{'': 3}
+non-gaap~measures~may~different	{'': 1}
+different~non-gaap	{'': 3}
+may~different~non-gaap	{'': 3}
+measures~may~different~non-gaap	{'': 3}
+different~non-gaap~measures	{'': 1}
+may~different~non-gaap~measures	{'': 1}
+measures~other	{'': 3}
+non-gaap~measures~other	{'': 1}
+different~non-gaap~measures~other	{'': 1}
+companies	{'': 287, 'Highlights': 2, 'Data Center': 4, 'AI Is the Greatest Technology Force of Our Time': 2, 'NVIDIA Software and Services': 4, 'Corporate Responsibility': 10}
+other~companies	{'': 13}
+measures~other~companies	{'': 3}
+non-gaap~measures~other~companies	{'': 1}
+further	{'': 146}
+further~information	{'': 11}
+information~further~information	{'': 7}
+further~information~further~information	{'': 7}
+relevant	{'': 49}
+information~relevant	{'': 1}
+further~information~relevant	{'': 1}
+relevant~further~information~relevant	{'': 1}
+interpretation	{'': 21}
+relevant~interpretation	{'': 1}
+information~relevant~interpretation	{'': 1}
+further~information~relevant~interpretation	{'': 1}
+interpretation~non-gaap	{'': 1}
+relevant~interpretation~non-gaap	{'': 1}
+information~relevant~interpretation~non-gaap	{'': 1}
+interpretation~non-gaap~financial	{'': 1}
+relevant~interpretation~non-gaap~financial	{'': 1}
+interpretation~non-gaap~financial~measures	{'': 1}
+reconciliations	{'': 1}
+measures~reconciliations	{'': 1}
+financial~measures~reconciliations	{'': 1}
+non-gaap~financial~measures~reconciliations	{'': 1}
+reconciliations~non-gaap	{'': 1}
+measures~reconciliations~non-gaap	{'': 1}
+financial~measures~reconciliations~non-gaap	{'': 1}
+reconciliations~non-gaap~financial	{'': 1}
+measures~reconciliations~non-gaap~financial	{'': 1}
+reconciliations~non-gaap~financial~measures	{'': 1}
+measures~most	{'': 1}
+financial~measures~most	{'': 1}
+non-gaap~financial~measures~most	{'': 1}
+comparable	{'': 19}
+most~comparable	{'': 1}
+measures~most~comparable	{'': 1}
+financial~measures~most~comparable	{'': 1}
+comparable~gaap	{'': 1}
+most~comparable~gaap	{'': 1}
+measures~most~comparable~gaap	{'': 1}
+gaap~measures	{'': 1}
+comparable~gaap~measures	{'': 1}
+most~comparable~gaap~measures	{'': 1}
+gaap~measures~may	{'': 1}
+comparable~gaap~measures~may	{'': 1}
+found	{'': 31}
+may~found	{'': 1}
+measures~may~found	{'': 1}
+gaap~measures~may~found	{'': 1}
+slide	{'': 1}
+found~slide	{'': 1}
+may~found~slide	{'': 1}
+measures~may~found~slide	{'': 1}
+titled	{'': 41}
+slide~titled	{'': 1}
+found~slide~titled	{'': 1}
+may~found~slide~titled	{'': 1}
+reconciliation	{'': 41, 'Content': 2, 'Q2 FY24 Financial Summary': 2, 'Q3 FY24 Outlook': 2, 'Driving Strong & Profitable Growth': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Strong Cash Flow Generation': 2, 'Annual Cash & Cash Flow Metrics': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 46, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 131}
+titled~reconciliation	{'': 1}
+slide~titled~reconciliation	{'': 1}
+found~slide~titled~reconciliation	{'': 1}
+reconciliation~non-gaap	{'': 15, 'Content': 2, 'Q2 FY24 Financial Summary': 2, 'Q3 FY24 Outlook': 2, 'Driving Strong & Profitable Growth': 2, 'NVIDIA Gross Margins Reflect Value of Acceleration': 2, 'Strong Cash Flow Generation': 2, 'Annual Cash & Cash Flow Metrics': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 46, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 131}
+titled~reconciliation~non-gaap	{'': 1}
+slide~titled~reconciliation~non-gaap	{'': 1}
+non-gaap~gaap	{'': 1, 'Content': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 46, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 131}
+reconciliation~non-gaap~gaap	{'': 1, 'Content': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 46, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 131}
+titled~reconciliation~non-gaap~gaap	{'': 1}
+gaap~financial	{'': 1, 'Content': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 46, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 131}
+non-gaap~gaap~financial	{'': 1, 'Content': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 46, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 131}
+reconciliation~non-gaap~gaap~financial	{'': 1, 'Content': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 46, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 131}
+gaap~financial~measures	{'': 1, 'Content': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 46, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 131}
+non-gaap~gaap~financial~measures	{'': 1, 'Content': 2, 'Reconciliation of Non-GAAP to GAAP Financial Measures': 46, 'Reconciliation of Non-GAAP to GAAP Financial Measures (contd.)': 131}
+content	{'Content': 9, 'WPP Partners With NVIDIA to Build Gen AI-Enabled Content Engine for Digital Advertising': 14, 'New NVIDIA RTX Ada GPUs to Power Workstations for Gen AI and LLM, Content Creation, Data Science': 11, 'NVIDIA, Pixar, Adobe, Apple and Autodesk Co-Founded the Alliance for OpenUSD (AOUSD)': 2, 'NVIDIA Software and Services': 2, '': 38}

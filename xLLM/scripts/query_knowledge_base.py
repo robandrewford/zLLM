@@ -16,10 +16,7 @@ from xllm.query_engine import KnowledgeQueryEngine
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.FileHandler("query_engine.log"),
-        logging.StreamHandler()
-    ]
+    handlers=[logging.FileHandler("xLLM/data/logs/query_engine.log"), logging.StreamHandler()],
 )
 
 logger = logging.getLogger("query_engine")

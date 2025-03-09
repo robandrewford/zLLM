@@ -1,7 +1,7 @@
 """Tests for the hash knowledge base module."""
 
 import pytest
-from unittest.mock import patch, MagicMock
+from unittest.mock import patch
 from pathlib import Path
 import tempfile
 
@@ -17,9 +17,7 @@ def kb():
 def test_kb_initialization():
     """Test that the knowledge base initializes correctly."""
     kb = HashKnowledgeBase(
-        max_tokens_per_word=5,
-        min_token_frequency=3,
-        output_dir=Path("./test_output/kb")
+        max_tokens_per_word=5, min_token_frequency=3, output_dir=Path("./test_output/kb")
     )
 
     assert kb.max_tokens_per_word == 5
@@ -39,7 +37,7 @@ def test_kb_add_data(kb):
         "category": "Test",
         "content": "This is a test content.",
         "related": ["Related1", "Related2"],
-        "see_also": ["See1", "See2"]
+        "see_also": ["See1", "See2"],
     }
 
     # This should not raise any exceptions
@@ -57,7 +55,7 @@ def test_kb_query(kb):
         "category": "Test",
         "content": "This is a test content about normal distribution.",
         "related": ["Related1", "Related2"],
-        "see_also": ["See1", "See2"]
+        "see_also": ["See1", "See2"],
     }
     kb.add_data(data)
 
@@ -78,7 +76,7 @@ def test_kb_save(mock_dump, kb):
         "category": "Test",
         "content": "This is a test content.",
         "related": ["Related1", "Related2"],
-        "see_also": ["See1", "See2"]
+        "see_also": ["See1", "See2"],
     }
     kb.add_data(data)
 

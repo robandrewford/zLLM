@@ -1,7 +1,7 @@
 """Knowledge-based query engine implementation."""
 
 import logging
-from typing import Dict, List, Optional, Any, Union
+from typing import Dict, List, Any
 
 from xllm.knowledge_base.base import BaseKnowledgeBase
 from xllm.query_engine.base import BaseQueryEngine
@@ -85,33 +85,49 @@ class KnowledgeQueryEngine(BaseQueryEngine):
         formatted = f"Found {len(results)} results:\n\n"
 
         for i, result in enumerate(results, 1):
-            formatted += f"{i}. {result['word']} (score: {result['score']:.2f}, count: {result['count']})\n"
+            formatted += (
+                f"{i}. {result['word']} (score: {result['score']:.2f}, count: {result['count']})\n"
+            )
 
             # Add categories
             if result.get("categories"):
                 formatted += "   Categories:\n"
-                for category, count in sorted(result["categories"].items(), key=lambda x: x[1], reverse=True)[:max_categories]:
+                for category, count in sorted(
+                    result["categories"].items(), key=lambda x: x[1], reverse=True
+                )[:max_categories]:
                     formatted += f"     - {category} ({count})\n"
 
             # Add related topics
             if result.get("related"):
                 formatted += "   Related topics:\n"
-                for topic, count in sorted(result["related"].items(), key=lambda x: x[1], reverse=True)[:max_related]:
+                for topic, count in sorted(
+                    result["related"].items(), key=lambda x: x[1], reverse=True
+                )[:max_related]:
                     formatted += f"     - {topic} ({count})\n"
 
             # Add URLs
             if result.get("urls"):
                 formatted += "   URLs:\n"
-                for url_id, count in sorted(result["urls"].items(), key=lambda x: x[1], reverse=True)[:max_urls]:
-                    if hasattr(self.knowledge_base, "arr_url") and url_id.isdigit() and int(url_id) < len(self.knowledge_base.arr_url):
-                        formatted += f"     - {self.knowledge_base.arr_url[int(url_id)]} ({count})\n"
+                for url_id, count in sorted(
+                    result["urls"].items(), key=lambda x: x[1], reverse=True
+                )[:max_urls]:
+                    if (
+                        hasattr(self.knowledge_base, "arr_url")
+                        and url_id.isdigit()
+                        and int(url_id) < len(self.knowledge_base.arr_url)
+                    ):
+                        formatted += (
+                            f"     - {self.knowledge_base.arr_url[int(url_id)]} ({count})\n"
+                        )
                     else:
                         formatted += f"     - URL ID: {url_id} ({count})\n"
 
             # Add embeddings if requested
             if include_embeddings and result.get("embeddings"):
                 formatted += "   Embeddings:\n"
-                for token, score in sorted(result["embeddings"].items(), key=lambda x: x[1], reverse=True)[:5]:
+                for token, score in sorted(
+                    result["embeddings"].items(), key=lambda x: x[1], reverse=True
+                )[:5]:
                     formatted += f"     - {token}: {score:.4f}\n"
 
             formatted += "\n"

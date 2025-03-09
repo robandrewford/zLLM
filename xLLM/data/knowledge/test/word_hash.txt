@@ -1,0 +1,1869 @@
+custom	{'enterprise': 1, 'my': 1, 'sub-llm': 1, '1': 1, 'pmi': 1}
+enterprise	{'custom': 1, 'llm/rag': 1, 'test': 1, 'corpus': 3, 'an': 1, 'the': 1}
+llm/rag	{'enterprise': 1, 'with': 1}
+with	{'llm/rag': 1, 'real-time': 1, '–': 1, 'condensed': 1, 'differences': 1, 'standard': 1, 'fine-tune': 1, 'explainable': 1, 'time': 2, 'no': 1, 'or': 1, 'some': 1, 'deals': 1, 'statistical': 1, 'together': 1, 'an': 1, 'prompt': 1, 'n': 1, 'order': 1, 'a': 4, 'pairs': 1, 'non-adjacent': 1, 'compact': 1, 'projects': 2, 'solutions”': 1, 'produced': 1, 'the': 3, 'augmentation': 1, 'synonyms': 1, 'along': 2, '‘category’': 1, 'constructed': 1, 'each': 2, 'up': 2, 'set': 1, 'all': 1, 'dealing': 1, 'documentation': 1, 'starting': 1, '‘metadata': 1, 'template’': 1, 'quality’': 1, 'one': 1, 'combined': 1, 'smart': 1, 'hash': 1, 'word': 1, 'multi-token': 1, 'k+1': 1, 'prompts': 1, 'embeddings': 1, 'solutions': 1}
+real-time	{'with': 1, 'fine-tuning': 1}
+fine-tuning	{'real-time': 1, 'vincent': 1, 'the': 2, 'part': 1, 'capability': 1, 'and': 1, 'in': 1}
+vincent	{'fine-tuning': 1, 'granville': 2, '1': 1}
+granville	{'vincent': 2, 'ph': 1, 'state': 1}
+ph	{'granville': 1, 'd': 1}
+d	{'ph': 1, 'vincentg@mltechniques': 1}
+vincentg@mltechniques	{'d': 1, 'com': 1}
+com	{'vincentg@mltechniques': 1, 'www': 1, 'genaitechlab': 1, 'version': 1, 'niques': 1, '2024': 1}
+www	{'com': 1, 'genaitechlab': 1}
+genaitechlab	{'www': 1, 'com': 1}
+version	{'com': 1, '1': 1, 'this': 1, 'but': 1, 'previous': 2, 'discussed': 1, 'and': 1}
+1	{'version': 1, '0': 3, '2024': 1, 'innovative': 1, 'sub-llms': 1, '1': 2, 'from': 2, 'be': 1, '+': 1, 'entry': 1, 'scores': 1, '2': 3, 'book': 1, 'it': 1, 'backend': 2, 'nb': 1, 'where': 1, 'table': 2, 'features': 1, 'sample': 1, 'figure': 1, 'figures': 1, 'and': 1, 'anonymized': 1, '#---': 2, '=': 4, 'entity': 2, 'replace': 1, 'range': 2, 'max_multitoken': 1, 'keya': 1, '163': 1, 'keyb': 1, '167': 1, '>': 2, '176': 1, 'is': 1, '213': 1, '219': 1, '243': 1, 'split': 2, '255': 1, 'create': 1, 'key': 2, '286': 1, 'tokens': 1, 'len': 1, '3': 1, 'custom': 1, 'option': 3, '362': 1, '375': 1, '385': 1, '==': 2, '400': 1, 'item': 1, 'reverse=true': 1, '417': 1, '#': 1, '’nabmin’': 1, '498': 1, '’customized_pmi’': 1, '499': 1, '’minoutputlistsize’': 1, '501': 1, '2**len': 1, '582': 1, '584': 1, '585': 1, 'references': 1, 'vincent': 1}
+0	{'1': 3, 'july': 1, '51': 1, '=': 5, '137': 1, 'keya': 1, '162': 1, 'keyb': 1, '166': 1, '’description’': 1, '0': 2, '215': 1, '’category’': 1, '3': 1, '’tag_list’': 1, '4': 1, '’title’': 1, '2': 1, '’meta’': 1, 'entity': 1, '245': 1, 'key': 2, '285': 1, 'tokens': 1, '304': 1, '324': 1, '00': 2, '358': 1, '416': 1, '422': 1, '’min_pmi’': 1, '’bypassignorelist’': 1, '502': 1, '>': 2, '13': 1, 'in': 1, '%d': 1, 'range': 1, 'len': 1, '==': 1, '575': 1, 'and': 1}
+july	{'0': 1, '2024': 1}
+2024	{'july': 1, '1': 1, 'com': 1, 'link': 1}
+innovative	{'1': 1, 'architecture': 1}
+architecture	{'innovative': 1, 'this': 1, 'my': 1, 'uses': 1, 'same': 1, 'the': 1, 'original': 1, 'and': 2, 'framework': 1, 'design': 1, 'foundational': 1, 'from': 1, 'your': 1}
+this	{'architecture': 1, 'article': 3, 'in': 3, 'presentation': 1, 'crawling': 1, 'is': 3, '\x88': 1, 'prompt': 1, 'but': 1, 'time': 1, 'version': 1, 'entity': 1, 'topic': 1, 'results': 1, 'to': 1, 'content': 1, 'answer': 1, 'noise': 1}
+article	{'this': 3, 'features': 1, 'focuses': 1, 'next': 1, '2': 1, 'i': 1}
+features	{'article': 1, 'an': 1, 'some': 1, 'are': 1, 'parameters': 1, 'and': 1, '1': 1, 'a': 1}
+an	{'features': 1, 'application': 1, 'typically': 1, 'employee': 1, 'of': 2, 'enterprise': 1, 'with': 1, 'llm': 1, 'assign': 1, 'action': 2, 'is': 1, 'url': 1, 'yet': 1, 'extra': 2, 'get': 1, 'serve': 1, 'answer': 1}
+application	{'an': 1, 'of': 1}
+of	{'application': 1, 'xllm': 1, 'employee': 1, 'the': 10, 'pieces': 2, 'information': 2, 'consist': 2, 'multiple': 2, 'trillions': 1, 'them': 1, 'one': 3, 'many': 2, 'elements': 1, 'structure': 1, 'lines': 1, 'code': 1, 'part': 2, 'an': 2, 'consists': 6, 'these': 1, 'stripped': 1, 'common': 1, 'times': 1, 'course': 1, 'list': 2, 'urls': 1, 'number': 9, 'occurrences': 5, 'consisting': 4, 'pairs': 5, 'multitokens': 2, 'both': 1, 'tables': 1, 'your': 2, '“state': 1, 'tokens': 1, 'non-adjacent': 1, 'concept': 1, 'action': 2, 'addition': 1, 'about': 2, 'fields': 1, 'entities': 1, 'multitoken': 1, 'size': 2, 'top': 1, 'primary': 1, 'occurrence': 1, 'ta': 1, 'choice': 1, 'a': 2, 'more': 1, 'presence': 1, 'are': 1, 'precious': 1, 'type': 1, 'taxonomy': 1, 'order': 1, 'importance': 1, 'terms': 1, 'speed': 1, 'quality': 2, 'billions': 1, 'parameters': 1, 'explainable': 1, 'vocabulary': 1, '30': 1, 'source': 2, 'hallucinations': 1, 'user': 1, 'data': 1, 'arguments': 3, 'token': 1, 'word': 1, 'state': 1}
+xllm	{'of': 1, 'to': 1, 'original': 1, 'technology': 1}
+to	{'xllm': 1, 'extract': 1, 'referred': 1, 'as': 1, 'is': 1, 'serve': 2, 'on': 1, 'professional': 1, 'easy': 2, 'fine-tune': 3, 'shown': 2, 'the': 11, 'similar': 1, 'json': 1, 'thanks': 1, 'smart': 1, 'plan': 1, 'leverage': 1, 'specific': 1, 'each': 3, 'exception': 1, 'choose': 1, 'download': 1, 'how': 1, 'implement': 1, 'router': 1, 'redirect': 1, 'prompts': 2, 'backend': 3, 'separately': 1, 'determine': 1, 'used': 6, 'assign': 1, 'label': 1, 'rise': 1, '2n': 1, 'one': 1, 'n': 1, 'back': 2, 'unsorted': 1, 'contrast': 1, 'systems': 1, 'leading': 1, 'problems': 1, 'queried': 1, 'retrieve': 3, 'attached': 2, 'a': 1, 'assigned': 1, 'n-grams': 1, 'opposed': 1, 'multitokens': 2, 'compute': 1, 'was': 1, 'create': 2, 'code': 1, 'help': 1, 'instance': 1, 'applied': 2, 'ability': 2, 'use': 1, 'also': 1, 'be': 1, 'produce': 1, 'corresponding': 3, 'step': 1, 'add': 1, 'labels': 1, 'accessible': 1, 'end-users': 1, 'up': 2, '4': 1, '3': 1, 'set': 2, 'prevent': 1, 'words': 1, 'ignore': 1, 'compared': 1, 'regular': 1, 'user': 1, 'easily': 1, 'keywords': 1, 'exclude': 1, '‘data’': 1, 'instructions': 1, 'update': 2, 'zero': 1, 'want': 1, 'try': 1, 'dedicated': 1, 'this': 1, 'uploaded': 1, 'mltxquest': 1, 'cess': 1, 'critical': 1, 'tries': 1, 'detect': 1, 'prompt': 2, 'other': 2, 'linked': 3, 'extent': 1, 'or': 1, 'decide': 1, 'crawl': 1, 'query': 2, 'left': 1, 'right': 1, 'top': 1, 'bottom': 1, 'weight': 1, 'mutlitokens': 1, 'intent': 1, 'deliver': 1, 'crawling': 1, 'engineering': 1, 'fix': 1, 'issues': 1, 'fetched': 1, 'contributes': 1, 'enhancing': 1, '’b’': 1, '’a’': 1, 'position': 1, 'link': 1, '#': 1, 'match': 1, 'not': 1, '2': 1, 'output': 1, '%s': 1, 'multitoken': 1, '’ignore’': 1, 'change': 1}
+extract	{'to': 1, 'information': 1, 'process': 1, 'orc': 1, '#': 1, 'key-value': 1, '’pipeline': 1, 'data': 1}
+information	{'extract': 1, 'from': 1, 'of': 2, 'including': 1, 'mutual': 2, 'wiki': 1, 'sensitivity': 1, 'and': 1, 'critical': 1, 'within': 1, 'there': 1, 'typos': 1, 'detailed': 1, 'page’': 1}
+from	{'information': 1, 'a': 3, 'corpus': 1, 'its': 1, '1': 2, 'frontend': 1, 'stripped': 1, 'the': 4, 'containing': 1, 'one': 1, 'problems': 1, 'there': 1, 'derived': 1, 'them': 1, 'comes': 2, 'tokens': 1, 'exploding': 1, 'entity': 1, 'corporate': 1, 'crawl': 1, '2': 1, 'prompt': 2, 'listed': 1, 'left': 1, 'designed': 1, 'scratch': 1, 'architecture': 1, 'pairs': 1, '’entity’': 1, 'repository': 2, 'local': 1, 'github': 1, '’token': 1, 'embeddings': 1, '’word': 1, 'multitoken': 1, '’ignore’': 1}
+a	{'from': 3, 'corporate': 2, 'have': 1, 'different': 2, 'by': 2, 'few': 2, 'algorithm': 1, 'relevancy': 1, 'be': 1, 'key-value': 3, 'hr': 1, 'specific': 2, 'called': 1, 'shortened': 2, 'n-grams': 1, 'is': 6, 'mining’': 1, 'sorted': 1, 'to': 1, 'also': 1, 'instance': 1, 'list': 1, 'with': 4, 'higher': 2, 'backend': 1, 'in': 3, 'same': 3, 'create': 2, 'mvp': 1, 'table': 1, 'clustering': 1, 'as': 3, 'pre-processing': 1, 'number': 1, 'bubble': 1, 'while': 1, 'single': 2, 'local': 1, 'field': 1, 'text': 2, 'within': 3, 'sentence': 1, 'choose': 1, 'of': 2, 'customized': 1, 'entering': 1, 'prompt': 1, 'features': 1, 'sample': 1, 'not': 1, 'lot': 1, 'for': 1, 'new': 1, 'give': 1, 'building': 1, 'solid': 1, 'long': 1, 'and': 1, 'small': 2, 'has': 1, 'vocabulary': 1, 'source': 2, 'gather': 1, 'large': 1, 'actually': 1, 'word': 1, '’entity’': 1, 'string': 1, 'hash': 1}
+corporate	{'a': 2, 'corpus': 3, 'from': 1}
+corpus	{'corporate': 3, 'using': 1, 'enterprise': 3, 'from': 1, 'the': 16, 'crawled': 4, 'then': 1, 'each': 1, 'while': 1, 'are': 1, 'and': 3, 'finally': 1, 'your': 1, 'some': 1, 'release': 1, 'augmentation': 1, 'however': 1, 'as': 1, 'is': 3, 'entire': 1, 'full': 2, 'respectively': 1, 'fortune': 1, 'anonymized': 1, 'consists': 1, 'field': 1, 'based': 1, 'in': 3, 'ordered': 1, 'shared': 1, '182': 1, 'f': 1, '482': 1}
+using	{'corpus': 1, 'prompts': 1, 'part': 1, 'the': 2, 'parameters': 1, 'one': 1, 'if': 1, 'produced': 1, 'lines': 1}
+prompts	{'using': 1, 'referred': 1, 'user': 1, 'to': 2, 'frontend': 1, 'finally': 1, 'are': 1, 'various': 1, 'the': 1, 'two': 1, 'starting': 1, 'ngram': 1, 'with': 1}
+referred	{'prompts': 1, 'to': 1}
+as	{'to': 1, '“queries”': 1, 'stored': 2, 'nested': 1, 'such': 9, 'auto-correct': 1, 'ad-hoc': 1, '‘how': 1, 'words': 1, 'opposed': 1, 'multitokens': 1, 'well': 4, 'joint': 1, 'dictionaries': 1, 'contextual': 1, '‘san': 1, 'treated': 1, 'single': 1, 'corpus': 1, 'a': 3, 'json': 1, 'available': 1, 'terms': 1, 'specified': 1, 'computed': 1, 'follows': 1, '‘data’': 2, 'long': 2, 'the': 2, '‘data': 1, 'debugging': 1, 'data': 1, 'prompt': 1, 'tables': 1, 'document': 1, 'marked': 1, 'displayed': 1}
+“queries”	{'as': 1, 'the': 1}
+the	{'“queries”': 1, 'goal': 2, 'serve': 1, 'business': 1, 'of': 10, 'company': 1, 'queries': 1, 'original': 3, 'presentation': 1, 'main': 2, 'represent': 1, 'weights': 2, 'parameters': 2, 'not': 2, 'backend': 6, 'former': 1, 'by': 2, 'user': 9, 'to': 11, 'where': 4, 'value': 5, 'table': 2, 'format': 1, 'architectures': 1, 'central': 1, 'stores': 1, 'embeddings': 5, 'during': 1, 'crawling': 1, '\x88': 1, 'python': 4, 'including': 2, 'fine-tuning': 2, 'in': 32, 'future': 1, 'instance': 2, 'one-letter': 1, 'if': 2, 'sub-llm': 2, 'concepts': 1, 'only': 1, '“no': 1, 'is': 4, 'requests': 1, 'download': 2, 'test': 1, 'corpus': 16, 'internal': 1, 'using': 2, 'same': 2, 'architecture': 1, 'full': 3, 'specific': 1, 'tables': 4, 'prompt': 9, 'is’': 1, 'result': 1, 'stripped': 1, 'determine': 1, 'from': 4, 'then': 1, 'shortened': 1, 'against': 1, 'sorted': 2, 'on': 6, 'entry': 1, 'for': 3, 'key': 3, 'either': 1, 'retrieve': 2, 'and': 6, 'number': 2, 'n-gram': 1, 'landing': 1, 'pmi': 2, 'core': 1, 'time': 1, 'nested': 1, 'here': 4, 'featuring': 1, 'previous': 2, 'art': 2, 'following': 1, 'next': 2, 'add': 1, 'ability': 2, 'crawl': 1, 'with': 3, 'default': 2, 'multitokens': 2, 'latter': 1, 'current': 1, 'produce': 1, 'code': 8, 'concept': 1, 'determines': 1, 'requires': 1, 'addition': 1, '‘action’': 1, 'text': 1, 'case': 1, 'input': 1, 'populates': 1, 'website': 1, 'list': 2, 'covering': 1, 'entire': 1, 'entity': 2, 'various': 1, 'corresponding': 1, '5': 1, 'anonymized': 2, 'hash': 1, '211': 1, 'maximum': 1, 'prevent': 1, 'end': 1, 'dictionary': 1, 'stopwords': 1, 'total': 1, 'while': 1, 'size': 1, '–': 1, 'words': 2, 'building': 1, 'at': 1, 'most': 4, 'see': 1, 'backendtables': 1, 'pairs': 1, 'are': 1, 'counts': 1, 'joint': 2, 'given': 1, 'small': 1, 'currently': 1, 'allows': 1, 'update': 1, 'frontend': 4, 'prompts': 1, 'control': 1, 'results': 4, 'choice': 1, 'ignore': 1, 'as': 2, 'end-user': 1, 'view': 1, 'options': 1, '519–527': 1, 'catch-all': 2, 'yields': 1, 'largest': 1, 'output': 2, 'choose': 1, 'option': 1, 'command': 1, 'tested': 1, 'algorithm': 1, 'discuss': 1, 'content': 1, 'other': 2, 'completing': 1, 'template': 2, 'out': 1, 'interpret': 1, 'entered': 1, 'viewed': 1, 'metadata': 1, 'through': 1, 'mltxquest': 1, 'within': 1, 'organization': 1, 'found': 1, 'correct': 1, 'because': 1, 'system': 1, 'detect': 1, 'two': 1, 'set': 1, 'interesting': 1, 'linking': 1, 'extent': 1, 'search': 1, 'match': 1, 'type': 1, 'action': 1, 'employee': 1, 'relevancy': 1, 'scores': 1, '‘governance’': 1, 'dominating': 1, 'lifecycle’': 1, 'show': 1, 'finally': 1, 'home-made': 1, 'crawled': 2, 'market': 1, 'offers': 1, 'good': 1, 'quality': 2, 'well': 1, 'embedded': 1, 'contrary': 1, 'ground': 1, 'it': 1, 'average': 1, 'enhancing': 1, 'enterprise': 1, 'ai': 1}
+goal	{'the': 2, 'is': 1, 'was': 1}
+is	{'goal': 1, 'to': 1, 'technology': 1, 'described': 1, 'there': 3, 'no': 3, 'score': 1, 'shown': 1, 'format': 1, 'similar': 1, 'this': 3, 'possible': 1, 'rule': 1, 'the': 4, 'sub-llm': 1, 'built': 1, '‘security’': 1, 'found': 4, 'prompt': 3, 'first': 1, 'result': 1, 'called': 1, 'sorted': 1, 'table': 2, 'a': 6, 'mining’': 1, 'data’': 1, 'in': 1, 'order': 1, 'ignored': 1, 'queried': 1, 'question': 1, 'also': 2, 'key': 2, 'an': 1, 'value': 4, 'that': 2, 'multitokens': 2, 'what': 1, 'not': 3, 'latter': 1, 'implemented': 1, 'action': 1, 'he/she': 1, 'searching': 1, 'corpus': 3, 'accessible': 1, 'named': 2, 'entry': 1, 'source': 1, 'available': 1, '3': 1, 'pairs': 1, '222': 1, '427kb': 1, 'accomplished': 1, 'metadata': 1, 'uploaded': 1, 'entity': 1, 'part': 1, 'employee': 1, 'looking': 1, '‘data': 2, 'category': 1, '‘governance’': 1, 'title': 1, 'noise': 1, 'code': 1, '–': 1, 'fully': 1, '’key’': 1, 'tuple': 1, 'word': 2, 'single': 1, 'now': 1, 'weight': 1, '1': 1, 'content': 1}
+serve	{'to': 2, 'the': 1, 'an': 1}
+business	{'the': 1, 'user': 1, 'title': 1, 'metadata': 1, 'classifications': 1, 'details': 1, 'mltxquest': 1, 'categories': 1, 'solution': 1, 'products': 1}
+user	{'business': 1, '–': 1, 'the': 9, 'or': 1, 'for': 1, 'redirect': 1, 'prompts': 1, 'intent': 3, 'are': 1, 'can': 1, 'to': 1, 'document': 1, 'roles': 1, 'detect': 1, 'of': 1, 'queries': 1}
+–	{'user': 1, 'typically': 1, 'access': 1, 'with': 1, 'weights': 1, 'explicitly': 1, 'computed': 1, 'are': 2, 'llms': 2, 'creative': 2, 'stopwords': 1, 'the': 1, 'tables': 1, 'parts': 1, 'marketing': 1, 'on': 1, 'require': 1, 'github': 1, 'actually': 1, 'section': 1, 'is': 1}
+typically	{'–': 1, 'an': 1}
+employee	{'an': 1, 'of': 1, 'the': 1, 'is': 1}
+company	{'the': 1, 'or': 1, '100': 1, 'dealing': 1}
+or	{'company': 1, 'someone': 1, 'billions': 1, 'even': 1, 'user': 1, 'with': 1, 'vector': 1, 'graph': 1, 'numpy': 1, 'nltk': 1, 'implement': 1, 'integrate': 1, '‘example’': 1, '‘what': 1, 'one': 1, 'two': 1, 'may': 2, 'formula': 1, 'different': 1, 'queries': 1, 'simple': 1, 'update': 1, 'view': 1, 'adjacent': 1, 'not': 1, 'search': 1, 'to': 1, 'library': 1, 'api': 1, 'tuple': 1, 'single': 1, 'id': 1, 'url': 1, 'option': 1, 'integer': 1}
+someone	{'or': 1, 'allowed': 1}
+allowed	{'someone': 1, 'access': 1, 'gap': 1, 'between': 1}
+access	{'allowed': 1, '–': 1, 'onboarding': 1, 'integration': 1}
+condensed	{'with': 1, 'relevant': 1}
+relevant	{'condensed': 1, 'pieces': 1, 'most': 2, 'category': 1, 'tags': 1}
+pieces	{'relevant': 1, 'of': 2, 'other': 1}
+including	{'information': 1, 'links': 1, 'code': 1, 'the': 2, 'displayed': 1}
+links	{'including': 1, 'examples': 1}
+examples	{'links': 1, 'pdfs': 1, 'azure': 1, 'adf': 1}
+pdfs	{'examples': 1, 'tables': 1, 'images': 1, 'spreadsheets': 1}
+tables	{'pdfs': 1, 'charts': 1, 'databases': 1, 'are': 1, 'key-value': 2, 'where': 1, 'backend': 15, 'in': 1, 'contextual': 1, 'taxon-': 1, 'the': 4, 'but': 1, 'of': 1, 'rather': 1, 'produced': 1, '–': 1, 'more': 1, 'high': 2, 'traditional': 1, 'as': 1, 'based': 1, '481': 1, 'map': 1, 'sql': 1, '591': 1}
+charts	{'tables': 1, 'definitions': 1}
+definitions	{'charts': 1, 'and': 1}
+and	{'definitions': 1, 'so': 9, 'fast': 1, 'easy': 1, 'parameters': 2, 'much': 1, 'terms': 1, 'are': 1, 'similarity': 2, 'dot': 2, 'frontend': 2, 'backend': 3, 'scoring': 1, 'relevancy': 1, 'hashes': 1, 'fit': 1, 'structured': 1, 'elements': 1, 'stopwords': 1, 'ai': 1, 'machine': 1, 'legal': 1, 'hr': 2, 'order': 1, 'broken': 1, 'corpus': 3, 'match': 1, 'url': 1, 'the': 6, 'descriptions': 1, 'architecture': 2, 'compact': 1, 'generic': 1, 'spreadsheets': 1, 'here': 2, 'in': 2, 'singularization': 1, 'other': 2, 'data': 1, 'synonyms': 1, 'abbreviations': 1, 'version': 1, 'discussed': 1, 'sub-prompts': 1, '‘comparisons’': 1, '‘title’': 1, 'features': 1, 'fine-tuning': 1, 'id': 1, 'category': 1, 'pairs': 1, 'tokens': 3, 'titles': 1, 'tags': 1, 'embeddings': 2, 'sorted': 1, 'dictionary': 1, 'hash': 1, 'tb': 1, 'function': 1, 'top': 2, 'systems': 1, 'policies': 1, 'entities': 1, 'can': 2, 'information': 1, 'roles': 1, 'details': 1, 'key': 1, 'completed': 1, 're-': 1, 'centralizing': 1, 'simplifying': 1, '‘data’': 1, '’template’': 1, 'template’': 1, '‘completed': 1, '‘dq’': 1, '‘data': 3, 'literacy': 1, 'training': 2, '‘audit': 1, 'compliance': 1, 'vision’': 1, 'making’': 1, '1': 1, '2': 1, 'components': 1, 'workflow': 1, 'diagram': 1, 'right': 1, 'api': 1, 'performs': 1, 'speed': 1, 'results': 1, 'time': 1, 'graph': 1, 'integrate': 1, 'a': 1, 'variations': 1, 'names': 1, 'weights': 1, 'add': 1, 'source': 1, 'flag': 2, 'entity': 1, 'wordb': 1, 'distanceab': 1, 'maxdist': 1, 'n_termsab': 1, 'info': 1, 'print': 1, '’embeddingkeyminsize’': 1, '430': 1, '’embeddingvaluesminsize’': 1, '431': 1, '’min_pmi’': 1, '432': 1, '’nabmin’': 1, '433': 1, 'local_hash': 1, 'word': 1, 'ignore': 1, 'ntk3': 1, '0': 1}
+so	{'and': 9, 'on': 9, 'nltk': 1, 'you': 1}
+on	{'so': 9, 'to': 1, 'however': 2, 'only': 1, 'one': 2, 'based': 7, 'the': 6, 'question': 1, 'results': 1, 'when': 1, 'are': 1, 'github': 4, 'it': 2, 'here': 2, 'built': 1, 'top': 2, 'computed': 1, 'multitokens': 1, '-f': 1, 'algorithm': 1, 'documentation': 1, 'internal': 1, '–': 1, 'clarity': 1, 'sensitivity': 1, 'google': 1, 'rely': 1, 'any': 1, 'available': 1, 'mostly': 1, 'tokens': 1, 'focuses': 1, 'building': 1, 'you': 1, 'also': 1, 'shared': 1, 'crawled': 1, 'hash_pairs': 1, 'words': 1}
+professional	{'to': 1, 'queries': 1}
+queries	{'professional': 1, 'the': 1, 'pre-selected': 1, 'listed': 1, 'own': 1, 'or': 1, 'user': 1, 'even': 1}
+original	{'the': 3, 'xllm': 1, 'architecture': 1, 'here': 1}
+technology	{'xllm': 1, 'is': 1}
+described	{'is': 1, 'in': 1}
+in	{'described': 1, 'this': 3, 'meaning': 1, 'my': 4, 'context': 1, 'standard': 2, 'fine-tuned': 1, 'real': 5, 'fit': 1, 'memory': 1, 'objects': 1, 'tables': 1, 'addition': 1, 'it': 2, 'any': 1, 'part': 1, 'functions': 1, 'the': 32, 'found': 11, 'multiple': 1, 'entity': 1, 'sorted': 1, 'alphabetical': 1, 'detected': 1, 'entry': 1, 'that': 2, 'times': 1, 'not': 5, 'n-grams': 1, 'is': 1, 'contrast': 1, 'value': 2, 'question': 3, 'n-gram': 1, 'page': 1, 'each': 1, 'displayed': 1, 'relevancy': 1, 'sub-entity': 1, 'a': 3, 'stored': 4, 'capability': 1, 'available': 3, 'your': 1, 'implemented': 2, 'and': 2, 'art': 2, 'genai': 2, '200–220': 1, 'section': 3, 'included': 2, 'discussed': 2, '3': 1, 'words': 2, '173–176': 1, 'field': 1, 'fine-tuning': 1, 'end-users': 1, '236–267': 1, 'code': 1, 'multitokens': 2, 'line': 3, '209': 1, 'maxterms': 1, 'maxdist': 1, 'exploding': 1, 'both': 1, 'prompt': 2, 'list': 1, 'lines': 5, 'appearances': 1, 'categories': 1, 'ngrams': 2, 'structure': 1, 'updated': 1, '492–503': 1, 'almost': 1, 'listed': 2, 'options': 2, 'policies': 1, 'zoom': 1, 'for': 1, 'importance': 1, 'table': 1, '308–311': 1, 'corpus': 3, 'market': 1, 'terms': 1, 'parameters': 1, 'indeed': 1, 'expensive': 1, 'key': 8, 'hash': 3, 'item': 5, 'local_hash': 3, 'word': 12, 'category': 1, 'tag_list': 1, 'title': 1, 'meta': 1, 'val': 1, 'aux': 1, 'idx': 1, 'range': 5, 'sep': 1, 'sentence_separators': 1, 'sentence': 1, 'text': 1, 'stopwords': 1, 'k': 3, 'keya': 1, 'hwords': 2, 'keyb': 1, 'pairs': 1, 'hash_pairs': 5, 'name': 1, 'tablenames': 1, 'inclusion': 1, 'dictionary': 4, 'them': 1, '226': 1, '=': 2, 'read': 1, '228': 1, 'close': 1, 'entity_raw': 1, 'entities': 1, 'pair': 2, 'key_value_pairs': 1, 'if': 1, 'token': 2, 'tokens': 1, 'keyab': 3, 'param': 2, 'frontendparams': 2, '’-p’': 1, 'option': 5, '’-a’': 1, '’-r’': 1, 'ignore': 3, 'specified': 1, '’ignorelist’': 1, 'q_embeddings': 1, 'ctokens': 1, 'label': 2, 'output': 1, '’category’': 1, 'q_dictionary': 1, 'content': 1, 'hash2': 1, 'numbers': 1, 'parentheses': 1, 'integer': 1, '0': 1, 'input_': 1, 'sorted_word': 1, 'sorted_ngrams': 1, 'embeddings': 1, 'embedding': 1, 'tablename': 1, 'backendtables': 1}
+presentation	{'this': 1, 'the': 1}
+main	{'the': 2, 'differences': 1, 'components': 1, 'backend': 1, 'create': 1, 'frontend': 1, 'process': 1}
+differences	{'main': 1, 'with': 1}
+standard	{'with': 1, 'llms': 1, 'in': 2, 'architectures': 2}
+llms	{'standard': 1, 'are': 1, '&': 2, '–': 2}
+are	{'llms': 1, '\x88': 1, 'and': 1, 'called': 2, 'products': 2, 'replaced': 2, '–': 2, 'not': 5, 'former': 1, 'for': 1, 'they': 4, 'fine-tuned': 1, 'tables': 1, 'stored': 3, 'embeddings': 5, 'one': 1, 'there': 2, 'many': 1, 'sources': 1, 'well': 1, 'structure': 1, 'recovered': 1, 'words': 1, 'treated': 1, 'also': 1, 'prompt': 1, 'then': 1, 'corpus': 1, 'user': 1, 'displayed': 1, 'derived': 1, 'multitokens': 1, 'both': 1, 'simultaneously': 1, 'sub-entity': 1, 'used': 1, 'values': 2, 'key-value': 1, 'pmi': 1, 'features': 1, '5': 1, 'on': 1, 'pairs': 1, 'included': 1, 'prompts': 1, 'fields': 1, 'limitations': 1, 'set': 1, '12': 1, 'manually': 1, 'built': 1, 'computed': 1, 'nab': 1, 'the': 1, 'parameters': 1, 'found': 1, 'entities': 1, 'of': 1, 'tags': 1, '‘dq’': 1, 'results': 1, '‘data': 1, 'listed': 1, 'weights': 1, 'just': 1, 'most': 1, 'rarely': 1, 'parentheses': 1, 'occurrences': 1}
+	{'are': 1, 'no': 1, 'wiki': 1, 'parameters': 1, 'item': 1, 'i': 1, 'crawling': 1, 'the': 1, 'location': 1, 'this': 1}
+no	{'\x88': 1, 'training': 3, 'neural': 3, 'is': 3, 'with': 1, 'latency': 1, 'memory': 1, 'gpu': 1, '‘action’': 1, 'network': 1, 'if': 1, 'result': 1}
+training	{'no': 3, 'and': 2, 'policy’': 1, 'deployment': 1, 'api': 1}
+neural	{'no': 3, 'network': 3}
+network	{'neural': 3, 'involved': 2, 'no': 1}
+involved	{'network': 2, 'thus': 1, 'here': 1}
+thus	{'involved': 1, 'very': 1}
+very	{'thus': 1, 'fast': 1, 'be': 1, 'long': 1}
+fast	{'very': 1, 'and': 1, 'for': 1, 'processing': 1}
+easy	{'and': 1, 'to': 2, 'parameters': 1}
+fine-tune	{'to': 3, 'with': 1, 'parameters': 1, 'when': 1}
+explainable	{'with': 1, 'parameters': 2, 'of': 1}
+parameters	{'explainable': 2, 'and': 2, '\x88': 1, 'have': 1, 'top-level': 1, 'the': 2, 'my': 1, 'backend': 3, 'see': 1, '2': 1, 'features': 1, 'multitokens': 1, 'frontend': 5, 'given': 1, 'can': 1, 'while': 1, 'are': 1, 'using': 1, 'one': 1, 'fine-tune': 1, 'in': 1, 'of': 1, 'easy': 1}
+much	{'and': 1, 'fewer': 1}
+fewer	{'much': 1, 'tokens': 1, 'has': 1, 'than': 1}
+tokens	{'fewer': 1, 'yet': 1, 'most': 2, 'consist': 1, 'of': 1, 'containing': 1, 'single': 1, 'finally': 1, 'and': 3, 'from': 1, 'frequent': 1, 'both': 1, 'on': 1, 'embeddings': 1, 'up': 1, 'k+1': 1, '151': 1, '301': 1, '=': 2, '302': 1, 'sort': 1, '0': 1, 'in': 1, '1': 1, 'len': 1, '305': 1}
+yet	{'tokens': 1, 'most': 1, 'versioning': 1, 'it': 1, 'not': 1, 'implemented': 2, 'an': 1}
+most	{'yet': 1, 'tokens': 2, 'the': 4, 'frequent': 1, 'relevant': 2, 'important': 1, 'at': 1, 'not': 1, 'systems': 1, 'noise': 1, 'are': 1}
+consist	{'tokens': 1, 'of': 2, 'question': 1}
+multiple	{'of': 2, 'terms': 1, 'across': 1, 'sub-llms': 2, 'in': 1, 'words': 1}
+terms	{'multiple': 1, 'and': 1, '4': 1, 'as': 1, '3': 2, 'see': 2, 'in': 1, 'of': 1, 'consecutive': 1, 'per': 1}
+called	{'are': 2, 'multitokens': 1, 'is': 1, 'a': 1, 'intent': 1, 'action': 1, 'table': 3, 'hash': 2, 'contextual': 1, 'ctokens': 1}
+multitokens	{'called': 1, 'also': 2, 'is': 2, 'consisting': 2, 'to': 2, 'of': 2, 'found': 2, 'finally': 1, 'may': 1, 'non-adjacent': 2, 'are': 1, 'both': 1, 'as': 1, 'by': 1, 'again': 1, 'contextual': 2, 'the': 2, 'stored': 2, 'parameters': 1, 'contain': 1, 'max': 1, 'in': 2, 'pairs': 1, '581': 1, 'for': 1, 'ta': 1, 'on': 1, 'containing': 1, 'other': 1, 'especially': 1, 'these': 1, 'related': 1, 'include': 1, 'top': 3, 'they': 1, '#': 1, '185': 1, '2': 1, '309': 1, 'ignore': 1, 'specified': 1}
+also	{'multitokens': 2, 'i': 1, 'may': 1, 'be': 1, 'are': 1, 'stripped': 1, 'is': 2, 'a': 1, 'table': 1, 'indexed': 1, 'will': 1, 'add': 1, 'here': 1, 'to': 1, 'linked': 1, 'on': 1}
+i	{'also': 1, 'use': 2, 'instead': 1, '\x88': 1, 'don’t': 1, 'hashes': 1, 'mean': 1, 'time': 1, 'plan': 1, 'prompt': 1, 'will': 1, '212–219': 1, 'did': 2, 'study': 1, 'tested': 1, 'article': 1, 'discuss': 1, 'here': 1}
+use	{'i': 2, 'variable-length': 1, 'parametric': 1, 'don’t': 1, 'vector': 1, 'not': 2, 'any': 1, 'to': 1, 'pre-': 1, 'it': 1, '-f': 1, 'catch-all': 1}
+variable-length	{'use': 1, 'embeddings': 1}
+embeddings	{'variable-length': 1, 'cosine': 1, 'the': 5, 'here': 2, 'are': 5, 'words': 1, 'metric': 1, 'key-value': 1, 'see': 1, 'include': 1, 'and': 2, 'linking': 1, 'tokens': 1, 'billions': 1, 'create': 1, '277': 1, '278': 1, '=': 2, 'multitoken': 1, 'based': 1, 'update_nestedhash': 2, 'worda': 1, 'wordb': 1, 'with': 1, 'entries': 1, 'from': 1, '’': 1, 'in': 1, '572': 1, 'word': 1, 'str': 1, '602': 1}
+cosine	{'embeddings': 1, 'similarity': 2, 'shot': 1}
+similarity	{'cosine': 2, 'and': 2}
+dot	{'and': 2, 'products': 2}
+products	{'dot': 2, 'are': 2, 'marketing': 1, 'finance': 1, 'business': 1, 'project': 1}
+replaced	{'are': 2, 'by': 2}
+by	{'replaced': 2, 'customized': 1, 'governed': 1, 'a': 2, 'latency': 1, 'the': 2, 'needed': 1, 'nested': 1, 'indexed': 1, 'multitokens': 1, 'specified': 1, 'detected': 1, 'looking': 1, 'identified': 1, 'separators': 1, 'accomplished': 1, 'entering': 1, 'created': 1, '1681751874529x883105704081238400': 1, 'bottom': 1, 'order': 1, 'ordered': 1, 'importance': 1, 'components': 1, 'pointwise': 1}
+customized	{'by': 1, 'pmi': 3, 'a': 1, '#': 1}
+pmi	{'customized': 3, 'pointwise': 1, 'compute': 1, 'the': 2, 'are': 1, 'scores': 1, 'values': 1, 'follows': 1, 'ta': 1, 'function': 1, '289': 1, '=': 7, 'wordb': 1, '293': 1, 'worda': 1, '294': 1, 'custom': 1, '317': 1, '324': 1, '332': 1, 'return': 1, '334': 1, '417': 1, '431': 1, '>=': 1, 'nab': 1, 'flag': 1, '575': 1, '578': 2, '580': 1}
+pointwise	{'pmi': 1, 'mutual': 2, 'by': 1}
+mutual	{'pointwise': 2, 'information': 2}
+wiki	{'information': 1, '\x88': 1}
+have	{'parameters': 1, 'a': 1, 'you': 1, 'billions': 1}
+different	{'a': 2, 'meaning': 1, 'formula': 1, 'or': 1, 'separators': 1, '2': 1, 'words': 1}
+meaning	{'different': 1, 'in': 1}
+my	{'in': 4, 'context': 1, 'parameters': 1, 'architecture': 1, 'book': 2, 'next': 1, 'for': 1, 'second': 1, 'conclusions': 1, 'custom': 1, 'contrary': 1, 'approach': 1}
+context	{'my': 1, 'in': 1}
+architectures	{'standard': 2, 'they': 1, 'the': 1}
+they	{'architectures': 1, 'represent': 1, 'relevancy': 1, 'are': 4, 'action': 1, 'because': 1, 'code': 1, 'control': 1, 'help': 1, 'can': 1, 'multitokens': 1}
+represent	{'they': 1, 'the': 1}
+weights	{'the': 2, 'connecting': 1, 'parametric': 1, 'governed': 1, '–': 1, 'and': 1, 'are': 1}
+connecting	{'weights': 1, 'neurons': 1}
+neurons	{'connecting': 1, 'you': 1}
+you	{'neurons': 1, 'have': 1, 'so': 1, 'can': 1, 'if': 3, 'choose': 1, 'help': 1, 'easily': 1, 'want': 1, 'when': 1, 'think': 1, 'added': 1, 'on': 1, 'end': 1}
+billions	{'have': 1, 'or': 1, 'embeddings': 1, 'of': 1}
+even	{'or': 1, 'trillions': 1, 'not': 1, 'pandas': 1, 'words': 1, 'if': 1, 'queries': 1, 'before': 1}
+trillions	{'even': 1, 'of': 1, 'not': 1, 'indeed': 1}
+them	{'of': 1, 'but': 1, 'match': 1, 'back': 1, 'building': 1, 'from': 1, 'link': 1, 'in': 1}
+but	{'them': 1, 'there': 1, 'data': 1, 'again': 1, 'tables': 1, 'this': 1, 'version': 1, 'available': 1}
+there	{'but': 1, 'is': 3, 'addition': 1, 'are': 2, 'from': 1, 'each': 1, 'however': 1, 'end': 1, 'information': 1}
+here	{'involved': 1, 'instead': 1, 'embeddings': 2, 'covered': 2, 'the': 4, 'discussed': 3, 'and': 2, 'available': 1, 'github': 2, 'also': 1, 'txt': 1, 'on': 2, 'found': 1, 'table': 1, 'resolution': 2, 'figure': 1, 'figures': 1, 'original': 1, 'for': 1, 'can': 1, 'that': 1, 'i': 1, 'along': 1, 'word': 1, 'value': 1}
+instead	{'here': 1, 'i': 1}
+parametric	{'use': 1, 'weights': 1}
+governed	{'weights': 1, 'by': 1}
+few	{'a': 2, 'top-level': 1, 'although': 1, 'clearly': 1, 'millions': 1}
+top-level	{'few': 1, 'parameters': 1}
+explicitly	{'–': 1, 'specified': 1}
+specified	{'explicitly': 1, 'rather': 1, 'as': 1, 'by': 1, 'multitokens': 1, 'in': 1}
+rather	{'specified': 1, 'than': 2, 'tables': 1}
+than	{'rather': 2, 'iteratively': 1, 'fewer': 1, '600': 1, 'building': 1, 'more': 1, 'one': 1, 'better': 1, 'search': 1}
+iteratively	{'than': 1, 'computed': 1}
+computed	{'iteratively': 1, '–': 1, 'pre-': 1, 'backend': 1, 'are': 1, 'as': 1, 'counts': 1, 'on': 1}
+not	{'are': 5, 'the': 2, 'does': 3, 'use': 2, 'call': 1, 'even': 1, 'can': 1, 'be': 2, 'n-grams': 1, 'found': 1, 'in': 5, 'may': 1, 'is': 3, 'covered': 2, 'yet': 1, 'broken': 1, 'implemented': 1, 'did': 2, 'include': 1, 'eliminate': 1, 'do': 1, 'sub-llms': 1, 'or': 1, 'a': 1, 'give': 1, 'rely': 1, 'most': 1, 'trillions': 1, 'tuple': 1, 'word': 3, '#': 1, 'adjacent': 1, 'to': 1, 'show': 1, 'token': 1}
+uses	{'architecture': 1, 'two': 1}
+two	{'uses': 1, 'parameter': 1, 'or': 1, 'words': 2, 'between': 1, 'contextual': 1, 'try': 1, 'prompts': 1, 'the': 1}
+parameter	{'two': 1, 'sets': 1, 'backend': 1, 'max': 1, 'see': 2, 'maxterms': 1, 'maxdist': 1, 'catch-all': 3, 'set': 4, 'view': 1}
+sets	{'parameter': 1, 'frontend': 1}
+frontend	{'sets': 1, 'and': 2, 'from': 1, 'prompts': 1, '2': 1, 'parameters': 5, 'the': 4, 'default': 1, '4': 2, 'tricks': 1, '3': 1, 'functions': 1, 'update': 1, 'params': 1, 'main': 1}
+backend	{'and': 3, 'the': 6, 'many': 1, 'tables': 15, 'to': 3, 'table': 6, 'each': 1, 'a': 1, 'key-value': 1, 'add': 1, 'computed': 1, 'time': 1, 'default': 1, 'parameters': 3, 'extra': 1, '1': 2, 'parameter': 1, 'primary': 1, 'via': 1, 'diagram': 1, 'fix': 1, 'issues': 1, 'solid': 1, 'foundational': 1, 'your': 1, 'functions': 1, '2': 1, 'main': 1, 'create': 1, 'corresponding': 1, 'save': 1}
+former	{'the': 1, 'are': 1}
+for	{'are': 1, 'scoring': 1, 'user': 1, 'each': 3, 'concern': 1, 'library': 1, 'sub-llm': 1, 'increased': 1, 'performance': 1, 'instance': 6, 'built': 1, 'sub-llms': 1, 'large': 1, 'fast': 1, 'table': 2, 'the': 3, 'choice': 1, 'searching': 1, '‘how': 1, 'entity': 1, 'name': 2, 'respectively': 1, 'multitokens': 1, 'except': 1, 'debugging': 1, '-f': 1, 'full': 1, 'instructions': 1, 'completing': 1, 'portal': 1, 'all': 1, 'looking': 1, 'my': 1, 'workflow': 1, 'a': 1, 'in': 1, 'higher': 1, 'lution': 1, 'best': 1, 'drive': 1, 'here': 1, '21': 1, 'item': 4, '78': 1, 'val': 1, '92': 1, 'idx': 1, '125': 1, 'sep': 1, '133': 1, 'sentence': 1, '139': 1, 'word': 6, '#': 3, '148': 1, 'k': 3, '158': 1, 'keya': 1, '159': 1, 'keyb': 1, '197': 1, 'multi-token': 1, 'inclusion': 1, '238': 1, 'entity_raw': 1, '252': 1, 'pair': 1, '283': 1, 'key': 5, '300': 1, '304': 1, 'token': 2, '340': 1, 'param': 2, '348': 1, '353': 1, '383': 1, '414': 1, '458': 1, 'label': 1, '463': 1, '468': 1, '470': 1, '474': 1, '%d': 1, 'sample': 1, '534': 1, 'option': 1, '555': 1, '559': 1, '568': 1, '573': 1, '594': 1, 'tablename': 1}
+scoring	{'for': 1, 'and': 1}
+relevancy	{'and': 1, 'they': 1, 'a': 1, 'score': 1, 'in': 1, 'order': 1, 'core': 1, 'metric': 1, 'the': 1, 'scores': 1, 'results': 1, 'it': 1}
+fine-tuned	{'are': 1, 'in': 1}
+real	{'in': 5, 'time': 5, '-->': 1, 'query': 1}
+time	{'real': 5, 'with': 2, 'i': 1, 'this': 1, 'the': 1, 'each': 1, 'backend': 1, 'currently': 1, 'and': 1}
+latency	{'no': 1, 'by': 1}
+some	{'with': 1, 'algorithm': 1, 'leverage': 1, 'library': 1, 'corpus': 1, 'features': 1}
+algorithm	{'some': 1, 'a': 1, 'clustering': 1, 'applied': 1, 'the': 1, 'on': 1}
+score	{'relevancy': 1, 'is': 1, 'fitness': 1, 'model': 1}
+shown	{'is': 1, 'to': 2, 'results': 1}
+each	{'for': 3, 'retrieved': 1, 'to': 3, 'sub-llm': 1, 'part': 1, 'text': 2, 'corpus': 1, 'entry': 1, 'there': 1, 'backend': 1, 'in': 1, 'section': 1, 'crawl': 1, 'time': 1, 'entities': 1, 'with': 2, 'entity': 1, 'pairs': 1}
+retrieved	{'each': 1, 'item': 1}
+item	{'retrieved': 1, '\x88': 1, 'for': 4, 'in': 5, 'if': 2, 'local_hash': 4, '+=': 1, '=': 2, '*ignore2': 1, '11': 1, 'key=lambda': 1, 'item': 2, '1': 1, 'word': 1, '472': 1, 'label': 1, 'len': 1}
+don’t	{'i': 1, 'use': 1}
+vector	{'use': 1, 'or': 1}
+graph	{'or': 1, 'databases': 1, 'knowledge': 2, 'urls': 1, 'and': 1}
+databases	{'graph': 1, 'tables': 1}
+stored	{'are': 3, 'as': 2, 'in': 4, 'multitokens': 2, 'elements': 1}
+nested	{'as': 1, 'hashes': 2, 'by': 1, 'the': 1, 'values': 1}
+hashes	{'nested': 2, 'and': 1, 'i': 1}
+fit	{'and': 1, 'in': 1}
+memory	{'in': 1, 'no': 1}
+gpu	{'no': 1, 'needed': 1}
+needed	{'gpu': 1, 'by': 1}
+mean	{'i': 1, 'key-value': 1}
+key-value	{'mean': 1, 'tables': 2, 'a': 3, 'table': 4, 'embeddings': 1, 'backend': 1, 'are': 1, 'local': 1, 'extract': 1, 'pairs': 1}
+where	{'tables': 1, 'the': 4, 'systems': 1, 'word': 1, 'urls': 1, 'website': 1, 'crawl': 1, '1': 1, 'na': 1}
+value	{'the': 5, 'may': 1, 'attached': 1, 'in': 2, 'is': 4, 'field': 1, 'entity': 1, 'key': 3, 'count=1': 1, 'here': 1, 'single': 1, '15': 1, 'type': 1, '20': 1, '=': 16, '21': 1, '22': 1, '32': 1, '34': 1, 'return': 1, '36': 1, 'clean_list': 2, '73': 1, '75': 1, 'replace': 1, 'split': 1, '258': 1, '260': 1, '262': 1, '264': 1, '266': 1, '350': 1, '25': 1, '352': 1, '364': 1, '366': 1, 'set': 1, '523': 1, 'print': 1, 'must': 1}
+may	{'value': 1, 'also': 1, 'multitokens': 1, 'or': 2, 'not': 1, 'output': 1, 'be': 1}
+be	{'also': 1, 'a': 1, 'not': 2, 'eliminated': 1, 'would': 2, '1': 1, 'might': 1, '‘data': 1, 'adjacent': 1, 'will': 2, 'available': 1, 'to': 1, 'included': 1, 'must': 4, 'treated': 1, 'constructed': 1, 'discussed': 1, 'can': 4, 'updated': 1, 'may': 1, 'very': 1, 'found': 1, 'displayed': 1, 'used': 2, '<=': 1, 'won’t': 1, 'showed': 1, '<': 1}
+table	{'key-value': 4, 'the': 2, 'central': 1, 'stores': 1, 'backend': 6, 'sorted': 1, 'that': 2, 'is': 2, 'for': 2, 'either': 1, 'n-grams': 1, 'helps': 1, 'called': 3, 'also': 1, 'a': 1, 'corresponding': 1, 'pairs': 1, 'consists': 1, 'dictionary': 1, 'after': 1, 'here': 1, '1': 2, 'entity': 1, 'in': 1, '2': 2, 'was': 1, 'code': 1, 'quality': 1, 'guidelines': 1, 'correlation': 2, 'hash_pairs': 2, 'name': 1, '460': 1, '=': 3, 'word': 1, '595': 1, 'str': 1, '598': 1}
+format	{'the': 1, 'is': 1, 'n': 1, 'x': 1}
+similar	{'is': 1, 'to': 1}
+json	{'to': 1, 'objects': 1, 'as': 1, 'entities': 1}
+objects	{'json': 1, 'in': 1}
+central	{'the': 1, 'table': 1}
+stores	{'table': 1, 'the': 1}
+one	{'are': 1, 'of': 3, 'on': 2, 'part': 2, 'from': 1, 'to': 1, 'or': 1, 'than': 1, 'word': 1, 'using': 1, 'parameters': 1, 'text': 2, 'correct': 1, 'entitled': 1, 'with': 1}
+many	{'of': 2, 'backend': 1, 'are': 1, 'contextual': 1, 'words': 1}
+addition	{'in': 1, 'there': 1, 'the': 1, 'of': 1}
+contextual	{'many': 1, 'tables': 1, 'called': 1, 'pairs': 2, 'as': 1, 'multitokens': 2, 'however': 1, 'two': 1, 'if': 1, 'pair': 1}
+taxon-	{'tables': 1, 'omy': 1}
+omy	{'taxon-': 1, 'knowledge': 1}
+knowledge	{'omy': 1, 'graph': 2, 'embedded': 1}
+urls	{'graph': 1, 'built': 1, 'of': 1, 'where': 1, 'titles': 1, 'descriptions': 1, 'governance': 1, 'now': 1}
+built	{'urls': 1, 'during': 1, 'is': 1, 'for': 1, 'are': 1, 'on': 1}
+during	{'built': 1, 'the': 1}
+crawling	{'the': 1, 'this': 1, 'smart': 2, '\x88': 1, 'to': 1}
+possible	{'is': 1, 'because': 1}
+because	{'possible': 1, 'input': 1, '183–198': 1, 'they': 1, 'template’': 1, 'the': 1}
+input	{'because': 1, 'sources': 2, 'the': 1, 'source': 3, 'anonymized': 1, 'structured': 1, 'crawled': 1, '=': 1, 'query': 1}
+sources	{'input': 2, 'are': 1, 'combined': 1}
+well	{'are': 1, 'structured': 2, 'as': 4, 'the': 1}
+structured	{'well': 2, 'and': 1, 'input': 1}
+elements	{'and': 1, 'of': 1, 'text': 1, 'stored': 1, 'prompt': 1, 'into': 1}
+structure	{'of': 1, 'are': 1, 'backendtables': 1, 'in': 1}
+recovered	{'are': 1, 'thanks': 1}
+thanks	{'recovered': 1, 'to': 1}
+smart	{'to': 1, 'crawling': 2, 'with': 1}
+python	{'the': 4, 'code': 5, 'any': 1, 'library': 1, '5': 1}
+code	{'python': 5, 'does': 1, 'of': 1, 'including': 1, 'generic': 1, 'to': 1, 'see': 1, 'lines': 1, 'the': 8, 'then': 1, 'in': 1, 'allows': 1, 'they': 1, 'table': 1, 'cd': 1, 'learning': 1, 'is': 1}
+does	{'code': 1, 'not': 3, 'list': 1, 'scratch': 1}
+any	{'use': 1, 'library': 1, 'nor': 1, 'api': 1, 'in': 1, 'environment': 1, 'on': 1, 'python': 1}
+library	{'any': 1, 'nor': 1, 'for': 1, 'versioning': 1, 'some': 1, 'functions': 1, 'requests': 1, 'if': 1, 'python': 1, 'or': 1}
+nor	{'library': 1, 'any': 1}
+api	{'any': 1, 'call': 1, 'training': 1, 'components': 1, 'or': 1, 'and': 1}
+call	{'api': 1, 'not': 1}
+pandas	{'even': 1, 'numpy': 1}
+numpy	{'pandas': 1, 'or': 1}
+nltk	{'or': 1, 'so': 1}
+can	{'you': 1, 'run': 1, '‘p’': 1, 'not': 1, 'user': 1, 'choose': 2, 'parameters': 1, 'be': 4, 'end-user': 1, 'and': 2, 'users': 1, 'interpret': 1, 'they': 1, 'here': 1, 'detect': 1}
+run	{'can': 1, 'it': 1}
+it	{'run': 1, 'in': 2, 'yet': 1, 'has': 1, 'marketing': 1, 'product': 1, '3': 1, 'means': 1, '1': 1, 'consists': 2, 'release': 1, 'on': 2, 'requires': 1, 'field': 1, 'must': 1, 'comes': 1, 'use': 1, 'except': 1, 'try': 1, 'choose': 1, 'description': 1, 'outlines': 1, 'making': 1, 'accessible': 1, 'practices’': 1, 'returns': 1, 'relevancy': 1, 'offers': 1, 'integrate': 1, 'about': 1, 'the': 1, 'augmentation': 1, 'contributes': 1}
+environment	{'any': 1, 'without': 1, 'applications': 1, 'mltxquest': 1}
+without	{'environment': 1, 'concern': 1, 'words': 1, 'sorting': 1}
+concern	{'without': 1, 'for': 1}
+versioning	{'library': 1, 'yet': 1}
+has	{'it': 1, 'fewer': 1, 'being': 1, 'a': 1}
+600	{'than': 1, 'lines': 1, '599': 1, 'out': 1}
+lines	{'600': 1, 'of': 1, 'code': 1, '200–220': 1, 'see': 3, '173–176': 1, '236–267': 1, 'in': 5, '200–206': 1, '212–219': 1, '183–198': 1, '492–503': 1, '505-514': 1, '519–527': 1, 'using': 1, '308–311': 1}
+part	{'fine-tuning': 1, 'in': 1, 'one': 2, 'of': 2, 'each': 1, 'using': 1, 'interesting': 1, 'is': 1}
+plan	{'i': 1, 'to': 1}
+leverage	{'to': 1, 'some': 1}
+functions	{'library': 1, 'in': 1, 'backend': 1, '2': 1, 'frontend': 1, '315': 1}
+future	{'the': 1, 'such': 1}
+such	{'future': 1, 'as': 9, 'customization': 1, 'words': 2, 'exclude': 1, 'word': 1, 'sections': 1, 'tricks': 1, 'id': 1}
+auto-correct	{'as': 1, 'singularize': 1, 'release': 1, 'stemming': 1}
+singularize	{'auto-correct': 1, 'stem': 1}
+stem	{'singularize': 1, 'stopwords': 1}
+stopwords	{'stem': 1, 'and': 1, 'ad-hoc': 1, 'lists': 1, 'removing': 1, 'the': 1, '–': 1, 'in': 1, '142': 1, '200': 1, '=': 1}
+however	{'on': 2, 'home-made': 1, 'corpus': 1, 'contextual': 1, 'there': 1, 'long': 1, 'if': 1}
+home-made	{'however': 1, 'solutions': 1, 'the': 1, 'llm': 1}
+solutions	{'home-made': 1, 'offer': 1, 'learning': 1, 'other': 1, 'with': 1, 'mltech-': 1}
+offer	{'solutions': 1, 'more': 1}
+more	{'offer': 1, 'customization': 1, 'tables': 1, 'specifically': 1, 'of': 1, 'than': 1, 'lot': 1, 'would': 1, 'far': 1, 'results': 1, 'eventhub': 1, 'files': 1}
+customization	{'more': 1, 'such': 1}
+ad-hoc	{'as': 1, 'stopwords': 1}
+lists	{'stopwords': 1, 'specific': 1}
+specific	{'lists': 1, 'to': 1, 'a': 2, 'sub-llm': 1, 'the': 1, 'parts': 1, 'n-gram': 1}
+sub-llm	{'each': 1, 'for': 1, 'the': 2, 'deals': 1, 'specific': 1, 'is': 1, 'dedicated': 1, 'single': 1, 'zoom': 1, 'custom': 1, 'designed': 1}
+increased	{'for': 1, 'performance': 1}
+performance	{'increased': 1, 'for': 1, 'practices': 1, 'platform': 1, 'good': 1, 'comes': 1}
+instance	{'for': 6, 'the': 2, '‘security’': 1, 'a': 1, 'to': 1, 'category': 1}
+one-letter	{'the': 1, 'word': 1}
+word	{'one-letter': 1, '‘p’': 1, 'unsorted': 1, 'combinations': 1, 'where': 1, 'order': 1, 'one': 1, 'such': 1, 'a': 1, 'here': 1, 'backendtables': 3, 'hash_crawl': 3, '49': 1, '=': 10, 'lower': 1, 'if': 10, 'in': 12, '’dictionary’': 1, 'weight': 1, '’hash_context1’': 1, 'category': 1, '’hash_context2’': 1, 'tag_list': 1, '’hash_context3’': 1, 'title': 1, '’hash_context4’': 1, 'description': 1, '’hash_context5’': 1, 'meta': 1, '’hash_id’': 1, 'id': 1, '’full_content’': 1, 'full_content': 1, 'local': 1, 'hash': 1, 'with': 1, 'position': 3, 'for': 6, 'not': 3, '#': 3, 'is': 2, 'append': 1, '144': 1, 'correlation': 2, '151': 1, '+': 1, '152': 1, 'split': 3, 'sorted_ngram': 1, '307': 1, 'custom_pmi': 2, 'token': 8, '>': 2, '328': 1, 'dictionary': 3, '331': 1, '415': 1, 'len': 2, '425': 1, 'and': 1, '35': 1, 'ljust': 1, 'table': 1, '468': 1, 'item': 1, 'count': 1, 'of': 1, 'q_dictionary': 1, '571': 1, 'embeddings': 1, '573': 1, 'q_embeddings': 1}
+‘p’	{'word': 1, 'can': 1}
+eliminated	{'be': 1, 'if': 1}
+if	{'eliminated': 1, 'the': 2, 'library': 1, 'you': 3, 'however': 1, 'displayed': 1, 'using': 1, 'decide': 1, 'even': 1, '5': 1, 'key': 4, '15': 1, '19': 1, 'type': 1, '22': 1, 'item': 2, '31': 1, '51': 1, 'word': 10, '53': 1, '55': 1, '57': 1, '80': 1, 'val': 1, '93': 1, 'entity': 1, '97': 1, 'flag': 1, '141': 1, '149': 1, 'position': 1, '173': 1, 'worda': 1, '175': 1, 'distanceab': 1, '224': 1, 'local': 1, '242': 1, 'len': 7, '253': 1, 'in': 1, '256': 1, '#': 2, 'na': 1, 'dictionary': 1, '326': 1, '328': 1, 'keyab': 3, '344': 1, 'option': 2, '354': 1, 'param': 1, '360': 1, '362': 1, 'paramid': 1, '372': 1, '380': 1, '384': 1, '399': 1, 'frontendparams': 2, '423': 1, '425': 1, '427': 1, '429': 1, 'ntk1': 1, '*': 1, 'contextual': 1, 'print': 1, 'no': 1, '465': 1, '472': 1, '535': 1, '540': 1, 'input_': 1, '541': 1, 'int': 1, '560': 1, 'binary': 1, '561': 1, 'sorted_word': 2, '566': 1, '569': 1, '571': 1, '574': 1, '581': 1, '586': 1, '593': 1, 'save': 1}
+deals	{'sub-llm': 1, 'with': 1}
+statistical	{'with': 1, 'concepts': 1}
+concepts	{'statistical': 1, 'the': 1}
+only	{'the': 1, 'exception': 1, 'focuses': 1, 'on': 1}
+exception	{'only': 1, 'to': 1}
+“no	{'the': 1, 'library”': 1}
+library”	{'“no': 1, 'rule': 1}
+rule	{'library”': 1, 'is': 1}
+requests	{'the': 1, 'library': 1, 'import': 1, '232': 1, '=': 1, 'get': 1}
+choose	{'you': 1, 'to': 1, 'can': 2, 'a': 1, 'pre-selected': 1, 'it': 1, 'the': 1}
+download	{'to': 1, 'the': 2, 'resolution': 1}
+test	{'the': 1, 'enterprise': 1, 'second': 1, 'prompt': 1}
+its	{'from': 1, 'github': 1, 'results': 1, 'title': 1}
+github	{'its': 1, 'location': 1, 'on': 4, 'here': 2, '2': 1, 'devops': 1, 'naming': 1, '–': 1, 'from': 1, 'url': 1}
+location	{'github': 1, '\x88': 1}
+focuses	{'article': 1, 'only': 1, 'approach': 1, 'on': 1}
+internal	{'the': 1, 'documentation': 1, 'on': 1, 'ai': 1}
+documentation	{'internal': 1, 'about': 1, 'with': 1, 'on': 1, 'policy': 1, 'data': 1}
+about	{'documentation': 1, 'how': 1, 'of': 2, '500': 2, 'think': 1, 'it': 1}
+how	{'about': 1, 'to': 1}
+implement	{'to': 1, 'or': 1}
+integrate	{'or': 1, 'ai': 1, 'and': 1, 'it': 1}
+ai	{'integrate': 1, 'and': 1, 'internal': 1, 'systems': 1, 'timbr': 1, 'metrics': 1, 'alpha': 1, 'platform': 1, 'the': 1, 'section': 1}
+machine	{'and': 1, 'learning': 2, 'genai': 1}
+learning	{'machine': 2, 'solutions': 1, 'code': 1, 'support': 1, 'governance': 1}
+other	{'solutions': 1, 'parts': 2, 'and': 2, 'text': 2, 'the': 2, 'to': 2, 'multitokens': 1, 'titles': 1, 'pieces': 1}
+parts	{'other': 2, 'include': 1, 'specific': 1, 'possibly': 1, '–': 1}
+include	{'parts': 1, 'marketing': 1, 'not': 1, 'embeddings': 1, 'multitokens': 1, '‘robust': 1}
+marketing	{'include': 1, 'it': 1, '–': 1, 'products': 1}
+product	{'it': 1, 'sales': 1, 'viable': 1, 'featuring': 1, 'tenses': 1, 'ids': 1}
+sales	{'product': 1, 'legal': 2, 'finance': 1}
+legal	{'sales': 2, 'and': 1, 'hr': 1}
+hr	{'and': 2, 'a': 1, 'legal': 1}
+same	{'the': 2, 'architecture': 1, 'sub-entity': 3, 'a': 3, 'text': 1, 'show': 1, 'token': 1}
+full	{'the': 3, 'llm': 1, 'corpus': 2, 'for': 1, 'results': 1, '#': 1, 'content': 1}
+llm	{'full': 1, 'consists': 1, 'an': 1, 'router': 1, 'home-made': 1, 'discussed': 1}
+consists	{'llm': 1, 'of': 6, 'it': 2, 'source': 1, 'table': 1, 'corpus': 1}
+these	{'of': 1, 'sub-llms': 1, '210': 1, 'limitations': 1, 'metadata’': 1, 'multitokens': 1}
+sub-llms	{'these': 1, 'glued': 1, 'multiple': 2, 'for': 1, '1': 1, 'overlapping': 1, 'not': 1}
+glued	{'sub-llms': 1, 'together': 1}
+together	{'glued': 1, 'with': 1}
+router	{'llm': 1, 'to': 1}
+redirect	{'to': 1, 'user': 1}
+possibly	{'parts': 1, 'spanning': 1}
+spanning	{'possibly': 1, 'across': 1}
+across	{'spanning': 1, 'multiple': 1}
+‘security’	{'instance': 1, 'is': 1}
+found	{'is': 4, 'in': 11, 'n-grams': 1, '15': 1, '3': 1, 'not': 1, 'combinations': 1, 'n-gram': 1, 'multitokens': 2, 'simultaneously': 1, 'are': 1, '‘data’': 1, 'be': 1, 'here': 1, 'the': 1, 'words': 1}
+prompt	{'the': 9, 'is': 3, 'shortened': 3, 'with': 1, 'are': 1, 'this': 1, 'i': 1, 'in': 2, 'result': 1, 'a': 1, 'command': 1, '3': 1, 'to': 2, 'test': 1, 'from': 2, 'as': 1, 'engineering': 1, 'add': 1, 'elements': 1, '’': 1, 'matched': 1, 'process': 1, '487': 1}
+first	{'is': 1, 'stripped': 1}
+stripped	{'first': 1, 'of': 1, 'the': 1, 'words': 1, 'also': 1, 'from': 1}
+common	{'of': 1, 'words': 1}
+words	{'common': 1, 'such': 2, 'stripped': 1, 'are': 1, 'n': 2, 'gives': 1, 'without': 1, 'many': 1, 'as': 1, 'two': 2, 'embeddings': 1, 'non-adjacent': 1, 'in': 2, 'then': 1, 'the': 2, 'to': 1, '‘data’': 1, 'multiple': 1, '000': 1, 'even': 1, '135': 1, '=': 1, '140': 1, 'different': 1, '407': 1, 'on': 1, 'found': 1}
+‘how	{'as': 1, 'to’': 2, 'for': 1}
+to’	{'‘how': 2, '‘example’': 1, '’what': 1}
+‘example’	{'to’': 1, 'or': 1}
+‘what	{'or': 1, 'is’': 1}
+is’	{'‘what': 1, 'the': 1, '’what': 1, '‘examples’': 1}
+result	{'the': 1, 'is': 1, 'prompt': 1, 'see': 1, 'no': 1, 'try': 1}
+shortened	{'a': 2, 'prompt': 3, 'the': 1}
+treated	{'are': 1, 'separately': 1, 'be': 1, 'as': 1}
+separately	{'treated': 1, 'to': 1}
+determine	{'to': 1, 'the': 1}
+intent	{'user': 3, 'called': 1, 'whether': 1, 'to': 1}
+action	{'called': 1, 'they': 1, 'an': 2, 'label': 1, 'of': 2, 'is': 1, 'determines': 1, 'add': 1, 'labels': 1, 'the': 1}
+crawled	{'corpus': 4, 'data': 2, 'the': 2, 'input': 1, 'on': 1}
+data	{'crawled': 2, 'but': 1, 'and': 1, 'as': 1, 'dictionary': 2, 'source': 1, 'entered': 1, 'ensuring': 1, '‘robust': 1, 'governance’': 1, 'databricks': 1, 'quality': 1, 'documentation': 1, 'governance': 1, 'of': 1, 'augmentation': 1, '227': 1, '=': 3, '234': 1, 'split': 1, 'importing': 1, 'database': 2, 'warehouse’': 1, 'extract': 1, 'eventhub': 1, '’mltxquest': 1, 'assets': 1}
+again	{'but': 1, 'used': 1, 'multitokens': 1, 'values': 1, 'showed': 1, '438': 1}
+used	{'again': 1, 'to': 6, 'are': 1, 'ctokens': 1, 'be': 2, '#': 1}
+assign	{'to': 1, 'an': 1}
+label	{'action': 1, 'to': 1, 'section': 1, 'in': 2, 'for': 1, 'sectionlabels': 1, '460': 1, '%': 2, '463': 1, 'item': 1}
+text	{'each': 2, 'entity': 6, 'other': 2, 'processing': 1, 'the': 1, 'entities': 4, '500': 2, 'elements': 1, 'a': 2, 'file': 1, 'regular': 1, 'see': 1, 'all': 1, 'sample': 2, 'one': 2, '3': 1, 'same': 1, 'sub-entity': 1, '119': 1, '=': 13, '120': 1, 'replace': 4, '121': 1, '122': 1, '123': 1, 'lower': 1, '126': 1, '127': 1, 'split': 1, 'in': 1, '134': 1, 'response': 1, '235': 1}
+entity	{'text': 6, 'in': 1, 'this': 1, 'named': 1, 'for': 1, 'each': 1, 'the': 2, 'table': 1, 'from': 1, 'value': 1, 'id': 1, 'is': 1, 'dominating': 1, 'get_key_value_pairs': 2, '86': 1, '88': 1, '=': 7, '1': 2, 'len': 2, '93': 1, 'if': 1, 'idx': 4, 'elif': 1, 'and': 1, '+=': 1, '102': 1, 'split': 1, '240': 1, '>': 1, 'int': 1, '0': 1, '245': 1, '251': 1}
+then	{'corpus': 1, 'the': 1, 'are': 1, 'matched': 1, 'code': 1, 'words': 1}
+sorted	{'is': 1, 'in': 1, 'into': 1, 'n-grams': 6, '−1': 1, 'processing': 1, 'the': 2, 'table': 1, 'ngrams': 2, 'a': 1, 'n-gram': 1, 'and': 1, 'create': 1, 'dict': 1, 'q_embeddings': 1}
+alphabetical	{'in': 1, 'order': 1}
+order	{'alphabetical': 1, 'and': 1, 'word': 1, 'is': 1, 'relevancy': 1, 'with': 1, 'by': 1, 'of': 1}
+broken	{'and': 1, 'down': 2, 'not': 1}
+down	{'broken': 2, 'into': 2}
+into	{'down': 2, 'sorted': 1, 'sub-prompts': 1, 'elements': 1, 'your': 1}
+n-grams	{'sorted': 6, 'a': 1, 'containing': 1, 'detected': 1, 'found': 1, 'course': 1, 'not': 1, 'table': 1, 'unsorted': 1, 'in': 1, 'to': 1, 'that': 1, '297': 1}
+n	{'with': 1, 'words': 2, 'to': 1, '+': 1, 'too': 1, 'print': 1, '=': 1, 'x': 1, 'format': 1, 'zfill': 1, '491': 1}
+gives	{'words': 1, 'rise': 1}
+rise	{'gives': 1, 'to': 1}
+2n	{'to': 1, '−1': 1}
+−1	{'2n': 1, 'sorted': 1}
+containing	{'n-grams': 1, 'from': 1, 'tokens': 1, 'non-adjacent': 1, 'multitokens': 1, '‘data’': 1}
+sorting	{'without': 1, 'that': 1}
+that	{'sorting': 1, 'number': 1, 'in': 2, 'table': 2, 'means': 1, '‘data': 1, 'n-grams': 1, 'is': 2, 'database': 1, 'populates': 1, 'sub-entity': 1, 'note': 1, 'here': 1}
+number	{'that': 1, 'would': 1, 'the': 2, 'of': 9, 'a': 1, 'total': 1, 'small': 1, 'large': 1, 'wrong': 3}
+would	{'number': 1, 'be': 2, 'more': 1}
++	{'1': 1, '2': 2, '·': 2, 'n': 1, 'category': 1, '+': 8, 'str': 1, 'tag_list': 1, 'title': 2, 'description': 2, 'meta': 1, 'position-k': 1, '˜': 4, 'word': 1, 'na': 2, 'nb': 2, 'token': 1, 'query': 1, '’backend_’': 1, 'tablename': 2, '’': 1}
+2	{'+': 2, '1': 3, 'what': 1, 'article': 1, 'parameters': 1, 'github': 1, 'uncompressed': 1, 'separators': 1, '2': 4, 'frontend': 1, 'figure': 1, 'from': 1, 'and': 1, 'show': 1, 'table': 2, 'note': 1, 'top': 1, 'functions': 1, '3': 2, '#---': 1, 'backend': 1, 'between': 1, 'multitokens': 1, '0': 1, '218': 1, '#': 2, 'create': 1, 'update': 1, 'option': 1, '365': 1, '==': 2, '373': 1, '381': 1, 'to': 1, 'different': 1, '’embeddingkeyminsize’': 1, '495': 1, '’embeddingvaluesminsize’': 1, '496': 1, '’contextmultitokenminsize’': 1, '500': 1, 'link': 1, '15': 1}
+·	{'+': 2, '·': 4, '√na': 1, 'nb': 1}
+too	{'n': 1, 'large': 1}
+large	{'too': 1, 'for': 1, 'a': 1, 'number': 1}
+processing	{'fast': 1, 'sorted': 1, 'text': 1, 'techniques': 1}
+detected	{'n-grams': 1, 'in': 1, 'manually': 1, 'by': 1}
+matched	{'then': 1, 'against': 1, 'prompt': 1, 'back': 1}
+against	{'matched': 1, 'the': 1}
+ngrams	{'sorted': 2, 'based': 1, 'in': 2, '567': 1, '=': 1, '569': 1}
+based	{'ngrams': 1, 'on': 7, 'results': 2, 'out': 1, 'corpus': 1, 'tables': 1, 'embeddings': 1}
+entry	{'each': 1, 'in': 1, 'the': 1, '1': 1, 'single': 1, 'is': 1}
+key	{'the': 3, '‘data': 1, 'is': 2, 'and': 1, 'roles': 1, 'zones': 1, 'feature': 1, 'hash': 8, 'count=1': 1, 'if': 4, 'in': 8, '+=': 1, '=': 11, 'value': 3, '17': 1, 'get_value': 1, '33': 1, '144': 1, 'hwords': 2, '#': 2, '152': 1, '169': 1, 'hash_pairs': 2, '175': 1, 'ctokens': 1, '177': 1, '254': 1, '255': 1, 'replace': 1, '==': 5, 'elif': 4, 'for': 5, '0': 2, '1': 2, '289': 1, 'print': 2, 'na': 1, 'dictionary': 3, '>': 1, '312': 1, 'arr': 1, '350': 1, '%': 2, 'param': 1, '101': 1, 'outside': 1, 'q_embeddings': 1, '418': 1, 'hash2': 2, '476': 1, '-p': 1}
+‘data	{'key': 1, 'mining’': 3, 'be': 1, 'that': 1, 'as': 1, 'asset’': 1, 'is': 2, 'governance': 3, 'and': 3, 'quality’': 1, 'quality': 1, 'are': 1, 'literacy': 1, 'policy’': 2, 'steward': 1, 'informed': 1}
+mining’	{'‘data': 3, 'a': 1, '15': 1, 'is': 1}
+n-gram	{'sorted': 1, 'might': 1, 'specific': 1, 'found': 1, 'the': 1, 'in': 1}
+might	{'n-gram': 1, 'be': 1}
+15	{'mining’': 1, '‘mining': 1, 'found': 1, 'times': 1, 'value': 1, 'if': 1, '2': 1}
+‘mining	{'15': 1, 'data’': 2, 'while': 1}
+data’	{'‘mining': 2, '3': 1, 'is': 1}
+3	{'data’': 1, 'it': 1, 'found': 1, 'times': 1, '8': 1, 'in': 1, 'to': 1, 'terms': 2, 'is': 1, 'prompt': 1, 'case': 1, 'text': 1, '2': 2, 'def': 1, '’maxdist’': 1, '#': 5, '’maxterms’': 1, '0': 1, '216': 1, '#---': 1, 'frontend': 1, '1': 1, '==': 1, '361': 1, '3': 2, 'retrieve': 1}
+means	{'it': 1, 'that': 1}
+times	{'15': 1, 'in': 1, '3': 1, 'of': 1}
+while	{'corpus': 1, '‘mining': 1, 'entities': 1, 'a': 1, '758': 1, 'the': 1, 'parameters': 1, 'testing': 1, '516': 1, 'len': 1}
+course	{'of': 1, 'n-grams': 1}
+either	{'table': 1, 'the': 1}
+helps	{'table': 1, 'retrieve': 1}
+retrieve	{'helps': 1, 'unsorted': 1, 'to': 3, 'the': 2, 'images': 1, '3': 1, 'info': 1}
+unsorted	{'retrieve': 1, 'word': 1, 'to': 1, 'n-grams': 1}
+combinations	{'word': 1, 'found': 1}
+match	{'and': 1, 'them': 1, 'results': 1, 'the': 1, 'to': 1, 'ngram': 1}
+back	{'them': 1, 'to': 2, 'matched': 1}
+contrast	{'in': 1, 'to': 1}
+systems	{'to': 1, 'where': 1, 'ai': 1, 'and': 1, 'platform': 1, '4': 1, 'multi-billion': 1, 'most': 1}
+ignored	{'is': 1, 'leading': 1}
+leading	{'ignored': 1, 'to': 1}
+problems	{'to': 1, 'from': 1}
+queried	{'is': 1, 'to': 1}
+attached	{'value': 1, 'to': 2, 'values': 1}
+question	{'in': 3, 'is': 1, 'on': 1, 'consist': 1}
+list	{'a': 1, 'of': 2, 'the': 2, 'in': 1, 'ignore': 2, 'does': 1, '\\n': 1, '’ignore’': 4, '404': 1, '526': 1, '527': 1, '528': 1}
+url	{'an': 1, 'and': 1, 'tags': 1, 'id': 2, 'or': 1, 'github': 1, '231': 1, '232': 1, '=': 1, 'get': 1, '234': 1}
+occurrences	{'of': 5, 'pairs': 1, 'multitoken': 1, 'appearances': 1, '=': 1, 'are': 1}
+landing	{'the': 1, 'page': 1}
+page	{'landing': 1, 'in': 1}
+section	{'each': 1, 'titles': 1, 'in': 3, '5': 2, '8': 1, 'ai': 1, '–': 1, 'map': 1, 'label': 1, '-': 1, '%s\\n': 1}
+titles	{'section': 1, 'urls': 1, 'categories': 1, 'and': 1, 'other': 1, 'listed': 1, '#': 1, '189': 1}
+descriptions	{'urls': 1, 'and': 1, '#': 1, '190': 1}
+results	{'on': 1, 'shown': 1, 'the': 4, 'displayed': 1, 'eliminate': 1, 'based': 2, 'full': 1, 'this': 1, 'match': 1, 'more': 1, 'although': 1, 'its': 1, 'are': 1, 'query': 1, 'via': 1, 'and': 1, 'relevancy': 1, 'print': 2, '392': 1, '>>>': 1, '-': 1}
+displayed	{'are': 1, 'in': 1, 'results': 1, 'including': 1, 'be': 1, 'if': 1, 'as': 1, 'won’t': 1}
+higher	{'a': 2, 'weight': 2, 'for': 1, 'reso-': 1}
+weight	{'higher': 2, 'assigned': 1, 'to': 1, '50': 1, '=': 1, '52': 1, '+=': 4, '54': 1, '56': 1, '58': 1, 'word': 1, '61': 1, 'deafault': 1, 'is': 1}
+assigned	{'weight': 1, 'to': 1}
+consisting	{'multitokens': 2, 'of': 4, 'pairs': 1, 'mutlitokens': 1}
+opposed	{'as': 1, 'to': 1}
+derived	{'are': 1, 'from': 1}
+hash	{'called': 2, 'pairs': 3, 'crawl': 1, 'the': 1, 'and': 1, 'update_hash': 1, 'key': 8, 'in': 3, '6': 2, '8': 1, 'return': 2, '10': 1, 'update_nestedhash': 1, '16': 1, '=': 2, '26': 1, '28': 1, '31': 1, '32': 1, 'word': 1, 'with': 1, 'a': 1, '467': 1}
+pairs	{'hash': 3, 'consisting': 1, 'of': 5, 'adjacent': 2, 'with': 1, 'contextual': 2, 'occurrences': 1, 'are': 1, 'table': 1, 'multitokens': 1, 'each': 1, 'and': 1, 'multitoken': 1, 'is': 1, 'the': 1, 'key-value': 1, 'from': 1, 'in': 1}
+sub-entity	{'same': 3, 'in': 1, 'are': 1, 'that': 1, 'text': 1, 'whether': 1}
+finally	{'corpus': 1, 'multitokens': 1, 'tokens': 1, 'prompts': 1, '200–206': 1, 'when': 1, 'the': 1, 'hallucinations': 1, 'gather': 1}
+adjacent	{'be': 1, 'pairs': 2, 'whether': 1, 'or': 1, 'not': 1}
+non-adjacent	{'with': 1, 'multitokens': 2, 'containing': 1, 'words': 1, 'of': 1}
+both	{'of': 1, 'multitokens': 1, 'when': 1, 'are': 1, 'techniques': 1, 'applied': 1, 'tokens': 1, 'in': 1}
+joint	{'as': 1, 'occurrence': 2, 'the': 2, 'presence': 1}
+occurrence	{'joint': 2, 'when': 1, 'of': 1}
+when	{'occurrence': 1, 'both': 1, 'on': 1, 'available': 1, 'ignore': 1, 'building': 1, 'finally': 1, 'counting': 1, 'asset’': 1, 'entering': 1, 'fine-tune': 1, 'you': 1}
+simultaneously	{'are': 1, 'found': 1}
+compute	{'to': 1, 'pmi': 1}
+core	{'the': 1, 'relevancy': 1}
+metric	{'relevancy': 1, 'embeddings': 1}
+indexed	{'also': 1, 'by': 1}
+values	{'again': 1, 'are': 2, 'nested': 1, 'pmi': 1, 'attached': 1, 'all': 1, 'set': 1}
+scores	{'pmi': 1, '1': 1, 'relevancy': 1, 'the': 1}
+what	{'2': 1, 'is': 1}
+covered	{'not': 2, 'here': 2}
+was	{'goal': 1, 'to': 1, 'table': 1, 'produced': 1}
+create	{'to': 2, 'a': 2, 'resources': 1, 'request': 1, 'main': 1, 'backend': 1, '1': 1, 'embeddings': 1, '2': 1, 'sorted': 1}
+mvp	{'a': 1, 'minimum': 1}
+minimum	{'mvp': 1, 'viable': 1}
+viable	{'minimum': 1, 'product': 1}
+featuring	{'product': 1, 'the': 1}
+capability	{'fine-tuning': 1, 'in': 1}
+compact	{'with': 1, 'and': 1}
+generic	{'and': 1, 'code': 1}
+help	{'to': 1, 'you': 1, 'precious': 1, 'they': 1}
+easily	{'you': 1, 'add': 1, 'to': 1, 'update': 1}
+add	{'easily': 1, 'backend': 1, 'also': 1, 'the': 1, 'to': 1, 'action': 1, 'and': 1, 'prompt': 1, '#': 1, 'stemming': 1, 'multitoken': 2}
+your	{'of': 2, 'choice': 1, 'in': 1, 'corpus': 1, 'before': 1, 'start': 1, 'designing': 1, 'architecture': 1, 'into': 1, 'backend': 1, 'system': 1}
+choice	{'your': 1, 'for': 1, 'the': 1, 'of': 1}
+images	{'retrieve': 1, 'pdfs': 1}
+spreadsheets	{'pdfs': 1, 'and': 1}
+available	{'when': 1, 'in': 3, 'but': 1, 'solutions”': 1, 'here': 1, 'be': 1, 'is': 1, 'as': 1, 'tools': 1, 'on': 1}
+implemented	{'yet': 2, 'in': 2, 'is': 1, 'not': 1}
+previous	{'the': 2, 'version': 2}
+discussed	{'version': 1, 'here': 3, 'and': 1, 'in': 2, 'be': 1, 'study': 1, 'llm': 1}
+book	{'my': 2, '“state': 1, '1': 1}
+“state	{'book': 1, 'of': 1}
+art	{'the': 2, 'in': 2}
+genai	{'in': 2, '&': 2, 'model': 1, 'machine': 1, 'platform': 2}
+&	{'genai': 2, 'llms': 2}
+creative	{'–': 2, 'projects': 2}
+projects	{'creative': 2, 'with': 2}
+solutions”	{'with': 1, 'available': 1}
+following	{'the': 1, 'will': 1}
+will	{'following': 1, 'be': 2, 'i': 1, 'also': 1, 'topic': 1}
+next	{'the': 2, 'release': 2, 'my': 1, 'article': 1}
+release	{'next': 2, 'auto-correct': 1, 'corpus': 1, 'current': 1, 'it': 1}
+stemming	{'auto-correct': 1, 'singularization': 1, 'add': 1, '50': 1}
+singularization	{'stemming': 1, 'and': 1}
+techniques	{'processing': 1, 'both': 1}
+applied	{'both': 1, 'to': 2, 'algorithm': 1}
+ability	{'the': 2, 'to': 2}
+pre-	{'use': 1, 'computed': 1}
+building	{'than': 1, 'them': 1, 'when': 1, 'the': 1, 'on': 1, 'a': 1}
+crawl	{'the': 1, 'each': 1, 'hash': 1, 'where': 1, 'from': 1, 'to': 1}
+produced	{'tables': 1, 'with': 1, 'was': 1, 'using': 1}
+default	{'the': 2, 'backend': 1, 'frontend': 1}
+see	{'parameters': 1, 'code': 1, 'embeddings': 1, 'lines': 3, 'content': 1, 'terms': 2, 'parameter': 2, 'result': 1, 'the': 1, 'text': 1}
+200–220	{'lines': 1, 'in': 1}
+5	{'section': 2, 'are': 1, 'the': 1, 'system': 1, 'python': 1, '4': 1, 'if': 1, '**0': 2, '#': 1, '333': 1, '#---': 1, 'save': 1}
+included	{'be': 1, 'in': 2, 'are': 1}
+augmentation	{'corpus': 1, 'with': 1, 'data': 1, 'it': 1}
+synonyms	{'with': 1, 'and': 1}
+abbreviations	{'and': 1, 'dictionaries': 1}
+dictionaries	{'abbreviations': 1, 'as': 1}
+latter	{'the': 1, 'is': 1}
+8	{'section': 1, '3': 1, 'else': 1, 'hash': 1, 'content': 1}
+current	{'the': 1, 'release': 1}
+ctokens	{'called': 1, 'used': 1, '130': 1, '=': 3, '176': 1, 'update_hash': 1, 'key': 1, '397': 1, 'in': 1, '428': 1}
+produce	{'to': 1, 'the': 1}
+173–176	{'lines': 1, 'in': 1}
+‘san	{'as': 1, 'francisco’': 1}
+francisco’	{'‘san': 1, 'must': 1}
+must	{'francisco’': 1, 'be': 4, 'it': 1, 'maxterms': 1, 'value': 1}
+single	{'as': 1, 'tokens': 1, 'a': 2, 'entry': 1, 'sub-llm': 1, 'or': 1, 'value': 1, 'is': 1, 'token': 1, 'storage': 3, 'parquet': 1, 'parquet’': 1, 'table’': 1}
+sub-prompts	{'into': 1, 'and': 1}
+concept	{'the': 1, 'of': 1}
+determines	{'action': 1, 'the': 1}
+whether	{'intent': 1, 'he/she': 1, 'sub-entity': 1, 'adjacent': 1}
+he/she	{'whether': 1, 'is': 1}
+searching	{'is': 1, 'for': 1}
+’what	{'to’': 1, 'is’': 1}
+‘examples’	{'is’': 1, '‘data’': 1}
+‘data’	{'‘examples’': 1, '‘comparisons’': 1, 'as': 2, 'found': 1, 'adding': 1, 'to': 1, 'containing': 1, 'words': 1, 'and': 1}
+‘comparisons’	{'‘data’': 1, 'and': 1}
+requires	{'it': 1, 'the': 1}
+extra	{'an': 2, 'backend': 1, 'boost': 1}
+corresponding	{'table': 1, 'to': 3, 'the': 1, 'content': 1, 'portion': 1, 'backend': 1}
+‘action’	{'the': 1, 'field': 2, 'no': 1}
+field	{'‘action’': 2, 'in': 1, 'it': 1, 'a': 1, 'name': 1, 'corpus': 1, 'value': 1}
+entities	{'text': 4, 'along': 1, 'json': 1, 'each': 1, 'of': 1, 'covering': 1, 'named': 1, 'while': 1, 'adding': 1, 'and': 1, 'are': 1, '236': 1, '=': 1, 'in': 1, '239': 1}
+along	{'entities': 1, 'with': 2, 'here': 1}
+‘category’	{'with': 1, '‘description’': 1}
+‘description’	{'‘category’': 1, '‘title’': 1}
+‘title’	{'‘description’': 1, 'and': 1}
+constructed	{'be': 1, 'with': 1}
+clustering	{'a': 1, 'algorithm': 1}
+pre-processing	{'a': 1, 'step': 1}
+step	{'pre-processing': 1, 'to': 1}
+labels	{'action': 1, 'to': 1}
+topic	{'this': 1, 'will': 1}
+case	{'the': 1, 'study': 2, '3': 1, 'mltxhub': 1, 'zones': 1}
+study	{'case': 2, 'discussed': 1, 'i': 1}
+source	{'input': 3, 'consists': 1, 'is': 1, 'data': 1, 'sensitivity': 1, 'a': 2, 'of': 2, 'and': 1}
+500	{'about': 2, 'text': 2, '2': 1, '’minoutputlistsize’': 1}
+fields	{'of': 1, 'title': 1, 'various': 1, 'are': 1}
+title	{'fields': 1, 'description': 1, '1681751874529x883105704081238400': 1, 'business': 1, 'its': 1, 'is': 1, '42': 1, '=': 2, 'in': 1, '56': 1, 'word': 1, '64': 1, '115': 1, '+': 2}
+description	{'title': 1, 'category': 1, 'template': 1, 'it': 1, '43': 1, '=': 2, 'word': 1, '65': 1, '116': 1, '+': 2}
+category	{'description': 1, 'tags': 1, 'instance': 1, 'and': 1, 'relevant': 1, 'is': 1, '40': 1, '=': 3, 'in': 1, '52': 1, 'word': 1, '6': 1, '113': 1, '+': 1}
+tags	{'category': 1, 'url': 1, 'and': 1, 'get': 1, 'organization': 1, 'metadata': 1, 'relevant': 1, 'are': 1, '#': 1, '188': 1}
+id	{'url': 2, 'and': 1, 'entity': 1, '1682014217673x617007804545499100': 1, '45': 1, '=': 1, 'word': 1, '67': 1, '#': 1, 'such': 1, 'document': 1, 'or': 1, '193': 1}
+comes	{'it': 1, 'from': 2, 'performance': 1}
+bubble	{'a': 1, 'database': 1}
+database	{'bubble': 1, 'that': 1, 'data': 2}
+populates	{'that': 1, 'the': 1}
+website	{'the': 1, 'where': 1}
+accessible	{'is': 1, 'to': 1, 'it': 1, 'through': 1}
+end-users	{'to': 1, 'in': 1}
+covering	{'entities': 1, 'the': 1, 'accurately': 1, 'var-': 1}
+entire	{'the': 1, 'corpus': 1}
+named	{'is': 2, 'entities': 1, 'entity': 1, 'file': 1, 'repository': 1}
+various	{'the': 1, 'fields': 1, 'testing': 1, 'prompts': 1}
+local	{'a': 1, 'key-value': 1, '#': 1, 'word': 1, '223': 1, '=': 1, 'if': 1, '225': 1, 'from': 1, 'file': 1}
+name	{'field': 1, 'for': 2, 'in': 1, 'backendtables': 1, '=': 1, 'table': 1, '446': 1}
+content	{'corresponding': 1, 'see': 1, 'this': 1, 'the': 1, 'full': 1, '8': 1, '466': 1, '=': 1, '#': 1, 'is': 1, 'in': 1, '469': 1}
+236–267	{'lines': 1, 'in': 1}
+anonymized	{'the': 2, 'input': 1, 'corpus': 1, 'fully': 1, '1': 1}
+file	{'text': 1, 'named': 1, 'local': 1, '226': 1, 'parquet': 1, 'adls': 1}
+repository	{'named': 1, 'txt': 2, 'get': 2, 'from': 2, 'open': 1}
+txt	{'repository': 2, 'here': 1, 'r': 1}
+contain	{'multitokens': 1, 'up': 1}
+up	{'contain': 1, 'to': 2, 'with': 2, 'ground': 1, 'tokens': 1, 'end': 1}
+4	{'to': 1, 'terms': 1, 'frontend': 2, 'systems': 1, 'conclusions': 1, 'count=1': 1, '5': 1, '’max_multitoken’': 1, '#': 1, '0': 1, '217': 1, 'ljust': 1, '’f’': 1, '#---': 1}
+max	{'parameter': 1, 'multitokens': 1, '=': 1, 'n_termsa': 1, '#': 2, 'consecutive': 1, 'position': 1}
+line	{'in': 3, '209': 1, '211': 1, '210': 1}
+209	{'line': 1, 'in': 1, '=': 1, '’max_multitoken’': 1}
+maxterms	{'parameter': 1, 'in': 1, '111': 1, '=': 1, '<=': 1, '174': 1, '#': 1, 'must': 1}
+211	{'line': 1, 'the': 1, 'hash_pairs': 1, '’maxterms’': 1}
+maximum	{'the': 1, 'gap': 1}
+gap	{'maximum': 1, 'allowed': 1}
+between	{'allowed': 1, 'two': 1, 'delta': 1, '2': 1}
+maxdist	{'parameter': 1, 'in': 1, '110': 1, '=': 1, '<=': 1, 'and': 1}
+210	{'line': 1, 'these': 1, 'dictionary': 1, '’maxdist’': 1}
+limitations	{'these': 1, 'are': 1}
+set	{'are': 1, 'to': 2, 'parameter': 4, 'with': 1, 'values': 1, 'the': 1, 'value': 1, 'frontendparams': 1, '524': 1, '525': 1}
+prevent	{'to': 1, 'the': 1}
+exploding	{'from': 1, 'in': 1}
+end	{'the': 1, 'there': 1, 'you': 1, 'up': 1}
+12	{'are': 1, '581': 1, '11': 1, 'def': 1, '’hash_context3’': 1}
+581	{'12': 1, 'multitokens': 1, '580': 1, 'if': 1}
+dictionary	{'the': 1, 'table': 1, 'specifically': 1, 'and': 1, 'data': 2, 'in': 4, '210': 1, '281': 1, '=': 8, 'worda': 1, 'wordb': 1, '301': 1, '310': 1, 'if': 1, 'key': 3, '320': 1, 'word': 3, 'token': 1, '395': 1, 'int': 1, '570': 1}
+after	{'table': 1, 'removing': 1, 'roles': 1, 'filling': 1}
+removing	{'after': 1, 'stopwords': 1}
+total	{'the': 1, 'number': 1}
+multitoken	{'of': 1, 'pairs': 1, 'counting': 1, 'occurrences': 1, '#': 2, 'associations': 1, 'embeddings': 1, 'print': 1, 'ignore': 1, '-a': 1, 'add': 2, 'to': 1, '-r': 1, 'remove': 2, 'from': 1}
+222	{'is': 1, '758': 1, '221': 1, '223': 1}
+758	{'222': 1, 'while': 1}
+size	{'the': 1, 'of': 2, 'small': 1}
+427kb	{'is': 1, 'uncompressed': 1}
+uncompressed	{'427kb': 1, '2': 1}
+ignore	{'to': 1, 'when': 1, 'the': 1, 'list': 2, 'multitoken': 1, '373': 1, '=': 7, '374': 1, '376': 1, '382': 1, 'in': 3, '384': 1, '#': 1, 'multitokens': 1, '401': 1, '404': 1, '434': 1, 'and': 1, '492': 1, '’ignorelist’': 1, '503': 1}
+manually	{'are': 1, 'detected': 1}
+looking	{'by': 1, 'at': 1, 'is': 1, 'for': 1}
+at	{'looking': 1, 'the': 1, 'millions': 1, 'most': 1}
+frequent	{'most': 1, 'tokens': 1}
+200–206	{'lines': 1, 'finally': 1}
+counting	{'when': 1, 'multitoken': 1}
+appearances	{'occurrences': 1, 'in': 1}
+categories	{'in': 1, 'titles': 1, 'business': 1, 'governance': 1, '#': 1, '187': 1}
+get	{'tags': 1, 'an': 1, '#': 2, 'repository': 2, 'requests': 1, 'url': 1}
+boost	{'extra': 1, 'compared': 1}
+compared	{'boost': 1, 'to': 1}
+regular	{'to': 1, 'text': 1}
+212–219	{'lines': 1, 'i': 1}
+did	{'i': 2, 'not': 2}
+backendtables	{'the': 1, 'structure': 1, 'update_tables': 3, 'word': 3, 'update_hash': 1, '’dictionary’': 5, 'update_nestedhash': 7, '’hash_context1’': 1, '’hash_context2’': 1, '’hash_context3’': 1, '’hash_context4’': 1, '’hash_context5’': 1, '’hash_id’': 1, '’full_content’': 1, 'return': 2, '70': 1, 'update_dict': 2, 'hash_crawl': 2, '=': 13, '’hash_pairs’': 5, '’ctokens’': 3, '179': 1, '196': 1, '198': 1, 'name': 1, '267': 1, 'len': 3, 'token': 2, '319': 1, 'q_embeddings': 2, 'frontendparams': 2, 'tablename': 2, '579': 1, 'in': 1, '595': 1}
+183–198	{'lines': 1, 'because': 1}
+top	{'on': 2, 'of': 1, 'and': 2, 'keywords': 1, 'multitokens': 3, 'to': 1, '2': 1, 'print': 1}
+primary	{'of': 1, 'backend': 1}
+specifically	{'more': 1, 'dictionary': 1}
+follows	{'as': 1, 'pmi': 1}
+ta	{'pmi': 1, 'tb': 3, 'multitokens': 1, 'of': 1}
+tb	{'ta': 3, '=': 1, 'and': 1, 'within': 1}
+=	{'tb': 1, 'nab': 6, 'key': 11, 'count': 3, 'local_hash': 7, 'hash': 2, '19': 1, 'value': 16, 'item': 2, '’’': 3, 'category': 3, 'get_value': 12, 'tag_list': 2, 'title': 2, 'description': 2, 'meta': 2, 'id': 1, 'full_content': 1, 'extraweights': 1, 'backendparams': 5, 'word': 10, 'weight': 1, '1': 4, 'aux': 1, 'value_list': 2, '78': 1, 'val': 3, '*value_list': 1, 'entity': 7, 'flag': 7, 'false': 4, 'entity2': 2, '91': 1, 'true': 3, 'key_value_pairs': 2, 'max_multitoken': 1, 'maxdist': 1, 'maxterms': 1, 'text': 13, 'sentence_separators': 1, '’': 1, 'hash_pairs': 8, 'backendtables': 13, 'ctokens': 3, 'hwords': 1, '#': 4, 'words': 1, 'sentence': 1, 'position': 1, '0': 5, 'buffer': 2, '138': 1, 'worda': 3, 'keya': 2, 'positiona': 1, 'n_termsa': 1, 'len': 5, 'wordb': 2, 'keyb': 2, 'positionb': 1, 'n_termsb': 1, 'n_termsab': 1, 'max': 1, 'distanceab': 1, 'abs': 1, 'update_hash': 2, 'tablenames': 1, '184': 1, '197': 1, 'name': 1, '199': 1, 'stopwords': 1, '209': 1, 'local': 1, 'in': 2, 'open': 4, 'data': 3, 'url': 1, 'https': 1, 'response': 2, 'requests': 1, 'entities': 1, 'entity_raw': 2, 'entity_id': 2, 'int': 3, 'hash_crawl': 1, '247': 1, '’id’': 1, '’full_content’': 1, 'get_key_value_pairs': 1, 'pair': 1, '’category’': 1, '’tag_list’': 1, 'clean_list': 1, '’title’': 1, '’description’': 1, '’meta’': 1, 'update_dict': 1, 'embeddings': 2, 'dictionary': 8, 'na': 2, 'nb': 2, 'pmi': 7, 'nab/': 2, 'sorted_ngrams': 2, 'tokens': 2, 'sorted_ngram': 1, 'keyab': 4, 'token': 5, 'arr': 3, '340': 1, 'param': 5, 'frontendparams': 5, '356': 1, 'option': 7, 'paramid': 1, 'float': 1, 'ignore': 7, '*ignore': 1, '’ignorelist’': 2, 'ignore2': 3, '382': 1, '*ignore2': 1, '405': 1, 'q_embeddings': 3, 'dict': 1, 'ntk1': 1, 'ntk2': 1, '421': 1, '’*’': 1, 'n': 1, 'occurrences': 1, 'f': 1, '*': 1, 'sectionlabels': 2, '445': 1, '457': 1, 'tablename': 1, 'table': 3, '462': 1, 'ntk3': 1, 'content': 1, 'hash2': 1, 'input_': 4, '490': 1, 'get_bin': 2, 'lambda': 1, '’data’': 1, '494': 1, 'sample_queries': 2, '506': 1, 'options': 1, '’-p’': 1, '’key’': 1, 'input': 1, '538': 1, 'query': 6, '547': 1, '553': 1, 'q_dictionary': 1, '554': 1, 'binary': 1, 'sorted_word': 2, '559': 1, 'ngrams': 1, 'embedding': 2, 'custom_pmi': 1, '’embeddingkeyminsize’': 1, '’contextmultitokenminsize’': 1, 'save': 1, 'out': 3}
+nab	{'=': 6, '√na': 1, 'nb': 2, 'are': 1, '288': 1, '-': 1, '290': 1, '<=': 1, '291': 1, '292': 1, '323': 1, '329': 1, '421': 1, '426': 1, '432': 1, '>=': 1, '%': 1, 'pmi': 1}
+√na	{'nab': 1, '·': 1}
+nb	{'·': 1, '1': 1, 'na': 2, 'nab': 2, '287': 1, '=': 2, '+': 2, '-': 1, '<=': 1, '331': 1}
+na	{'where': 1, 'nb': 2, '286': 1, '=': 2, 'nab/': 1, '+': 2, 'if': 1, 'key': 1, '330': 1}
+counts	{'the': 1, 'computed': 1}
+respectively	{'corpus': 1, 'for': 1}
+within	{'tb': 1, 'a': 3, 'separators': 1, 'information': 1, 'the': 1, '’template’': 1}
+sentence	{'a': 1, 'identified': 1, 'for': 1, 'in': 1, '=': 1, 'split': 1}
+identified	{'sentence': 1, 'by': 1}
+separators	{'by': 1, 'within': 1, 'different': 1, '2': 1}
+formula	{'different': 1, 'or': 1}
+given	{'parameters': 1, 'the': 1}
+small	{'the': 1, 'size': 1, 'a': 2, 'number': 1, 'portion': 1}
+updated	{'be': 1, 'in': 1}
+currently	{'time': 1, 'the': 1}
+allows	{'code': 1, 'the': 1}
+update	{'easily': 1, 'the': 1, 'to': 2, 'or': 1, 'hash_pairs': 1, '2': 1, 'frontend': 1}
+testing	{'while': 1, 'various': 1}
+492–503	{'lines': 1, 'in': 1}
+control	{'they': 1, 'the': 1}
+function	{'pmi': 1, 'and': 1}
+keywords	{'top': 1, 'to': 1}
+exclude	{'to': 1, 'such': 1}
+almost	{'in': 1, 'all': 1}
+all	{'almost': 1, 'text': 1, 'with': 1, 'values': 1, 'for': 1, 'authorized': 1}
+adding	{'entities': 1, '‘data’': 1}
+eliminate	{'not': 1, 'results': 1}
+long	{'as': 2, 'very': 1, 'however': 1, 'a': 1, 'shot': 1}
+asset’	{'‘data': 1, 'when': 1}
+entering	{'when': 1, 'a': 1, 'by': 1, '-f': 1}
+end-user	{'the': 1, 'can': 1}
+pre-selected	{'choose': 1, 'queries': 1}
+listed	{'queries': 1, 'in': 2, 'titles': 1, 'are': 1, 'from': 1}
+505-514	{'lines': 1, 'his/her': 1}
+his/her	{'505-514': 1, 'own': 1}
+own	{'his/her': 1, 'queries': 1}
+simple	{'or': 1, 'instructions': 1}
+instructions	{'simple': 1, 'to': 1, 'detailed': 1, 'for': 1}
+view	{'or': 1, 'the': 1, '-v': 1, 'parameter': 1, '-l': 1, '’ignore’': 1}
+options	{'the': 1, 'in': 2, '519': 1, '=': 1, 'query': 1, '522': 1, '535': 1}
+519–527	{'lines': 1, 'the': 1}
+catch-all	{'the': 2, 'parameter': 3, 'use': 1}
+zero	{'to': 1, 'yields': 1}
+yields	{'zero': 1, 'the': 1}
+largest	{'the': 1, 'potential': 1}
+potential	{'largest': 1, 'output': 1}
+output	{'potential': 1, 'do': 1, 'the': 2, 'may': 1, 'appropriate': 1, 'in': 1, 'to': 1}
+do	{'output': 1, 'not': 1}
+except	{'it': 1, 'for': 1}
+debugging	{'for': 1, 'as': 1}
+want	{'you': 1, 'to': 1}
+try	{'to': 1, 'it': 1, 'let’s': 1, 'two': 1, '#': 1, 'nab/': 1, 'result': 1, 'option': 1}
+option	{'the': 1, '-f': 1, 'update_params': 1, 'frontendparams': 1, 'if': 2, '==': 6, 'elif': 2, 'in': 5, '359': 2, '=': 7, 'split': 3, 'len': 3, 'int': 1, '1': 3, 'float': 1, '2': 1, '371': 2, '*ignore': 1, '379': 2, 'try': 1, '’-p': 1, 'query': 1, 'or': 1, 'for': 1}
+-f	{'option': 1, 'for': 1, 'entering': 1, 'on': 1, 'print': 1, 'use': 1}
+accomplished	{'is': 1, 'by': 1}
+command	{'the': 1, 'prompt': 1}
+tested	{'i': 1, 'the': 1}
+fortune	{'corpus': 1, '100': 1}
+100	{'fortune': 1, 'company': 1, 'else': 1, 'entity2': 1}
+dealing	{'company': 1, 'with': 1}
+policies	{'and': 1, 'in': 1}
+discuss	{'i': 1, 'the': 1}
+dedicated	{'sub-llm': 1, 'to': 1}
+finance	{'products': 1, 'sales': 1}
+require	{'–': 1, 'separate': 1}
+separate	{'require': 1, 'overlapping': 1}
+overlapping	{'separate': 1, 'sub-llms': 1}
+sample	{'a': 1, 'text': 2, '1': 1, 'for': 1, 'query': 1}
+1682014217673x617007804545499100	{'id': 1, 'created': 1}
+created	{'1682014217673x617007804545499100': 1, 'date': 1, '866z': 1, 'by': 1}
+date	{'created': 1, '2023-04-20t18': 1, 'modified': 1, '2024-06-04t16': 1}
+2023-04-20t18	{'date': 1, '10': 1}
+10	{'2023-04-20t18': 1, '18': 1, 'hash': 1, '11': 1, '319': 1}
+18	{'10': 1, '215z': 1, 'else': 1, 'local_hash': 1}
+215z	{'18': 1, 'modified': 1}
+modified	{'215z': 1, 'date': 1}
+2024-06-04t16	{'date': 1, '42': 1}
+42	{'2024-06-04t16': 1, '51': 1, 'hash_crawl': 1, 'title': 1}
+51	{'42': 1, '866z': 1, '0': 1, 'if': 1}
+866z	{'51': 1, 'created': 1}
+1681751874529x883105704081238400	{'by': 1, 'title': 1}
+metadata	{'business': 1, 'template': 1, 'the': 1, 'is': 1, 'tags': 1, 'mltxquest': 1, '‘business': 1, 'template’': 1, 'platform': 1, 'solution': 1}
+template	{'metadata': 1, 'description': 1, 'the': 2, 'accurately': 1, 'users': 1, '‘completing': 1, 'accurately’': 1}
+outlines	{'it': 1, 'detailed': 1}
+detailed	{'outlines': 1, 'instructions': 1, 'assets': 1, 'information': 1}
+completing	{'for': 1, 'the': 1, '‘instructions': 1, 'template’': 1}
+accurately	{'template': 1, 'covering': 1}
+var-	{'covering': 1, 'ious': 1}
+ious	{'var-': 1, 'sections': 1}
+sections	{'ious': 1, 'such': 1}
+sensitivity	{'source': 1, 'information': 1, 'on': 1, 'classifications': 1}
+roles	{'and': 1, 'after': 1, 'key': 1, 'once': 1, 'user': 1, 'team': 1}
+filling	{'after': 1, 'out': 1}
+out	{'filling': 1, 'the': 1, '‘filling': 1, 'template’': 1, 'stand': 1, 'based': 1, '596': 1, '=': 3, '597': 1, 'write': 3, '598': 1, 'close': 3, '600': 1, '601': 1, '602': 1, '604': 1, '605': 1, '606': 1}
+users	{'template': 1, 'can': 1, 'authorized': 1, 'thereby': 1}
+interpret	{'can': 1, 'the': 1}
+entered	{'the': 1, 'data': 1}
+ensuring	{'data': 1, 'clarity': 1}
+clarity	{'ensuring': 1, 'on': 1}
+classifications	{'sensitivity': 1, 'business': 1}
+details	{'business': 1, 'and': 1}
+once	{'roles': 1, 'completed': 1}
+completed	{'once': 1, 'and': 1}
+re-	{'and': 1, 'viewed': 1}
+viewed	{'re-': 1, 'the': 1}
+uploaded	{'is': 1, 'to': 1}
+mltxquest	{'to': 1, 'making': 1, 'the': 1, 'portal': 1, 'metadata': 1, 'business': 1, 'environment': 1, 'deployment': 1}
+making	{'mltxquest': 1, 'it': 1}
+through	{'accessible': 1, 'the': 1}
+portal	{'mltxquest': 1, 'for': 1}
+authorized	{'all': 1, 'users': 1}
+thereby	{'users': 1, 'centralizing': 1}
+centralizing	{'thereby': 1, 'and': 1}
+simplifying	{'and': 1, 'ac-': 1}
+ac-	{'simplifying': 1, 'cess': 1}
+cess	{'ac-': 1, 'to': 1}
+critical	{'to': 1, 'information': 1}
+organization	{'the': 1, 'tags': 1}
+governance	{'categories': 1, 'urls': 1, '‘data': 3, 'best': 1, 'vision’': 1, 'practices’': 1, 'feature': 1, 'devops': 1, 'data': 1, 'management': 1, 'learning': 1, 'framework': 1}
+now	{'urls': 1, 'let’s': 1, 'is': 1, 'multi-token': 1}
+let’s	{'now': 1, 'try': 1}
+starting	{'prompts': 1, 'with': 1}
+‘metadata	{'with': 1, 'template’': 1}
+template’	{'‘metadata': 1, 'with': 1, 'metadata': 1, 'because': 1, 'completing': 1, '‘completing': 1, 'out': 1, 'and': 1}
+correct	{'the': 1, 'one': 1}
+entitled	{'one': 1, '‘business': 1}
+‘business	{'entitled': 1, 'metadata': 1}
+system	{'the': 1, 'tries': 1, 'your': 1, '5': 1}
+tries	{'system': 1, 'to': 1}
+detect	{'to': 1, 'the': 1, 'can': 1, 'user': 1}
+presence	{'joint': 1, 'of': 1}
+’template’	{'and': 1, 'within': 1}
+lot	{'a': 1, 'more': 1}
+interesting	{'the': 1, 'part': 1}
+linking	{'embeddings': 1, 'the': 1}
+especially	{'multitokens': 1, '‘instructions': 1}
+‘instructions	{'especially': 1, 'completing': 1}
+‘completing	{'template’': 1, 'template': 1}
+accurately’	{'template': 1, '‘filling': 1}
+‘filling	{'accurately’': 1, 'out': 1}
+‘completed	{'and': 1, 'reviewed': 1}
+reviewed	{'‘completed': 1, 'metadata’': 1}
+metadata’	{'reviewed': 1, 'these': 1}
+linked	{'also': 1, 'to': 3, '2x': 1, 'print': 1}
+precious	{'of': 1, 'help': 1}
+extent	{'to': 1, 'the': 1}
+search	{'the': 1, 'or': 1, 'than': 1, 'tools': 1}
+decide	{'to': 1, 'if': 1}
+type	{'the': 1, 'of': 1, 'if': 1, 'value': 1}
+second	{'my': 1, 'test': 1}
+best	{'governance': 1, 'practices’': 1, 'for': 1, 'resolution': 1, 'guide': 1, 'practices': 1}
+practices’	{'best': 1, 'it': 1, 'governance': 1, 'figure': 1}
+returns	{'it': 1, 'far': 1}
+far	{'returns': 1, 'more': 1}
+although	{'results': 1, 'few': 1}
+clearly	{'few': 1, 'stand': 1}
+stand	{'clearly': 1, 'out': 1}
+‘governance’	{'is': 1, 'the': 1}
+‘dq’	{'are': 1, 'and': 1}
+quality’	{'‘data': 1, 'with': 1}
+dominating	{'entity': 1, 'the': 1}
+quality	{'‘data': 1, 'lifecycle’': 1, 'overview': 1, 'databricks': 1, 'data': 1, 'table': 1, 'the': 2, 'of': 2}
+lifecycle’	{'quality': 1, 'the': 1}
+literacy	{'‘data': 1, 'and': 1}
+policy’	{'training': 1, '‘audit': 1, 'compliance': 1, '‘data': 2, 'steward': 1, 'related': 1, '‘training': 1}
+‘audit	{'policy’': 1, 'and': 1}
+compliance	{'and': 1, 'policy’': 1}
+vision’	{'governance': 1, 'and': 1}
+steward	{'‘data': 1, 'policy’': 1}
+related	{'policy’': 1, 'multitokens': 1}
+‘robust	{'include': 1, 'data': 1}
+governance’	{'data': 1, '‘best': 1}
+‘best	{'governance’': 1, 'practices': 1}
+practices	{'‘best': 1, 'glossary’': 1, 'best': 1, 'performance': 1}
+glossary’	{'practices': 1, '‘training': 1}
+‘training	{'glossary’': 1, 'policy’': 1}
+informed	{'‘data': 1, 'decision': 1}
+decision	{'informed': 1, 'making’': 1}
+making’	{'decision': 1, 'and': 1}
+figure	{'practices’': 1, '1': 1, 'here': 1, '2': 1}
+high	{'tables': 2, 'resolution': 2}
+resolution	{'high': 2, 'here': 2, 'best': 1, 'download': 1}
+query	{'to': 2, 'results': 1, 'print': 2, 'options': 1, 'input': 1, 'query': 4, 'option': 1, 'sample': 1, '531': 1, '-->': 1, 'real': 1, '534': 1, '542': 1, '=': 6, '544': 1, '546': 1, '548': 1, '550': 1, 'split': 1, '551': 1, 'sort': 1, '2**len': 1, '556': 1, 'len': 2, '558': 1, 'k': 2, '+': 1, '==': 1, 'single-token': 1, '14': 1}
+via	{'results': 1, 'backend': 1}
+figures	{'here': 1, '1': 1}
+show	{'2': 1, 'the': 1, 'not': 1, 'same': 1}
+components	{'main': 1, 'and': 1, 'api': 1, 'essential': 1, 'important': 1, 'by': 1}
+workflow	{'and': 1, 'for': 1}
+zoom	{'sub-llm': 1, 'in': 1}
+reso-	{'higher': 1, 'lution': 1}
+lution	{'reso-': 1, 'for': 1}
+google	{'on': 1, 'drive': 1}
+drive	{'google': 1, 'for': 1}
+diagram	{'backend': 1, 'and': 1}
+new	{'a': 1, 'taxonomy': 1, 'guidelines': 1, 'guide': 1}
+taxonomy	{'new': 1, 'of': 1}
+left	{'from': 1, 'to': 1}
+right	{'to': 1, 'and': 1}
+bottom	{'to': 1, 'by': 1}
+importance	{'of': 1, 'in': 1, 'by': 1, 'adls': 1}
+note	{'2': 1, 'that': 1}
+give	{'not': 1, 'a': 1}
+mutlitokens	{'to': 1, 'consisting': 1}
+308–311	{'lines': 1, 'in': 1}
+ordered	{'corpus': 1, 'by': 1}
+adls	{'importance': 1, 'storage': 1, 'file': 1, 'gen2’': 1}
+storage	{'adls': 1, 'azure': 1, '’blob': 1, 'single': 3, 'blob': 1, 'less': 1}
+azure	{'storage': 1, 'examples': 1}
+adf	{'examples': 1, 'csa': 1}
+csa	{'adf': 1, 'pipeline': 1}
+pipeline	{'csa': 1, 'development': 1}
+development	{'pipeline': 1, 'framework': 1}
+framework	{'development': 1, 'architecture': 1, 'governance': 1, 'alpha': 1}
+design	{'architecture': 1, 'mltxdat': 1}
+mltxdat	{'design': 1, 'process': 1}
+process	{'mltxdat': 1, 'extract': 1, 'main': 1, 'prompt': 1}
+orc	{'extract': 1, 'overview': 1}
+overview	{'orc': 1, 'quality': 1}
+databricks	{'quality': 1, 'data': 1}
+guidelines	{'table': 1, 'new': 1}
+guide	{'new': 1, 'best': 1}
+platform	{'performance': 1, 'metadata': 1, 'ai': 1, 'genai': 2, 'systems': 1}
+solution	{'metadata': 1, 'business': 1}
+project	{'products': 1, 'resources': 1}
+resources	{'project': 1, 'create': 1}
+request	{'create': 1, 'mltxhub': 1}
+mltxhub	{'request': 1, 'case': 1}
+zones	{'case': 1, 'key': 1}
+feature	{'key': 1, 'governance': 1}
+devops	{'governance': 1, 'github': 1}
+naming	{'github': 1, 'standards': 1}
+standards	{'naming': 1, 'ops': 1}
+ops	{'standards': 1, 'service': 1}
+service	{'ops': 1, 'monitoring': 1}
+monitoring	{'service': 1, 'glossary': 1}
+glossary	{'monitoring': 1, 'global': 1}
+global	{'glossary': 1, 'policy': 1}
+policy	{'global': 1, 'documentation': 1}
+management	{'governance': 1, 'document': 1}
+document	{'management': 1, 'user': 1, 'as': 1, 'id': 1}
+team	{'roles': 1, 'onboarding': 1}
+onboarding	{'team': 1, 'access': 1}
+integration	{'access': 1, 'infrastructure': 1}
+infrastructure	{'integration': 1, 'responsibilities': 1}
+responsibilities	{'infrastructure': 1, 'security': 1}
+security	{'responsibilities': 1, 'engineering': 1}
+engineering	{'security': 1, 'bi': 1, 'prompt': 1, 'to': 1}
+bi	{'engineering': 1, 'ci': 1}
+ci	{'bi': 1, 'cd': 1}
+cd	{'ci': 1, 'code': 1}
+support	{'learning': 1, 'foundation': 1}
+foundation	{'support': 1, 'admin': 1}
+admin	{'foundation': 1, 'timbr': 1}
+timbr	{'admin': 1, 'ai': 1}
+metrics	{'ai': 1, 'index': 1}
+index	{'metrics': 1, 'mltxdoc': 1}
+mltxdoc	{'index': 1, 'serving': 1}
+serving	{'mltxdoc': 1, 'semantic': 1}
+semantic	{'serving': 1, 'layer': 1}
+layer	{'semantic': 1, 'applications': 1}
+applications	{'layer': 1, 'environment': 1}
+deployment	{'mltxquest': 1, 'training': 1}
+essential	{'components': 1, 'fitness': 1}
+fitness	{'essential': 1, 'score': 1}
+model	{'score': 1, 'genai': 1}
+alpha	{'framework': 1, 'ai': 1}
+conclusions	{'4': 1, 'my': 1}
+designed	{'sub-llm': 1, 'from': 1}
+scratch	{'from': 1, 'does': 1}
+rely	{'not': 1, 'on': 1, 'tools': 1, 'mostly': 1}
+performs	{'and': 1, 'better': 1}
+better	{'performs': 1, 'than': 1}
+tools	{'search': 1, 'available': 1, 'traditional': 1, 'rely': 1}
+market	{'the': 1, 'in': 1}
+speed	{'of': 1, 'and': 1}
+offers	{'it': 1, 'the': 1}
+deliver	{'to': 1, 'appropriate': 1}
+appropriate	{'deliver': 1, 'output': 1}
+good	{'the': 1, 'performance': 1}
+combined	{'sources': 1, 'with': 1}
+embedded	{'the': 1, 'knowledge': 1}
+traditional	{'tables': 1, 'tools': 1}
+mostly	{'rely': 1, 'on': 1}
+tricks	{'frontend': 1, 'such': 1}
+fix	{'to': 1, 'backend': 1}
+issues	{'backend': 1, 'to': 1}
+contrary	{'the': 1, 'my': 1}
+approach	{'my': 1, 'focuses': 1}
+solid	{'a': 1, 'backend': 1}
+foundational	{'backend': 1, 'architecture': 1}
+ground	{'the': 1, 'up': 1}
+important	{'most': 1, 'components': 1}
+shot	{'long': 1, 'cosine': 1}
+think	{'you': 1, 'about': 1}
+average	{'the': 1, 'human': 1}
+human	{'average': 1, 'being': 1}
+being	{'human': 1, 'has': 1}
+vocabulary	{'a': 1, 'of': 1}
+30	{'of': 1, '000': 1, '29': 1, 'def': 1}
+000	{'30': 1, 'words': 1}
+added	{'you': 1, 'variations': 1}
+variations	{'added': 1, 'and': 1}
+typos	{'information': 1, 'plural': 1}
+plural	{'typos': 1, 'grammatical': 1}
+grammatical	{'plural': 1, 'tenses': 1}
+tenses	{'grammatical': 1, 'product': 1}
+ids	{'product': 1, 'street': 1}
+street	{'ids': 1, 'names': 1}
+names	{'street': 1, 'and': 1}
+millions	{'few': 1, 'at': 1}
+indeed	{'trillions': 1, 'in': 1}
+expensive	{'in': 1, 'multi-billion': 1}
+multi-billion	{'expensive': 1, 'systems': 1}
+just	{'are': 1, 'noise': 1}
+noise	{'just': 1, 'most': 1, 'this': 1, 'is': 1}
+rarely	{'are': 1, 'fetched': 1}
+fetched	{'rarely': 1, 'to': 1}
+answer	{'an': 1, 'this': 1}
+hallucinations	{'of': 1, 'finally': 1}
+gather	{'finally': 1, 'a': 1}
+before	{'even': 1, 'your': 1}
+start	{'your': 1, 'designing': 1}
+designing	{'start': 1, 'your': 1}
+contributes	{'it': 1, 'to': 1}
+enhancing	{'to': 1, 'the': 1}
+shared	{'corpus': 1, 'on': 1}
+actually	{'–': 1, 'a': 1}
+portion	{'small': 1, 'corresponding': 1}
+fully	{'is': 1, 'anonymized': 1}
+#---	{'1': 2, '181': 1, '2': 1, '314': 1, '3': 1, '486': 1, '4': 1, '590': 1, '5': 1}
+def	{'3': 1, 'update_hash': 1, '12': 1, 'update_nestedhash': 1, '30': 1, 'get_value': 1, '38': 1, 'update_tables': 1, '72': 1, 'clean_list': 1, '85': 1, 'get_key_value_pairs': 1, '107': 1, 'update_dict': 1, '318': 1, 'custom_pmi': 1, '337': 1, 'update_params': 1, '393': 1, 'print_results': 1}
+update_hash	{'def': 1, 'hash': 1, '60': 1, 'backendtables': 1, '145': 1, 'hwords': 2, '153': 1, '=': 2, 'hash_pairs': 1, 'ctokens': 1}
+count=1	{'key': 1, '4': 1, 'value': 1, '13': 1}
+6	{'hash': 2, 'category': 1}
++=	{'key': 1, 'count': 2, 'item': 1, 'weight': 4, 'extraweights': 4, 'entity2': 2, '˜': 3, 'entity': 1, 'sorted_ngram': 1, 'sorted_word': 1}
+count	{'+=': 2, '7': 1, '=': 3, '9': 1, '24': 1, '26': 1, '467': 1, 'word': 1, '470': 1}
+7	{'count': 1, 'else': 1, '’_˜’': 1}
+else	{'7': 1, '8': 1, '17': 1, '18': 1, '24': 1, '25': 1, '33': 1, '34': 1, '99': 1, '100': 1, '229': 1, '230': 1, '356': 1, '357': 1, '366': 1, '367': 1, '368': 1, '369': 1, '376': 1, '377': 1, '387': 1, '388': 1, '402': 1, '403': 1, '544': 1, '545': 1, '547': 1, '548': 1, '563': 1, '564': 1, '576': 1, '577': 1}
+9	{'count': 1, 'return': 1, 'pair': 1}
+return	{'9': 1, 'hash': 2, '27': 1, '35': 1, 'value': 1, '69': 1, 'backendtables': 2, '82': 1, 'value_list': 1, '104': 1, 'key_value_pairs': 1, '178': 1, '333': 1, 'pmi': 1, '389': 1, 'frontendparams': 1, '483': 1, '484': 1}
+11	{'10': 1, '12': 1, 'item': 1}
+update_nestedhash	{'def': 1, 'hash': 1, '61': 1, 'backendtables': 7, '62': 1, '63': 1, '64': 1, '65': 1, '66': 1, '67': 1, '292': 1, 'embeddings': 2, '293': 1, '306': 1, 'sorted_ngrams': 1, '469': 1, 'local_hash': 1}
+13	{'count=1': 1, '14': 1, '0': 1}
+14	{'13': 1, '#': 1, 'query': 1}
+#	{'14': 1, '’key’': 1, 'lower': 1, 'add': 1, '74': 1, 'change': 1, '87': 1, 'extract': 1, '=': 4, 'local': 1, '142': 1, 'word': 3, 'key': 2, 'for': 3, '150': 1, '’dictionary’': 1, 'multitokens': 1, '’hash_pairs’': 1, 'multitoken': 2, '’hash_context1’': 1, 'categories': 1, '’hash_context2’': 1, 'tags': 1, '’hash_context3’': 1, 'titles': 1, '’hash_context4’': 1, 'descriptions': 1, '’hash_context5’': 1, 'meta': 1, '’ctokens’': 1, 'not': 1, '’hash_id’': 1, 'id': 1, '’full_content’': 1, 'full': 1, '4': 1, 'max': 2, '3': 5, 'maxterms': 1, '’extraweights’': 1, 'deafault': 1, '225': 1, 'get': 2, '230': 1, '276': 1, '2': 2, '5': 1, 'try': 1, '290': 1, 'if': 2, '291': 1, 'print': 3, '296': 1, 'to': 1, '308': 1, '309': 1, '310': 1, '311': 1, '316': 1, '335': 1, '391': 1, '400': 1, 'ignore': 1, '403': 1, 'bypass': 1, 'used': 1, '1': 1, 'token': 1, '445': 1, 'map': 1, 'content': 1, 'true': 1, 'false': 1, '577': 1, 'customized': 1, '582': 1, 'single-token': 1}
+’key’	{'#': 1, 'is': 1, '%': 1, '’description’': 1, 'frontendparams': 1, '=': 1}
+tuple	{'is': 1, 'or': 1, 'not': 1, '20': 1}
+16	{'hash': 1, 'local_hash': 1}
+local_hash	{'16': 1, '=': 7, '18': 1, 'in': 3, '23': 2, 'item': 4, '25': 1, '27': 1, '406': 1, 'and': 1, '437': 1, 'token': 1, '456': 1, '461': 1, 'update_nestedhash': 1, '471': 1}
+17	{'key': 1, 'else': 1}
+19	{'=': 1, 'if': 1}
+20	{'tuple': 1, 'value': 1, '>': 1, '311': 1}
+21	{'value': 1, 'for': 1}
+22	{'value': 1, 'if': 1}
+23	{'local_hash': 2}
+24	{'count': 1, 'else': 1}
+25	{'else': 1, 'local_hash': 1, 'ljust': 2, '’value’': 1, 'value': 1}
+26	{'count': 1, 'hash': 1}
+27	{'local_hash': 1, 'return': 1}
+28	{'hash': 1, '29': 1}
+29	{'28': 1, '30': 1}
+get_value	{'def': 1, 'key': 1, '=': 12, '’category’': 2, '’tag_list’': 2, '’title’': 2, '’description’': 2, '’meta’': 2, '’id’': 1, '’full_content’': 1}
+31	{'hash': 1, 'if': 1}
+32	{'hash': 1, 'value': 1}
+33	{'key': 1, 'else': 1}
+34	{'else': 1, 'value': 1}
+’’	{'=': 3, '35': 1, '81': 1, '’': 2, '121': 1, '’\\\\n’': 1, 'replace': 3, '122': 1, '\\\\s': 1, '\\\\t': 1, '’-’': 1}
+35	{'’’': 1, 'return': 1, 'ljust': 4, '411': 1, '412': 1, 'word': 1, '437': 1}
+36	{'value': 1, '37': 1}
+37	{'36': 1, '38': 1}
+38	{'37': 1, 'def': 1}
+update_tables	{'def': 1, 'backendtables': 3, '146': 1, '154': 1}
+hash_crawl	{'word': 3, 'backendparams': 5, '’category’': 3, '41': 1, '’tag_list’': 3, '42': 1, '’title’': 3, '43': 1, '’description’': 3, '44': 1, '’meta’': 3, '45': 1, '’id’': 2, '46': 1, '’full_content’': 2, '47': 1, 'backendtables': 2, '114': 1, '115': 1, '116': 1, '117': 1, '118': 1, '246': 1, '=': 1, '247': 1, '248': 1, '257': 1, '259': 1, '261': 1, '263': 1, '265': 1}
+backendparams	{'hash_crawl': 5, '39': 1, '=': 5, '’extraweights’': 1, '108': 1, '’max_multitoken’': 1, '’maxdist’': 1, '’maxterms’': 1, '147': 1, '155': 1, '208': 1, '268': 1}
+39	{'backendparams': 1, '40': 1}
+40	{'39': 1, 'category': 1}
+’category’	{'get_value': 2, 'hash_crawl': 3, 'extraweights': 1, '53': 1, '215': 1, '0': 1, '=': 1, '448': 1, '’hash_context1’': 1, 'in': 1, '’tags’': 1}
+41	{'hash_crawl': 1, 'tag_list': 1}
+tag_list	{'41': 1, '=': 2, 'in': 1, '54': 1, 'word': 1, '63': 1, '114': 1, 'str': 1, '+': 1}
+’tag_list’	{'get_value': 2, 'hash_crawl': 3, 'extraweights': 1, '55': 1, '216': 1, '0': 1, '=': 1}
+’title’	{'get_value': 2, 'hash_crawl': 3, 'extraweights': 1, '57': 1, '217': 1, '0': 1, '=': 1}
+43	{'hash_crawl': 1, 'description': 1}
+’description’	{'get_value': 2, 'hash_crawl': 3, '214': 1, '0': 1, '=': 1, '’key’': 1, 'ljust': 1}
+44	{'hash_crawl': 1, 'meta': 1}
+meta	{'44': 1, '=': 2, 'in': 1, '58': 1, 'word': 1, '66': 1, '117': 1, '+': 1, '120': 1, '#': 1, '191': 1}
+’meta’	{'get_value': 2, 'hash_crawl': 3, 'extraweights': 1, '59': 1, '218': 1, '0': 1, '=': 1, '452': 1, '’hash_context5’': 1}
+45	{'hash_crawl': 1, 'id': 1}
+’id’	{'get_value': 1, 'hash_crawl': 2, '=': 1, '453': 1, '’hash_id’': 1, '’': 1, '’whole’': 1}
+46	{'hash_crawl': 1, 'full_content': 1}
+full_content	{'46': 1, '=': 1, 'word': 1, '68': 1}
+’full_content’	{'get_value': 1, 'hash_crawl': 2, 'backendtables': 1, 'word': 1, '193': 1, '#': 1, '=': 1, '’whole’': 1, '455': 1}
+47	{'hash_crawl': 1, '48': 1}
+48	{'47': 1, 'extraweights': 1}
+extraweights	{'48': 1, '=': 1, '+=': 4, '’category’': 1, '’tag_list’': 1, '’title’': 1, '’meta’': 1}
+’extraweights’	{'backendparams': 1, '49': 1, '212': 1, '#': 1}
+49	{'’extraweights’': 1, 'word': 1}
+lower	{'word': 1, '#': 1, 'text': 1, '124': 1}
+50	{'stemming': 1, 'weight': 1}
+52	{'category': 1, 'weight': 1}
+53	{'’category’': 1, 'if': 1}
+54	{'tag_list': 1, 'weight': 1}
+55	{'’tag_list’': 1, 'if': 1}
+56	{'title': 1, 'weight': 1}
+57	{'’title’': 1, 'if': 1}
+58	{'meta': 1, 'weight': 1}
+59	{'’meta’': 1, '60': 1}
+60	{'59': 1, 'update_hash': 1}
+’dictionary’	{'backendtables': 5, 'word': 1, '184': 1, '#': 1, '272': 1, '282': 1, '321': 1, '396': 1, '’dict’': 1, '447': 1}
+61	{'weight': 1, 'update_nestedhash': 1}
+’hash_context1’	{'backendtables': 1, 'word': 1, '186': 1, '#': 1, '’category’': 1, '449': 1}
+62	{'update_nestedhash': 1}
+’hash_context2’	{'backendtables': 1, 'word': 1, '187': 1, '#': 1, '’tags’': 1, '450': 1}
+63	{'tag_list': 1, 'update_nestedhash': 1}
+’hash_context3’	{'backendtables': 1, 'word': 1, '188': 1, '#': 1, '’titles’': 1, '12': 1}
+64	{'title': 1, 'update_nestedhash': 1}
+’hash_context4’	{'backendtables': 1, 'word': 1, '189': 1, '#': 1, '’': 1, '452': 1}
+65	{'description': 1, 'update_nestedhash': 1}
+’hash_context5’	{'backendtables': 1, 'word': 1, '190': 1, '#': 1, '’meta’': 1, '453': 1}
+66	{'meta': 1, 'update_nestedhash': 1}
+’hash_id’	{'backendtables': 1, 'word': 1, '192': 1, '#': 1, '’id’': 1, '454': 1}
+67	{'id': 1, 'update_nestedhash': 1}
+68	{'full_content': 1, '69': 1}
+69	{'68': 1, 'return': 1}
+70	{'backendtables': 1, '71': 1}
+71	{'70': 1, '72': 1}
+72	{'71': 1, 'def': 1}
+clean_list	{'def': 1, 'value': 2, '=': 1}
+73	{'value': 1, '74': 1}
+74	{'73': 1, '#': 1}
+change	{'#': 1, 'string': 1, 'to': 1, 'params': 1}
+string	{'change': 1, '’a’': 1, 'a': 1, '88': 1}
+’a’	{'string': 1, '’b’': 2, 'to': 1, '’of’': 1, '’this’': 1}
+’b’	{'’a’': 2, 'to': 1, '75': 1, 'x': 1, 'zfill': 1}
+75	{'’b’': 1, 'value': 1}
+replace	{'value': 1, 'replace': 2, '76': 1, 'val': 1, '’': 15, '1': 1, 'text': 4, '’/’': 2, '’\\\\n’': 1, '’’': 3, '\\\\s': 1, '\\\\t': 1, '123': 1, 'sep': 1, 'key': 1}
+76	{'replace': 1, 'aux': 1}
+aux	{'76': 1, '=': 1, 'in': 1, '79': 1}
+split	{'value': 1, '˜': 3, 'entity': 1, '’': 5, 'text': 1, '’_˜’': 1, 'sentence': 1, '136': 1, 'worda': 1, 'wordb': 1, 'data': 1, '\\n': 1, 'entity_raw': 1, '˜˜': 1, '1': 2, '246': 1, 'pair': 1, 'word': 3, '’˜’': 4, 'option': 3, 'token': 1, 'query': 1}
+˜	{'split': 3, '77': 1, '+=': 3, '99': 1, '+': 4, '164': 1, '168': 1}
+77	{'˜': 1, 'value_list': 1}
+value_list	{'77': 1, '=': 2, '81': 1, 'return': 1, '83': 1}
+78	{'=': 1, 'for': 1}
+val	{'for': 1, 'in': 1, '79': 1, '=': 3, 'replace': 1, 'if': 1, '*value_list': 1, '82': 1}
+79	{'aux': 1, 'val': 1}
+’	{'replace': 15, '’': 34, 'lstrip': 1, '89': 1, '==': 2, '94': 1, '96': 1, 'split': 5, '104': 1, '’’': 2, '=': 1, '125': 1, '256': 1, '360': 1, '372': 1, '380': 1, 'embeddings': 1, 'ljust': 2, 'prompt': 1, '’descr': 2, '’hash_context4’': 1, '’id’': 1, '551': 1, '+': 1, 'txt’': 1}
+lstrip	{'’': 1, '80': 1}
+80	{'lstrip': 1, 'if': 1}
+81	{'’’': 1, 'value_list': 1}
+*value_list	{'=': 1, 'val': 1}
+82	{'val': 1, 'return': 1}
+83	{'value_list': 1, '84': 1}
+84	{'83': 1, '85': 1}
+85	{'84': 1, 'def': 1}
+get_key_value_pairs	{'def': 1, 'entity': 2, '=': 1}
+86	{'entity': 1, '87': 1}
+87	{'86': 1, '#': 1}
+’entity’	{'from': 1, 'a': 1}
+88	{'string': 1, 'entity': 1}
+89	{'’': 1, 'flag': 1}
+flag	{'89': 1, '=': 7, '94': 1, '96': 1, 'if': 1, 'and': 2, '420': 1, '428': 1, 'pmi': 1, 'token': 1, '533': 1, '538': 1, '587': 1}
+false	{'=': 4, '90': 1, '97': 1, '#': 1, '-->': 1, '539': 1, '593': 1}
+90	{'false': 1, 'entity2': 1}
+entity2	{'90': 1, '=': 2, '98': 1, '+=': 2, '100': 1, '103': 1}
+91	{'=': 1, '92': 1}
+92	{'91': 1, 'for': 1}
+idx	{'for': 1, 'in': 1, 'entity': 4, '==': 3, '101': 1}
+range	{'in': 5, 'len': 2, '1': 2, 'outside': 1, '368': 1, '0': 1}
+len	{'range': 2, 'entity': 2, '=': 5, 'worda': 1, 'wordb': 1, 'if': 7, 'print': 3, 'backendtables': 3, '1': 1, 'tokens': 1, 'arr': 2, 'option': 3, '<': 3, 'word': 2, 'token': 1, 'hash2': 2, 'item': 1, 'while': 1, 'input_': 2, '%': 1, 'sample_queries': 3, 'k': 1, 'query': 2, '0': 1, 'binary': 1}
+93	{'entity': 1, 'if': 1}
+==	{'idx': 3, '’': 2, '98': 1, 'key': 5, '’category_text’': 1, '’tags_list_text’': 1, '’title_text’': 1, '’description_text’': 1, '’tower_option_tower’': 1, 'option': 6, '’-l’': 1, '’-v’': 1, '’-f’': 1, 'param': 1, '’ignorelist’': 1, '3': 1, '2': 2, '’bypassignorelist’': 1, '1': 2, 'k': 1, '’1’': 1, 'sorted_word': 1, '562': 1, '’customized_pmi’': 1, '0': 1, 'query': 1}
+94	{'’': 1, 'flag': 1}
+true	{'=': 3, '95': 1, '224': 1, '#': 1, 'params': 1, '-->': 1}
+95	{'true': 1, 'elif': 1}
+elif	{'95': 1, 'entity': 1, '258': 1, 'key': 4, '260': 1, '262': 1, '264': 1, '346': 1, 'option': 2, '352': 1, '358': 1, '’-p’': 1, '370': 1, '’-a’': 1, '378': 1, '’-r’': 1}
+96	{'’': 1, 'flag': 1}
+97	{'false': 1, 'if': 1}
+98	{'==': 1, 'entity2': 1}
+99	{'˜': 1, 'else': 1}
+101	{'idx': 1, '102': 1, 'error': 1, 'key': 1}
+102	{'101': 1, 'entity': 1, 'error': 1, 'wrong': 1}
+103	{'entity2': 1, 'key_value_pairs': 1, 'error': 1, 'wrong': 1}
+key_value_pairs	{'103': 1, '=': 2, 'return': 1, '105': 1, '250': 1, 'in': 1, '253': 1}
+104	{'’': 1, 'return': 1, 'error': 1, 'wrong': 1}
+105	{'key_value_pairs': 1, '106': 1}
+106	{'105': 1, '107': 1}
+107	{'106': 1, 'def': 1}
+update_dict	{'def': 1, 'backendtables': 2, '=': 1}
+108	{'backendparams': 1, '109': 1}
+109	{'108': 1, 'max_multitoken': 1}
+max_multitoken	{'109': 1, '=': 1, '1': 1, '149': 1, '<=': 1, '212': 1}
+’max_multitoken’	{'backendparams': 1, '110': 1, '209': 1, '4': 1}
+110	{'’max_multitoken’': 1, 'maxdist': 1}
+’maxdist’	{'backendparams': 1, '111': 1, '210': 1, '3': 1}
+111	{'’maxdist’': 1, 'maxterms': 1}
+’maxterms’	{'backendparams': 1, '112': 1, '211': 1, '3': 1}
+112	{'’maxterms’': 1, '113': 1}
+113	{'112': 1, 'category': 1}
+114	{'hash_crawl': 1, 'tag_list': 1}
+115	{'hash_crawl': 1, 'title': 1}
+116	{'hash_crawl': 1, 'description': 1}
+117	{'hash_crawl': 1, 'meta': 1}
+118	{'hash_crawl': 1, '119': 1}
+119	{'118': 1, 'text': 1}
+str	{'+': 1, 'tag_list': 1, 'write': 3, 'table': 1, 'embeddings': 1, 'sorted_ngrams': 1}
+120	{'meta': 1, 'text': 1}
+’/’	{'replace': 2}
+121	{'’’': 1, 'text': 1}
+’\\n’	{'replace': 1, '’’': 1}
+122	{'’’': 1, 'text': 1}
+\\s	{'replace': 1, '’’': 1}
+\\t	{'replace': 1, '’’': 1}
+123	{'replace': 1, 'text': 1}
+124	{'lower': 1, 'sentence_separators': 1}
+sentence_separators	{'124': 1, '=': 1, 'in': 1, '126': 1}
+125	{'’': 1, 'for': 1}
+sep	{'for': 1, 'in': 1, 'replace': 1, '’_˜’': 1}
+126	{'sentence_separators': 1, 'text': 1}
+’_˜’	{'sep': 1, '127': 1, 'split': 1, '7': 1}
+127	{'’_˜’': 1, 'text': 1}
+128	{'129': 1}
+129	{'128': 1, 'hash_pairs': 1}
+hash_pairs	{'129': 1, '=': 8, 'update': 1, '132': 1, 'table': 2, '146': 1, '154': 1, '174': 1, 'update_hash': 1, 'key': 2, 'in': 5, '192': 1, '211': 1, 'on': 1, '279': 1, '280': 1, '284': 1, '321': 1, '329': 1, 'keyab': 2, '396': 1, '426': 1}
+’hash_pairs’	{'backendtables': 5, '130': 1, '185': 1, '#': 1, '273': 1, '281': 1, '322': 1, '397': 1, '’pairs’': 1, '448': 1}
+130	{'’hash_pairs’': 1, 'ctokens': 1}
+’ctokens’	{'backendtables': 3, '131': 1, '191': 1, '#': 1, '274': 1, '398': 1}
+131	{'’ctokens’': 1, 'hwords': 1}
+hwords	{'131': 1, '=': 1, 'update_hash': 2, 'key': 2, 'in': 2, '159': 1, '160': 1}
+position	{'word': 3, 'to': 1, '136': 1, '=': 1, '145': 1, 'if': 1, '>': 1, '153': 1, '156': 1, '+=1': 1, 'max': 1, 'delta': 1}
+132	{'hash_pairs': 1, '133': 1}
+133	{'132': 1, 'for': 1}
+134	{'text': 1, '135': 1}
+135	{'134': 1, 'words': 1}
+136	{'split': 1, 'position': 1}
+137	{'0': 1, 'buffer': 1}
+buffer	{'137': 1, '=': 2, '143': 1, 'append': 1, 'position-k': 1}
+138	{'=': 1, '139': 1}
+139	{'138': 1, 'for': 1}
+140	{'words': 1, '141': 1}
+141	{'140': 1, 'if': 1}
+142	{'stopwords': 1, '#': 1}
+token	{'single': 1, '143': 1, 'for': 2, 'in': 2, '+': 1, '306': 1, 'word': 8, 'backendtables': 2, '326': 1, '>': 2, '327': 1, '=': 5, 'dictionary': 1, '332': 1, 'same': 1, '2x': 1, '416': 1, 'len': 1, 'split': 1, '423': 1, '424': 1, '433': 1, 'not': 1, 'flag': 1, 'ljust': 1, 'local_hash': 1, '#': 1, 'marked': 1, 'of': 1, 'embedding': 1, '576': 1}
+143	{'token': 1, 'buffer': 1}
+append	{'buffer': 1, 'word': 1, 'arr': 1, 'param': 1}
+144	{'word': 1, 'key': 1}
+145	{'position': 1, 'update_hash': 1}
+correlation	{'word': 2, 'table': 2}
+146	{'hash_pairs': 1, 'update_tables': 1}
+147	{'backendparams': 1, '148': 1}
+148	{'147': 1, 'for': 1}
+k	{'for': 3, 'in': 3, '>': 1, '150': 1, 'get_bin': 1, 'len': 1, 'binary': 1, '==': 1, 'query': 2, '563': 1, '565': 1}
+149	{'max_multitoken': 1, 'if': 1}
+>	{'position': 1, 'k': 1, 'distanceab': 1, '1': 2, 'entity': 1, 'key': 1, '20': 1, 'word': 2, 'token': 2, 'input_': 2, '0': 2}
+150	{'k': 1, '#': 1}
+multi-token	{'now': 1, 'with': 1, 'per': 1, 'for': 1}
+k+1	{'with': 1, 'tokens': 1}
+151	{'tokens': 1, 'word': 1}
+position-k	{'buffer': 1, '+': 1}
+152	{'word': 1, 'key': 1}
+153	{'position': 1, 'update_hash': 1}
+154	{'hash_pairs': 1, 'update_tables': 1}
+155	{'backendparams': 1, '156': 1}
+156	{'155': 1, 'position': 1}
++=1	{'position': 1, '157': 1}
+157	{'+=1': 1, '158': 1}
+158	{'157': 1, 'for': 1}
+keya	{'for': 1, 'in': 1, '=': 2, '0': 1, '1': 1}
+159	{'hwords': 1, 'for': 1}
+keyb	{'for': 1, 'in': 1, '=': 2, '0': 1, '1': 1}
+160	{'hwords': 1, '161': 1}
+161	{'160': 1, 'worda': 1}
+worda	{'161': 1, '=': 3, 'len': 1, 'split': 1, 'wordb': 3, 'if': 1, '<': 1, '284': 1, 'dictionary': 1, '287': 1, 'embeddings': 1, 'pmi': 1}
+162	{'0': 1, 'positiona': 1}
+positiona	{'162': 1, '=': 1, 'abs': 1, '-': 1}
+163	{'1': 1, 'n_termsa': 1}
+n_termsa	{'163': 1, '=': 1, 'max': 1, 'n_termsb': 1}
+164	{'˜': 1, '165': 1}
+165	{'164': 1, 'wordb': 1}
+wordb	{'165': 1, '=': 2, 'len': 1, 'split': 1, 'worda': 3, '170': 1, '<': 1, 'and': 1, '285': 1, 'dictionary': 1, '288': 1, 'pmi': 1, 'embeddings': 1}
+166	{'0': 1, 'positionb': 1}
+positionb	{'166': 1, '=': 1, '-': 1, '172': 1}
+167	{'1': 1, 'n_termsb': 1}
+n_termsb	{'167': 1, '=': 1, 'n_termsa': 1, '171': 1}
+168	{'˜': 1, '169': 1}
+169	{'168': 1, 'key': 1}
+170	{'wordb': 1, 'n_termsab': 1}
+n_termsab	{'170': 1, '=': 1, 'and': 1, '<=': 1}
+171	{'n_termsb': 1, 'distanceab': 1}
+distanceab	{'171': 1, '=': 1, 'and': 1, '<=': 1, 'if': 1, '>': 1}
+abs	{'=': 1, 'positiona': 1}
+-	{'positiona': 1, 'positionb': 1, 'nb': 1, 'nab': 1, 'results': 1, 'section': 1}
+172	{'positionb': 1, '173': 1}
+173	{'172': 1, 'if': 1}
+<	{'worda': 1, 'wordb': 1, 'paramid': 1, 'len': 3, 'input_': 1, 'be': 1}
+<=	{'distanceab': 1, 'maxdist': 1, 'n_termsab': 1, 'maxterms': 1, 'be': 1, 'max_multitoken': 1, 'nb': 1, 'nab': 1}
+174	{'maxterms': 1, 'hash_pairs': 1}
+175	{'key': 1, 'if': 1}
+176	{'1': 1, 'ctokens': 1}
+177	{'key': 1, '178': 1}
+178	{'177': 1, 'return': 1}
+179	{'backendtables': 1, '180': 1}
+180	{'179': 1, '181': 1}
+181	{'180': 1, '#---': 1}
+182	{'corpus': 1, '183': 1}
+183	{'182': 1, 'tablenames': 1}
+tablenames	{'183': 1, '=': 1, 'in': 1, '198': 1}
+184	{'=': 1, '’dictionary’': 1}
+185	{'multitokens': 1, '’hash_pairs’': 1}
+associations	{'multitoken': 1, '186': 1}
+186	{'associations': 1, '’hash_context1’': 1}
+187	{'categories': 1, '’hash_context2’': 1}
+188	{'tags': 1, '’hash_context3’': 1}
+189	{'titles': 1, '’hash_context4’': 1}
+190	{'descriptions': 1, '’hash_context5’': 1}
+191	{'meta': 1, '’ctokens’': 1}
+192	{'hash_pairs': 1, '’hash_id’': 1}
+193	{'id': 1, '’full_content’': 1}
+194	{'195': 1}
+195	{'194': 1, '196': 1}
+196	{'195': 1, 'backendtables': 1}
+197	{'=': 1, 'for': 1}
+198	{'tablenames': 1, 'backendtables': 1}
+199	{'=': 1, '200': 1}
+200	{'199': 1, 'stopwords': 1}
+’-’	{'’’': 1, '’in’': 1}
+’in’	{'’-’': 1, '’the’': 1}
+’the’	{'’in’': 1, '’and’': 1}
+’and’	{'’the’': 1, '’to’': 1}
+’to’	{'’and’': 1, '’of’': 1}
+’of’	{'’to’': 1, '’a’': 1}
+’this’	{'’a’': 1, '’for’': 1}
+’for’	{'’this’': 1, '’is’': 1}
+’is’	{'’for’': 1, '’with’': 1}
+’with’	{'’is’': 1, '’from’': 1}
+’from’	{'’with’': 1, '201': 1}
+201	{'’from’': 1, '’as’': 1}
+’as’	{'201': 1, '’on’': 1}
+’on’	{'’as’': 1, '’an’': 1}
+’an’	{'’on’': 1, '’that’': 1}
+’that’	{'’an’': 1, '’it’': 1}
+’it’	{'’that’': 1, '’are’': 1}
+’are’	{'’it’': 1, '’within’': 1}
+’within’	{'’are’': 1, '’will’': 1}
+’will’	{'’within’': 1, '’by’': 1}
+’by’	{'’will’': 1, '’or’': 1}
+’or’	{'’by’': 1, '’its’': 1}
+’its’	{'’or’': 1, '’can’': 1}
+’can’	{'’its’': 1, '202': 1}
+202	{'’can’': 1, '’your’': 1}
+’your’	{'202': 1, '’be’': 1}
+’be’	{'’your’': 1, '’about’': 1}
+’about’	{'’be’': 1, '’used’': 1}
+’used’	{'’about’': 1, '’our’': 1}
+’our’	{'’used’': 1, '’their’': 1}
+’their’	{'’our’': 1, '’you’': 1}
+’you’	{'’their’': 1, '’into’': 1}
+’into’	{'’you’': 1, '’using’': 1}
+’using’	{'’into’': 1, '’these’': 1}
+’these’	{'’using’': 1, '203': 1}
+203	{'’these’': 1, '’which’': 1}
+’which’	{'203': 1, '’we’': 1}
+’we’	{'’which’': 1, '’how’': 1}
+’how’	{'’we’': 1, '’see’': 1}
+’see’	{'’how’': 1, '’below’': 1}
+’below’	{'’see’': 1, '’all’': 1}
+’all’	{'’below’': 1, '’use’': 1}
+’use’	{'’all’': 1, '’across’': 1}
+’across’	{'’use’': 1, '’provide’': 1}
+’provide’	{'’across’': 1, '’provides’': 1}
+’provides’	{'’provide’': 1, '204': 1}
+204	{'’provides’': 1, '’aims’': 1}
+’aims’	{'204': 1, '’one’': 1}
+’one’	{'’aims’': 1, '’&’': 1}
+’&’	{'’one’': 1, '’ensuring’': 1}
+’ensuring’	{'’&’': 1, '’crucial’': 1}
+’crucial’	{'’ensuring’': 1, '’at’': 1}
+’at’	{'’crucial’': 1, '’various’': 1}
+’various’	{'’at’': 1, '’through’': 1}
+’through’	{'’various’': 1, '’find’': 1}
+’find’	{'’through’': 1, '’ensure’': 1}
+’ensure’	{'’find’': 1, '205': 1}
+205	{'’ensure’': 1, '’more’': 1}
+’more’	{'205': 1, '’another’': 1}
+’another’	{'’more’': 1, '’but’': 1}
+’but’	{'’another’': 1, '’should’': 1}
+’should’	{'’but’': 1, '’considered’': 1}
+’considered’	{'’should’': 1, '’provided’': 1}
+’provided’	{'’considered’': 1, '’must’': 1}
+’must’	{'’provided’': 1, '’whether’': 1}
+’whether’	{'’must’': 1, '206': 1}
+206	{'’whether’': 1, '’located’': 1}
+’located’	{'206': 1, '’where’': 1}
+’where’	{'’located’': 1, '’begins’': 1}
+’begins’	{'’where’': 1, '’any’': 1}
+’any’	{'’begins’': 1, '207': 1}
+207	{'’any’': 1, '208': 1}
+208	{'207': 1, 'backendparams': 1}
+consecutive	{'max': 1, 'terms': 1}
+per	{'terms': 1, 'multi-token': 1}
+inclusion	{'for': 1, 'in': 1}
+delta	{'position': 1, 'between': 1}
+link	{'to': 1, 'them': 1, '2024': 1, '2': 1}
+212	{'max_multitoken': 1, '’extraweights’': 1}
+deafault	{'#': 1, 'weight': 1}
+213	{'1': 1, '214': 1}
+214	{'213': 1, '’description’': 1}
+215	{'0': 1, '’category’': 1}
+216	{'3': 1, '’tag_list’': 1}
+217	{'4': 1, '’title’': 1}
+218	{'2': 1, '’meta’': 1}
+219	{'1': 1, '220': 1}
+220	{'219': 1, '221': 1}
+221	{'220': 1, '222': 1}
+223	{'222': 1, 'local': 1}
+224	{'true': 1, 'if': 1}
+225	{'local': 1, '#': 1}
+226	{'file': 1, 'in': 1}
+open	{'=': 4, 'repository': 1, '’backend_’': 1, '’backend_embeddings': 1, '’backend_sorted_ngrams': 1}
+r	{'txt': 1, '227': 1}
+227	{'r': 1, 'data': 1}
+read	{'in': 1, '228': 1}
+228	{'read': 1, 'in': 1}
+close	{'in': 1, '229': 1, 'out': 3, '599': 1, '603': 1, 'references': 1}
+229	{'close': 1, 'else': 1}
+230	{'else': 1, '#': 1}
+231	{'url': 1, 'import': 1}
+import	{'231': 1, 'requests': 1}
+232	{'requests': 1, 'url': 1}
+https	{'=': 1, '//mltblog': 1}
+//mltblog	{'https': 1, 'com/3y8mxq5': 1}
+com/3y8mxq5	{'//mltblog': 1, '233': 1}
+233	{'com/3y8mxq5': 1, 'response': 1}
+response	{'233': 1, '=': 2, 'text': 1}
+234	{'url': 1, 'data': 1}
+235	{'text': 1, '236': 1}
+236	{'235': 1, 'entities': 1}
+\n	{'split': 1, '237': 1, 'list': 1, 'frontendparams': 1, 'print': 1, '489': 1}
+237	{'\\n': 1, '238': 1}
+238	{'237': 1, 'for': 1}
+entity_raw	{'for': 1, 'in': 1, '=': 2, 'split': 1, '249': 1}
+239	{'entities': 1, '240': 1}
+240	{'239': 1, 'entity': 1}
+˜˜	{'split': 1, '241': 1}
+241	{'˜˜': 1, '242': 1}
+242	{'241': 1, 'if': 1}
+243	{'1': 1, '244': 1}
+244	{'243': 1, 'entity_id': 1}
+entity_id	{'244': 1, '=': 2, '248': 1}
+int	{'=': 3, 'entity': 1, 'option': 1, 'dictionary': 1, 'if': 1, 'input_': 2, 'sample_queries': 1}
+245	{'0': 1, 'entity': 1}
+246	{'split': 1, 'hash_crawl': 1}
+247	{'=': 1, 'hash_crawl': 1}
+248	{'entity_id': 1, 'hash_crawl': 1}
+249	{'entity_raw': 1, '250': 1}
+250	{'249': 1, 'key_value_pairs': 1}
+251	{'entity': 1, '252': 1}
+252	{'251': 1, 'for': 1}
+pair	{'for': 1, 'in': 2, '9': 1, '=': 1, 'split': 1, 'contextual': 1, '441': 1}
+253	{'key_value_pairs': 1, 'if': 1}
+254	{'key': 1}
+255	{'1': 1, 'key': 1}
+256	{'’': 1, 'if': 1}
+’category_text’	{'==': 1, '257': 1}
+257	{'’category_text’': 1, 'hash_crawl': 1}
+258	{'value': 1, 'elif': 1}
+’tags_list_text’	{'==': 1, '259': 1}
+259	{'’tags_list_text’': 1, 'hash_crawl': 1}
+260	{'value': 1, 'elif': 1}
+’title_text’	{'==': 1, '261': 1}
+261	{'’title_text’': 1, 'hash_crawl': 1}
+262	{'value': 1, 'elif': 1}
+’description_text’	{'==': 1, '263': 1}
+263	{'’description_text’': 1, 'hash_crawl': 1}
+264	{'value': 1, 'elif': 1}
+’tower_option_tower’	{'==': 1, '265': 1}
+265	{'’tower_option_tower’': 1, 'hash_crawl': 1}
+266	{'value': 1, '267': 1}
+267	{'266': 1, 'backendtables': 1}
+268	{'backendparams': 1, '269': 1}
+269	{'268': 1, '270': 1}
+270	{'269': 1, 'print': 1}
+print	{'270': 1, '271': 2, 'len': 3, '272': 1, '273': 1, '#': 3, 'key': 2, 'top': 1, '342': 1, '343': 1, '345': 1, 'multitoken': 1, '347': 1, '%3s': 2, '351': 1, '%3d': 2, '367': 1, 'error': 4, '369': 1, '377': 1, '388': 1, 'and': 1, 'results': 2, '408': 1, '409': 2, '412': 1, '413': 1, '435': 1, '439': 1, '440': 2, 'n': 1, '441': 1, 'if': 1, '442': 1, '443': 1, '462': 1, '>>>': 1, '473': 1, '%s': 1, '475': 1, 'linked': 1, '476': 1, '477': 2, '478': 1, '479': 1, '480': 2, '481': 1, 'numbers': 1, '488': 1, '\\n': 1, '518': 1, '519': 1, '520': 1, '---': 1, '521': 1, 'query': 2, '522': 1, '-p': 1, '523': 1, '-f': 1, '524': 1, '-v': 1, '525': 1, '-a': 1, '526': 1, '-r': 1, '527': 1, '-l': 1, '528': 1, '529': 1, '543': 1, '545': 1, 'value': 1}
+271	{'print': 2}
+272	{'’dictionary’': 1, 'print': 1}
+273	{'’hash_pairs’': 1, 'print': 1}
+274	{'’ctokens’': 1, '275': 1}
+275	{'274': 1, '276': 1}
+276	{'275': 1, '#': 1}
+277	{'embeddings': 1, '278': 1}
+278	{'277': 1, 'embeddings': 1}
+279	{'hash_pairs': 1, '280': 1}
+280	{'279': 1, 'hash_pairs': 1}
+281	{'’hash_pairs’': 1, 'dictionary': 1}
+282	{'’dictionary’': 1, '283': 1}
+283	{'282': 1, 'for': 1}
+284	{'hash_pairs': 1, 'worda': 1}
+285	{'0': 1, 'wordb': 1}
+286	{'1': 1, 'na': 1}
+287	{'worda': 1, 'nb': 1}
+288	{'wordb': 1, 'nab': 1}
+289	{'key': 1, 'pmi': 1}
+nab/	{'=': 2, 'na*nb': 2, 'try': 1, 'na': 1}
+na*nb	{'nab/': 2, '**0': 2}
+**0	{'na*nb': 2, '5': 2}
+290	{'nab': 1, '#': 1}
+291	{'nab': 1, '#': 1}
+292	{'nab': 1, 'update_nestedhash': 1}
+293	{'pmi': 1, 'update_nestedhash': 1}
+294	{'pmi': 1, '295': 1}
+295	{'294': 1, '296': 1}
+296	{'295': 1, '#': 1}
+297	{'n-grams': 1, '298': 1}
+298	{'297': 1, 'sorted_ngrams': 1}
+sorted_ngrams	{'298': 1, '=': 2, 'update_nestedhash': 1, 'sorted_ngram': 1, 'in': 1, '567': 1, 'sorted_word': 1, 'str': 1, '606': 1}
+ngram	{'match': 1, 'prompts': 1}
+entries	{'embeddings': 1, '299': 1, '%d': 1, '%': 1}
+299	{'entries': 1, '300': 1}
+300	{'299': 1, 'for': 1}
+301	{'dictionary': 1, 'tokens': 1}
+’˜’	{'split': 4, '302': 1, '419': 1, '420': 1, '465': 1}
+302	{'’˜’': 1, 'tokens': 1}
+sort	{'tokens': 1, '303': 1, 'query': 1, '552': 1}
+303	{'sort': 1, 'sorted_ngram': 1}
+sorted_ngram	{'303': 1, '=': 1, '305': 1, '+=': 1, 'sorted_ngrams': 1, 'word': 1}
+304	{'0': 1, 'for': 1}
+305	{'tokens': 1, 'sorted_ngram': 1}
+306	{'token': 1, 'update_nestedhash': 1}
+307	{'word': 1, '308': 1}
+308	{'307': 1, '#': 1}
+309	{'multitokens': 1, '#': 1}
+310	{'dictionary': 1, '#': 1}
+311	{'20': 1, '#': 1}
+312	{'key': 1, '313': 1}
+313	{'312': 1, '314': 1}
+314	{'313': 1, '#---': 1}
+315	{'functions': 1, '316': 1}
+316	{'315': 1, '#': 1}
+317	{'pmi': 1, '318': 1}
+318	{'317': 1, 'def': 1}
+custom_pmi	{'def': 1, 'word': 2, '=': 1}
+319	{'backendtables': 1, '10': 1}
+320	{'dictionary': 1}
+321	{'’dictionary’': 1, 'hash_pairs': 1}
+322	{'’hash_pairs’': 1, '323': 1}
+323	{'322': 1, 'nab': 1}
+324	{'0': 1, 'pmi': 1}
+00	{'0': 2, '325': 1, '497': 1}
+325	{'00': 1, 'keyab': 1}
+keyab	{'325': 1, '=': 4, '327': 1, 'if': 3, 'in': 3, 'hash_pairs': 2, '330': 1, '422': 1, '424': 1, '427': 1}
+326	{'token': 1, 'if': 1}
+327	{'token': 1, 'keyab': 1}
+328	{'word': 1, 'if': 1}
+329	{'hash_pairs': 1, 'nab': 1}
+330	{'keyab': 1, 'na': 1}
+331	{'word': 1, 'nb': 1}
+332	{'token': 1, 'pmi': 1}
+333	{'5': 1, 'return': 1}
+334	{'pmi': 1, '335': 1}
+335	{'334': 1, '#': 1}
+params	{'frontend': 1, '336': 1, 'change': 1, 'true': 1}
+336	{'params': 1, '337': 1}
+337	{'336': 1, 'def': 1}
+update_params	{'def': 1, 'option': 1, '536': 1, 'input_': 1}
+frontendparams	{'option': 1, '338': 1, 'in': 2, '341': 1, '\\n': 1, '’ignorelist’': 6, '=': 5, 'param': 4, '354': 1, '355': 1, '357': 1, '365': 1, '375': 1, '386': 1, 'return': 1, '390': 1, 'backendtables': 2, '394': 1, 'if': 2, '’bypassignorelist’': 1, '>=': 6, '’embeddingkeyminsize’': 2, '’embeddingvaluesminsize’': 1, '’min_pmi’': 1, '’nabmin’': 1, '’contextmultitokenminsize’': 2, '’minoutputlistsize’': 1, '493': 1, 'set': 1, '’key’': 1, 'input_': 1, '537': 1, '’customized_pmi’': 1, '583': 1, '584': 1, '588': 1}
+338	{'frontendparams': 1, '339': 1}
+339	{'338': 1, 'arr': 1}
+arr	{'339': 1, '=': 3, '341': 1, 'append': 1, 'len': 2, '349': 1, 'key': 1, '363': 1, 'paramid': 1}
+340	{'=': 1, 'for': 1}
+param	{'for': 2, 'in': 2, 'append': 1, '342': 1, '349': 1, '=': 5, 'frontendparams': 4, '351': 1, 'key': 1, 'ljust': 1, 'if': 1, '==': 1, '363': 1}
+341	{'frontendparams': 1, 'arr': 1}
+342	{'param': 1, 'print': 1}
+343	{'print': 1, '344': 1}
+344	{'343': 1, 'if': 1}
+’-l’	{'==': 1, '345': 1, '’-r’': 1, '520': 1}
+345	{'’-l’': 1, 'print': 1}
+’ignorelist’	{'frontendparams': 6, '346': 1, '==': 1, '355': 1, '374': 1, '=': 2, '383': 1, 'in': 1, '401': 1, '402': 1, '502': 1, 'ignore': 1}
+346	{'’ignorelist’': 1, 'elif': 1}
+’-v’	{'==': 1, '347': 1, '’-f’': 1, '’-a’': 1}
+347	{'’-v’': 1, 'print': 1}
+%3s	{'print': 2, '%s': 2}
+%s	{'%3s': 2, '%s': 12, '%': 3, '%3d': 1, '%1s': 3, '410': 1, '436': 1, 'print': 1, '%d': 1, 'to': 1}
+%	{'%s': 3, '’key’': 1, 'key': 2, '410': 1, '’n’': 1, '436': 1, 'nab': 1, '%s\\n': 1, 'label': 2, 'entries': 1, '531': 1, 'len': 1}
+ljust	{'’description’': 1, '25': 2, 'param': 1, '’pmi’': 1, '4': 1, '’': 2, '35': 4, 'token': 1, 'word': 1}
+’value’	{'25': 1, '348': 1}
+348	{'’value’': 1, 'for': 1}
+349	{'arr': 1, 'param': 1}
+350	{'key': 1, 'value': 1}
+351	{'param': 1, 'print': 1}
+%3d	{'print': 2, '%s': 1, '%4': 1}
+352	{'value': 1, 'elif': 1}
+’-f’	{'==': 1, '353': 1, '’-p’': 1, '’-v’': 1}
+353	{'’-f’': 1, 'for': 1}
+354	{'frontendparams': 1, 'if': 1}
+355	{'’ignorelist’': 1, 'frontendparams': 1}
+356	{'=': 1, 'else': 1}
+357	{'else': 1, 'frontendparams': 1}
+358	{'0': 1, 'elif': 1}
+’-p’	{'elif': 1, 'in': 1, '=': 1, '’-f’': 1}
+359	{'option': 2}
+360	{'’': 1, 'if': 1}
+361	{'3': 1, 'paramid': 1}
+paramid	{'361': 1, '=': 1, 'if': 1, '<': 1, 'arr': 1, '364': 1}
+362	{'1': 1, 'if': 1}
+363	{'arr': 1, 'param': 1}
+364	{'paramid': 1, 'value': 1}
+float	{'=': 1, 'option': 1}
+365	{'2': 1, 'frontendparams': 1}
+366	{'value': 1, 'else': 1}
+367	{'else': 1, 'print': 1}
+error	{'print': 4, '101': 1, '102': 1, '103': 1, '104': 1}
+outside	{'key': 1, 'range': 1}
+368	{'range': 1, 'else': 1}
+369	{'else': 1, 'print': 1}
+wrong	{'102': 1, 'number': 3, '103': 1, '104': 1}
+arguments	{'of': 3, '370': 1, '378': 1, '389': 1}
+370	{'arguments': 1, 'elif': 1}
+’-a’	{'elif': 1, 'in': 1, '’-v’': 1, '’-r’': 1}
+371	{'option': 2}
+372	{'’': 1, 'if': 1}
+373	{'2': 1, 'ignore': 1}
+374	{'’ignorelist’': 1, 'ignore': 1}
+*ignore	{'=': 1, 'option': 1}
+375	{'1': 1, 'frontendparams': 1}
+376	{'ignore': 1, 'else': 1}
+377	{'else': 1, 'print': 1}
+378	{'arguments': 1, 'elif': 1}
+’-r’	{'elif': 1, 'in': 1, '’-a’': 1, '’-l’': 1}
+379	{'option': 2}
+380	{'’': 1, 'if': 1}
+381	{'2': 1, 'ignore2': 1}
+ignore2	{'381': 1, '=': 3, '385': 1, '387': 1}
+382	{'=': 1, 'ignore': 1}
+383	{'’ignorelist’': 1, 'for': 1}
+384	{'ignore': 1, 'if': 1}
+385	{'1': 1, 'ignore2': 1}
+*ignore2	{'=': 1, 'item': 1}
+386	{'frontendparams': 1}
+387	{'ignore2': 1, 'else': 1}
+388	{'else': 1, 'print': 1}
+389	{'arguments': 1, 'return': 1}
+390	{'frontendparams': 1, '391': 1}
+391	{'390': 1, '#': 1}
+info	{'retrieve': 1, 'and': 1}
+392	{'results': 1, '393': 1}
+393	{'392': 1, 'def': 1}
+print_results	{'def': 1, 'q_dictionary': 2, '587': 1}
+q_dictionary	{'print_results': 2, 'q_embeddings': 2, 'in': 1, '464': 1, '553': 1, '=': 1, '570': 1, 'word': 1}
+q_embeddings	{'q_dictionary': 2, 'backendtables': 2, '407': 1, '=': 3, 'sorted': 1, 'items': 1, 'in': 1, '415': 1, 'key': 1, '552': 1, '579': 1, 'word': 1}
+394	{'frontendparams': 1, '395': 1}
+395	{'394': 1, 'dictionary': 1}
+396	{'’dictionary’': 1, 'hash_pairs': 1}
+397	{'’hash_pairs’': 1, 'ctokens': 1}
+398	{'’ctokens’': 1, '399': 1}
+399	{'398': 1, 'if': 1}
+’bypassignorelist’	{'frontendparams': 1, '==': 1, '501': 1, '0': 1}
+400	{'1': 1, '#': 1}
+401	{'’ignorelist’': 1, 'ignore': 1}
+402	{'’ignorelist’': 1, 'else': 1}
+403	{'else': 1, '#': 1}
+bypass	{'#': 1, '’ignore’': 1}
+’ignore’	{'bypass': 1, 'list': 4, 'to': 1, 'from': 1, 'view': 1}
+404	{'list': 1, 'ignore': 1}
+405	{'=': 1, '406': 1}
+406	{'405': 1, 'local_hash': 1}
+2x	{'token': 1, 'linked': 1}
+407	{'words': 1, 'q_embeddings': 1}
+dict	{'=': 1, 'sorted': 1}
+items	{'q_embeddings': 1, 'key=lambda': 1}
+key=lambda	{'items': 1, 'item': 1}
+reverse=true	{'1': 1, '408': 1}
+408	{'reverse=true': 1, 'print': 1}
+409	{'print': 2}
+%1s	{'%s': 3, '2f': 1}
+410	{'%s': 1, '%': 1}
+’n’	{'%': 1, '’pmi’': 1}
+’pmi’	{'’n’': 1, 'ljust': 1}
+’f’	{'4': 1, '’token': 1}
+’token	{'’f’': 1, 'from': 1}
+411	{'35': 1, '’word': 1}
+’word	{'411': 1, 'from': 1}
+412	{'35': 1, 'print': 1}
+413	{'print': 1, '414': 1}
+414	{'413': 1, 'for': 1}
+415	{'q_embeddings': 1, 'word': 1}
+416	{'0': 1, 'token': 1}
+417	{'1': 1, 'pmi': 1}
+418	{'key': 1, 'ntk1': 1}
+ntk1	{'418': 1, '=': 1, 'if': 1, '>=': 1}
+419	{'’˜’': 1, 'ntk2': 1}
+ntk2	{'419': 1, '=': 1, '430': 1, '>=': 1}
+420	{'’˜’': 1, 'flag': 1}
+421	{'=': 1, 'nab': 1}
+422	{'0': 1, 'keyab': 1}
+423	{'token': 1, 'if': 1}
+424	{'token': 1, 'keyab': 1}
+425	{'word': 1, 'if': 1}
+426	{'hash_pairs': 1, 'nab': 1}
+427	{'keyab': 1, 'if': 1}
+428	{'ctokens': 1, 'flag': 1}
+’*’	{'=': 1, '429': 1}
+429	{'’*’': 1, 'if': 1}
+>=	{'ntk1': 1, 'frontendparams': 6, 'ntk2': 1, 'pmi': 1, 'nab': 1, 'ntk3': 1, 'hash2': 1}
+’embeddingkeyminsize’	{'frontendparams': 2, 'and': 1, '494': 1, '2': 1, '=': 1}
+430	{'and': 1, 'ntk2': 1}
+’embeddingvaluesminsize’	{'frontendparams': 1, 'and': 1, '495': 1, '2': 1}
+431	{'and': 1, 'pmi': 1}
+’min_pmi’	{'frontendparams': 1, 'and': 1, '496': 1, '0': 1}
+432	{'and': 1, 'nab': 1}
+’nabmin’	{'frontendparams': 1, 'and': 1, '497': 1, '1': 1}
+433	{'and': 1, 'token': 1}
+434	{'ignore': 1, '435': 1}
+435	{'434': 1, 'print': 1}
+%4	{'%3d': 1, '2f': 1}
+2f	{'%4': 1, '%1s': 1}
+436	{'%s': 1, '%': 1}
+437	{'35': 1, 'local_hash': 1}
+marked	{'token': 1, 'as': 1}
+won’t	{'displayed': 1, 'be': 1}
+showed	{'be': 1, 'again': 1}
+438	{'again': 1, '439': 1}
+439	{'438': 1, 'print': 1}
+440	{'print': 2}
+f	{'corpus': 1, '=': 1}
+*	{'=': 1, 'if': 1}
+441	{'pair': 1, 'print': 1}
+’-p	{'option': 1, 'f’': 1}
+f’	{'’-p': 1, '442': 1}
+442	{'f’': 1, 'print': 1}
+443	{'print': 1, '444': 1}
+444	{'443': 1, 'sectionlabels': 1}
+sectionlabels	{'444': 1, '=': 2, 'label': 1}
+445	{'=': 1, '#': 1}
+map	{'#': 1, 'section': 1, 'datasets': 1, 'tables': 1}
+446	{'name': 1, '’dict’': 1}
+’dict’	{'446': 1, '’dictionary’': 1}
+447	{'’dictionary’': 1, '’pairs’': 1}
+’pairs’	{'447': 1, '’hash_pairs’': 1}
+448	{'’hash_pairs’': 1, '’category’': 1}
+449	{'’hash_context1’': 1, '’tags’': 1}
+’tags’	{'449': 1, '’hash_context2’': 1, '’category’': 1, '’titles’': 1}
+450	{'’hash_context2’': 1, '’titles’': 1}
+’titles’	{'450': 1, '’hash_context3’': 1, '’tags’': 1, '’descr': 1}
+451	{'’descr': 1}
+’descr	{'451': 1, '’': 2, '’titles’': 1}
+452	{'’hash_context4’': 1, '’meta’': 1}
+453	{'’hash_context5’': 1, '’id’': 1}
+454	{'’hash_id’': 1, '’whole’': 1}
+’whole’	{'454': 1, '’full_content’': 1, '’id’': 1, '459': 1}
+455	{'’full_content’': 1, '456': 1}
+456	{'455': 1, 'local_hash': 1}
+457	{'=': 1, '458': 1}
+458	{'457': 1, 'for': 1}
+459	{'’whole’': 1, 'tablename': 1}
+tablename	{'459': 1, '=': 1, 'backendtables': 2, '461': 1, 'for': 1, 'in': 1, '596': 1, '+': 2}
+460	{'label': 1, 'table': 1}
+461	{'tablename': 1, 'local_hash': 1}
+462	{'=': 1, 'print': 1}
+>>>	{'print': 1, 'results': 1}
+%s\n	{'section': 1, '%': 1}
+463	{'label': 1, 'for': 1}
+464	{'q_dictionary': 1, 'ntk3': 1}
+ntk3	{'464': 1, '=': 1, 'and': 1, '>=': 1}
+465	{'’˜’': 1, 'if': 1}
+’contextmultitokenminsize’	{'frontendparams': 2, '466': 1, '499': 1, '2': 1, '=': 1}
+466	{'’contextmultitokenminsize’': 1, 'content': 1}
+467	{'hash': 1, 'count': 1}
+468	{'word': 1, 'for': 1}
+469	{'content': 1, 'update_nestedhash': 1}
+470	{'count': 1, 'for': 1}
+471	{'local_hash': 1, 'hash2': 1}
+hash2	{'471': 1, '=': 1, 'len': 2, '>=': 1, '474': 1, 'in': 1, '475': 1, 'key': 2}
+472	{'item': 1, 'if': 1}
+’minoutputlistsize’	{'frontendparams': 1, '473': 1, '500': 1, '1': 1}
+473	{'’minoutputlistsize’': 1, 'print': 1}
+%d	{'%s': 1, 'entries': 1, '0': 1, 'for': 1}
+474	{'hash2': 1, 'for': 1}
+475	{'hash2': 1, 'print': 1}
+476	{'key': 1, 'print': 1}
+477	{'print': 2}
+478	{'print': 1, '479': 1}
+479	{'478': 1, 'print': 1}
+480	{'print': 2}
+481	{'tables': 1, 'print': 1}
+numbers	{'print': 1, 'in': 1}
+parentheses	{'in': 1, 'are': 1}
+482	{'corpus': 1, '483': 1}
+483	{'482': 1, 'return': 1}
+484	{'return': 1, '485': 1}
+485	{'484': 1, '486': 1}
+486	{'485': 1, '#---': 1}
+487	{'prompt': 1, '488': 1}
+488	{'487': 1, 'print': 1}
+489	{'\\n': 1, 'input_': 1}
+input_	{'489': 1, '=': 4, 'len': 2, '>': 2, '530': 1, 'in': 1, '536': 1, 'update_params': 1, 'frontendparams': 1, '537': 1, 'if': 1, 'isdigit': 1, 'int': 2, '<': 1, '543': 1, '549': 1}
+490	{'=': 1, 'get_bin': 1}
+get_bin	{'490': 1, '=': 2, 'k': 1}
+lambda	{'=': 1, 'x': 1}
+x	{'lambda': 1, 'n': 1, 'format': 1, '’b’': 1}
+zfill	{'’b’': 1, 'n': 1}
+491	{'n': 1, '492': 1}
+492	{'491': 1, 'ignore': 1}
+’data’	{'=': 1, '493': 1}
+493	{'’data’': 1, 'frontendparams': 1}
+494	{'=': 1, '’embeddingkeyminsize’': 1}
+495	{'2': 1, '’embeddingvaluesminsize’': 1}
+496	{'2': 1, '’min_pmi’': 1}
+497	{'00': 1, '’nabmin’': 1}
+498	{'1': 1, '’customized_pmi’': 1}
+’customized_pmi’	{'498': 1, '1': 1, 'frontendparams': 1, '==': 1}
+499	{'1': 1, '’contextmultitokenminsize’': 1}
+501	{'1': 1, '’bypassignorelist’': 1}
+502	{'0': 1, '’ignorelist’': 1}
+503	{'ignore': 1, '504': 1}
+504	{'503': 1, '505': 1}
+505	{'504': 1, 'sample_queries': 1}
+sample_queries	{'505': 1, '=': 2, 'len': 3, '-1': 1, '542': 1, 'int': 1, '546': 1}
+506	{'=': 1, '’parameterized': 1}
+’parameterized	{'506': 1, 'datasets': 1}
+datasets	{'’parameterized': 1, 'map': 1}
+sql	{'tables': 1, 'server’': 1}
+server’	{'sql': 1, '507': 1}
+507	{'server’': 1, '’data': 1}
+’data	{'507': 1, 'load': 1}
+load	{'’data': 1, 'templates': 1}
+templates	{'load': 1, 'importing': 1}
+importing	{'templates': 1, 'data': 1}
+warehouse’	{'data': 1, '508': 1}
+508	{'warehouse’': 1, '’pipeline': 1}
+’pipeline	{'508': 1, 'extract': 1}
+eventhub	{'data': 1, 'files’': 1, 'blob': 1, 'more': 1}
+files’	{'eventhub': 1, '509': 1}
+509	{'files’': 1, '’blob': 1}
+’blob	{'509': 1, 'storage': 1}
+parquet	{'single': 1, 'file': 1}
+gen2’	{'adls': 1, '510': 1}
+510	{'gen2’': 1, '’eventhub': 1}
+’eventhub	{'510': 1, 'files': 1}
+files	{'’eventhub': 1, 'blob': 1, 'more': 1, 'less': 1}
+blob	{'files': 1, 'storage': 1, '’parquet': 1, 'eventhub': 1}
+parquet’	{'single': 1, '511': 1}
+511	{'parquet’': 1, '’parquet': 1}
+’parquet	{'511': 1, 'blob': 1}
+less	{'files': 1, 'storage': 1}
+table’	{'single': 1, '512': 1}
+512	{'table’': 1, '’mltxquest': 1}
+’mltxquest	{'512': 1, 'data': 1}
+assets	{'data': 1, 'detailed': 1}
+page’	{'information': 1, '513': 1}
+513	{'page’': 1, '’stellar’': 1}
+’stellar’	{'513': 1, '’table’': 1}
+’table’	{'’stellar’': 1, '514': 1}
+514	{'’table’': 1, '515': 1}
+515	{'514': 1, '516': 1}
+516	{'515': 1, 'while': 1}
+517	{'518': 1}
+518	{'517': 1, 'print': 1}
+519	{'print': 1, 'options': 1}
+520	{'’-l’': 1, 'print': 1}
+---	{'print': 1, '521': 1}
+521	{'---': 1, 'print': 1}
+522	{'options': 1, 'print': 1}
+-p	{'print': 1, 'key': 1}
+523	{'value': 1, 'print': 1}
+524	{'set': 1, 'print': 1}
+-v	{'print': 1, 'view': 1}
+525	{'set': 1, 'print': 1}
+-a	{'print': 1, 'multitoken': 1}
+526	{'list': 1, 'print': 1}
+-r	{'print': 1, 'multitoken': 1}
+remove	{'multitoken': 2}
+527	{'list': 1, 'print': 1}
+-l	{'print': 1, 'view': 1}
+528	{'list': 1, 'print': 1}
+529	{'print': 1, '530': 1}
+530	{'529': 1, 'input_': 1}
+integer	{'or': 1, 'in': 1}
+531	{'query': 1, '%': 1}
+-1	{'sample_queries': 1, '532': 1}
+532	{'-1': 1, '533': 1}
+533	{'532': 1, 'flag': 1}
+-->	{'false': 1, 'query': 1, 'true': 1, 'real': 1}
+534	{'query': 1, 'for': 1}
+535	{'options': 1, 'if': 1}
+536	{'input_': 1, 'update_params': 1}
+537	{'frontendparams': 1, 'input_': 1}
+538	{'=': 1, 'flag': 1}
+539	{'false': 1, '540': 1}
+540	{'539': 1, 'if': 1}
+isdigit	{'input_': 1, '541': 1}
+541	{'isdigit': 1, 'if': 1}
+542	{'sample_queries': 1, 'query': 1}
+543	{'input_': 1, 'print': 1}
+544	{'query': 1, 'else': 1}
+545	{'else': 1, 'print': 1}
+546	{'sample_queries': 1, 'query': 1}
+547	{'=': 1, 'else': 1}
+548	{'else': 1, 'query': 1}
+549	{'input_': 1, '550': 1}
+550	{'549': 1, 'query': 1}
+551	{'’': 1, 'query': 1}
+552	{'sort': 1, 'q_embeddings': 1}
+553	{'=': 1, 'q_dictionary': 1}
+554	{'=': 1, '555': 1}
+555	{'554': 1, 'for': 1}
+2**len	{'1': 1, 'query': 1}
+556	{'query': 1, '557': 1}
+557	{'556': 1, 'binary': 1}
+binary	{'557': 1, '=': 1, 'len': 1, '560': 1, 'if': 1, 'k': 1}
+558	{'query': 1, 'sorted_word': 1}
+sorted_word	{'558': 1, '=': 2, 'if': 2, '==': 1, '562': 1, '564': 1, '+=': 1, 'in': 1, 'sorted_ngrams': 1, '568': 1}
+559	{'=': 1, 'for': 1}
+560	{'binary': 1, 'if': 1}
+’1’	{'==': 1, '561': 1}
+561	{'’1’': 1, 'if': 1}
+562	{'==': 1, 'sorted_word': 1}
+563	{'k': 1, 'else': 1}
+564	{'else': 1, 'sorted_word': 1}
+565	{'k': 1, '566': 1}
+566	{'565': 1, 'if': 1}
+567	{'sorted_ngrams': 1, 'ngrams': 1}
+568	{'sorted_word': 1, 'for': 1}
+569	{'ngrams': 1, 'if': 1}
+570	{'dictionary': 1, 'q_dictionary': 1}
+571	{'word': 1, 'if': 1}
+572	{'embeddings': 1, 'embedding': 1}
+embedding	{'572': 1, '=': 2, 'in': 1, '574': 1, 'token': 1}
+573	{'word': 1, 'for': 1}
+574	{'embedding': 1, 'if': 1}
+575	{'0': 1, 'pmi': 1}
+576	{'token': 1, 'else': 1}
+577	{'else': 1, '#': 1}
+578	{'pmi': 2}
+579	{'backendtables': 1, 'q_embeddings': 1}
+580	{'pmi': 1, '581': 1}
+582	{'1': 1, '#': 1}
+single-token	{'#': 1, 'query': 1}
+583	{'frontendparams': 1}
+584	{'1': 1, 'frontendparams': 1}
+585	{'1': 1, '586': 1}
+586	{'585': 1, 'if': 1}
+587	{'flag': 1, 'print_results': 1}
+588	{'frontendparams': 1, '589': 1}
+589	{'588': 1, '590': 1}
+590	{'589': 1, '#---': 1}
+save	{'5': 1, 'backend': 1, '592': 1, '=': 1, 'if': 1, '594': 1}
+591	{'tables': 1, '592': 1}
+592	{'591': 1, 'save': 1}
+593	{'false': 1, 'if': 1}
+594	{'save': 1, 'for': 1}
+595	{'backendtables': 1, 'table': 1}
+596	{'tablename': 1, 'out': 1}
+’backend_’	{'open': 1, '+': 1}
+txt’	{'’': 1, 'w': 3, '’backend_embeddings': 1, '’backend_sorted_ngrams': 1}
+w	{'txt’': 3, '597': 1, '601': 1, '605': 1}
+597	{'w': 1, 'out': 1}
+write	{'out': 3, 'str': 3}
+598	{'table': 1, 'out': 1}
+599	{'close': 1, '600': 1}
+’backend_embeddings	{'open': 1, 'txt’': 1}
+601	{'w': 1, 'out': 1}
+602	{'embeddings': 1, 'out': 1}
+603	{'close': 1, '604': 1}
+604	{'603': 1, 'out': 1}
+’backend_sorted_ngrams	{'open': 1, 'txt’': 1}
+605	{'w': 1, 'out': 1}
+606	{'sorted_ngrams': 1, 'out': 1}
+references	{'close': 1, '1': 1}
+state	{'granville': 1, 'of': 1}
+mltech-	{'solutions': 1, 'niques': 1}
+niques	{'mltech-': 1, 'com': 1}

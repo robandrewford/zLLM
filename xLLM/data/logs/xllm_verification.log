@@ -1,0 +1,71 @@
+2025-03-09 13:02:39,446 - xllm_verification - INFO - Starting xllm6 to xLLM verification...
+2025-03-09 13:02:39,446 - xllm_verification - INFO - Testing knowledge base construction...
+2025-03-09 13:02:39,446 - xllm_verification - INFO - Testing query processing...
+2025-03-09 13:02:39,446 - xllm_verification - INFO - Testing data tables...
+2025-03-09 13:02:39,446 - xllm_verification - WARNING - xLLM path for dictionary not found, skipping
+2025-03-09 13:02:39,446 - xllm_verification - WARNING - xLLM path for embeddings not found, skipping
+2025-03-09 13:02:39,446 - xllm_verification - WARNING - xLLM path for word_hash not found, skipping
+2025-03-09 13:02:39,446 - xllm_verification - WARNING - xLLM path for hash_see not found, skipping
+2025-03-09 13:02:39,446 - xllm_verification - WARNING - xLLM path for hash_related not found, skipping
+2025-03-09 13:02:39,446 - xllm_verification - WARNING - xLLM path for hash_category not found, skipping
+2025-03-09 13:02:39,446 - xllm_verification - WARNING - xLLM path for ngrams_table not found, skipping
+2025-03-09 13:02:39,446 - xllm_verification - WARNING - xLLM path for compressed_ngrams_table not found, skipping
+2025-03-09 13:02:39,446 - xllm_verification - INFO - Testing NVIDIA backend...
+2025-03-09 13:02:39,446 - xllm_verification - INFO - Testing performance...
+2025-03-09 13:02:39,446 - xllm_verification - INFO - Verification report written to verification_report.md
+2025-03-09 13:02:39,446 - xllm_verification - WARNING - 0/4 tests passed. Some tests failed.
+2025-03-09 14:06:32,836 - xllm_verification - INFO - Successfully imported xLLM modules
+2025-03-09 14:06:32,836 - xllm_verification - INFO - Starting xLLM verification
+2025-03-09 14:06:32,836 - xllm_verification - INFO - Loading xLLM
+2025-03-09 14:06:32,837 - xllm_verification - WARNING - No knowledge base found. Using mock implementation.
+2025-03-09 14:06:32,837 - xllm_verification - INFO - Verifying knowledge base construction
+2025-03-09 14:06:32,837 - xllm_verification - INFO - Verifying query processing
+2025-03-09 14:06:32,837 - xllm_verification - INFO - Processing query: machine learning
+2025-03-09 14:06:32,837 - xllm_verification - INFO - Processing query: neural networks
+2025-03-09 14:06:32,837 - xllm_verification - INFO - Processing query: probability theory
+2025-03-09 14:06:32,837 - xllm_verification - INFO - Processing query: statistics
+2025-03-09 14:06:32,837 - xllm_verification - INFO - Processing query: deep learning
+2025-03-09 14:06:32,837 - xllm_verification - INFO - Verification report saved to data/logs/verification_report.txt
+2025-03-09 14:06:32,837 - xllm_verification - ERROR - Verification FAILED
+2025-03-09 14:06:32,837 - xllm_verification - ERROR - Knowledge base errors: 1
+2025-03-09 14:16:59,347 - xllm_verification - INFO - Successfully imported xLLM modules
+2025-03-09 14:16:59,347 - xllm_verification - INFO - Starting xLLM verification
+2025-03-09 14:16:59,347 - xllm_verification - INFO - Loading xLLM
+2025-03-09 14:16:59,347 - xllm_verification - WARNING - No knowledge base found. Using mock implementation.
+2025-03-09 14:16:59,347 - xllm_verification - INFO - Verifying knowledge base construction
+2025-03-09 14:16:59,347 - xllm_verification - INFO - Verifying query processing
+2025-03-09 14:16:59,347 - xllm_verification - INFO - Processing query: machine learning
+2025-03-09 14:16:59,347 - xllm_verification - INFO - Processing query: neural networks
+2025-03-09 14:16:59,347 - xllm_verification - INFO - Processing query: probability theory
+2025-03-09 14:16:59,347 - xllm_verification - INFO - Processing query: statistics
+2025-03-09 14:16:59,347 - xllm_verification - INFO - Processing query: deep learning
+2025-03-09 14:16:59,347 - xllm_verification - INFO - Verification report saved to data/logs/verification_report.txt
+2025-03-09 14:16:59,347 - xllm_verification - ERROR - Verification FAILED
+2025-03-09 14:16:59,347 - xllm_verification - ERROR - Knowledge base errors: 1
+2025-03-09 14:17:24,365 - xllm_verification - INFO - Successfully imported xLLM modules
+2025-03-09 14:17:24,365 - xllm_verification - INFO - Starting xLLM verification
+2025-03-09 14:17:24,365 - xllm_verification - INFO - Loading xLLM
+2025-03-09 14:17:24,366 - xllm_verification - INFO - Loading test knowledge base from data/knowledge/test/knowledge_base.pkl
+2025-03-09 14:17:24,366 - xllm.knowledge_base.hash_knowledge_base - INFO - Knowledge base loaded from data/knowledge/test/knowledge_base.pkl
+2025-03-09 14:17:24,366 - xllm.query_engine.query_engine - INFO - Using data directory: <xllm.knowledge_base.hash_knowledge_base.HashKnowledgeBase object at 0x103a11990>
+2025-03-09 14:17:24,366 - xllm.query_engine.query_engine - ERROR - Error loading data tables: expected str, bytes or os.PathLike object, not HashKnowledgeBase
+2025-03-09 14:17:24,366 - xllm.query_engine.query_engine - ERROR - Error loading backend tables: expected str, bytes or os.PathLike object, not HashKnowledgeBase
+2025-03-09 14:17:24,366 - xllm_verification - INFO - Verifying knowledge base construction
+2025-03-09 14:17:24,366 - xllm_verification - INFO - Loading test knowledge base from data/knowledge/test/knowledge_base.pkl
+2025-03-09 14:17:24,366 - xllm.knowledge_base.hash_knowledge_base - INFO - Knowledge base loaded from data/knowledge/test/knowledge_base.pkl
+2025-03-09 14:17:24,366 - xllm_verification - INFO - Knowledge base dictionary size: 0
+2025-03-09 14:17:24,366 - xllm_verification - INFO - Knowledge base embeddings size: 0
+2025-03-09 14:17:24,366 - xllm_verification - INFO - Verifying query processing
+2025-03-09 14:17:24,366 - xllm_verification - INFO - Processing query: machine learning
+2025-03-09 14:17:24,366 - xllm.query_engine.query_engine - INFO - Processing query: machine learning
+2025-03-09 14:17:24,366 - xllm_verification - INFO - Processing query: neural networks
+2025-03-09 14:17:24,366 - xllm.query_engine.query_engine - INFO - Processing query: neural networks
+2025-03-09 14:17:24,366 - xllm_verification - INFO - Processing query: probability theory
+2025-03-09 14:17:24,366 - xllm.query_engine.query_engine - INFO - Processing query: probability theory
+2025-03-09 14:17:24,366 - xllm_verification - INFO - Processing query: statistics
+2025-03-09 14:17:24,366 - xllm.query_engine.query_engine - INFO - Processing query: statistics
+2025-03-09 14:17:24,366 - xllm_verification - INFO - Processing query: deep learning
+2025-03-09 14:17:24,366 - xllm.query_engine.query_engine - INFO - Processing query: deep learning
+2025-03-09 14:17:24,366 - xllm_verification - INFO - Verification report saved to data/logs/verification_report.txt
+2025-03-09 14:17:24,366 - xllm_verification - ERROR - Verification FAILED
+2025-03-09 14:17:24,366 - xllm_verification - ERROR - Knowledge base errors: 1

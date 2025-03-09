@@ -106,8 +106,7 @@ def test_crawl_basic(mock_get, crawler, tmp_path):
 
     # Crawl with a small max_pages to keep the test fast
     results = crawler.crawl(
-        "https://mathworld.wolfram.com/topics/ProbabilityandStatistics.html",
-        max_pages=2
+        "https://mathworld.wolfram.com/topics/ProbabilityandStatistics.html", max_pages=2
     )
 
     # Check that we got some results

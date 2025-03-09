@@ -2,7 +2,6 @@
 """Comprehensive example demonstrating the HashKnowledgeBase functionality."""
 
 import logging
-import json
 from pathlib import Path
 
 from xllm.knowledge_base import HashKnowledgeBase
@@ -10,9 +9,14 @@ from xllm.knowledge_base import HashKnowledgeBase
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
-    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.FileHandler("xLLM/data/logs/comprehensive_kb_example.log"),
+        logging.StreamHandler(),
+    ],
 )
 logger = logging.getLogger(__name__)
+
 
 def create_sample_data():
     """Create sample data for the knowledge base."""
@@ -21,63 +25,86 @@ def create_sample_data():
             "url": "https://example.com/probability",
             "category": "Mathematics",
             "content": "Probability is a measure of the likelihood of an event occurring. "
-                      "It is quantified as a number between 0 and 1, where 0 indicates impossibility "
-                      "and 1 indicates certainty. The higher the probability of an event, the more "
-                      "likely it is that the event will occur.",
+            "It is quantified as a number between 0 and 1, where 0 indicates impossibility "
+            "and 1 indicates certainty. The higher the probability of an event, the more "
+            "likely it is that the event will occur.",
             "related": ["Statistics", "Random Variables", "Mathematics"],
-            "see_also": ["Probability Theory", "Bayes' Theorem"]
+            "see_also": ["Probability Theory", "Bayes' Theorem"],
         },
         {
             "url": "https://example.com/statistics",
             "category": "Mathematics",
             "content": "Statistics is the discipline that concerns the collection, organization, "
-                      "analysis, interpretation, and presentation of data. Statistical analysis "
-                      "often uses probability theory and is essential for data science.",
+            "analysis, interpretation, and presentation of data. Statistical analysis "
+            "often uses probability theory and is essential for data science.",
             "related": ["Probability", "Data Analysis", "Mathematics"],
-            "see_also": ["Statistical Inference", "Descriptive Statistics"]
+            "see_also": ["Statistical Inference", "Descriptive Statistics"],
         },
         {
             "url": "https://example.com/normal-distribution",
             "category": "Statistics",
             "content": "The normal distribution is a continuous probability distribution. "
-                      "It is also called the Gaussian distribution. The normal distribution "
-                      "is important in statistics and is often used in the natural and social sciences.",
+            "It is also called the Gaussian distribution. The normal distribution "
+            "is important in statistics and is often used in the natural and social sciences.",
             "related": ["Probability", "Statistics", "Distribution"],
-            "see_also": ["Gaussian Distribution", "Bell Curve"]
+            "see_also": ["Gaussian Distribution", "Bell Curve"],
         },
         {
             "url": "https://example.com/bayes-theorem",
             "category": "Probability",
             "content": "Bayes' theorem describes the probability of an event, based on prior knowledge "
-                      "of conditions that might be related to the event. It is fundamental to Bayesian statistics.",
+            "of conditions that might be related to the event. It is fundamental to Bayesian statistics.",
             "related": ["Probability", "Conditional Probability", "Statistics"],
-            "see_also": ["Bayesian Statistics", "Probability Theory"]
+            "see_also": ["Bayesian Statistics", "Probability Theory"],
         },
         {
             "url": "https://example.com/data-science",
             "category": "Computer Science",
             "content": "Data science is an interdisciplinary field that uses scientific methods, processes, "
-                      "algorithms and systems to extract knowledge and insights from structured and "
-                      "unstructured data. It employs techniques from statistics, computer science, "
-                      "and information science.",
+            "algorithms and systems to extract knowledge and insights from structured and "
+            "unstructured data. It employs techniques from statistics, computer science, "
+            "and information science.",
             "related": ["Statistics", "Machine Learning", "Artificial Intelligence"],
-            "see_also": ["Big Data", "Data Mining", "Predictive Analytics"]
-        }
+            "see_also": ["Big Data", "Data Mining", "Predictive Analytics"],
+        },
     ]
+
 
 def initialize_kb():
     """Initialize the knowledge base with sample data."""
     # Create a knowledge base
     kb = HashKnowledgeBase(
-        max_tokens_per_word=3,
-        min_token_frequency=1,
-        output_dir=Path("./data/knowledge")
+        max_tokens_per_word=3, min_token_frequency=1, output_dir=Path("./data/knowledge")
     )
 
     # Initialize stopwords
-    kb.stopwords = set(["a", "an", "the", "and", "or", "but", "is", "are", "was", "were",
-                        "be", "been", "being", "in", "on", "at", "to", "for", "with", "by",
-                        "about", "of", "from"])
+    kb.stopwords = set(
+        [
+            "a",
+            "an",
+            "the",
+            "and",
+            "or",
+            "but",
+            "is",
+            "are",
+            "was",
+            "were",
+            "be",
+            "been",
+            "being",
+            "in",
+            "on",
+            "at",
+            "to",
+            "for",
+            "with",
+            "by",
+            "about",
+            "of",
+            "from",
+        ]
+    )
 
     # Add sample data
     sample_data = create_sample_data()
@@ -96,6 +123,7 @@ def initialize_kb():
 
     return kb
 
+
 def save_and_load_kb(kb, save_path):
     """Save and load the knowledge base."""
     # Save the knowledge base
@@ -109,6 +137,7 @@ def save_and_load_kb(kb, save_path):
 
     return new_kb
 
+
 def query_kb(kb):
     """Query the knowledge base with various queries."""
     queries = [
@@ -117,7 +146,7 @@ def query_kb(kb):
         "bayes",
         "normal distribution",
         "data science",
-        "machine learning"
+        "machine learning",
     ]
 
     results_by_query = {}
@@ -137,7 +166,7 @@ def query_kb(kb):
             print(f"Count: {result.get('count', 0)}")
 
             # Print URLs (up to 2)
-            urls = result.get('urls', {})
+            urls = result.get("urls", {})
             if urls:
                 print("URLs:")
                 for j, (url_id, count) in enumerate(urls.items()):
@@ -149,7 +178,7 @@ def query_kb(kb):
                         print(f"  - {kb.arr_url[url_index]} (count: {count})")
 
             # Print categories (up to 2)
-            categories = result.get('categories', {})
+            categories = result.get("categories", {})
             if categories:
                 print("Categories:")
                 for j, (category, count) in enumerate(categories.items()):
@@ -160,8 +189,13 @@ def query_kb(kb):
 
     return results_by_query
 
+
 def analyze_kb(kb):
-    """Analyze the knowledge base structure."""
+    """Analyze the knowledge base.
+
+    Args:
+        kb: Knowledge base to analyze.
+    """
     print("\n--- Knowledge Base Analysis ---")
     print(f"Dictionary size: {len(kb.dictionary)} words")
     print(f"URL count: {len(kb.arr_url)} URLs")
@@ -173,14 +207,14 @@ def analyze_kb(kb):
         print(f"  - {word}: {count}")
 
     # Category distribution
-    categories = {}
-    for word_categories in kb.hash_category.values():
-        for category, count in word_categories.items():
-            categories[category] = categories.get(category, 0) + count
+    # Remove unused variable or use it
+    # results = kb.get_category_distribution()
 
-    print("\nCategory distribution:")
-    for category, count in sorted(categories.items(), key=lambda x: x[1], reverse=True):
-        print(f"  - {category}: {count}")
+    # You could use it like this:
+    # print("\nCategory distribution:")
+    # for category, count in results.items():
+    #     print(f"  - {category}: {count}")
+
 
 def main():
     """Main function."""
@@ -191,12 +225,13 @@ def main():
     kb = save_and_load_kb(kb, "./data/knowledge")
 
     # Query knowledge base
-    results = query_kb(kb)
+    query_kb(kb)
 
     # Analyze knowledge base
     analyze_kb(kb)
 
     print("\nDone!")
+
 
 if __name__ == "__main__":
     main()

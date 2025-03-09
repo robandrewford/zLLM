@@ -1,0 +1,14 @@
+2025-03-09 14:01:03,163 - xllm_verification - INFO - Successfully imported xLLM modules
+2025-03-09 14:01:03,163 - xllm_verification - INFO - Starting xLLM verification
+2025-03-09 14:01:03,163 - xllm_verification - INFO - Loading xLLM
+2025-03-09 14:01:03,163 - xllm_verification - WARNING - No knowledge base found. Using mock implementation.
+2025-03-09 14:01:03,163 - xllm_verification - INFO - Verifying knowledge base construction
+2025-03-09 14:01:03,163 - xllm_verification - INFO - Verifying query processing
+2025-03-09 14:01:03,163 - xllm_verification - INFO - Processing query: machine learning
+2025-03-09 14:01:03,163 - xllm_verification - INFO - Processing query: neural networks
+2025-03-09 14:01:03,163 - xllm_verification - INFO - Processing query: probability theory
+2025-03-09 14:01:03,163 - xllm_verification - INFO - Processing query: statistics
+2025-03-09 14:01:03,163 - xllm_verification - INFO - Processing query: deep learning
+2025-03-09 14:01:03,164 - xllm_verification - INFO - Verification report saved to xLLM/data/logs/verification_report.txt
+2025-03-09 14:01:03,164 - xllm_verification - ERROR - Verification FAILED
+2025-03-09 14:01:03,164 - xllm_verification - ERROR - Knowledge base errors: 1

@@ -77,9 +77,9 @@ class WolframCrawler(BaseCrawler):
         crawl_log = self.output_dir / "crawl_log.txt"
         category_log = self.output_dir / "crawl_categories.txt"
 
-        with open(crawl_log, "w", encoding="utf-8") as file1, \
-             open(category_log, "w", encoding="utf-8") as file2:
-
+        with open(crawl_log, "w", encoding="utf-8") as file1, open(
+            category_log, "w", encoding="utf-8"
+        ) as file2:
             # Main crawling loop
             while parsed < min(max_pages, n_urls):
                 current_url = self.url_list[parsed]
@@ -105,7 +105,9 @@ class WolframCrawler(BaseCrawler):
 
                     if response.status_code != 200:
                         logger.warning(f"Failed: {current_url} with status {response.status_code}")
-                        file1.write(f"{current_url}\tError:{response.status_code}\t{parent_category}\t{level}\n")
+                        file1.write(
+                            f"{current_url}\tError:{response.status_code}\t{parent_category}\t{level}\n"
+                        )
                         continue
 
                     # Process the page
@@ -115,7 +117,9 @@ class WolframCrawler(BaseCrawler):
                     # Process directory page
                     if "topics/" in current_url:
                         # Extract links to other directory pages
-                        new_urls = self._extract_directory_links(page, current_url, parent_category, level, file1, file2)
+                        new_urls = self._extract_directory_links(
+                            page, current_url, parent_category, level, file1, file2
+                        )
                         self.url_list.extend(new_urls)
                         n_urls += len(new_urls)
 
@@ -124,7 +128,11 @@ class WolframCrawler(BaseCrawler):
                         page_data = self.process_page(current_url, page, parent_category)
                         if page_data:
                             results.append(page_data)
-                            self.final_urls[current_url] = (page_data["category"], parent_category, level + 1)
+                            self.final_urls[current_url] = (
+                                page_data["category"],
+                                parent_category,
+                                level + 1,
+                            )
 
                 except Exception as e:
                     logger.error(f"Error processing {current_url}: {e}")
@@ -138,7 +146,9 @@ class WolframCrawler(BaseCrawler):
 
         return results
 
-    def process_page(self, url: str, content: Optional[str] = None, parent_category: Optional[str] = None) -> Optional[Dict[str, Any]]:
+    def process_page(
+        self, url: str, content: Optional[str] = None, parent_category: Optional[str] = None
+    ) -> Optional[Dict[str, Any]]:
         """Process a single page.
 
         Args:
@@ -177,7 +187,7 @@ class WolframCrawler(BaseCrawler):
                 "content": main_content,
                 "related": related,
                 "see_also": see_also,
-                "top_category": self._get_top_category(content)
+                "top_category": self._get_top_category(content),
             }
         except Exception as e:
             logger.error(f"Error processing content from {url}: {e}")
@@ -202,11 +212,11 @@ class WolframCrawler(BaseCrawler):
         new_urls = []
 
         # Extract links to other directory pages
-        page1 = page.replace('\n', ' ').split("<a href=\"/topics/")
+        page1 = page.replace("\n", " ").split('<a href="/topics/')
         for line in page1[1:]:  # Skip the first element which is before the first link
             line = line.split("<span>")[0]
             if line.count(">") == 1:
-                line = line.split("\">")
+                line = line.split('">')
                 if len(line) > 1:
                     new_url = f"{self.base_url}topics/{line[0]}"
                     new_category = line[1]
@@ -244,17 +254,17 @@ class WolframCrawler(BaseCrawler):
         related_parts = content_parts[1].split("<h2>See also</h2>")
         if len(related_parts) > 1:
             related_html = related_parts[1].split("<!-- End See Also -->")[0]
-            for item in related_html.split("\">"):
+            for item in related_html.split('">'):
                 item = item.split("<")[0]
                 if item and "mathworld" not in item.lower():
                     related.append(item)
 
         # Extract see also links
         see_also = []
-        see_parts = page.split("<p class=\"CrossRefs\">")
+        see_parts = page.split('<p class="CrossRefs">')
         if len(see_parts) > 1:
             see_html = see_parts[1].split("<!-- Begin See Also -->")[0]
-            for item in see_html.split("\">"):
+            for item in see_html.split('">'):
                 item = item.split("<")[0]
                 if item and item.strip():
                     see_also.append(item)
@@ -271,8 +281,8 @@ class WolframCrawler(BaseCrawler):
             The top category
         """
         try:
-            breadcrumb = page.split("<ul class=\"breadcrumb\">")[1]
-            category_html = breadcrumb.split("\">")[1]
+            breadcrumb = page.split('<ul class="breadcrumb">')[1]
+            category_html = breadcrumb.split('">')[1]
             top_category = category_html.split("</a>")[0]
             return top_category
         except (IndexError, KeyError):
@@ -312,7 +322,7 @@ class WolframCrawler(BaseCrawler):
             results: The crawled results
         """
         for i in range(0, len(results), self.batch_size):
-            batch = results[i:i+self.batch_size]
+            batch = results[i : i + self.batch_size]
             begin = i + 1
             end = min(i + self.batch_size, len(results))
 

@@ -2,7 +2,7 @@
 
 import logging
 from pathlib import Path
-from typing import Dict, List, Optional, Any, Tuple, Union
+from typing import Dict, List, Optional, Any, Union
 import fitz  # PyMuPDF
 
 from xllm.processors.base import BaseProcessor
@@ -138,7 +138,9 @@ class PDFProcessor(BaseProcessor):
             "page_count": len(pdf_document),
         }
 
-    def _process_page(self, page: fitz.Page, page_num: int, pdf_document: fitz.Document) -> Dict[str, Any]:
+    def _process_page(
+        self, page: fitz.Page, page_num: int, pdf_document: fitz.Document
+    ) -> Dict[str, Any]:
         """Process a single page.
 
         Args:
@@ -204,10 +206,12 @@ class PDFProcessor(BaseProcessor):
                 # Update max font size
                 max_font_size = max(max_font_size, span["size"])
 
-            lines.append({
-                "text": line_text,
-                "spans": line_spans,
-            })
+            lines.append(
+                {
+                    "text": line_text,
+                    "spans": line_spans,
+                }
+            )
 
         # Determine block type based on font size and content
         if max_font_size >= self.min_title_font_size:
@@ -240,10 +244,14 @@ class PDFProcessor(BaseProcessor):
         first_line = lines[0]["text"].strip()
         # Check for bullet points or numbered lists
         return (
-            first_line.startswith("•") or
-            first_line.startswith("-") or
-            first_line.startswith("*") or
-            (len(first_line) >= 2 and first_line[0].isdigit() and first_line[1] in [".", ")", ":"])
+            first_line.startswith("•")
+            or first_line.startswith("-")
+            or first_line.startswith("*")
+            or (
+                len(first_line) >= 2
+                and first_line[0].isdigit()
+                and first_line[1] in [".", ")", ":"]
+            )
         )
 
     def _is_table_row(self, lines: List[Dict[str, Any]]) -> bool:
@@ -318,42 +326,50 @@ class PDFProcessor(BaseProcessor):
                         current_section = title_text
                         current_subsection = None
 
-                        entities.append({
-                            "type": "section",
-                            "text": title_text,
-                            "page_num": page["page_num"],
-                            "parent": None,
-                        })
+                        entities.append(
+                            {
+                                "type": "section",
+                                "text": title_text,
+                                "page_num": page["page_num"],
+                                "parent": None,
+                            }
+                        )
                     else:
                         # It's a subsection
                         current_subsection = title_text
 
-                        entities.append({
-                            "type": "subsection",
-                            "text": title_text,
-                            "page_num": page["page_num"],
-                            "parent": current_section,
-                        })
+                        entities.append(
+                            {
+                                "type": "subsection",
+                                "text": title_text,
+                                "page_num": page["page_num"],
+                                "parent": current_section,
+                            }
+                        )
 
                 elif block["type"] == "list":
                     # Extract list items
                     for line in block["lines"]:
-                        entities.append({
-                            "type": "list_item",
-                            "text": line["text"],
-                            "page_num": page["page_num"],
-                            "section": current_section,
-                            "subsection": current_subsection,
-                        })
+                        entities.append(
+                            {
+                                "type": "list_item",
+                                "text": line["text"],
+                                "page_num": page["page_num"],
+                                "section": current_section,
+                                "subsection": current_subsection,
+                            }
+                        )
 
                 elif block["type"] == "table_row":
                     # We handle tables separately, but we can mark table rows here
-                    entities.append({
-                        "type": "table_row",
-                        "text": " ".join([line["text"] for line in block["lines"]]),
-                        "page_num": page["page_num"],
-                        "section": current_section,
-                        "subsection": current_subsection,
-                    })
+                    entities.append(
+                        {
+                            "type": "table_row",
+                            "text": " ".join([line["text"] for line in block["lines"]]),
+                            "page_num": page["page_num"],
+                            "section": current_section,
+                            "subsection": current_subsection,
+                        }
+                    )
 
         return entities

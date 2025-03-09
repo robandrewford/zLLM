@@ -14,6 +14,7 @@ from xllm.knowledge_base import HashKnowledgeBase
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    handlers=[logging.FileHandler("xLLM/data/logs/add_pdf_to_kb.log"), logging.StreamHandler()],
 )
 
 logger = logging.getLogger("add_pdf_to_kb")
@@ -73,13 +74,15 @@ def main():
         url = f"pdf://{input_file.stem}/page/{page_num}"
 
         # Add the page to the knowledge base
-        kb.add_data({
-            "url": url,
-            "category": f"PDF/{title}",
-            "content": text,
-            "related": [author, title],
-            "see_also": []
-        })
+        kb.add_data(
+            {
+                "url": url,
+                "category": f"PDF/{title}",
+                "content": text,
+                "related": [author, title],
+                "see_also": [],
+            }
+        )
 
     # Process tables if available
     logger.info(f"Processing {len(pdf_data.get('tables', []))} tables")
@@ -98,13 +101,15 @@ def main():
         url = f"pdf://{input_file.stem}/table/{i}"
 
         # Add the table to the knowledge base
-        kb.add_data({
-            "url": url,
-            "category": f"PDF/{title}/Table",
-            "content": table_text,
-            "related": [author, title, f"Page {page_num}"],
-            "see_also": []
-        })
+        kb.add_data(
+            {
+                "url": url,
+                "category": f"PDF/{title}/Table",
+                "content": table_text,
+                "related": [author, title, f"Page {page_num}"],
+                "see_also": [],
+            }
+        )
 
     # Build derived tables
     logger.info("Building derived tables")

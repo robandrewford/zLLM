@@ -1,6 +1,9 @@
-"""Query engine package for xLLM."""
+"""
+Query Engine package for xLLM.
 
-from xllm.query_engine.base import BaseQueryEngine
-from xllm.query_engine.knowledge_query_engine import KnowledgeQueryEngine
+This package provides the query processing functionality for xLLM.
+"""
 
-__all__ = ["BaseQueryEngine", "KnowledgeQueryEngine"]
+from .query_engine import QueryEngine
+
+__all__ = ["QueryEngine"]

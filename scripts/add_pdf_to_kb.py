@@ -22,7 +22,9 @@ logger = logging.getLogger("add_pdf_to_kb")
 def main():
     """Add processed PDF data to the knowledge base."""
     # Parse command line arguments
-    parser = argparse.ArgumentParser(description="Add processed PDF data to the knowledge base")
+    parser = argparse.ArgumentParser(
+        description="Add processed PDF data to the knowledge base"
+    )
     parser.add_argument(
         "--input-file",
         type=str,
@@ -73,13 +75,19 @@ def main():
         url = f"pdf://{input_file.stem}/page/{page_num}"
 
         # Add the page to the knowledge base
-        kb.add_data({
-            "url": url,
-            "category": f"PDF/{title}",
-            "content": text,
-            "related": [author, title],
-            "see_also": [f"Page {i}" for i in range(max(0, page_num-2), page_num+3) if i != page_num and i < len(pdf_data.get("pages", []))]
-        })
+        kb.add_data(
+            {
+                "url": url,
+                "category": f"PDF/{title}",
+                "content": text,
+                "related": [author, title],
+                "see_also": [
+                    f"Page {i}"
+                    for i in range(max(0, page_num - 2), page_num + 3)
+                    if i != page_num and i < len(pdf_data.get("pages", []))
+                ],
+            }
+        )
 
     # Process tables if available
     logger.info(f"Processing {len(pdf_data.get('tables', []))} tables")
@@ -98,13 +106,19 @@ def main():
         url = f"pdf://{input_file.stem}/table/{i}"
 
         # Add the table to the knowledge base
-        kb.add_data({
-            "url": url,
-            "category": f"PDF/{title}/Table",
-            "content": table_text,
-            "related": [author, title, f"Page {page_num}"],
-            "see_also": [f"Table {j}" for j in range(max(0, i-2), i+3) if j != i and j < len(pdf_data.get("tables", []))]
-        })
+        kb.add_data(
+            {
+                "url": url,
+                "category": f"PDF/{title}/Table",
+                "content": table_text,
+                "related": [author, title, f"Page {page_num}"],
+                "see_also": [
+                    f"Table {j}"
+                    for j in range(max(0, i - 2), i + 3)
+                    if j != i and j < len(pdf_data.get("tables", []))
+                ],
+            }
+        )
 
     # Build derived tables
     logger.info("Building derived tables")

@@ -19,16 +19,12 @@ import sys
 import time
 from pathlib import Path
 import json
-import shutil
 
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.FileHandler("xllm_workflow.log"),
-        logging.StreamHandler()
-    ]
+    handlers=[logging.FileHandler("xllm_workflow.log"), logging.StreamHandler()],
 )
 logger = logging.getLogger("xllm_workflow")
 
@@ -45,6 +41,7 @@ TEST_QUERIES = [
     "computer vision",
     "reinforcement learning",
 ]
+
 
 def process_data_sources(pdf_dir, scrape_dir, processed_dir):
     """
@@ -72,18 +69,27 @@ def process_data_sources(pdf_dir, scrape_dir, processed_dir):
         logger.info(f"Processing PDFs from {pdf_dir}")
         try:
             from xllm.processors import PDFProcessor
+
             processor = PDFProcessor(output_dir=pdf_processed_dir)
 
             for pdf_file in os.listdir(pdf_dir):
-                if pdf_file.lower().endswith('.pdf'):
+                if pdf_file.lower().endswith(".pdf"):
                     pdf_path = os.path.join(pdf_dir, pdf_file)
-                    output_file = os.path.join(pdf_processed_dir, f"{os.path.splitext(pdf_file)[0]}_processed.json")
+                    output_file = os.path.join(
+                        pdf_processed_dir,
+                        f"{os.path.splitext(pdf_file)[0]}_processed.json",
+                    )
 
                     logger.info(f"Processing PDF: {pdf_path}")
                     result = processor.process_file(pdf_path)
 
                     with open(output_file, "w", encoding="utf-8") as f:
-                        json.dump(result, f, indent=2, default=lambda x: list(x) if isinstance(x, set) else x)
+                        json.dump(
+                            result,
+                            f,
+                            indent=2,
+                            default=lambda x: list(x) if isinstance(x, set) else x,
+                        )
 
                     pdf_data_files.append(output_file)
         except ImportError:
@@ -97,27 +103,43 @@ def process_data_sources(pdf_dir, scrape_dir, processed_dir):
         logger.info(f"Processing scraped content from {scrape_dir}")
         try:
             from xllm.processors import WebContentProcessor
+
             processor = WebContentProcessor(output_dir=scraped_processed_dir)
 
             for scraped_file in os.listdir(scrape_dir):
-                if scraped_file.lower().endswith(('.txt', '.json', '.html')):
+                if scraped_file.lower().endswith((".txt", ".json", ".html")):
                     scraped_path = os.path.join(scrape_dir, scraped_file)
-                    output_file = os.path.join(scraped_processed_dir, f"{os.path.splitext(scraped_file)[0]}_processed.json")
+                    output_file = os.path.join(
+                        scraped_processed_dir,
+                        f"{os.path.splitext(scraped_file)[0]}_processed.json",
+                    )
 
                     logger.info(f"Processing scraped content: {scraped_path}")
                     result = processor.process_file(scraped_path)
 
                     with open(output_file, "w", encoding="utf-8") as f:
-                        json.dump(result, f, indent=2, default=lambda x: list(x) if isinstance(x, set) else x)
+                        json.dump(
+                            result,
+                            f,
+                            indent=2,
+                            default=lambda x: list(x) if isinstance(x, set) else x,
+                        )
 
                     scraped_data_files.append(output_file)
         except ImportError:
-            logger.warning("WebContentProcessor not available. Skipping scraped content processing.")
+            logger.warning(
+                "WebContentProcessor not available. Skipping scraped content processing."
+            )
     else:
-        logger.warning(f"Scrape directory {scrape_dir} not found. Skipping scraped content processing.")
+        logger.warning(
+            f"Scrape directory {scrape_dir} not found. Skipping scraped content processing."
+        )
 
-    logger.info(f"Processed {len(pdf_data_files)} PDF files and {len(scraped_data_files)} scraped content files")
+    logger.info(
+        f"Processed {len(pdf_data_files)} PDF files and {len(scraped_data_files)} scraped content files"
+    )
     return pdf_data_files, scraped_data_files
+
 
 def combine_data(pdf_data_files, scraped_data_files, combined_dir):
     """
@@ -172,6 +194,7 @@ def combine_data(pdf_data_files, scraped_data_files, combined_dir):
 
     return combined_file
 
+
 def generate_backend_tables(combined_data_file, tables_dir, use_existing=False):
     """
     Generate backend tables from combined data.
@@ -193,9 +216,18 @@ def generate_backend_tables(combined_data_file, tables_dir, use_existing=False):
         # Get the list of existing tables
         tables = {}
         for table_name in [
-            "dictionary", "embeddings", "word_hash", "hash_see", "hash_related",
-            "hash_category", "ngrams_table", "compressed_ngrams_table",
-            "compressed_word2_hash", "word2_pairs", "url_map", "arr_url"
+            "dictionary",
+            "embeddings",
+            "word_hash",
+            "hash_see",
+            "hash_related",
+            "hash_category",
+            "ngrams_table",
+            "compressed_ngrams_table",
+            "compressed_word2_hash",
+            "word2_pairs",
+            "url_map",
+            "arr_url",
         ]:
             table_path = os.path.join(tables_dir, f"{table_name}.txt")
             if os.path.exists(table_path):
@@ -233,9 +265,18 @@ def generate_backend_tables(combined_data_file, tables_dir, use_existing=False):
         # Get the list of generated tables
         tables = {}
         for table_name in [
-            "dictionary", "embeddings", "word_hash", "hash_see", "hash_related",
-            "hash_category", "ngrams_table", "compressed_ngrams_table",
-            "compressed_word2_hash", "word2_pairs", "url_map", "arr_url"
+            "dictionary",
+            "embeddings",
+            "word_hash",
+            "hash_see",
+            "hash_related",
+            "hash_category",
+            "ngrams_table",
+            "compressed_ngrams_table",
+            "compressed_word2_hash",
+            "word2_pairs",
+            "url_map",
+            "arr_url",
         ]:
             table_path = os.path.join(tables_dir, f"{table_name}.txt")
             if os.path.exists(table_path):
@@ -250,6 +291,7 @@ def generate_backend_tables(combined_data_file, tables_dir, use_existing=False):
     except ImportError:
         logger.error("HashKnowledgeBase not available. Cannot generate backend tables.")
         return {}
+
 
 def process_queries(tables_dir, queries, output_dir):
     """
@@ -287,7 +329,9 @@ def process_queries(tables_dir, queries, output_dir):
             logger.info(f"Processing query: {query}")
 
             # Generate output file path
-            output_file = os.path.join(output_dir, f"xllm_{query.replace(' ', '_')}.txt")
+            output_file = os.path.join(
+                output_dir, f"xllm_{query.replace(' ', '_')}.txt"
+            )
 
             # Process the query
             results = query_engine.query(query)
@@ -310,6 +354,7 @@ def process_queries(tables_dir, queries, output_dir):
         logger.error("Query engine not available. Cannot process queries.")
         return []
 
+
 def compare_with_xllm6(xllm_output_dir, xllm6_output_dir):
     """
     Compare xLLM output files with xllm6 output files.
@@ -327,14 +372,24 @@ def compare_with_xllm6(xllm_output_dir, xllm6_output_dir):
 
     # Check if xllm6 output directory exists
     if not os.path.exists(xllm6_output_dir):
-        logger.warning(f"xllm6 output directory {xllm6_output_dir} not found. Skipping comparison.")
+        logger.warning(
+            f"xllm6 output directory {xllm6_output_dir} not found. Skipping comparison."
+        )
         return {}
 
     # Get xLLM output files
-    xllm_files = [f for f in os.listdir(xllm_output_dir) if f.startswith("xllm_") and f.endswith(".txt")]
+    xllm_files = [
+        f
+        for f in os.listdir(xllm_output_dir)
+        if f.startswith("xllm_") and f.endswith(".txt")
+    ]
 
     # Get xllm6 output files
-    xllm6_files = [f for f in os.listdir(xllm6_output_dir) if f.startswith("xllm6_") and f.endswith(".txt")]
+    xllm6_files = [
+        f
+        for f in os.listdir(xllm6_output_dir)
+        if f.startswith("xllm6_") and f.endswith(".txt")
+    ]
 
     # Map xLLM files to xllm6 files
     comparison_results = {}
@@ -348,36 +403,42 @@ def compare_with_xllm6(xllm_output_dir, xllm6_output_dir):
 
         if xllm6_file in xllm6_files:
             # Compare the files
-            with open(os.path.join(xllm_output_dir, xllm_file), "r", encoding="utf-8") as f1, \
-                 open(os.path.join(xllm6_output_dir, xllm6_file), "r", encoding="utf-8") as f2:
+            with open(
+                os.path.join(xllm_output_dir, xllm_file), "r", encoding="utf-8"
+            ) as f1, open(
+                os.path.join(xllm6_output_dir, xllm6_file), "r", encoding="utf-8"
+            ) as f2:
                 xllm_content = f1.readlines()
                 xllm6_content = f2.readlines()
 
             # Calculate the difference
-            diff = list(difflib.unified_diff(
-                xllm6_content, xllm_content,
-                fromfile=xllm6_file, tofile=xllm_file,
-                lineterm=""
-            ))
+            diff = list(
+                difflib.unified_diff(
+                    xllm6_content,
+                    xllm_content,
+                    fromfile=xllm6_file,
+                    tofile=xllm_file,
+                    lineterm="",
+                )
+            )
 
             # Store the comparison result
             if diff:
                 comparison_results[query_name] = {
                     "identical": False,
-                    "diff": "\n".join(diff)
+                    "diff": "\n".join(diff),
                 }
             else:
-                comparison_results[query_name] = {
-                    "identical": True,
-                    "diff": ""
-                }
+                comparison_results[query_name] = {"identical": True, "diff": ""}
 
-            logger.info(f"Compared {xllm_file} with {xllm6_file}: {'identical' if not diff else 'different'}")
+            logger.info(
+                f"Compared {xllm_file} with {xllm6_file}: {'identical' if not diff else 'different'}"
+            )
         else:
             logger.warning(f"No corresponding xllm6 file found for {xllm_file}")
             comparison_results[query_name] = {
                 "identical": False,
-                "diff": "No corresponding xllm6 file found"
+                "diff": "No corresponding xllm6 file found",
             }
 
     # Check for xllm6 files without corresponding xLLM files
@@ -389,42 +450,88 @@ def compare_with_xllm6(xllm_output_dir, xllm6_output_dir):
             logger.warning(f"No corresponding xLLM file found for {xllm6_file}")
             comparison_results[query_name] = {
                 "identical": False,
-                "diff": "No corresponding xLLM file found"
+                "diff": "No corresponding xLLM file found",
             }
 
     # Generate comparison report
-    identical_count = sum(1 for result in comparison_results.values() if result["identical"])
+    identical_count = sum(
+        1 for result in comparison_results.values() if result["identical"]
+    )
     different_count = len(comparison_results) - identical_count
 
-    logger.info(f"Comparison complete: {identical_count} identical, {different_count} different")
+    logger.info(
+        f"Comparison complete: {identical_count} identical, {different_count} different"
+    )
 
     return comparison_results
+
 
 def main():
     """Main function to run the complete xLLM workflow."""
     parser = argparse.ArgumentParser(description="Complete xLLM Workflow")
-    parser.add_argument("--pdf-dir", type=str, default="data/pdfs",
-                        help="Directory containing PDF files")
-    parser.add_argument("--scrape-dir", type=str, default="data/scraped",
-                        help="Directory containing scraped content")
-    parser.add_argument("--processed-dir", type=str, default="data/processed",
-                        help="Directory to save processed data")
-    parser.add_argument("--combined-dir", type=str, default="data/combined",
-                        help="Directory to save combined data")
-    parser.add_argument("--tables-dir", type=str, default="xLLM/data/knowledge",
-                        help="Directory to save backend tables")
-    parser.add_argument("--output-dir", type=str, default="data/output",
-                        help="Directory to save query output files")
-    parser.add_argument("--xllm6-output-dir", type=str, default="xllm6_output",
-                        help="Directory containing xllm6 output files for comparison")
-    parser.add_argument("--use-existing-tables", action="store_true",
-                        help="Use existing backend tables if available")
-    parser.add_argument("--skip-data-processing", action="store_true",
-                        help="Skip data processing and go straight to query processing")
-    parser.add_argument("--skip-comparison", action="store_true",
-                        help="Skip comparison with xllm6 outputs")
-    parser.add_argument("--queries", type=str, nargs="+",
-                        help="Custom queries to process (default: use predefined test queries)")
+    parser.add_argument(
+        "--pdf-dir",
+        type=str,
+        default="data/pdfs",
+        help="Directory containing PDF files",
+    )
+    parser.add_argument(
+        "--scrape-dir",
+        type=str,
+        default="data/scraped",
+        help="Directory containing scraped content",
+    )
+    parser.add_argument(
+        "--processed-dir",
+        type=str,
+        default="data/processed",
+        help="Directory to save processed data",
+    )
+    parser.add_argument(
+        "--combined-dir",
+        type=str,
+        default="data/combined",
+        help="Directory to save combined data",
+    )
+    parser.add_argument(
+        "--tables-dir",
+        type=str,
+        default="xLLM/data/knowledge",
+        help="Directory to save backend tables",
+    )
+    parser.add_argument(
+        "--output-dir",
+        type=str,
+        default="data/output",
+        help="Directory to save query output files",
+    )
+    parser.add_argument(
+        "--xllm6-output-dir",
+        type=str,
+        default="xllm6_output",
+        help="Directory containing xllm6 output files for comparison",
+    )
+    parser.add_argument(
+        "--use-existing-tables",
+        action="store_true",
+        help="Use existing backend tables if available",
+    )
+    parser.add_argument(
+        "--skip-data-processing",
+        action="store_true",
+        help="Skip data processing and go straight to query processing",
+    )
+    parser.add_argument(
+        "--skip-comparison",
+        action="store_true",
+        help="Skip comparison with xllm6 outputs",
+    )
+    parser.add_argument(
+        "--queries",
+        type=str,
+        nargs="+",
+        help="Custom queries to process (default: use predefined test queries)",
+    )
     args = parser.parse_args()
 
     # Track start time for performance measurement
@@ -445,30 +552,27 @@ def main():
         )
 
         # Step 3: Generate backend tables
-        tables = generate_backend_tables(
+        generate_backend_tables(
             combined_file, args.tables_dir, args.use_existing_tables
         )
     else:
         logger.info("Skipping data processing steps")
-        tables = {}  # We'll use existing tables
 
     # Step 4: Process queries
-    output_files = process_queries(
-        args.tables_dir, queries, args.output_dir
-    )
+    output_files = process_queries(args.tables_dir, queries, args.output_dir)
 
     # Step 5: Compare with xllm6 outputs (if requested)
     if not args.skip_comparison:
-        comparison_results = compare_with_xllm6(
-            args.output_dir, args.xllm6_output_dir
-        )
+        comparison_results = compare_with_xllm6(args.output_dir, args.xllm6_output_dir)
 
         # Generate comparison report
         report_path = os.path.join(args.output_dir, "comparison_report.txt")
         with open(report_path, "w", encoding="utf-8") as f:
             f.write("# xLLM vs xllm6 Comparison Report\n\n")
 
-            identical_count = sum(1 for result in comparison_results.values() if result["identical"])
+            identical_count = sum(
+                1 for result in comparison_results.values() if result["identical"]
+            )
             different_count = len(comparison_results) - identical_count
 
             f.write(f"Total queries: {len(comparison_results)}\n")
@@ -499,13 +603,18 @@ def main():
     print(f"Queries processed: {len(output_files)}")
     print(f"Output files directory: {args.output_dir}")
     if not args.skip_comparison:
-        identical_count = sum(1 for result in comparison_results.values() if result["identical"])
+        identical_count = sum(
+            1 for result in comparison_results.values() if result["identical"]
+        )
         different_count = len(comparison_results) - identical_count
-        print(f"Comparison results: {identical_count} identical, {different_count} different")
+        print(
+            f"Comparison results: {identical_count} identical, {different_count} different"
+        )
         print(f"Comparison report: {report_path}")
     print(f"Total processing time: {total_time:.2f} seconds")
 
     return 0
+
 
 if __name__ == "__main__":
     sys.exit(main())

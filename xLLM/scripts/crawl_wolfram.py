@@ -16,10 +16,7 @@ from xllm.crawlers import WolframCrawler
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-    handlers=[
-        logging.FileHandler("wolfram_crawl.log"),
-        logging.StreamHandler()
-    ]
+    handlers=[logging.FileHandler("xLLM/data/logs/wolfram_crawl.log"), logging.StreamHandler()],
 )
 
 logger = logging.getLogger("wolfram_crawler")
